@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T15:56:30.388251Z",
+ "generated_at": "2026-10-08T15:59:45.229754Z",
  "featured": [
   "eBay",
   "PetSmart",
@@ -230,6 +230,20 @@
     "note": ""
    }
   },
+  "Belk": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 15.0,
+    "note": "Often a new-customer or limited-time rate"
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢/mile"
+   }
+  },
   "Best Buy": {
    "topcash": {
     "base": 2.5,
@@ -300,6 +314,16 @@
     "note": "Up to 1%"
    }
   },
+  "Carhartt": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 4.04,
+    "note": ""
+   }
+  },
   "Casper": {
    "rakuten": {
     "base": 1.0,
@@ -338,6 +362,20 @@
    "rakuten": {
     "base": 2.0,
     "note": ""
+   }
+  },
+  "Columbia Sportswear": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 4.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢/mile"
    }
   },
   "Crocs": {
@@ -734,6 +772,26 @@
    "delta": {
     "base": 1.95,
     "note": "1.5 miles/$1, valued ~1.3¢/mile"
+   }
+  },
+  "L.L.Bean": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢/mile"
+   }
+  },
+  "Lands' End": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 4.04,
+    "note": ""
    }
   },
   "Le Creuset": {
@@ -1140,6 +1198,12 @@
     "note": "2 miles/$1, valued ~1.3¢/mile"
    }
   },
+  "Sierra": {
+   "topcash": {
+    "base": 4.9,
+    "note": ""
+   }
+  },
   "Sixt": {
    "rakuten": {
     "base": 4.0,
@@ -1262,6 +1326,12 @@
    "delta": {
     "base": 3.9,
     "note": "3 miles/$1, valued ~1.3¢/mile"
+   }
+  },
+  "The North Face": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "Therabody": {
