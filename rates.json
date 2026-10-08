@@ -59,6 +59,31 @@
    "name": "Chase Offers",
    "type": "cashback",
    "connection": "full"
+  },
+  "befrugal": {
+   "name": "BeFrugal",
+   "type": "cashback",
+   "connection": "none"
+  },
+  "goodshop": {
+   "name": "Goodshop",
+   "type": "cashback",
+   "connection": "none"
+  },
+  "gocashback": {
+   "name": "GoCashBack",
+   "type": "cashback",
+   "connection": "none"
+  },
+  "rebatesme": {
+   "name": "RebatesMe",
+   "type": "cashback",
+   "connection": "none"
+  },
+  "pricecom": {
+   "name": "Price.com",
+   "type": "cashback",
+   "connection": "none"
   }
  },
  "stores": {
@@ -314,6 +339,34 @@
     "note": "Up to 1%"
    }
   },
+  "Boscov's": {
+   "befrugal": {
+    "base": 12,
+    "note": "Often a new-customer or limited-time rate"
+   },
+   "topcash": {
+    "base": 6.06,
+    "note": ""
+   },
+   "rebatesme": {
+    "base": 4,
+    "note": ""
+   },
+   "rakuten": {
+    "base": 2,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢/mile"
+   }
+  },
+  "Burlington": {
+   "fetch": {
+    "base": 0.25,
+    "note": "Burlington sells in stores only, so cashback sites don't cover it. Fetch still gives points when you scan your receipt."
+   }
+  },
   "Carhartt": {
    "rakuten": {
     "base": 2.0,
@@ -440,6 +493,12 @@
     "note": "0.5 miles/$1, valued ~1.3¢/mile"
    }
   },
+  "Dillard's": {
+   "fetch": {
+    "base": 0.25,
+    "note": "No cashback site is paying here right now. Fetch still gives points when you scan your receipt."
+   }
+  },
   "DoorDash": {
    "rakuten": {
     "base": 1,
@@ -548,6 +607,34 @@
    "cap1": {
     "base": 3.5,
     "note": "Base rate"
+   }
+  },
+  "Foot Locker": {
+   "rebatesme": {
+    "base": 4,
+    "note": ""
+   },
+   "pricecom": {
+    "base": 1.5,
+    "note": ""
+   }
+  },
+  "GameStop": {
+   "befrugal": {
+    "base": 6,
+    "note": ""
+   },
+   "pricecom": {
+    "base": 7,
+    "note": "Up to 7% — varies by category"
+   },
+   "goodshop": {
+    "base": 5,
+    "note": "Up to 5% — varies by category"
+   },
+   "rebatesme": {
+    "base": 2,
+    "note": ""
    }
   },
   "Gametime": {
@@ -884,6 +971,30 @@
     "note": "Up to 0.5%"
    }
   },
+  "Marshalls": {
+   "gocashback": {
+    "base": 1.6,
+    "note": "Up to 1.6% — varies by category"
+   },
+   "goodshop": {
+    "base": 1.5,
+    "note": ""
+   }
+  },
+  "Michaels": {
+   "goodshop": {
+    "base": 2.5,
+    "note": ""
+   },
+   "rebatesme": {
+    "base": 1,
+    "note": ""
+   },
+   "gocashback": {
+    "base": 0.8,
+    "note": "Up to 0.8% — varies by category"
+   }
+  },
   "National Car Rental": {
    "topcash": {
     "base": 2.02,
@@ -1108,6 +1219,12 @@
    "cap1": {
     "base": 2.5,
     "note": "Up to 2.5%"
+   }
+  },
+  "REI": {
+   "fetch": {
+    "base": 0.25,
+    "note": "No cashback site is paying here right now. Fetch still gives points when you scan your receipt."
    }
   },
   "Saatva": {
@@ -1348,6 +1465,16 @@
     "note": "Base rate"
    }
   },
+  "TJ Maxx": {
+   "gocashback": {
+    "base": 1.6,
+    "note": ""
+   },
+   "goodshop": {
+    "base": 1.5,
+    "note": ""
+   }
+  },
   "Torrid": {
    "rakuten": {
     "base": 2.0,
@@ -1532,6 +1659,24 @@
     "boost": 3.8,
     "note": "Base receipt-scan rate",
     "boostNote": "Featured grocery/household brand offer"
+   }
+  },
+  "Wayfair": {
+   "fetch": {
+    "base": 0.25,
+    "note": "No cashback site is paying here right now. Fetch still gives points when you scan your receipt."
+   }
+  },
+  "West Elm": {
+   "fetch": {
+    "base": 0.25,
+    "note": "No cashback site is paying here right now. Fetch still gives points when you scan your receipt."
+   }
+  },
+  "Williams Sonoma": {
+   "fetch": {
+    "base": 0.25,
+    "note": "No cashback site is paying here right now. Fetch still gives points when you scan your receipt."
    }
   },
   "Zappos": {
