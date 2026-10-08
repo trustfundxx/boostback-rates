@@ -1,0 +1,346 @@
+{
+ "generated_at": "2026-10-08T15:50:43.248297Z",
+ "programs": {
+  "rakuten": {
+   "name": "Rakuten",
+   "type": "cashback",
+   "connection": "none"
+  },
+  "topcash": {
+   "name": "TopCashback",
+   "type": "cashback",
+   "connection": "none"
+  },
+  "honey": {
+   "name": "Honey Gold",
+   "type": "points",
+   "connection": "none"
+  },
+  "delta": {
+   "name": "Delta SkyMiles Shopping",
+   "type": "miles",
+   "connection": "none"
+  },
+  "cap1": {
+   "name": "Capital One Shopping",
+   "type": "cashback",
+   "connection": "boost"
+  },
+  "fetch": {
+   "name": "Fetch Rewards",
+   "type": "points",
+   "connection": "boost"
+  },
+  "ibotta": {
+   "name": "Ibotta",
+   "type": "cashback",
+   "connection": "boost"
+  },
+  "amex": {
+   "name": "Amex Offers",
+   "type": "cashback",
+   "connection": "full"
+  },
+  "chase": {
+   "name": "Chase Offers",
+   "type": "cashback",
+   "connection": "full"
+  }
+ },
+ "stores": {
+  "eBay": {
+   "rakuten": {
+    "base": 2,
+    "note": "Flat general rate across categories now"
+   },
+   "topcash": {
+    "base": 3.2,
+    "note": "100% commission pass-through"
+   },
+   "honey": {
+    "base": 0.8,
+    "note": "Gift-card-only credits"
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3\u00a2/mile"
+   },
+   "cap1": {
+    "base": 1.1,
+    "boost": 7,
+    "note": "Base rate",
+    "boostNote": "Targeted homepage/email offer for eBay"
+   },
+   "fetch": {
+    "base": 0.25,
+    "boost": 4.5,
+    "note": "Base receipt-scan rate",
+    "boostNote": "Featured brand offer on this receipt"
+   },
+   "amex": {
+    "boost": 5,
+    "boostNote": "Typical Amex Offer. Check your Amex app to see if you have it."
+   }
+  },
+  "PetSmart": {
+   "rakuten": {
+    "base": 4,
+    "note": "Solid default, quarterly payout"
+   },
+   "topcash": {
+    "base": 5,
+    "note": "Often the highest rate here"
+   },
+   "honey": {
+    "base": 1.5,
+    "note": "Auto-applies coupons too"
+   },
+   "delta": {
+    "base": 2.6,
+    "note": "2 miles/$1"
+   },
+   "cap1": {
+    "base": 3,
+    "boost": 8.5,
+    "note": "Base rate",
+    "boostNote": "Targeted offer for PetSmart"
+   },
+   "fetch": {
+    "base": 0.25,
+    "boost": 6,
+    "note": "Base receipt-scan rate",
+    "boostNote": "Featured pet-food/treat brand offer"
+   },
+   "ibotta": {
+    "base": 0.2,
+    "boost": 3.5,
+    "note": "No offer unlocked",
+    "boostNote": "Item-level offer unlocked before checkout"
+   },
+   "amex": {
+    "boost": 10,
+    "boostNote": "Typical Amex Offer. Check your Amex app to see if you have it."
+   }
+  },
+  "Amazon": {
+   "rakuten": {
+    "base": 0.5,
+    "note": "Amazon caps most portals low"
+   },
+   "topcash": {
+    "base": 0.5,
+    "note": "Matches Amazon-wide cap"
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1 \u2014 often the real winner here"
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": "Also capped low, no notable boosts"
+   },
+   "fetch": {
+    "base": 0.25,
+    "boost": 3,
+    "note": "Order-confirmation email scan",
+    "boostNote": "Featured brand match from your order"
+   }
+  },
+  "Target": {
+   "rakuten": {
+    "base": 2,
+    "note": "Stacks with a RedCard discount"
+   },
+   "topcash": {
+    "base": 3,
+    "note": "Best posted rate"
+   },
+   "cap1": {
+    "base": 1.5,
+    "boost": 6,
+    "note": "Base rate",
+    "boostNote": "Targeted offer for Target"
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1"
+   },
+   "fetch": {
+    "base": 0.25,
+    "boost": 4,
+    "note": "Base receipt-scan rate",
+    "boostNote": "Featured household/grocery brand offer"
+   },
+   "chase": {
+    "boost": 4.5,
+    "boostNote": "Typical Chase Offer. Check your Chase app to see if you have it."
+   }
+  },
+  "Best Buy": {
+   "topcash": {
+    "base": 2.5,
+    "note": ""
+   },
+   "rakuten": {
+    "base": 1,
+    "note": "Rotates around big launches"
+   },
+   "delta": {
+    "base": 2.6,
+    "note": "2 miles/$1 on electronics"
+   },
+   "cap1": {
+    "base": 1,
+    "boost": 6,
+    "note": "Base rate",
+    "boostNote": "Targeted offer for Best Buy"
+   },
+   "amex": {
+    "boost": 8,
+    "boostNote": "Typical Amex Offer. Check your Amex app to see if you have it."
+   }
+  },
+  "Walmart": {
+   "rakuten": {
+    "base": 1,
+    "note": ""
+   },
+   "cap1": {
+    "base": 1,
+    "note": "No notable boosts historically"
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1"
+   },
+   "ibotta": {
+    "base": 0.2,
+    "boost": 5.2,
+    "note": "No offer unlocked",
+    "boostNote": "Item-level offer unlocked before checkout"
+   },
+   "fetch": {
+    "base": 0.25,
+    "boost": 3.8,
+    "note": "Base receipt-scan rate",
+    "boostNote": "Featured grocery/household brand offer"
+   }
+  },
+  "Nike": {
+   "topcash": {
+    "base": 6,
+    "note": "Runs high during sale windows"
+   },
+   "rakuten": {
+    "base": 4,
+    "note": ""
+   },
+   "cap1": {
+    "base": 3,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1"
+   },
+   "chase": {
+    "boost": 5,
+    "boostNote": "Typical Chase Offer. Check your Chase app to see if you have it."
+   }
+  },
+  "Chewy": {
+   "rakuten": {
+    "base": 3,
+    "note": ""
+   },
+   "topcash": {
+    "base": 3.5,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1"
+   },
+   "cap1": {
+    "base": 2,
+    "note": ""
+   },
+   "fetch": {
+    "base": 0.25,
+    "boost": 5.5,
+    "note": "Base receipt-scan rate",
+    "boostNote": "Featured pet brand offer"
+   }
+  },
+  "Home Depot": {
+   "rakuten": {
+    "base": 2,
+    "note": ""
+   },
+   "topcash": {
+    "base": 2.5,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1"
+   },
+   "amex": {
+    "boost": 6,
+    "boostNote": "Typical Amex Offer. Check your Amex app to see if you have it."
+   }
+  },
+  "Sephora": {
+   "rakuten": {
+    "base": 5,
+    "note": ""
+   },
+   "topcash": {
+    "base": 6,
+    "note": ""
+   },
+   "honey": {
+    "base": 2,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1"
+   }
+  },
+  "Expedia": {
+   "rakuten": {
+    "base": 3,
+    "note": "Travel rates fluctuate seasonally"
+   },
+   "cap1": {
+    "base": 2,
+    "boost": 25,
+    "note": "Base rate",
+    "boostNote": "Travel sites get Capital One's biggest boosts \u2014 seen 20-40%"
+   },
+   "delta": {
+    "base": 2,
+    "note": "2 miles/$1 on Expedia bookings"
+   },
+   "amex": {
+    "boost": 12,
+    "boostNote": "Typical Amex Offer. Check your Amex app to see if you have it."
+   }
+  },
+  "DoorDash": {
+   "rakuten": {
+    "base": 1,
+    "note": ""
+   },
+   "cap1": {
+    "base": 1,
+    "note": ""
+   },
+   "chase": {
+    "boost": 6,
+    "boostNote": "Typical Chase Offer. Check your Chase app to see if you have it."
+   }
+  }
+ }
+}
