@@ -1,5 +1,19 @@
 {
- "generated_at": "2026-10-08T15:50:43.248297Z",
+ "generated_at": "2026-10-08T15:56:30.388251Z",
+ "featured": [
+  "eBay",
+  "PetSmart",
+  "Amazon",
+  "Target",
+  "Best Buy",
+  "Walmart",
+  "Nike",
+  "Chewy",
+  "Home Depot",
+  "Sephora",
+  "Expedia",
+  "DoorDash"
+ ],
  "programs": {
   "rakuten": {
    "name": "Rakuten",
@@ -48,6 +62,388 @@
   }
  },
  "stores": {
+  "Abercrombie & Fitch": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "Academy Sports + Outdoors": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 2.02,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢/mile"
+   }
+  },
+  "Ace Hardware": {
+   "rakuten": {
+    "base": 4.0,
+    "note": "Up to 4% — varies by category"
+   },
+   "topcash": {
+    "base": 4.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢/mile"
+   }
+  },
+  "Adidas": {
+   "rakuten": {
+    "base": 10.0,
+    "note": "Up to 10% — varies by category"
+   },
+   "topcash": {
+    "base": 11.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 10.4,
+    "note": "8 miles/$1, valued ~1.3¢/mile"
+   }
+  },
+  "AliExpress": {
+   "rakuten": {
+    "base": 18.0,
+    "note": "Often a new-customer or limited-time rate"
+   },
+   "topcash": {
+    "base": 12.0,
+    "note": "Often a new-customer or limited-time rate"
+   },
+   "delta": {
+    "base": 3.9,
+    "note": "3 miles/$1, valued ~1.3¢/mile"
+   }
+  },
+  "Alo Yoga": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 6.0,
+    "note": ""
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": "Base rate"
+   }
+  },
+  "Amazon": {
+   "rakuten": {
+    "base": 0.5,
+    "note": "Amazon caps most portals low"
+   },
+   "topcash": {
+    "base": 0.5,
+    "note": "Matches Amazon-wide cap"
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1 — often the real winner here"
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": "Also capped low, no notable boosts"
+   },
+   "fetch": {
+    "base": 0.25,
+    "boost": 3,
+    "note": "Order-confirmation email scan",
+    "boostNote": "Featured brand match from your order"
+   }
+  },
+  "American Eagle": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢/mile"
+   }
+  },
+  "Apple": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 4.04,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢/mile"
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": "Base rate"
+   }
+  },
+  "Banana Republic": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 4.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢/mile"
+   }
+  },
+  "Barnes & Noble": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "Bass Pro Shops": {
+   "rakuten": {
+    "base": 3.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 4.04,
+    "note": ""
+   },
+   "delta": {
+    "base": 2.6,
+    "note": "2 miles/$1, valued ~1.3¢/mile"
+   }
+  },
+  "Bath & Body Works": {
+   "topcash": {
+    "base": 4.84,
+    "note": ""
+   }
+  },
+  "Best Buy": {
+   "topcash": {
+    "base": 2.5,
+    "note": ""
+   },
+   "rakuten": {
+    "base": 1,
+    "note": "Rotates around big launches"
+   },
+   "delta": {
+    "base": 2.6,
+    "note": "2 miles/$1 on electronics"
+   },
+   "cap1": {
+    "base": 1,
+    "boost": 6,
+    "note": "Base rate",
+    "boostNote": "Targeted offer for Best Buy"
+   },
+   "amex": {
+    "boost": 8,
+    "boostNote": "Typical Amex Offer. Check your Amex app to see if you have it."
+   }
+  },
+  "Bloomingdale's": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 4.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢/mile"
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": "Base rate"
+   }
+  },
+  "Bluemercury": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 3.0,
+    "note": ""
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": "Base rate"
+   }
+  },
+  "Booking.com": {
+   "rakuten": {
+    "base": 5.0,
+    "note": "Up to 5% — varies by category"
+   },
+   "topcash": {
+    "base": 7.0,
+    "note": "Up to 7% — varies by category"
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": "Up to 1%"
+   }
+  },
+  "Casper": {
+   "rakuten": {
+    "base": 1.0,
+    "note": ""
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": "Base rate"
+   }
+  },
+  "Chewy": {
+   "rakuten": {
+    "base": 3,
+    "note": ""
+   },
+   "topcash": {
+    "base": 3.5,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1"
+   },
+   "cap1": {
+    "base": 2,
+    "note": ""
+   },
+   "fetch": {
+    "base": 0.25,
+    "boost": 5.5,
+    "note": "Base receipt-scan rate",
+    "boostNote": "Featured pet brand offer"
+   }
+  },
+  "Coach": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "Crocs": {
+   "rakuten": {
+    "base": 3.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 2.6,
+    "note": "2 miles/$1, valued ~1.3¢/mile"
+   }
+  },
+  "CVS": {
+   "rakuten": {
+    "base": 5.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 8.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 2.6,
+    "note": "2 miles/$1, valued ~1.3¢/mile"
+   }
+  },
+  "Dell": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": "Base rate"
+   }
+  },
+  "Dermstore": {
+   "rakuten": {
+    "base": 15.0,
+    "note": "Often a new-customer or limited-time rate"
+   },
+   "topcash": {
+    "base": 10.0,
+    "note": "Up to 10% — varies by category"
+   },
+   "cap1": {
+    "base": 6.0,
+    "note": "Base rate"
+   }
+  },
+  "Dick's Sporting Goods": {
+   "rakuten": {
+    "base": 2.0,
+    "note": "Up to 2% — varies by category"
+   },
+   "topcash": {
+    "base": 2.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 0.65,
+    "note": "0.5 miles/$1, valued ~1.3¢/mile"
+   }
+  },
+  "DoorDash": {
+   "rakuten": {
+    "base": 1,
+    "note": ""
+   },
+   "cap1": {
+    "base": 1,
+    "note": ""
+   },
+   "chase": {
+    "boost": 6,
+    "boostNote": "Typical Chase Offer. Check your Chase app to see if you have it."
+   }
+  },
+  "DSW": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 2.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢/mile"
+   }
+  },
+  "Dyson": {
+   "rakuten": {
+    "base": 10.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 2.0,
+    "note": ""
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": "Base rate"
+   }
+  },
   "eBay": {
    "rakuten": {
     "base": 2,
@@ -63,7 +459,7 @@
    },
    "delta": {
     "base": 1.3,
-    "note": "1 mile/$1, valued ~1.3\u00a2/mile"
+    "note": "1 mile/$1, valued ~1.3¢/mile"
    },
    "cap1": {
     "base": 1.1,
@@ -80,6 +476,502 @@
    "amex": {
     "boost": 5,
     "boostNote": "Typical Amex Offer. Check your Amex app to see if you have it."
+   }
+  },
+  "Expedia": {
+   "rakuten": {
+    "base": 3,
+    "note": "Travel rates fluctuate seasonally"
+   },
+   "cap1": {
+    "base": 2,
+    "boost": 25,
+    "note": "Base rate",
+    "boostNote": "Travel sites get Capital One's biggest boosts — seen 20-40%"
+   },
+   "delta": {
+    "base": 2,
+    "note": "2 miles/$1 on Expedia bookings"
+   },
+   "amex": {
+    "boost": 12,
+    "boostNote": "Typical Amex Offer. Check your Amex app to see if you have it."
+   }
+  },
+  "Farfetch": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 4.5,
+    "note": "Up to 4.5% — varies by category"
+   },
+   "cap1": {
+    "base": 3.5,
+    "note": "Base rate"
+   }
+  },
+  "Gametime": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 5.0,
+    "note": "Up to 5% — varies by category"
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": "Base rate"
+   }
+  },
+  "Gap": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 4.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢/mile"
+   }
+  },
+  "Groupon": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 7.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢/mile"
+   }
+  },
+  "Grubhub": {
+   "rakuten": {
+    "base": 4.0,
+    "note": "Up to 4% — varies by category"
+   }
+  },
+  "Hertz": {
+   "topcash": {
+    "base": 5.0,
+    "note": ""
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": "Base rate"
+   }
+  },
+  "Hilton": {
+   "topcash": {
+    "base": 4.0,
+    "note": ""
+   }
+  },
+  "HOKA": {
+   "topcash": {
+    "base": 4.04,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢/mile"
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": "Base rate"
+   }
+  },
+  "Home Depot": {
+   "rakuten": {
+    "base": 2,
+    "note": ""
+   },
+   "topcash": {
+    "base": 2.5,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1"
+   },
+   "amex": {
+    "boost": 6,
+    "boostNote": "Typical Amex Offer. Check your Amex app to see if you have it."
+   }
+  },
+  "Hotels.com": {
+   "rakuten": {
+    "base": 10.0,
+    "note": "Up to 10% — varies by category"
+   },
+   "topcash": {
+    "base": 12.0,
+    "note": "Up to 12% — varies by category"
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": "Up to 1%"
+   }
+  },
+  "HP": {
+   "rakuten": {
+    "base": 3.0,
+    "note": "Up to 3% — varies by category"
+   },
+   "topcash": {
+    "base": 2.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢/mile"
+   }
+  },
+  "Hyatt": {
+   "topcash": {
+    "base": 3.03,
+    "note": ""
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": "Base rate"
+   }
+  },
+  "IHG Hotels & Resorts": {
+   "rakuten": {
+    "base": 10.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 10.0,
+    "note": ""
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": "Base rate"
+   }
+  },
+  "Instacart": {
+   "rakuten": {
+    "base": 1.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢/mile"
+   }
+  },
+  "J.Crew": {
+   "rakuten": {
+    "base": 8.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 3.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 3.25,
+    "note": "2.5 miles/$1, valued ~1.3¢/mile"
+   }
+  },
+  "JCPenney": {
+   "topcash": {
+    "base": 2.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢/mile"
+   }
+  },
+  "Kate Spade": {
+   "rakuten": {
+    "base": 15.0,
+    "note": "Often a new-customer or limited-time rate"
+   },
+   "topcash": {
+    "base": 15.0,
+    "note": "Up to 15% — varies by category"
+   },
+   "cap1": {
+    "base": 4.0,
+    "note": "Base rate"
+   }
+  },
+  "KitchenAid": {
+   "rakuten": {
+    "base": 3.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 2.0,
+    "note": ""
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": "Up to 2%"
+   }
+  },
+  "Kohl's": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 2.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.95,
+    "note": "1.5 miles/$1, valued ~1.3¢/mile"
+   }
+  },
+  "Le Creuset": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 4.0,
+    "note": "Up to 4% — varies by category"
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": "Base rate"
+   }
+  },
+  "Lenovo": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 4.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.95,
+    "note": "1.5 miles/$1, valued ~1.3¢/mile"
+   }
+  },
+  "Levi's": {
+   "rakuten": {
+    "base": 10.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 2.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 3.25,
+    "note": "2.5 miles/$1, valued ~1.3¢/mile"
+   }
+  },
+  "Lowe's": {
+   "rakuten": {
+    "base": 1.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 0.65,
+    "note": "0.5 miles/$1, valued ~1.3¢/mile"
+   }
+  },
+  "Lululemon": {
+   "delta": {
+    "base": 1.95,
+    "note": "1.5 miles/$1, valued ~1.3¢/mile"
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": "Base rate"
+   }
+  },
+  "Macy's": {
+   "rakuten": {
+    "base": 4.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 7.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 2.6,
+    "note": "2 miles/$1, valued ~1.3¢/mile"
+   }
+  },
+  "Marriott Bonvoy": {
+   "rakuten": {
+    "base": 3.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 4.0,
+    "note": "Up to 4% — varies by category"
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": "Up to 0.5%"
+   }
+  },
+  "National Car Rental": {
+   "topcash": {
+    "base": 2.02,
+    "note": ""
+   }
+  },
+  "Neiman Marcus": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 2.0,
+    "note": ""
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": "Up to 2%"
+   }
+  },
+  "New Balance": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 7.0,
+    "note": ""
+   }
+  },
+  "Newegg": {
+   "rakuten": {
+    "base": 1.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 5.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 0.65,
+    "note": "0.5 miles/$1, valued ~1.3¢/mile"
+   }
+  },
+  "Nike": {
+   "topcash": {
+    "base": 6,
+    "note": "Runs high during sale windows"
+   },
+   "rakuten": {
+    "base": 4,
+    "note": ""
+   },
+   "cap1": {
+    "base": 3,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1"
+   },
+   "chase": {
+    "boost": 5,
+    "boostNote": "Typical Chase Offer. Check your Chase app to see if you have it."
+   }
+  },
+  "Nordstrom": {
+   "topcash": {
+    "base": 2.4,
+    "note": ""
+   }
+  },
+  "Office Depot": {
+   "topcash": {
+    "base": 4.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢/mile"
+   }
+  },
+  "Old Navy": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 8.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢/mile"
+   }
+  },
+  "Overstock": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 1.01,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢/mile"
+   }
+  },
+  "Parachute": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 4.0,
+    "note": ""
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": "Base rate"
+   }
+  },
+  "Peloton": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": "Base rate"
+   }
+  },
+  "Petco": {
+   "rakuten": {
+    "base": 15.0,
+    "note": "Often a new-customer or limited-time rate"
+   },
+   "topcash": {
+    "base": 4.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 2.6,
+    "note": "2 miles/$1, valued ~1.3¢/mile"
    }
   },
   "PetSmart": {
@@ -122,28 +1014,196 @@
     "boostNote": "Typical Amex Offer. Check your Amex app to see if you have it."
    }
   },
-  "Amazon": {
+  "Priceline": {
    "rakuten": {
-    "base": 0.5,
-    "note": "Amazon caps most portals low"
+    "base": 8.0,
+    "note": "Up to 8% — varies by category"
    },
    "topcash": {
-    "base": 0.5,
-    "note": "Matches Amazon-wide cap"
+    "base": 8.0,
+    "note": ""
+   }
+  },
+  "Puma": {
+   "rakuten": {
+    "base": 3.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 8.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.95,
+    "note": "1.5 miles/$1, valued ~1.3¢/mile"
+   }
+  },
+  "Ray-Ban": {
+   "rakuten": {
+    "base": 10.0,
+    "note": "Up to 10% — varies by category"
+   },
+   "topcash": {
+    "base": 7.0,
+    "note": "Up to 7% — varies by category"
+   },
+   "cap1": {
+    "base": 2.5,
+    "note": "Up to 2.5%"
+   }
+  },
+  "Saatva": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": "Base rate"
+   }
+  },
+  "Saks Fifth Avenue": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 5.05,
+    "note": ""
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": "Base rate"
+   }
+  },
+  "Samsonite": {
+   "rakuten": {
+    "base": 2.5,
+    "note": ""
+   },
+   "topcash": {
+    "base": 5.0,
+    "note": ""
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": "Base rate"
+   }
+  },
+  "Samsung": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 2.0,
+    "note": ""
    },
    "delta": {
     "base": 1.3,
-    "note": "1 mile/$1 \u2014 often the real winner here"
+    "note": "1 mile/$1, valued ~1.3¢/mile"
    },
    "cap1": {
     "base": 0.5,
-    "note": "Also capped low, no notable boosts"
+    "note": "Up to 0.5%"
+   }
+  },
+  "Sephora": {
+   "rakuten": {
+    "base": 5,
+    "note": ""
    },
-   "fetch": {
-    "base": 0.25,
-    "boost": 3,
-    "note": "Order-confirmation email scan",
-    "boostNote": "Featured brand match from your order"
+   "topcash": {
+    "base": 6,
+    "note": ""
+   },
+   "honey": {
+    "base": 2,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1"
+   }
+  },
+  "Shein": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 25.0,
+    "note": "Often a new-customer or limited-time rate"
+   },
+   "delta": {
+    "base": 2.6,
+    "note": "2 miles/$1, valued ~1.3¢/mile"
+   }
+  },
+  "Sixt": {
+   "rakuten": {
+    "base": 4.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 10.0,
+    "note": ""
+   },
+   "cap1": {
+    "base": 3.0,
+    "note": "Base rate"
+   }
+  },
+  "Sonos": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 2.0,
+    "note": "Up to 2% — varies by category"
+   }
+  },
+  "Sony": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 3.0,
+    "note": ""
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": "Base rate"
+   }
+  },
+  "Staples": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 4.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 2.6,
+    "note": "2 miles/$1, valued ~1.3¢/mile"
+   }
+  },
+  "StubHub": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 8.0,
+    "note": ""
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": "Base rate"
    }
   },
   "Target": {
@@ -176,28 +1236,206 @@
     "boostNote": "Typical Chase Offer. Check your Chase app to see if you have it."
    }
   },
-  "Best Buy": {
-   "topcash": {
-    "base": 2.5,
+  "Tempur-Pedic": {
+   "rakuten": {
+    "base": 3.0,
     "note": ""
    },
+   "topcash": {
+    "base": 3.0,
+    "note": ""
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": "Base rate"
+   }
+  },
+  "Temu": {
    "rakuten": {
-    "base": 1,
-    "note": "Rotates around big launches"
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 39.0,
+    "note": "Often a new-customer or limited-time rate"
+   },
+   "delta": {
+    "base": 3.9,
+    "note": "3 miles/$1, valued ~1.3¢/mile"
+   }
+  },
+  "Therabody": {
+   "rakuten": {
+    "base": 3.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 4.0,
+    "note": ""
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": "Base rate"
+   }
+  },
+  "Torrid": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 3.03,
+    "note": ""
+   }
+  },
+  "Tractor Supply": {
+   "rakuten": {
+    "base": 1.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 1.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢/mile"
+   }
+  },
+  "TUMI": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 1.0,
+    "note": ""
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": "Base rate"
+   }
+  },
+  "UGG": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 2.0,
+    "note": ""
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": "Base rate"
+   }
+  },
+  "Ulta Beauty": {
+   "rakuten": {
+    "base": 2.0,
+    "note": "Up to 2% — varies by category"
+   },
+   "topcash": {
+    "base": 4.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢/mile"
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": "Base rate"
+   }
+  },
+  "Under Armour": {
+   "rakuten": {
+    "base": 10.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 5.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 5.2,
+    "note": "4 miles/$1, valued ~1.3¢/mile"
+   }
+  },
+  "Victoria's Secret": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "Vistaprint": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 6.06,
+    "note": ""
    },
    "delta": {
     "base": 2.6,
-    "note": "2 miles/$1 on electronics"
+    "note": "2 miles/$1, valued ~1.3¢/mile"
+   }
+  },
+  "Vitamix": {
+   "rakuten": {
+    "base": 10.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 11.0,
+    "note": ""
    },
    "cap1": {
-    "base": 1,
-    "boost": 6,
-    "note": "Base rate",
-    "boostNote": "Targeted offer for Best Buy"
+    "base": 3.0,
+    "note": "Base rate"
+   }
+  },
+  "Vivid Seats": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
    },
-   "amex": {
-    "boost": 8,
-    "boostNote": "Typical Amex Offer. Check your Amex app to see if you have it."
+   "topcash": {
+    "base": 4.0,
+    "note": "Up to 4% — varies by category"
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": "Base rate"
+   }
+  },
+  "Vrbo": {
+   "rakuten": {
+    "base": 10.0,
+    "note": "Up to 10% — varies by category"
+   },
+   "topcash": {
+    "base": 6.0,
+    "note": ""
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": "Base rate"
+   }
+  },
+  "Walgreens": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 4.04,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢/mile"
    }
   },
   "Walmart": {
@@ -226,120 +1464,18 @@
     "boostNote": "Featured grocery/household brand offer"
    }
   },
-  "Nike": {
-   "topcash": {
-    "base": 6,
-    "note": "Runs high during sale windows"
-   },
+  "Zappos": {
    "rakuten": {
-    "base": 4,
-    "note": ""
-   },
-   "cap1": {
-    "base": 3,
-    "note": ""
-   },
-   "delta": {
-    "base": 1.3,
-    "note": "1 mile/$1"
-   },
-   "chase": {
-    "boost": 5,
-    "boostNote": "Typical Chase Offer. Check your Chase app to see if you have it."
-   }
-  },
-  "Chewy": {
-   "rakuten": {
-    "base": 3,
+    "base": 10.0,
     "note": ""
    },
    "topcash": {
-    "base": 3.5,
+    "base": 4.0,
     "note": ""
    },
    "delta": {
-    "base": 1.3,
-    "note": "1 mile/$1"
-   },
-   "cap1": {
-    "base": 2,
-    "note": ""
-   },
-   "fetch": {
-    "base": 0.25,
-    "boost": 5.5,
-    "note": "Base receipt-scan rate",
-    "boostNote": "Featured pet brand offer"
-   }
-  },
-  "Home Depot": {
-   "rakuten": {
-    "base": 2,
-    "note": ""
-   },
-   "topcash": {
-    "base": 2.5,
-    "note": ""
-   },
-   "delta": {
-    "base": 1.3,
-    "note": "1 mile/$1"
-   },
-   "amex": {
-    "boost": 6,
-    "boostNote": "Typical Amex Offer. Check your Amex app to see if you have it."
-   }
-  },
-  "Sephora": {
-   "rakuten": {
-    "base": 5,
-    "note": ""
-   },
-   "topcash": {
-    "base": 6,
-    "note": ""
-   },
-   "honey": {
-    "base": 2,
-    "note": ""
-   },
-   "delta": {
-    "base": 1.3,
-    "note": "1 mile/$1"
-   }
-  },
-  "Expedia": {
-   "rakuten": {
-    "base": 3,
-    "note": "Travel rates fluctuate seasonally"
-   },
-   "cap1": {
-    "base": 2,
-    "boost": 25,
-    "note": "Base rate",
-    "boostNote": "Travel sites get Capital One's biggest boosts \u2014 seen 20-40%"
-   },
-   "delta": {
-    "base": 2,
-    "note": "2 miles/$1 on Expedia bookings"
-   },
-   "amex": {
-    "boost": 12,
-    "boostNote": "Typical Amex Offer. Check your Amex app to see if you have it."
-   }
-  },
-  "DoorDash": {
-   "rakuten": {
-    "base": 1,
-    "note": ""
-   },
-   "cap1": {
-    "base": 1,
-    "note": ""
-   },
-   "chase": {
-    "boost": 6,
-    "boostNote": "Typical Chase Offer. Check your Chase app to see if you have it."
+    "base": 3.25,
+    "note": "2.5 miles/$1, valued ~1.3¢/mile"
    }
   }
  }
