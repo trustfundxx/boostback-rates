@@ -85,3 +85,18 @@ else:
         for a, b in sw: h = h.replace(a, b, 1)
         open(p, "w", encoding="utf-8").write(h)
         print("Search update added. OK")
+
+# show the date the rates were last refreshed
+h = open(p, encoding="utf-8").read()
+if "updated ' +" in h:
+    print("Date update already in. OK")
+else:
+    a = """    const ageHrs = (Date.now() - new Date(json.generated_at)) / 3600000;
+    document.getElementById('freshness').textContent = 'Estimated rates';"""
+    b = """    const upd = new Date(json.generated_at);
+    document.getElementById('freshness').textContent = isNaN(upd) ? 'Estimated rates' : 'Estimated rates · updated ' + upd.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });"""
+    if h.count(a) == 1:
+        open(p, "w", encoding="utf-8").write(h.replace(a, b, 1))
+        print("Date update added. OK")
+    else:
+        print("Date update: could not find the spot. Nothing changed.")
