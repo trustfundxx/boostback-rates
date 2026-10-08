@@ -84,6 +84,26 @@
    "name": "Price.com",
    "type": "cashback",
    "connection": "none"
+  },
+  "activejunky": {
+   "name": "Active Junky",
+   "type": "cashback",
+   "connection": "none"
+  },
+  "retailmenot": {
+   "name": "RetailMeNot",
+   "type": "cashback",
+   "connection": "none"
+  },
+  "mrrebates": {
+   "name": "Mr. Rebates",
+   "type": "cashback",
+   "connection": "none"
+  },
+  "extrabux": {
+   "name": "Extrabux",
+   "type": "cashback",
+   "connection": "none"
   }
  },
  "stores": {
@@ -215,6 +235,26 @@
     "note": "Base rate"
    }
   },
+  "Arc'teryx": {
+   "activejunky": {
+    "base": 3.0,
+    "note": ""
+   }
+  },
+  "Backcountry": {
+   "extrabux": {
+    "base": 4.0,
+    "note": ""
+   },
+   "mrrebates": {
+    "base": 3.0,
+    "note": ""
+   },
+   "activejunky": {
+    "base": 3.0,
+    "note": ""
+   }
+  },
   "Banana Republic": {
    "rakuten": {
     "base": 2.0,
@@ -252,6 +292,32 @@
   "Bath & Body Works": {
    "topcash": {
     "base": 4.84,
+    "note": ""
+   }
+  },
+  "Beauty Brands": {
+   "rakuten": {
+    "base": 3.5,
+    "note": ""
+   },
+   "topcash": {
+    "base": 7.07,
+    "note": ""
+   },
+   "befrugal": {
+    "base": 12.0,
+    "note": "Often a new-customer or limited-time rate"
+   },
+   "goodshop": {
+    "base": 3.5,
+    "note": ""
+   },
+   "rebatesme": {
+    "base": 7.0,
+    "note": ""
+   },
+   "pricecom": {
+    "base": 3.5,
     "note": ""
    }
   },
@@ -367,6 +433,22 @@
     "note": "Burlington sells in stores only, so cashback sites don't cover it. Fetch still gives points when you scan your receipt."
    }
   },
+  "Cabela's": {
+   "topcash": {
+    "base": 4.04,
+    "note": ""
+   }
+  },
+  "Camping World": {
+   "topcash": {
+    "base": 6.06,
+    "note": ""
+   },
+   "rebatesme": {
+    "base": 6.0,
+    "note": ""
+   }
+  },
   "Carhartt": {
    "rakuten": {
     "base": 2.0,
@@ -385,6 +467,16 @@
    "cap1": {
     "base": 2.0,
     "note": "Base rate"
+   }
+  },
+  "Charlotte Tilbury": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "pricecom": {
+    "base": 1.5,
+    "note": ""
    }
   },
   "Chewy": {
@@ -411,9 +503,91 @@
     "boostNote": "Featured pet brand offer"
    }
   },
+  "Clarins": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 4.04,
+    "note": ""
+   },
+   "befrugal": {
+    "base": 9.0,
+    "note": ""
+   },
+   "gocashback": {
+    "base": 4.0,
+    "note": "Up to 4% — varies by category"
+   },
+   "goodshop": {
+    "base": 2.0,
+    "note": ""
+   },
+   "rebatesme": {
+    "base": 4.0,
+    "note": ""
+   },
+   "pricecom": {
+    "base": 2.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢/mile"
+   }
+  },
+  "Clinique": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 2.0,
+    "note": ""
+   },
+   "befrugal": {
+    "base": 7.0,
+    "note": ""
+   },
+   "gocashback": {
+    "base": 1.6,
+    "note": ""
+   },
+   "goodshop": {
+    "base": 4.0,
+    "note": ""
+   },
+   "rebatesme": {
+    "base": 2.0,
+    "note": ""
+   },
+   "pricecom": {
+    "base": 1.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 4.55,
+    "note": "3.5 miles/$1, valued ~1.3¢/mile"
+   }
+  },
   "Coach": {
    "rakuten": {
     "base": 2.0,
+    "note": ""
+   }
+  },
+  "Coleman": {
+   "topcash": {
+    "base": 4.04,
+    "note": ""
+   },
+   "gocashback": {
+    "base": 3.2,
+    "note": ""
+   },
+   "rebatesme": {
+    "base": 4.0,
     "note": ""
    }
   },
@@ -513,6 +687,12 @@
     "boostNote": "Typical Chase Offer. Check your Chase app to see if you have it."
    }
   },
+  "Drunk Elephant": {
+   "gocashback": {
+    "base": 10.0,
+    "note": ""
+   }
+  },
   "DSW": {
    "rakuten": {
     "base": 2.0,
@@ -525,6 +705,12 @@
    "delta": {
     "base": 1.3,
     "note": "1 mile/$1, valued ~1.3¢/mile"
+   }
+  },
+  "Duluth Trading Co.": {
+   "mrrebates": {
+    "base": 3.0,
+    "note": ""
    }
   },
   "Dyson": {
@@ -575,6 +761,74 @@
     "boostNote": "Typical Amex Offer. Check your Amex app to see if you have it."
    }
   },
+  "Elizabeth Arden": {
+   "rakuten": {
+    "base": 4.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 12.0,
+    "note": "Often a new-customer or limited-time rate"
+   },
+   "befrugal": {
+    "base": 9.0,
+    "note": ""
+   },
+   "gocashback": {
+    "base": 8.0,
+    "note": ""
+   },
+   "goodshop": {
+    "base": 4.0,
+    "note": ""
+   },
+   "rebatesme": {
+    "base": 6.0,
+    "note": ""
+   },
+   "pricecom": {
+    "base": 2.5,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢/mile"
+   }
+  },
+  "Estée Lauder": {
+   "rakuten": {
+    "base": 3.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 12.0,
+    "note": "Often a new-customer or limited-time rate"
+   },
+   "befrugal": {
+    "base": 9.0,
+    "note": ""
+   },
+   "gocashback": {
+    "base": 3.2,
+    "note": ""
+   },
+   "goodshop": {
+    "base": 3.0,
+    "note": ""
+   },
+   "rebatesme": {
+    "base": 10.0,
+    "note": ""
+   },
+   "pricecom": {
+    "base": 1.6,
+    "note": ""
+   },
+   "delta": {
+    "base": 3.25,
+    "note": "2.5 miles/$1, valued ~1.3¢/mile"
+   }
+  },
   "Expedia": {
    "rakuten": {
     "base": 3,
@@ -616,6 +870,38 @@
    },
    "pricecom": {
     "base": 1.5,
+    "note": ""
+   }
+  },
+  "FragranceNet": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "befrugal": {
+    "base": 5.1,
+    "note": ""
+   },
+   "gocashback": {
+    "base": 5.6,
+    "note": ""
+   },
+   "goodshop": {
+    "base": 2.5,
+    "note": ""
+   }
+  },
+  "FragranceX": {
+   "topcash": {
+    "base": 5.05,
+    "note": ""
+   },
+   "gocashback": {
+    "base": 6.4,
+    "note": ""
+   },
+   "rebatesme": {
+    "base": 7.0,
     "note": ""
    }
   },
@@ -663,6 +949,20 @@
    "delta": {
     "base": 1.3,
     "note": "1 mile/$1, valued ~1.3¢/mile"
+   }
+  },
+  "Glossier": {
+   "rakuten": {
+    "base": 2.5,
+    "note": ""
+   },
+   "rebatesme": {
+    "base": 1.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.95,
+    "note": "1.5 miles/$1, valued ~1.3¢/mile"
    }
   },
   "Groupon": {
@@ -833,6 +1133,28 @@
     "note": "Base rate"
    }
   },
+  "Kiehl's": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 8.0,
+    "note": ""
+   },
+   "befrugal": {
+    "base": 13.0,
+    "note": "Often a new-customer or limited-time rate"
+   },
+   "goodshop": {
+    "base": 3.0,
+    "note": ""
+   },
+   "rebatesme": {
+    "base": 7.0,
+    "note": ""
+   }
+  },
   "KitchenAid": {
    "rakuten": {
     "base": 3.0,
@@ -869,6 +1191,40 @@
    "delta": {
     "base": 1.3,
     "note": "1 mile/$1, valued ~1.3¢/mile"
+   }
+  },
+  "Lancôme": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 8.0,
+    "note": ""
+   },
+   "befrugal": {
+    "base": 1.2,
+    "note": ""
+   },
+   "gocashback": {
+    "base": 1.6,
+    "note": "Up to 1.6% — varies by category"
+   },
+   "goodshop": {
+    "base": 1.0,
+    "note": ""
+   },
+   "rebatesme": {
+    "base": 2.0,
+    "note": ""
+   },
+   "pricecom": {
+    "base": 1.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 5.2,
+    "note": "4 miles/$1, valued ~1.3¢/mile"
    }
   },
   "Lands' End": {
@@ -943,6 +1299,36 @@
     "note": "Base rate"
    }
   },
+  "MAC Cosmetics": {
+   "topcash": {
+    "base": 11.11,
+    "note": ""
+   },
+   "befrugal": {
+    "base": 7.0,
+    "note": ""
+   },
+   "gocashback": {
+    "base": 1.6,
+    "note": ""
+   },
+   "goodshop": {
+    "base": 3.0,
+    "note": "Up to 3% — varies by category"
+   },
+   "rebatesme": {
+    "base": 4.0,
+    "note": ""
+   },
+   "pricecom": {
+    "base": 2.5,
+    "note": ""
+   },
+   "delta": {
+    "base": 4.55,
+    "note": "3.5 miles/$1, valued ~1.3¢/mile"
+   }
+  },
   "Macy's": {
    "rakuten": {
     "base": 4.0,
@@ -955,6 +1341,12 @@
    "delta": {
     "base": 2.6,
     "note": "2 miles/$1, valued ~1.3¢/mile"
+   }
+  },
+  "Marmot": {
+   "gocashback": {
+    "base": 8.0,
+    "note": ""
    }
   },
   "Marriott Bonvoy": {
@@ -981,6 +1373,12 @@
     "note": ""
    }
   },
+  "Merrell": {
+   "rebatesme": {
+    "base": 7.0,
+    "note": ""
+   }
+  },
   "Michaels": {
    "goodshop": {
     "base": 2.5,
@@ -993,6 +1391,38 @@
    "gocashback": {
     "base": 0.8,
     "note": "Up to 0.8% — varies by category"
+   }
+  },
+  "Murad": {
+   "rakuten": {
+    "base": 4.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 4.04,
+    "note": ""
+   },
+   "befrugal": {
+    "base": 9.0,
+    "note": ""
+   },
+   "gocashback": {
+    "base": 3.0,
+    "note": "Up to 3% — varies by category"
+   },
+   "rebatesme": {
+    "base": 4.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 3.9,
+    "note": "3 miles/$1, valued ~1.3¢/mile"
+   }
+  },
+  "NARS": {
+   "gocashback": {
+    "base": 10.0,
+    "note": ""
    }
   },
   "National Car Rental": {
@@ -1119,6 +1549,34 @@
     "note": "Base rate"
    }
   },
+  "Patagonia": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "goodshop": {
+    "base": 1.5,
+    "note": ""
+   }
+  },
+  "Paula's Choice": {
+   "rakuten": {
+    "base": 3.5,
+    "note": ""
+   },
+   "topcash": {
+    "base": 7.07,
+    "note": ""
+   },
+   "befrugal": {
+    "base": 12.0,
+    "note": "Often a new-customer or limited-time rate"
+   },
+   "goodshop": {
+    "base": 0.5,
+    "note": ""
+   }
+  },
   "Peloton": {
    "rakuten": {
     "base": 2.0,
@@ -1127,6 +1585,30 @@
    "cap1": {
     "base": 1.0,
     "note": "Base rate"
+   }
+  },
+  "Perfumania": {
+   "topcash": {
+    "base": 4.04,
+    "note": ""
+   },
+   "rebatesme": {
+    "base": 4.0,
+    "note": ""
+   },
+   "pricecom": {
+    "base": 5.0,
+    "note": ""
+   }
+  },
+  "Perfume Shopping": {
+   "rebatesme": {
+    "base": 3.0,
+    "note": ""
+   },
+   "pricecom": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "Petco": {
@@ -1251,6 +1733,12 @@
     "note": "Base rate"
    }
   },
+  "Sally Beauty": {
+   "goodshop": {
+    "base": 3.0,
+    "note": ""
+   }
+  },
   "Samsonite": {
    "rakuten": {
     "base": 2.5,
@@ -1281,6 +1769,16 @@
    "cap1": {
     "base": 0.5,
     "note": "Up to 0.5%"
+   }
+  },
+  "Scheels": {
+   "retailmenot": {
+    "base": 5.0,
+    "note": ""
+   },
+   "activejunky": {
+    "base": 4.0,
+    "note": ""
    }
   },
   "Sephora": {
@@ -1315,6 +1813,16 @@
     "note": "2 miles/$1, valued ~1.3¢/mile"
    }
   },
+  "Shiseido": {
+   "rakuten": {
+    "base": 6.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 12.12,
+    "note": "Often a new-customer or limited-time rate"
+   }
+  },
   "Sierra": {
    "topcash": {
     "base": 4.9,
@@ -1333,6 +1841,62 @@
    "cap1": {
     "base": 3.0,
     "note": "Base rate"
+   }
+  },
+  "SKIMS": {
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢/mile"
+   }
+  },
+  "SkinCeuticals": {
+   "rakuten": {
+    "base": 5.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 5.0,
+    "note": ""
+   },
+   "befrugal": {
+    "base": 3.0,
+    "note": ""
+   },
+   "gocashback": {
+    "base": 4.8,
+    "note": "Up to 4.8% — varies by category"
+   },
+   "goodshop": {
+    "base": 3.0,
+    "note": ""
+   },
+   "rebatesme": {
+    "base": 5.0,
+    "note": ""
+   },
+   "pricecom": {
+    "base": 7.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 2.6,
+    "note": "2 miles/$1, valued ~1.3¢/mile"
+   }
+  },
+  "SkinStore": {
+   "befrugal": {
+    "base": 1.8,
+    "note": ""
+   },
+   "goodshop": {
+    "base": 4.0,
+    "note": ""
+   }
+  },
+  "Sol de Janeiro": {
+   "rakuten": {
+    "base": 3.0,
+    "note": ""
    }
   },
   "Sonos": {
@@ -1357,6 +1921,16 @@
    "cap1": {
     "base": 0.5,
     "note": "Base rate"
+   }
+  },
+  "Sportsman's Warehouse": {
+   "topcash": {
+    "base": 3.03,
+    "note": ""
+   },
+   "rebatesme": {
+    "base": 3.0,
+    "note": ""
    }
   },
   "Staples": {
@@ -1677,6 +2251,12 @@
    "fetch": {
     "base": 0.25,
     "note": "No cashback site is paying here right now. Fetch still gives points when you scan your receipt."
+   }
+  },
+  "YETI": {
+   "rebatesme": {
+    "base": 4.0,
+    "note": ""
    }
   },
   "Zappos": {

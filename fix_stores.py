@@ -62,3 +62,26 @@ if "bump" in dir():
     t = t.replace('versionName "1.0"', 'versionName "1.1"')
     open(g, "w").write(t)
     print("Android:", re.findall(r'versionCode \d+|versionName "[^"]+"', t))
+
+# search that ignores apostrophes, accents and spaces (kiehls -> Kiehl's, estee -> Estée)
+h = open(p, encoding="utf-8").read()
+if "function norm(" in h:
+    print("Search update already in. OK")
+else:
+    sw = [
+      ("const RATES_URL", "function norm(s){ return String(s).normalize('NFD').replace(/[\\u0300-\\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]/g,''); }\nconst RATES_URL"),
+      ("const matches = storeNames.filter(s => s.toLowerCase().includes(q));",
+       "const nq = norm(q);\n  const matches = nq ? storeNames.filter(s => norm(s).includes(nq)) : [];"),
+      ("""  const match = storeNames.find(s => s.toLowerCase() === q.toLowerCase())
+    || storeNames.find(s => s.toLowerCase().includes(q.toLowerCase()));""",
+       """  const nq = norm(q);
+  const match = storeNames.find(s => norm(s) === nq)
+    || (nq ? storeNames.find(s => norm(s).includes(nq)) : null);"""),
+    ]
+    bad = [a[:40] for a, b in sw if h.count(a) != 1]
+    if bad:
+        print("Search update: could not find the spot. Nothing changed.", bad)
+    else:
+        for a, b in sw: h = h.replace(a, b, 1)
+        open(p, "w", encoding="utf-8").write(h)
+        print("Search update added. OK")
