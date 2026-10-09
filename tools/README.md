@@ -4,8 +4,15 @@
    (portals in percent, airlines in miles/points per $, `u` prefix for "up to", blank if not listed, ignore flat-dollar offers):
    `rakuten=;topcashback=;befrugal=;gocashback=;goodshop=;rebatesme=;pricecom=;extrabux=;delta=;american=;united=;southwest=;alaska=`
    Write one line per store to a results file as `Store Name|<that line>` (store names exactly as in sources.json).
+1b. Capital One Shopping: for each store in `tools/capitalone_sources.json`, open its page (WebFetch; if blocked for
+   provenance, WebSearch with allowed_domains ["capitaloneshopping.com"] for "<store> capital one shopping" first).
+   The rate is the line "Get X% back on purchases when you shop on <Store>". Add `;capitalone=X` to that store's line
+   (`u` prefix for "up to"; if only a flat-dollar offer is shown, use the % shown for most purchases, or omit the key).
+   Use `capitalone=` (empty) ONLY when the page loaded and shows no rate — that removes Capital One for the store.
+   If the page could not be loaded, leave the key out so yesterday's rate stays.
+   Stores that are only on the Capital One list still get a line: `Store Name|capitalone=X`.
 2. `python3 tools/apply_rates.py rates.json <results file>` — replaces only the portal and airline entries for stores with
-   fresh data, keeps everything else (Capital One, Fetch, Ibotta, Amex, Chase, Honey, Active Junky, RetailMeNot, Mr. Rebates),
+   fresh data, sets Capital One's posted rate (keeping a targeted-offer boost only if higher), keeps everything else (Fetch, Ibotta, Amex, Chase, Honey, Active Junky, RetailMeNot, Mr. Rebates),
    and stamps `generated_at` (the app shows it as "updated <date>").
 3. `python3 tools/validate.py` must print OK before committing.
 4. Commit and push to `main`. The app reads

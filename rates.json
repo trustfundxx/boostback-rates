@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T16:35:19.796698Z",
+ "generated_at": "2026-10-09T01:48:35.590657Z",
  "featured": [
   "eBay",
   "PetSmart",
@@ -181,6 +181,10 @@
    "alaska": {
     "base": 1.5,
     "note": "1 mile/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": "Up to 1% — varies by category or new customers"
    }
   },
   "Ace Hardware": {
@@ -235,6 +239,10 @@
    "alaska": {
     "base": 1.5,
     "note": "1 mile/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": ""
    }
   },
   "Adidas": {
@@ -285,6 +293,10 @@
    "alaska": {
     "base": 15.0,
     "note": "10 miles/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": "Up to 2% — varies by category or new customers"
    }
   },
   "AliExpress": {
@@ -335,6 +347,10 @@
    "alaska": {
     "base": 6.0,
     "note": "4 miles/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": ""
    }
   },
   "Alo Yoga": {
@@ -392,7 +408,7 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": "Checked Oct 8, not part of the daily refresh."
+    "note": ""
    }
   },
   "Amazon": {
@@ -447,6 +463,10 @@
    "alaska": {
     "base": 1.5,
     "note": "1 mile/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": ""
    }
   },
   "Apple": {
@@ -480,7 +500,7 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": "Checked Oct 8, not part of the daily refresh."
+    "note": ""
    }
   },
   "Arc'teryx": {
@@ -495,6 +515,10 @@
    "united": {
     "base": 2.6,
     "note": "2 miles/$1, valued ~1.3¢ each"
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": ""
    }
   },
   "Backcountry": {
@@ -513,6 +537,10 @@
    "united": {
     "base": 2.6,
     "note": "2 miles/$1, valued ~1.3¢ each"
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": ""
    }
   },
   "Banana Republic": {
@@ -563,11 +591,19 @@
    "alaska": {
     "base": 1.5,
     "note": "1 mile/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": ""
    }
   },
   "Barnes & Noble": {
    "rakuten": {
     "base": 2.0,
+    "note": ""
+   },
+   "cap1": {
+    "base": 1.0,
     "note": ""
    }
   },
@@ -615,6 +651,10 @@
    "alaska": {
     "base": 3.0,
     "note": "2 miles/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": ""
    }
   },
   "Bath & Body Works": {
@@ -629,6 +669,10 @@
    "pricecom": {
     "base": 1.1,
     "note": ""
+   },
+   "cap1": {
+    "base": 3.0,
+    "note": "Up to 3% — varies by category or new customers"
    }
   },
   "Beauty Brands": {
@@ -654,6 +698,10 @@
    },
    "pricecom": {
     "base": 3.5,
+    "note": ""
+   },
+   "cap1": {
+    "base": 1.0,
     "note": ""
    }
   },
@@ -709,6 +757,10 @@
    "alaska": {
     "base": 1.5,
     "note": "1 mile/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "Best Buy": {
@@ -761,9 +813,9 @@
     "note": "6 miles/$1, valued ~1.5¢ each"
    },
    "cap1": {
-    "base": 1,
+    "base": 0.5,
+    "note": "",
     "boost": 6,
-    "note": "Typical rate. Check Capital One Shopping for today's rate.",
     "boostNote": "Typical targeted offer. Check Capital One Shopping to see if you have it."
    },
    "amex": {
@@ -822,7 +874,7 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": "Checked Oct 8, not part of the daily refresh."
+    "note": ""
    }
   },
   "Bluemercury": {
@@ -880,7 +932,7 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": "Checked Oct 8, not part of the daily refresh."
+    "note": ""
    }
   },
   "Booking.com": {
@@ -894,7 +946,7 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": "Up to 1% — Checked Oct 8, not part of the daily refresh."
+    "note": "Up to 1% — varies by category or new customers"
    }
   },
   "Boscov's": {
@@ -949,6 +1001,10 @@
    "alaska": {
     "base": 1.5,
     "note": "1 mile/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": ""
    }
   },
   "Burlington": {
@@ -961,6 +1017,10 @@
    "topcash": {
     "base": 4.04,
     "note": ""
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": ""
    }
   },
   "Camping World": {
@@ -970,6 +1030,10 @@
    },
    "rebatesme": {
     "base": 6.0,
+    "note": ""
+   },
+   "cap1": {
+    "base": 1.0,
     "note": ""
    }
   },
@@ -1001,6 +1065,10 @@
    "pricecom": {
     "base": 4.2,
     "note": ""
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": ""
    }
   },
   "Casper": {
@@ -1030,7 +1098,7 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": "Checked Oct 8, not part of the daily refresh."
+    "note": ""
    }
   },
   "Charlotte Tilbury": {
@@ -1040,6 +1108,10 @@
    },
    "pricecom": {
     "base": 1.5,
+    "note": ""
+   },
+   "cap1": {
+    "base": 2.0,
     "note": ""
    }
   },
@@ -1093,8 +1165,8 @@
     "note": "1 mile/$1, valued ~1.5¢ each"
    },
    "cap1": {
-    "base": 2,
-    "note": "Checked Oct 8, not part of the daily refresh."
+    "base": 2.5,
+    "note": ""
    },
    "fetch": {
     "base": 0.25,
@@ -1151,6 +1223,10 @@
    "alaska": {
     "base": 1.5,
     "note": "1 mile/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "Clinique": {
@@ -1201,6 +1277,10 @@
    "alaska": {
     "base": 6.0,
     "note": "4 miles/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 3.0,
+    "note": ""
    }
   },
   "Coach": {
@@ -1220,6 +1300,10 @@
    },
    "rebatesme": {
     "base": 4.0,
+    "note": ""
+   },
+   "cap1": {
+    "base": 1.0,
     "note": ""
    }
   },
@@ -1275,6 +1359,10 @@
    "alaska": {
     "base": 1.5,
     "note": "1 mile/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 10.0,
+    "note": ""
    }
   },
   "Crocs": {
@@ -1317,6 +1405,10 @@
    "alaska": {
     "base": 3.0,
     "note": "2 miles/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "CVS": {
@@ -1363,6 +1455,10 @@
    "alaska": {
     "base": 4.5,
     "note": "3 miles/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 4.0,
+    "note": "Up to 4% — varies by category or new customers"
    }
   },
   "Dell": {
@@ -1372,7 +1468,7 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": "Checked Oct 8, not part of the daily refresh."
+    "note": ""
    }
   },
   "Dermstore": {
@@ -1426,7 +1522,7 @@
    },
    "cap1": {
     "base": 6.0,
-    "note": "Checked Oct 8, not part of the daily refresh."
+    "note": ""
    }
   },
   "Dick's Sporting Goods": {
@@ -1473,6 +1569,10 @@
    "alaska": {
     "base": 0.75,
     "note": "0.5 miles/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": ""
    }
   },
   "Dillard's": {
@@ -1486,10 +1586,6 @@
     "base": 1,
     "note": ""
    },
-   "cap1": {
-    "base": 1,
-    "note": "Checked Oct 8, not part of the daily refresh."
-   },
    "chase": {
     "boost": 6,
     "boostNote": "Typical Chase Offer. Check your Chase app to see if you have it."
@@ -1498,6 +1594,10 @@
   "Drunk Elephant": {
    "gocashback": {
     "base": 10.0,
+    "note": ""
+   },
+   "cap1": {
+    "base": 2.0,
     "note": ""
    }
   },
@@ -1541,6 +1641,10 @@
    "alaska": {
     "base": 1.5,
     "note": "1 mile/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": ""
    }
   },
   "Duluth Trading Co.": {
@@ -1555,6 +1659,10 @@
    "united": {
     "base": 2.6,
     "note": "2 miles/$1, valued ~1.3¢ each"
+   },
+   "cap1": {
+    "base": 3.0,
+    "note": ""
    }
   },
   "Dyson": {
@@ -1612,7 +1720,7 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": "Checked Oct 8, not part of the daily refresh."
+    "note": ""
    }
   },
   "eBay": {
@@ -1669,9 +1777,9 @@
     "note": "Typical Honey Gold value, not refreshed daily."
    },
    "cap1": {
-    "base": 1.1,
+    "base": 0.5,
+    "note": "",
     "boost": 7,
-    "note": "Typical rate. Check Capital One Shopping for today's rate.",
     "boostNote": "Typical targeted offer. Check Capital One Shopping to see if you have it."
    },
    "fetch": {
@@ -1737,6 +1845,10 @@
    "alaska": {
     "base": 1.5,
     "note": "1 mile/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": ""
    }
   },
   "Estée Lauder": {
@@ -1791,6 +1903,10 @@
    "alaska": {
     "base": 4.5,
     "note": "3 miles/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "Expedia": {
@@ -1799,9 +1915,9 @@
     "note": "Travel rates fluctuate seasonally"
    },
    "cap1": {
-    "base": 2,
+    "base": 2.0,
+    "note": "Up to 2% — varies by category or new customers",
     "boost": 25,
-    "note": "Typical rate. Check Capital One Shopping for today's rate.",
     "boostNote": "Typical targeted offer. Check Capital One Shopping to see if you have it."
    },
    "delta": {
@@ -1860,7 +1976,7 @@
    },
    "cap1": {
     "base": 3.5,
-    "note": "Checked Oct 8, not part of the daily refresh."
+    "note": ""
    }
   },
   "Foot Locker": {
@@ -1870,6 +1986,10 @@
    },
    "pricecom": {
     "base": 1.5,
+    "note": ""
+   },
+   "cap1": {
+    "base": 2.0,
     "note": ""
    }
   },
@@ -1903,6 +2023,10 @@
    "rebatesme": {
     "base": 7.0,
     "note": ""
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "GameStop": {
@@ -1921,6 +2045,10 @@
    "rebatesme": {
     "base": 2,
     "note": ""
+   },
+   "cap1": {
+    "base": 3.5,
+    "note": "Up to 3.5% — varies by category or new customers"
    }
   },
   "Gametime": {
@@ -1934,7 +2062,7 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": "Checked Oct 8, not part of the daily refresh."
+    "note": ""
    }
   },
   "Gap": {
@@ -1989,6 +2117,10 @@
    "alaska": {
     "base": 1.5,
     "note": "1 mile/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "Glossier": {
@@ -2019,6 +2151,10 @@
    "alaska": {
     "base": 3.0,
     "note": "2 miles/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": ""
    }
   },
   "Groupon": {
@@ -2073,6 +2209,10 @@
    "alaska": {
     "base": 3.0,
     "note": "2 miles/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": "Up to 1% — varies by category or new customers"
    }
   },
   "Grubhub": {
@@ -2088,7 +2228,7 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": "Checked Oct 8, not part of the daily refresh."
+    "note": ""
    }
   },
   "Hilton": {
@@ -2103,6 +2243,10 @@
    "united": {
     "base": 1.3,
     "note": "1 mile/$1, valued ~1.3¢ each"
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": ""
    }
   },
   "HOKA": {
@@ -2148,7 +2292,7 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": "Checked Oct 8, not part of the daily refresh."
+    "note": ""
    }
   },
   "Home Depot": {
@@ -2195,6 +2339,10 @@
    "amex": {
     "boost": 6,
     "boostNote": "Typical Amex Offer. Check your Amex app to see if you have it."
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": ""
    }
   },
   "Hotels.com": {
@@ -2208,7 +2356,7 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": "Up to 1% — Checked Oct 8, not part of the daily refresh."
+    "note": "Up to 1% — varies by category or new customers"
    }
   },
   "HP": {
@@ -2259,6 +2407,10 @@
    "alaska": {
     "base": 1.5,
     "note": "1 mile/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": ""
    }
   },
   "Hyatt": {
@@ -2268,7 +2420,7 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": "Checked Oct 8, not part of the daily refresh."
+    "note": ""
    }
   },
   "IHG Hotels & Resorts": {
@@ -2310,7 +2462,7 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": "Checked Oct 8, not part of the daily refresh."
+    "note": ""
    }
   },
   "Instacart": {
@@ -2337,6 +2489,10 @@
    "alaska": {
     "base": 1.5,
     "note": "1 mile/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 2.5,
+    "note": "Up to 2.5% — varies by category or new customers"
    }
   },
   "J.Crew": {
@@ -2387,6 +2543,10 @@
    "alaska": {
     "base": 4.5,
     "note": "3 miles/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "JCPenney": {
@@ -2437,6 +2597,10 @@
    "alaska": {
     "base": 1.5,
     "note": "1 mile/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": ""
    }
   },
   "Kate Spade": {
@@ -2450,7 +2614,7 @@
    },
    "cap1": {
     "base": 4.0,
-    "note": "Checked Oct 8, not part of the daily refresh."
+    "note": ""
    }
   },
   "Kiehl's": {
@@ -2476,6 +2640,10 @@
    },
    "extrabux": {
     "base": 8.0,
+    "note": ""
+   },
+   "cap1": {
+    "base": 2.0,
     "note": ""
    }
   },
@@ -2525,8 +2693,8 @@
     "note": "2 miles/$1, valued ~1.5¢ each"
    },
    "cap1": {
-    "base": 2.0,
-    "note": "Up to 2% — Checked Oct 8, not part of the daily refresh."
+    "base": 2.5,
+    "note": ""
    }
   },
   "Kohl's": {
@@ -2581,6 +2749,10 @@
    "alaska": {
     "base": 3.0,
     "note": "2 miles/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": ""
    }
   },
   "L.L.Bean": {
@@ -2619,6 +2791,10 @@
    "alaska": {
     "base": 1.5,
     "note": "1 mile/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": ""
    }
   },
   "Lancôme": {
@@ -2669,6 +2845,10 @@
    "alaska": {
     "base": 7.5,
     "note": "5 miles/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "Lands' End": {
@@ -2702,6 +2882,10 @@
    },
    "extrabux": {
     "base": 4.2,
+    "note": ""
+   },
+   "cap1": {
+    "base": 1.0,
     "note": ""
    }
   },
@@ -2740,7 +2924,7 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": "Checked Oct 8, not part of the daily refresh."
+    "note": ""
    }
   },
   "Lenovo": {
@@ -2795,6 +2979,10 @@
    "alaska": {
     "base": 3.0,
     "note": "2 miles/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 1.5,
+    "note": ""
    }
   },
   "Levi's": {
@@ -2849,6 +3037,10 @@
    "alaska": {
     "base": 4.5,
     "note": "3 miles/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": ""
    }
   },
   "Lowe's": {
@@ -2891,6 +3083,10 @@
    "alaska": {
     "base": 0.75,
     "note": "0.5 miles/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": ""
    }
   },
   "Lululemon": {
@@ -2916,7 +3112,7 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": "Checked Oct 8, not part of the daily refresh."
+    "note": ""
    }
   },
   "MAC Cosmetics": {
@@ -2963,6 +3159,10 @@
    "alaska": {
     "base": 6.0,
     "note": "4 miles/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 3.0,
+    "note": ""
    }
   },
   "Macy's": {
@@ -3017,11 +3217,19 @@
    "alaska": {
     "base": 4.5,
     "note": "3 miles/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 1.5,
+    "note": "Up to 1.5% — varies by category or new customers"
    }
   },
   "Marmot": {
    "gocashback": {
     "base": 8.0,
+    "note": ""
+   },
+   "cap1": {
+    "base": 0.5,
     "note": ""
    }
   },
@@ -3044,7 +3252,7 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": "Up to 0.5% — Checked Oct 8, not part of the daily refresh."
+    "note": "Up to 0.5% — varies by category or new customers"
    }
   },
   "Marshalls": {
@@ -3060,6 +3268,10 @@
   "Merrell": {
    "rebatesme": {
     "base": 7.0,
+    "note": ""
+   },
+   "cap1": {
+    "base": 2.0,
     "note": ""
    }
   },
@@ -3117,11 +3329,19 @@
    "alaska": {
     "base": 6.0,
     "note": "4 miles/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "NARS": {
    "gocashback": {
     "base": 10.0,
+    "note": ""
+   },
+   "cap1": {
+    "base": 3.0,
     "note": ""
    }
   },
@@ -3140,6 +3360,10 @@
    },
    "pricecom": {
     "base": 1.0,
+    "note": ""
+   },
+   "cap1": {
+    "base": 0.5,
     "note": ""
    }
   },
@@ -3194,7 +3418,7 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": "Up to 2% — Checked Oct 8, not part of the daily refresh."
+    "note": "Up to 2% — varies by category or new customers"
    }
   },
   "New Balance": {
@@ -3227,6 +3451,10 @@
     "note": ""
    },
    "extrabux": {
+    "base": 2.0,
+    "note": ""
+   },
+   "cap1": {
     "base": 2.0,
     "note": ""
    }
@@ -3335,8 +3563,8 @@
     "note": "3 miles/$1, valued ~1.5¢ each"
    },
    "cap1": {
-    "base": 3,
-    "note": "Checked Oct 8, not part of the daily refresh."
+    "base": 2.0,
+    "note": ""
    },
    "chase": {
     "boost": 5,
@@ -3381,6 +3609,10 @@
    "alaska": {
     "base": 3.0,
     "note": "2 miles/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": ""
    }
   },
   "Old Navy": {
@@ -3477,6 +3709,10 @@
    "alaska": {
     "base": 1.5,
     "note": "1 mile/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": ""
    }
   },
   "Parachute": {
@@ -3514,7 +3750,7 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": "Checked Oct 8, not part of the daily refresh."
+    "note": ""
    }
   },
   "Patagonia": {
@@ -3543,6 +3779,10 @@
    "goodshop": {
     "base": 0.5,
     "note": ""
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": ""
    }
   },
   "Peloton": {
@@ -3552,7 +3792,7 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": "Checked Oct 8, not part of the daily refresh."
+    "note": ""
    }
   },
   "Perfumania": {
@@ -3566,6 +3806,10 @@
    },
    "pricecom": {
     "base": 5.0,
+    "note": ""
+   },
+   "cap1": {
+    "base": 1.0,
     "note": ""
    }
   },
@@ -3627,6 +3871,10 @@
    "alaska": {
     "base": 3.0,
     "note": "2 miles/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "PetSmart": {
@@ -3675,9 +3923,9 @@
     "note": "Typical Honey Gold value, not refreshed daily."
    },
    "cap1": {
-    "base": 3,
+    "base": 3.0,
+    "note": "",
     "boost": 8.5,
-    "note": "Typical rate. Check Capital One Shopping for today's rate.",
     "boostNote": "Typical targeted offer. Check Capital One Shopping to see if you have it."
    },
    "fetch": {
@@ -3733,6 +3981,10 @@
    "united": {
     "base": 2.6,
     "note": "2 miles/$1, valued ~1.3¢ each"
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": "Up to 2% — varies by category or new customers"
    }
   },
   "Puma": {
@@ -3787,6 +4039,10 @@
    "alaska": {
     "base": 3.0,
     "note": "2 miles/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": "Up to 2% — varies by category or new customers"
    }
   },
   "Ray-Ban": {
@@ -3840,13 +4096,17 @@
    },
    "cap1": {
     "base": 2.5,
-    "note": "Up to 2.5% — Checked Oct 8, not part of the daily refresh."
+    "note": "Up to 2.5% — varies by category or new customers"
    }
   },
   "REI": {
    "fetch": {
     "base": 0.25,
     "note": "No cashback site is paying here right now. Fetch still gives a small, typical amount of points when you scan your receipt."
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": ""
    }
   },
   "Saatva": {
@@ -3892,7 +4152,7 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": "Checked Oct 8, not part of the daily refresh."
+    "note": ""
    }
   },
   "Saks Fifth Avenue": {
@@ -3926,12 +4186,16 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": "Checked Oct 8, not part of the daily refresh."
+    "note": ""
    }
   },
   "Sally Beauty": {
    "goodshop": {
     "base": 3.0,
+    "note": ""
+   },
+   "cap1": {
+    "base": 2.0,
     "note": ""
    }
   },
@@ -3983,10 +4247,6 @@
    "alaska": {
     "base": 6.0,
     "note": "4 miles/$1, valued ~1.5¢ each"
-   },
-   "cap1": {
-    "base": 2.0,
-    "note": "Checked Oct 8, not part of the daily refresh."
    }
   },
   "Samsung": {
@@ -4044,7 +4304,7 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": "Up to 0.5% — Checked Oct 8, not part of the daily refresh."
+    "note": "Up to 0.5% — varies by category or new customers"
    }
   },
   "Scheels": {
@@ -4063,6 +4323,10 @@
    "united": {
     "base": 3.9,
     "note": "3 miles/$1, valued ~1.3¢ each"
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": "Up to 2% — varies by category or new customers"
    }
   },
   "Sephora": {
@@ -4121,6 +4385,10 @@
    "honey": {
     "base": 2,
     "note": "Typical Honey Gold value, not refreshed daily."
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": ""
    }
   },
   "Shein": {
@@ -4167,6 +4435,10 @@
    "alaska": {
     "base": 4.5,
     "note": "3 miles/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 7.5,
+    "note": "Up to 7.5% — varies by category or new customers"
    }
   },
   "Shiseido": {
@@ -4177,6 +4449,10 @@
    "topcash": {
     "base": 12.12,
     "note": "Often a new-customer or limited-time rate"
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": ""
    }
   },
   "Sierra": {
@@ -4196,7 +4472,7 @@
    },
    "cap1": {
     "base": 3.0,
-    "note": "Checked Oct 8, not part of the daily refresh."
+    "note": ""
    }
   },
   "SKIMS": {
@@ -4269,6 +4545,10 @@
    "alaska": {
     "base": 3.0,
     "note": "2 miles/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 4.0,
+    "note": ""
    }
   },
   "SkinStore": {
@@ -4284,6 +4564,10 @@
   "Sol de Janeiro": {
    "rakuten": {
     "base": 3.0,
+    "note": ""
+   },
+   "cap1": {
+    "base": 1.0,
     "note": ""
    }
   },
@@ -4316,7 +4600,7 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": "Checked Oct 8, not part of the daily refresh."
+    "note": ""
    }
   },
   "Sportsman's Warehouse": {
@@ -4326,6 +4610,10 @@
    },
    "rebatesme": {
     "base": 3.0,
+    "note": ""
+   },
+   "cap1": {
+    "base": 0.5,
     "note": ""
    }
   },
@@ -4377,6 +4665,10 @@
    "alaska": {
     "base": 4.5,
     "note": "3 miles/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "StubHub": {
@@ -4434,7 +4726,7 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": "Checked Oct 8, not part of the daily refresh."
+    "note": ""
    }
   },
   "Target": {
@@ -4451,9 +4743,9 @@
     "note": ""
    },
    "cap1": {
-    "base": 1.5,
+    "base": 0.5,
+    "note": "",
     "boost": 6,
-    "note": "Typical rate. Check Capital One Shopping for today's rate.",
     "boostNote": "Typical targeted offer. Check Capital One Shopping to see if you have it."
    },
    "fetch": {
@@ -4514,7 +4806,7 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": "Checked Oct 8, not part of the daily refresh."
+    "note": ""
    }
   },
   "Temu": {
@@ -4569,6 +4861,10 @@
    "alaska": {
     "base": 6.0,
     "note": "4 miles/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 9.0,
+    "note": "Up to 9% — varies by category or new customers"
    }
   },
   "The North Face": {
@@ -4583,6 +4879,10 @@
    "goodshop": {
     "base": 1.0,
     "note": ""
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "Therabody": {
@@ -4596,7 +4896,7 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": "Checked Oct 8, not part of the daily refresh."
+    "note": ""
    }
   },
   "TJ Maxx": {
@@ -4624,6 +4924,10 @@
    },
    "rebatesme": {
     "base": 1.0,
+    "note": ""
+   },
+   "cap1": {
+    "base": 2.0,
     "note": ""
    }
   },
@@ -4667,6 +4971,10 @@
    "alaska": {
     "base": 1.5,
     "note": "1 mile/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": ""
    }
   },
   "TUMI": {
@@ -4680,7 +4988,7 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": "Checked Oct 8, not part of the daily refresh."
+    "note": ""
    }
   },
   "UGG": {
@@ -4714,7 +5022,7 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": "Checked Oct 8, not part of the daily refresh."
+    "note": ""
    }
   },
   "Ulta Beauty": {
@@ -4760,7 +5068,7 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": "Checked Oct 8, not part of the daily refresh."
+    "note": ""
    }
   },
   "Under Armour": {
@@ -4807,6 +5115,10 @@
    "alaska": {
     "base": 15.0,
     "note": "10 miles/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 12.0,
+    "note": "Often a new-customer or limited-time rate"
    }
   },
   "Victoria's Secret": {
@@ -4815,6 +5127,10 @@
     "note": ""
    },
    "rebatesme": {
+    "base": 1.0,
+    "note": ""
+   },
+   "cap1": {
     "base": 1.0,
     "note": ""
    }
@@ -4863,6 +5179,10 @@
    "alaska": {
     "base": 3.0,
     "note": "2 miles/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "Vitamix": {
@@ -4876,7 +5196,7 @@
    },
    "cap1": {
     "base": 3.0,
-    "note": "Checked Oct 8, not part of the daily refresh."
+    "note": ""
    }
   },
   "Vivid Seats": {
@@ -4890,7 +5210,7 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": "Checked Oct 8, not part of the daily refresh."
+    "note": ""
    }
   },
   "Vrbo": {
@@ -4904,7 +5224,7 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": "Checked Oct 8, not part of the daily refresh."
+    "note": ""
    }
   },
   "Walgreens": {
@@ -4955,6 +5275,10 @@
    "alaska": {
     "base": 1.5,
     "note": "1 mile/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "Walmart": {
@@ -4975,8 +5299,8 @@
     "note": "Up to 12% — varies by category or new customers"
    },
    "cap1": {
-    "base": 1,
-    "note": "Checked Oct 8, not part of the daily refresh."
+    "base": 1.0,
+    "note": ""
    },
    "ibotta": {
     "base": 0.2,
@@ -5012,6 +5336,10 @@
   "YETI": {
    "rebatesme": {
     "base": 4.0,
+    "note": ""
+   },
+   "cap1": {
+    "base": 1.0,
     "note": ""
    }
   },
@@ -5063,6 +5391,10 @@
    "alaska": {
     "base": 4.5,
     "note": "3 miles/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": ""
    }
   }
  }

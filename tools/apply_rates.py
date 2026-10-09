@@ -15,11 +15,20 @@ for line in open(src):
     if not line: continue
     name, kv = line.split('|', 1)
     if name not in S: missing.append(name); continue
-    fresh = {}
+    fresh = {}; cap = None
     for pair in kv.split(';'):
         k, v = pair.split('=')
-        if not v: continue
+        if k == 'capitalone' and not v: cap = 'none'; continue
+        if not v or '$' in v: continue
         up = v.startswith('u'); x = float(v.lstrip('u'))
+        if k == 'capitalone':
+            if x < 0.5: cap = 'none'; continue
+            note = f"Up to {x:g}% — varies by category or new customers" if up else ("Often a new-customer or limited-time rate" if x >= 12 else "")
+            old = S[name].get('cap1', {})
+            cap = {'base': x, 'note': note}
+            if old.get('boost', 0) > x:  # keep the targeted-offer boost only if it beats the posted rate
+                cap['boost'] = old['boost']; cap['boostNote'] = old.get('boostNote', '')
+            continue
         if k in air:
             if x <= 0: continue
             n, cents, unit = air[k]
@@ -30,6 +39,8 @@ for line in open(src):
             elif x >= 12: note = "Often a new-customer or limited-time rate"
             else: note = ""
             fresh[portal[k]] = {'base': x, 'note': note}
+    if cap == 'none': S[name].pop('cap1', None)
+    elif cap: S[name]['cap1'] = cap
     if not fresh: continue
     kept = {k: v for k, v in S[name].items() if k not in refresh_keys}
     S[name] = {**fresh, **kept}
