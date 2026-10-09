@@ -392,15 +392,15 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": "Base rate"
+    "note": "Checked Oct 8, not part of the daily refresh."
    }
   },
   "Amazon": {
    "fetch": {
     "base": 0.25,
     "boost": 3,
-    "note": "Cashback sites rarely pay on Amazon right now. Fetch gives points when you scan your order email.",
-    "boostNote": "Featured brand match from your order"
+    "note": "Typical value, not a posted rate. Fetch pays points per receipt scanned.",
+    "boostNote": "Typical brand offer. Check your Fetch app for the offers you actually have."
    }
   },
   "American Eagle": {
@@ -480,7 +480,7 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": "Base rate"
+    "note": "Checked Oct 8, not part of the daily refresh."
    }
   },
   "Arc'teryx": {
@@ -763,8 +763,8 @@
    "cap1": {
     "base": 1,
     "boost": 6,
-    "note": "Base rate",
-    "boostNote": "Targeted offer for Best Buy"
+    "note": "Typical rate. Check Capital One Shopping for today's rate.",
+    "boostNote": "Typical targeted offer. Check Capital One Shopping to see if you have it."
    },
    "amex": {
     "boost": 8,
@@ -822,7 +822,7 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": "Base rate"
+    "note": "Checked Oct 8, not part of the daily refresh."
    }
   },
   "Bluemercury": {
@@ -880,7 +880,7 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": "Base rate"
+    "note": "Checked Oct 8, not part of the daily refresh."
    }
   },
   "Booking.com": {
@@ -894,7 +894,7 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": "Up to 1%"
+    "note": "Up to 1% — Checked Oct 8, not part of the daily refresh."
    }
   },
   "Boscov's": {
@@ -954,7 +954,7 @@
   "Burlington": {
    "fetch": {
     "base": 0.25,
-    "note": "Burlington sells in stores only, so cashback sites don't cover it. Fetch still gives points when you scan your receipt."
+    "note": "Burlington sells in stores only, so cashback sites don't cover it. Fetch still gives a small, typical amount of points when you scan your receipt."
    }
   },
   "Cabela's": {
@@ -1030,7 +1030,7 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": "Base rate"
+    "note": "Checked Oct 8, not part of the daily refresh."
    }
   },
   "Charlotte Tilbury": {
@@ -1094,13 +1094,13 @@
    },
    "cap1": {
     "base": 2,
-    "note": ""
+    "note": "Checked Oct 8, not part of the daily refresh."
    },
    "fetch": {
     "base": 0.25,
     "boost": 5.5,
-    "note": "Base receipt-scan rate",
-    "boostNote": "Featured pet brand offer"
+    "note": "Typical value, not a posted rate. Fetch pays points per receipt scanned.",
+    "boostNote": "Typical brand offer. Check your Fetch app for the offers you actually have."
    }
   },
   "Clarins": {
@@ -1372,7 +1372,7 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": "Base rate"
+    "note": "Checked Oct 8, not part of the daily refresh."
    }
   },
   "Dermstore": {
@@ -1426,7 +1426,7 @@
    },
    "cap1": {
     "base": 6.0,
-    "note": "Base rate"
+    "note": "Checked Oct 8, not part of the daily refresh."
    }
   },
   "Dick's Sporting Goods": {
@@ -1478,7 +1478,7 @@
   "Dillard's": {
    "fetch": {
     "base": 0.25,
-    "note": "No cashback site is paying here right now. Fetch still gives points when you scan your receipt."
+    "note": "No cashback site is paying here right now. Fetch still gives a small, typical amount of points when you scan your receipt."
    }
   },
   "DoorDash": {
@@ -1488,7 +1488,7 @@
    },
    "cap1": {
     "base": 1,
-    "note": ""
+    "note": "Checked Oct 8, not part of the daily refresh."
    },
    "chase": {
     "boost": 6,
@@ -1612,7 +1612,7 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": "Base rate"
+    "note": "Checked Oct 8, not part of the daily refresh."
    }
   },
   "eBay": {
@@ -1666,19 +1666,19 @@
    },
    "honey": {
     "base": 0.8,
-    "note": "Gift-card-only credits"
+    "note": "Typical Honey Gold value, not refreshed daily."
    },
    "cap1": {
     "base": 1.1,
     "boost": 7,
-    "note": "Base rate",
-    "boostNote": "Targeted homepage/email offer for eBay"
+    "note": "Typical rate. Check Capital One Shopping for today's rate.",
+    "boostNote": "Typical targeted offer. Check Capital One Shopping to see if you have it."
    },
    "fetch": {
     "base": 0.25,
     "boost": 4.5,
-    "note": "Base receipt-scan rate",
-    "boostNote": "Featured brand offer on this receipt"
+    "note": "Typical value, not a posted rate. Fetch pays points per receipt scanned.",
+    "boostNote": "Typical brand offer. Check your Fetch app for the offers you actually have."
    },
    "amex": {
     "boost": 5,
@@ -1801,8 +1801,8 @@
    "cap1": {
     "base": 2,
     "boost": 25,
-    "note": "Base rate",
-    "boostNote": "Travel sites get Capital One's biggest boosts — seen 20-40%"
+    "note": "Typical rate. Check Capital One Shopping for today's rate.",
+    "boostNote": "Typical targeted offer. Check Capital One Shopping to see if you have it."
    },
    "delta": {
     "base": 2,
@@ -1860,7 +1860,7 @@
    },
    "cap1": {
     "base": 3.5,
-    "note": "Base rate"
+    "note": "Checked Oct 8, not part of the daily refresh."
    }
   },
   "Foot Locker": {
@@ -1934,7 +1934,7 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": "Base rate"
+    "note": "Checked Oct 8, not part of the daily refresh."
    }
   },
   "Gap": {
@@ -2088,7 +2088,7 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": "Base rate"
+    "note": "Checked Oct 8, not part of the daily refresh."
    }
   },
   "Hilton": {
@@ -2148,7 +2148,7 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": "Base rate"
+    "note": "Checked Oct 8, not part of the daily refresh."
    }
   },
   "Home Depot": {
@@ -2208,7 +2208,7 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": "Up to 1%"
+    "note": "Up to 1% — Checked Oct 8, not part of the daily refresh."
    }
   },
   "HP": {
@@ -2268,7 +2268,7 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": "Base rate"
+    "note": "Checked Oct 8, not part of the daily refresh."
    }
   },
   "IHG Hotels & Resorts": {
@@ -2310,7 +2310,7 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": "Base rate"
+    "note": "Checked Oct 8, not part of the daily refresh."
    }
   },
   "Instacart": {
@@ -2450,7 +2450,7 @@
    },
    "cap1": {
     "base": 4.0,
-    "note": "Base rate"
+    "note": "Checked Oct 8, not part of the daily refresh."
    }
   },
   "Kiehl's": {
@@ -2526,7 +2526,7 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": "Up to 2%"
+    "note": "Up to 2% — Checked Oct 8, not part of the daily refresh."
    }
   },
   "Kohl's": {
@@ -2740,7 +2740,7 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": "Base rate"
+    "note": "Checked Oct 8, not part of the daily refresh."
    }
   },
   "Lenovo": {
@@ -2916,7 +2916,7 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": "Base rate"
+    "note": "Checked Oct 8, not part of the daily refresh."
    }
   },
   "MAC Cosmetics": {
@@ -3044,7 +3044,7 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": "Up to 0.5%"
+    "note": "Up to 0.5% — Checked Oct 8, not part of the daily refresh."
    }
   },
   "Marshalls": {
@@ -3194,7 +3194,7 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": "Up to 2%"
+    "note": "Up to 2% — Checked Oct 8, not part of the daily refresh."
    }
   },
   "New Balance": {
@@ -3336,7 +3336,7 @@
    },
    "cap1": {
     "base": 3,
-    "note": ""
+    "note": "Checked Oct 8, not part of the daily refresh."
    },
    "chase": {
     "boost": 5,
@@ -3514,7 +3514,7 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": "Base rate"
+    "note": "Checked Oct 8, not part of the daily refresh."
    }
   },
   "Patagonia": {
@@ -3552,7 +3552,7 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": "Base rate"
+    "note": "Checked Oct 8, not part of the daily refresh."
    }
   },
   "Perfumania": {
@@ -3672,25 +3672,25 @@
    },
    "honey": {
     "base": 1.5,
-    "note": "Auto-applies coupons too"
+    "note": "Typical Honey Gold value, not refreshed daily."
    },
    "cap1": {
     "base": 3,
     "boost": 8.5,
-    "note": "Base rate",
-    "boostNote": "Targeted offer for PetSmart"
+    "note": "Typical rate. Check Capital One Shopping for today's rate.",
+    "boostNote": "Typical targeted offer. Check Capital One Shopping to see if you have it."
    },
    "fetch": {
     "base": 0.25,
     "boost": 6,
-    "note": "Base receipt-scan rate",
-    "boostNote": "Featured pet-food/treat brand offer"
+    "note": "Typical value, not a posted rate. Fetch pays points per receipt scanned.",
+    "boostNote": "Typical brand offer. Check your Fetch app for the offers you actually have."
    },
    "ibotta": {
     "base": 0.2,
     "boost": 3.5,
-    "note": "No offer unlocked",
-    "boostNote": "Item-level offer unlocked before checkout"
+    "note": "Typical value. Ibotta offers are item-specific.",
+    "boostNote": "Typical item offer. Check your Ibotta app for the offers you actually have."
    },
    "amex": {
     "boost": 10,
@@ -3840,13 +3840,13 @@
    },
    "cap1": {
     "base": 2.5,
-    "note": "Up to 2.5%"
+    "note": "Up to 2.5% — Checked Oct 8, not part of the daily refresh."
    }
   },
   "REI": {
    "fetch": {
     "base": 0.25,
-    "note": "No cashback site is paying here right now. Fetch still gives points when you scan your receipt."
+    "note": "No cashback site is paying here right now. Fetch still gives a small, typical amount of points when you scan your receipt."
    }
   },
   "Saatva": {
@@ -3892,7 +3892,7 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": "Base rate"
+    "note": "Checked Oct 8, not part of the daily refresh."
    }
   },
   "Saks Fifth Avenue": {
@@ -3926,7 +3926,7 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": "Base rate"
+    "note": "Checked Oct 8, not part of the daily refresh."
    }
   },
   "Sally Beauty": {
@@ -3986,7 +3986,7 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": "Base rate"
+    "note": "Checked Oct 8, not part of the daily refresh."
    }
   },
   "Samsung": {
@@ -4044,7 +4044,7 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": "Up to 0.5%"
+    "note": "Up to 0.5% — Checked Oct 8, not part of the daily refresh."
    }
   },
   "Scheels": {
@@ -4120,7 +4120,7 @@
    },
    "honey": {
     "base": 2,
-    "note": ""
+    "note": "Typical Honey Gold value, not refreshed daily."
    }
   },
   "Shein": {
@@ -4196,7 +4196,7 @@
    },
    "cap1": {
     "base": 3.0,
-    "note": "Base rate"
+    "note": "Checked Oct 8, not part of the daily refresh."
    }
   },
   "SKIMS": {
@@ -4316,7 +4316,7 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": "Base rate"
+    "note": "Checked Oct 8, not part of the daily refresh."
    }
   },
   "Sportsman's Warehouse": {
@@ -4434,7 +4434,7 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": "Base rate"
+    "note": "Checked Oct 8, not part of the daily refresh."
    }
   },
   "Target": {
@@ -4453,14 +4453,14 @@
    "cap1": {
     "base": 1.5,
     "boost": 6,
-    "note": "Base rate",
-    "boostNote": "Targeted offer for Target"
+    "note": "Typical rate. Check Capital One Shopping for today's rate.",
+    "boostNote": "Typical targeted offer. Check Capital One Shopping to see if you have it."
    },
    "fetch": {
     "base": 0.25,
     "boost": 4,
-    "note": "Base receipt-scan rate",
-    "boostNote": "Featured household/grocery brand offer"
+    "note": "Typical value, not a posted rate. Fetch pays points per receipt scanned.",
+    "boostNote": "Typical brand offer. Check your Fetch app for the offers you actually have."
    },
    "chase": {
     "boost": 4.5,
@@ -4514,7 +4514,7 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": "Base rate"
+    "note": "Checked Oct 8, not part of the daily refresh."
    }
   },
   "Temu": {
@@ -4596,7 +4596,7 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": "Base rate"
+    "note": "Checked Oct 8, not part of the daily refresh."
    }
   },
   "TJ Maxx": {
@@ -4680,7 +4680,7 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": "Base rate"
+    "note": "Checked Oct 8, not part of the daily refresh."
    }
   },
   "UGG": {
@@ -4714,7 +4714,7 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": "Base rate"
+    "note": "Checked Oct 8, not part of the daily refresh."
    }
   },
   "Ulta Beauty": {
@@ -4760,7 +4760,7 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": "Base rate"
+    "note": "Checked Oct 8, not part of the daily refresh."
    }
   },
   "Under Armour": {
@@ -4876,7 +4876,7 @@
    },
    "cap1": {
     "base": 3.0,
-    "note": "Base rate"
+    "note": "Checked Oct 8, not part of the daily refresh."
    }
   },
   "Vivid Seats": {
@@ -4890,7 +4890,7 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": "Base rate"
+    "note": "Checked Oct 8, not part of the daily refresh."
    }
   },
   "Vrbo": {
@@ -4904,7 +4904,7 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": "Base rate"
+    "note": "Checked Oct 8, not part of the daily refresh."
    }
   },
   "Walgreens": {
@@ -4976,37 +4976,37 @@
    },
    "cap1": {
     "base": 1,
-    "note": "No notable boosts historically"
+    "note": "Checked Oct 8, not part of the daily refresh."
    },
    "ibotta": {
     "base": 0.2,
     "boost": 5.2,
-    "note": "No offer unlocked",
-    "boostNote": "Item-level offer unlocked before checkout"
+    "note": "Typical value. Ibotta offers are item-specific.",
+    "boostNote": "Typical item offer. Check your Ibotta app for the offers you actually have."
    },
    "fetch": {
     "base": 0.25,
     "boost": 3.8,
-    "note": "Base receipt-scan rate",
-    "boostNote": "Featured grocery/household brand offer"
+    "note": "Typical value, not a posted rate. Fetch pays points per receipt scanned.",
+    "boostNote": "Typical brand offer. Check your Fetch app for the offers you actually have."
    }
   },
   "Wayfair": {
    "fetch": {
     "base": 0.25,
-    "note": "No cashback site is paying here right now. Fetch still gives points when you scan your receipt."
+    "note": "No cashback site is paying here right now. Fetch still gives a small, typical amount of points when you scan your receipt."
    }
   },
   "West Elm": {
    "fetch": {
     "base": 0.25,
-    "note": "No cashback site is paying here right now. Fetch still gives points when you scan your receipt."
+    "note": "No cashback site is paying here right now. Fetch still gives a small, typical amount of points when you scan your receipt."
    }
   },
   "Williams Sonoma": {
    "fetch": {
     "base": 0.25,
-    "note": "No cashback site is paying here right now. Fetch still gives points when you scan your receipt."
+    "note": "No cashback site is paying here right now. Fetch still gives a small, typical amount of points when you scan your receipt."
    }
   },
   "YETI": {
