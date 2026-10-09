@@ -100,3 +100,37 @@ else:
         print("Date update added. OK")
     else:
         print("Date update: could not find the spot. Nothing changed.")
+
+# wording: "Today's posted rates · updated <date>" (label can be changed later from rates.json), clearer disclaimer
+h = open(p, encoding="utf-8").read()
+if "json.label" in h:
+    print("Wording update already in. OK")
+else:
+    sw = [
+      ("""document.getElementById('freshness').textContent = isNaN(upd) ? 'Estimated rates' : 'Estimated rates · updated ' + upd.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });""",
+       """const lbl = json.label || "Today's posted rates";
+    document.getElementById('freshness').textContent = isNaN(upd) ? lbl : lbl + ' · updated ' + upd.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });"""),
+      ("""    document.getElementById('freshness').textContent = 'Estimated rates';""",
+       """    document.getElementById('freshness').textContent = 'Posted rates';"""),
+      ("""Rates are estimates, not live, and can change daily. Confirm the rate on the program's own site before you buy.""",
+       """Rates are checked every morning from what each program posts and can change during the day. Confirm the rate on the program's own site before you buy."""),
+    ]
+    bad = [a[:50] for a, b in sw if h.count(a) != 1]
+    if bad:
+        print("Wording update: could not find the spot. Nothing changed.", bad)
+    else:
+        for a, b in sw: h = h.replace(a, b, 1)
+        open(p, "w", encoding="utf-8").write(h)
+        print("Wording update added. OK")
+        x = home + "/ios/App/App.xcodeproj/project.pbxproj"
+        t = open(x).read()
+        t = re.sub(r"CURRENT_PROJECT_VERSION = (\d+);", lambda m: "CURRENT_PROJECT_VERSION = %d;" % (int(m.group(1)) + 1), t)
+        t = t.replace("MARKETING_VERSION = 1.1;", "MARKETING_VERSION = 1.2;")
+        open(x, "w").write(t)
+        print("iOS:", sorted(set(re.findall(r"MARKETING_VERSION = [^;]+;|CURRENT_PROJECT_VERSION = \d+;", t))))
+        g = home + "/android/app/build.gradle"
+        t = open(g).read()
+        t = re.sub(r"versionCode (\d+)", lambda m: "versionCode %d" % (int(m.group(1)) + 1), t, count=1)
+        t = t.replace('versionName "1.1"', 'versionName "1.2"')
+        open(g, "w").write(t)
+        print("Android:", re.findall(r'versionCode \d+|versionName "[^"]+"', t))
