@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T01:48:35.590657Z",
+ "generated_at": "2026-10-09T09:14:41.813388Z",
  "featured": [
   "eBay",
   "PetSmart",
@@ -183,8 +183,8 @@
     "note": "1 mile/$1, valued ~1.5¢ each"
    },
    "cap1": {
-    "base": 1.0,
-    "note": "Up to 1% — varies by category or new customers"
+    "base": 0.5,
+    "note": "Up to 0.5% — varies by category or new customers"
    }
   },
   "Ace Hardware": {
@@ -669,10 +669,6 @@
    "pricecom": {
     "base": 1.1,
     "note": ""
-   },
-   "cap1": {
-    "base": 3.0,
-    "note": "Up to 3% — varies by category or new customers"
    }
   },
   "Beauty Brands": {
@@ -825,7 +821,7 @@
   },
   "Bloomingdale's": {
    "rakuten": {
-    "base": 2.0,
+    "base": 10.0,
     "note": ""
    },
    "topcash": {
@@ -849,7 +845,7 @@
     "note": "Up to 3% — varies by category or new customers"
    },
    "extrabux": {
-    "base": 1.5,
+    "base": 2.0,
     "note": ""
    },
    "delta": {
@@ -1067,7 +1063,7 @@
     "note": ""
    },
    "cap1": {
-    "base": 0.5,
+    "base": 2.0,
     "note": ""
    }
   },
@@ -1777,8 +1773,8 @@
     "note": "Typical Honey Gold value, not refreshed daily."
    },
    "cap1": {
-    "base": 0.5,
-    "note": "",
+    "base": 1.0,
+    "note": "Up to 1% — varies by category or new customers",
     "boost": 7,
     "boostNote": "Typical targeted offer. Check Capital One Shopping to see if you have it."
    },
@@ -1981,7 +1977,7 @@
   },
   "Foot Locker": {
    "rebatesme": {
-    "base": 4,
+    "base": 4.0,
     "note": ""
    },
    "pricecom": {
@@ -2031,24 +2027,24 @@
   },
   "GameStop": {
    "befrugal": {
-    "base": 6,
+    "base": 6.0,
+    "note": ""
+   },
+   "goodshop": {
+    "base": 5.0,
+    "note": "Up to 5% — varies by category or new customers"
+   },
+   "rebatesme": {
+    "base": 2.0,
     "note": ""
    },
    "pricecom": {
-    "base": 7,
-    "note": "Up to 7% — varies by category"
-   },
-   "goodshop": {
-    "base": 5,
-    "note": "Up to 5% — varies by category"
-   },
-   "rebatesme": {
-    "base": 2,
-    "note": ""
+    "base": 7.0,
+    "note": "Up to 7% — varies by category or new customers"
    },
    "cap1": {
-    "base": 3.5,
-    "note": "Up to 3.5% — varies by category or new customers"
+    "base": 0.5,
+    "note": ""
    }
   },
   "Gametime": {
@@ -2224,10 +2220,6 @@
   "Hertz": {
    "topcash": {
     "base": 5.0,
-    "note": ""
-   },
-   "cap1": {
-    "base": 2.0,
     "note": ""
    }
   },
@@ -2885,7 +2877,7 @@
     "note": ""
    },
    "cap1": {
-    "base": 1.0,
+    "base": 2.0,
     "note": ""
    }
   },
@@ -2987,7 +2979,7 @@
   },
   "Levi's": {
    "rakuten": {
-    "base": 10.0,
+    "base": 2.0,
     "note": ""
    },
    "topcash": {
@@ -3039,7 +3031,7 @@
     "note": "3 miles/$1, valued ~1.5¢ each"
    },
    "cap1": {
-    "base": 1.0,
+    "base": 2.0,
     "note": ""
    }
   },
@@ -3258,7 +3250,7 @@
   "Marshalls": {
    "gocashback": {
     "base": 1.6,
-    "note": "Up to 1.6% — varies by category"
+    "note": "Up to 1.6% — varies by category or new customers"
    },
    "goodshop": {
     "base": 1.5,
@@ -3276,17 +3268,21 @@
    }
   },
   "Michaels": {
+   "gocashback": {
+    "base": 0.8,
+    "note": "Up to 0.8% — varies by category or new customers"
+   },
    "goodshop": {
     "base": 2.5,
     "note": ""
    },
    "rebatesme": {
-    "base": 1,
+    "base": 1.0,
     "note": ""
    },
-   "gocashback": {
-    "base": 0.8,
-    "note": "Up to 0.8% — varies by category"
+   "pricecom": {
+    "base": 1.0,
+    "note": ""
    }
   },
   "Murad": {
@@ -3373,7 +3369,7 @@
     "note": ""
    },
    "topcash": {
-    "base": 2.0,
+    "base": 10.0,
     "note": ""
    },
    "befrugal": {
@@ -3389,7 +3385,7 @@
     "note": ""
    },
    "rebatesme": {
-    "base": 2.0,
+    "base": 8.0,
     "note": ""
    },
    "pricecom": {
@@ -4387,7 +4383,7 @@
     "note": "Typical Honey Gold value, not refreshed daily."
    },
    "cap1": {
-    "base": 1.0,
+    "base": 2.0,
     "note": ""
    }
   },
@@ -4673,27 +4669,27 @@
   },
   "StubHub": {
    "rakuten": {
-    "base": 2.0,
+    "base": 5.0,
     "note": ""
    },
    "topcash": {
-    "base": 10.0,
+    "base": 8.0,
     "note": ""
    },
    "befrugal": {
-    "base": 15.0,
-    "note": "Often a new-customer or limited-time rate"
+    "base": 9.0,
+    "note": ""
    },
    "gocashback": {
-    "base": 10.0,
-    "note": "Up to 10% — varies by category or new customers"
+    "base": 3.0,
+    "note": ""
    },
    "goodshop": {
     "base": 2.0,
     "note": "Up to 2% — varies by category or new customers"
    },
    "rebatesme": {
-    "base": 8.0,
+    "base": 4.0,
     "note": ""
    },
    "pricecom": {
@@ -4701,8 +4697,8 @@
     "note": ""
    },
    "extrabux": {
-    "base": 9.6,
-    "note": "Up to 9.6% — varies by category or new customers"
+    "base": 4.0,
+    "note": ""
    },
    "delta": {
     "base": 2.6,
