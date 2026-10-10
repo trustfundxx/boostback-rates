@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T09:14:41.813388Z",
+ "generated_at": "2026-10-10T09:09:41.461947Z",
  "featured": [
   "eBay",
   "PetSmart",
@@ -329,8 +329,8 @@
     "note": "Up to 4.5% — varies by category or new customers"
    },
    "extrabux": {
-    "base": 10.5,
-    "note": "Up to 10.5% — varies by category or new customers"
+    "base": 8.5,
+    "note": "Up to 8.5% — varies by category or new customers"
    },
    "delta": {
     "base": 4.55,
@@ -694,10 +694,6 @@
    },
    "pricecom": {
     "base": 3.5,
-    "note": ""
-   },
-   "cap1": {
-    "base": 1.0,
     "note": ""
    }
   },
@@ -2605,7 +2601,7 @@
     "note": "Up to 15% — varies by category"
    },
    "cap1": {
-    "base": 4.0,
+    "base": 5.0,
     "note": ""
    }
   },
@@ -3211,8 +3207,8 @@
     "note": "3 miles/$1, valued ~1.5¢ each"
    },
    "cap1": {
-    "base": 1.5,
-    "note": "Up to 1.5% — varies by category or new customers"
+    "base": 3.5,
+    "note": "Up to 3.5% — varies by category or new customers"
    }
   },
   "Marmot": {
@@ -3447,7 +3443,7 @@
     "note": ""
    },
    "extrabux": {
-    "base": 2.0,
+    "base": 1.6,
     "note": ""
    },
    "cap1": {
@@ -3787,7 +3783,7 @@
     "note": ""
    },
    "cap1": {
-    "base": 1.0,
+    "base": 2.0,
     "note": ""
    }
   },
@@ -3919,7 +3915,7 @@
     "note": "Typical Honey Gold value, not refreshed daily."
    },
    "cap1": {
-    "base": 3.0,
+    "base": 1.0,
     "note": "",
     "boost": 8.5,
     "boostNote": "Typical targeted offer. Check Capital One Shopping to see if you have it."
@@ -4047,7 +4043,7 @@
     "note": "Up to 4% — varies by category or new customers"
    },
    "topcash": {
-    "base": 20.2,
+    "base": 15.15,
     "note": "Often a new-customer or limited-time rate"
    },
    "befrugal": {
@@ -5177,7 +5173,7 @@
     "note": "2 miles/$1, valued ~1.5¢ each"
    },
    "cap1": {
-    "base": 2.0,
+    "base": 1.0,
     "note": ""
    }
   },
