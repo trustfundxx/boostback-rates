@@ -18,112 +18,138 @@
   "rakuten": {
    "name": "Rakuten",
    "type": "cashback",
-   "connection": "none"
+   "connection": "none",
+   "home": "https://www.rakuten.com/",
+   "storeUrl": "https://www.rakuten.com/shop/{domain}"
   },
   "topcash": {
    "name": "TopCashback",
    "type": "cashback",
-   "connection": "none"
+   "connection": "none",
+   "home": "https://www.topcashback.com/",
+   "storeUrl": "https://www.topcashback.com/search/merchants/?s={q}"
   },
   "honey": {
    "name": "Honey Gold",
    "type": "points",
-   "connection": "none"
+   "connection": "none",
+   "home": "https://www.joinhoney.com/"
   },
   "delta": {
    "name": "Delta SkyMiles Shopping",
    "type": "miles",
-   "connection": "none"
+   "connection": "none",
+   "home": "https://www.skymilesshopping.com/"
   },
   "cap1": {
    "name": "Capital One Shopping",
    "type": "cashback",
-   "connection": "boost"
+   "connection": "boost",
+   "home": "https://capitaloneshopping.com/",
+   "storeUrl": "https://capitaloneshopping.com/s/{domain}/coupon"
   },
   "fetch": {
    "name": "Fetch Rewards",
    "type": "points",
-   "connection": "boost"
+   "connection": "boost",
+   "home": "https://fetch.com/"
   },
   "ibotta": {
    "name": "Ibotta",
    "type": "cashback",
-   "connection": "boost"
+   "connection": "boost",
+   "home": "https://home.ibotta.com/"
   },
   "amex": {
    "name": "Amex Offers",
    "type": "cashback",
-   "connection": "full"
+   "connection": "full",
+   "home": "https://www.americanexpress.com/en-us/benefits/offers/"
   },
   "chase": {
    "name": "Chase Offers",
    "type": "cashback",
-   "connection": "full"
+   "connection": "full",
+   "home": "https://www.chase.com/personal/merchant-offers"
   },
   "befrugal": {
    "name": "BeFrugal",
    "type": "cashback",
-   "connection": "none"
+   "connection": "none",
+   "home": "https://www.befrugal.com/"
   },
   "goodshop": {
    "name": "Goodshop",
    "type": "cashback",
-   "connection": "none"
+   "connection": "none",
+   "home": "https://www.goodshop.com/",
+   "storeUrl": "https://www.goodshop.com/coupons/{domain}"
   },
   "gocashback": {
    "name": "GoCashBack",
    "type": "cashback",
-   "connection": "none"
+   "connection": "none",
+   "home": "https://www.gocashback.com/"
   },
   "rebatesme": {
    "name": "RebatesMe",
    "type": "cashback",
-   "connection": "none"
+   "connection": "none",
+   "home": "https://www.rebatesme.com/"
   },
   "pricecom": {
    "name": "Price.com",
    "type": "cashback",
-   "connection": "none"
+   "connection": "none",
+   "home": "https://price.com/"
   },
   "activejunky": {
    "name": "Active Junky",
    "type": "cashback",
-   "connection": "none"
+   "connection": "none",
+   "home": "https://www.activejunky.com/"
   },
   "retailmenot": {
    "name": "RetailMeNot",
    "type": "cashback",
-   "connection": "none"
+   "connection": "none",
+   "home": "https://www.retailmenot.com/"
   },
   "mrrebates": {
    "name": "Mr. Rebates",
    "type": "cashback",
-   "connection": "none"
+   "connection": "none",
+   "home": "https://www.mrrebates.com/"
   },
   "extrabux": {
    "name": "Extrabux",
    "type": "cashback",
-   "connection": "none"
+   "connection": "none",
+   "home": "https://www.extrabux.com/"
   },
   "american": {
    "name": "American AAdvantage eShopping",
    "type": "miles",
-   "connection": "none"
+   "connection": "none",
+   "home": "https://www.aadvantageeshopping.com/"
   },
   "united": {
    "name": "United MileagePlus Shopping",
    "type": "miles",
-   "connection": "none"
+   "connection": "none",
+   "home": "https://shopping.mileageplus.com/"
   },
   "southwest": {
    "name": "Southwest Rapid Rewards Shopping",
    "type": "miles",
-   "connection": "none"
+   "connection": "none",
+   "home": "https://rapidrewardsshopping.southwest.com/"
   },
   "alaska": {
    "name": "Alaska Airlines Shopping",
    "type": "miles",
-   "connection": "none"
+   "connection": "none",
+   "home": "https://www.atmosshopping.com/"
   }
  },
  "stores": {
@@ -184,7 +210,8 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": "Up to 0.5% — varies by category or new customers"
+    "note": "Up to 0.5% — varies by category or new customers",
+    "url": "https://capitaloneshopping.com/s/academy.com/coupon"
    }
   },
   "Ace Hardware": {
@@ -242,7 +269,8 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/acehardware.com/coupon"
    }
   },
   "Adidas": {
@@ -296,7 +324,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": "Up to 2% — varies by category or new customers"
+    "note": "Up to 2% — varies by category or new customers",
+    "url": "https://capitaloneshopping.com/s/adidas.com/coupon"
    }
   },
   "AliExpress": {
@@ -350,7 +379,8 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/aliexpress.com/coupon"
    }
   },
   "Alo Yoga": {
@@ -408,7 +438,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/aloyoga.com/coupon"
    }
   },
   "Amazon": {
@@ -466,7 +497,8 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/ae.com/coupon"
    }
   },
   "Apple": {
@@ -500,7 +532,8 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/apple.com/coupon"
    }
   },
   "Arc'teryx": {
@@ -518,7 +551,8 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/arcteryx.com/coupon"
    }
   },
   "Backcountry": {
@@ -540,7 +574,8 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/backcountry.com/coupon"
    }
   },
   "Banana Republic": {
@@ -594,7 +629,8 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/bananarepublic.com/coupon"
    }
   },
   "Barnes & Noble": {
@@ -604,7 +640,8 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/barnesandnoble.com/coupon"
    }
   },
   "Bass Pro Shops": {
@@ -654,7 +691,8 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/basspro.com/coupon"
    }
   },
   "Bath & Body Works": {
@@ -752,7 +790,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/belk.com/coupon"
    }
   },
   "Best Buy": {
@@ -808,7 +847,8 @@
     "base": 0.5,
     "note": "",
     "boost": 6,
-    "boostNote": "Typical targeted offer. Check Capital One Shopping to see if you have it."
+    "boostNote": "Typical targeted offer. Check Capital One Shopping to see if you have it.",
+    "url": "https://capitaloneshopping.com/s/bestbuy.com/coupon"
    },
    "amex": {
     "boost": 8,
@@ -866,7 +906,8 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/bloomingdales.com/coupon"
    }
   },
   "Bluemercury": {
@@ -924,7 +965,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/bluemercury.com/coupon"
    }
   },
   "Booking.com": {
@@ -938,7 +980,8 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": "Up to 1% — varies by category or new customers"
+    "note": "Up to 1% — varies by category or new customers",
+    "url": "https://capitaloneshopping.com/s/booking.com/coupon"
    }
   },
   "Boscov's": {
@@ -996,7 +1039,8 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/boscovs.com/coupon"
    }
   },
   "Burlington": {
@@ -1012,7 +1056,8 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/cabelas.com/coupon"
    }
   },
   "Camping World": {
@@ -1026,7 +1071,8 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/campingworld.com/coupon"
    }
   },
   "Carhartt": {
@@ -1060,7 +1106,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/carhartt.com/coupon"
    }
   },
   "Casper": {
@@ -1090,7 +1137,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/casper.com/coupon"
    }
   },
   "Charlotte Tilbury": {
@@ -1104,7 +1152,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/charlottetilbury.com/coupon"
    }
   },
   "Chewy": {
@@ -1158,7 +1207,8 @@
    },
    "cap1": {
     "base": 2.5,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/chewy.com/coupon"
    },
    "fetch": {
     "base": 0.25,
@@ -1218,7 +1268,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/clarinsusa.com/coupon"
    }
   },
   "Clinique": {
@@ -1272,7 +1323,8 @@
    },
    "cap1": {
     "base": 3.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/clinique.com/coupon"
    }
   },
   "Coach": {
@@ -1296,7 +1348,8 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/coleman.com/coupon"
    }
   },
   "Columbia Sportswear": {
@@ -1354,7 +1407,8 @@
    },
    "cap1": {
     "base": 10.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/columbia.com/coupon"
    }
   },
   "Crocs": {
@@ -1400,7 +1454,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/crocs.com/coupon"
    }
   },
   "CVS": {
@@ -1450,7 +1505,8 @@
    },
    "cap1": {
     "base": 4.0,
-    "note": "Up to 4% — varies by category or new customers"
+    "note": "Up to 4% — varies by category or new customers",
+    "url": "https://capitaloneshopping.com/s/cvs.com/coupon"
    }
   },
   "Dell": {
@@ -1460,7 +1516,8 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/dell.com/coupon"
    }
   },
   "Dermstore": {
@@ -1514,7 +1571,8 @@
    },
    "cap1": {
     "base": 6.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/dermstore.com/coupon"
    }
   },
   "Dick's Sporting Goods": {
@@ -1564,7 +1622,8 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/dickssportinggoods.com/coupon"
    }
   },
   "Dillard's": {
@@ -1590,7 +1649,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/drunkelephant.com/coupon"
    }
   },
   "DSW": {
@@ -1636,7 +1696,8 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/dsw.com/coupon"
    }
   },
   "Duluth Trading Co.": {
@@ -1654,7 +1715,8 @@
    },
    "cap1": {
     "base": 3.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/duluthtrading.com/coupon"
    }
   },
   "Dyson": {
@@ -1712,7 +1774,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/dyson.com/coupon"
    }
   },
   "eBay": {
@@ -1772,7 +1835,8 @@
     "base": 1.0,
     "note": "Up to 1% — varies by category or new customers",
     "boost": 7,
-    "boostNote": "Typical targeted offer. Check Capital One Shopping to see if you have it."
+    "boostNote": "Typical targeted offer. Check Capital One Shopping to see if you have it.",
+    "url": "https://capitaloneshopping.com/s/ebay.com/coupon"
    },
    "fetch": {
     "base": 0.25,
@@ -1840,7 +1904,8 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/elizabetharden.com/coupon"
    }
   },
   "Estée Lauder": {
@@ -1898,7 +1963,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/esteelauder.com/coupon"
    }
   },
   "Expedia": {
@@ -1910,7 +1976,8 @@
     "base": 2.0,
     "note": "Up to 2% — varies by category or new customers",
     "boost": 25,
-    "boostNote": "Typical targeted offer. Check Capital One Shopping to see if you have it."
+    "boostNote": "Typical targeted offer. Check Capital One Shopping to see if you have it.",
+    "url": "https://capitaloneshopping.com/s/expedia.com/coupon"
    },
    "delta": {
     "base": 2,
@@ -1968,7 +2035,8 @@
    },
    "cap1": {
     "base": 3.5,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/farfetch.com/coupon"
    }
   },
   "Foot Locker": {
@@ -1982,7 +2050,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/footlocker.com/coupon"
    }
   },
   "FragranceNet": {
@@ -2018,7 +2087,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/fragrancex.com/coupon"
    }
   },
   "GameStop": {
@@ -2040,7 +2110,8 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/gamestop.com/coupon"
    }
   },
   "Gametime": {
@@ -2054,7 +2125,8 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/gametime.co/coupon"
    }
   },
   "Gap": {
@@ -2112,7 +2184,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/gap.com/coupon"
    }
   },
   "Glossier": {
@@ -2146,7 +2219,8 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/glossier.com/coupon"
    }
   },
   "Groupon": {
@@ -2204,7 +2278,8 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": "Up to 1% — varies by category or new customers"
+    "note": "Up to 1% — varies by category or new customers",
+    "url": "https://capitaloneshopping.com/s/groupon.com/coupon"
    }
   },
   "Grubhub": {
@@ -2234,7 +2309,8 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/hilton.com/coupon"
    }
   },
   "HOKA": {
@@ -2280,7 +2356,8 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/hoka.com/coupon"
    }
   },
   "Home Depot": {
@@ -2330,7 +2407,8 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/homedepot.com/coupon"
    }
   },
   "Hotels.com": {
@@ -2344,7 +2422,8 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": "Up to 1% — varies by category or new customers"
+    "note": "Up to 1% — varies by category or new customers",
+    "url": "https://capitaloneshopping.com/s/hotels.com/coupon"
    }
   },
   "HP": {
@@ -2398,7 +2477,8 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/hp.com/coupon"
    }
   },
   "Hyatt": {
@@ -2408,7 +2488,8 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/hyatt.com/coupon"
    }
   },
   "IHG Hotels & Resorts": {
@@ -2450,7 +2531,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/ihg.com/coupon"
    }
   },
   "Instacart": {
@@ -2480,7 +2562,8 @@
    },
    "cap1": {
     "base": 2.5,
-    "note": "Up to 2.5% — varies by category or new customers"
+    "note": "Up to 2.5% — varies by category or new customers",
+    "url": "https://capitaloneshopping.com/s/instacart.com/coupon"
    }
   },
   "J.Crew": {
@@ -2534,7 +2617,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/jcrew.com/coupon"
    }
   },
   "JCPenney": {
@@ -2588,7 +2672,8 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/jcpenney.com/coupon"
    }
   },
   "Kate Spade": {
@@ -2602,7 +2687,8 @@
    },
    "cap1": {
     "base": 5.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/katespade.com/coupon"
    }
   },
   "Kiehl's": {
@@ -2632,7 +2718,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/kiehls.com/coupon"
    }
   },
   "KitchenAid": {
@@ -2682,7 +2769,8 @@
    },
    "cap1": {
     "base": 2.5,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/kitchenaid.com/coupon"
    }
   },
   "Kohl's": {
@@ -2740,7 +2828,8 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/kohls.com/coupon"
    }
   },
   "L.L.Bean": {
@@ -2782,7 +2871,8 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/llbean.com/coupon"
    }
   },
   "Lancôme": {
@@ -2836,7 +2926,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/lancome-usa.com/coupon"
    }
   },
   "Lands' End": {
@@ -2874,7 +2965,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/landsend.com/coupon"
    }
   },
   "Le Creuset": {
@@ -2912,7 +3004,8 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/lecreuset.com/coupon"
    }
   },
   "Lenovo": {
@@ -2970,7 +3063,8 @@
    },
    "cap1": {
     "base": 1.5,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/lenovo.com/coupon"
    }
   },
   "Levi's": {
@@ -3028,7 +3122,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/levi.com/coupon"
    }
   },
   "Lowe's": {
@@ -3074,7 +3169,8 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/lowes.com/coupon"
    }
   },
   "Lululemon": {
@@ -3100,7 +3196,8 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/lululemon.com/coupon"
    }
   },
   "MAC Cosmetics": {
@@ -3150,7 +3247,8 @@
    },
    "cap1": {
     "base": 3.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/maccosmetics.com/coupon"
    }
   },
   "Macy's": {
@@ -3208,7 +3306,8 @@
    },
    "cap1": {
     "base": 3.5,
-    "note": "Up to 3.5% — varies by category or new customers"
+    "note": "Up to 3.5% — varies by category or new customers",
+    "url": "https://capitaloneshopping.com/s/macys.com/coupon"
    }
   },
   "Marmot": {
@@ -3218,7 +3317,8 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/marmot.com/coupon"
    }
   },
   "Marriott Bonvoy": {
@@ -3240,7 +3340,8 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": "Up to 0.5% — varies by category or new customers"
+    "note": "Up to 0.5% — varies by category or new customers",
+    "url": "https://capitaloneshopping.com/s/marriott.com/coupon"
    }
   },
   "Marshalls": {
@@ -3260,7 +3361,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/merrell.com/coupon"
    }
   },
   "Michaels": {
@@ -3324,7 +3426,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/murad.com/coupon"
    }
   },
   "NARS": {
@@ -3334,7 +3437,8 @@
    },
    "cap1": {
     "base": 3.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/narscosmetics.com/coupon"
    }
   },
   "National Car Rental": {
@@ -3356,7 +3460,8 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/nationalcar.com/coupon"
    }
   },
   "Neiman Marcus": {
@@ -3410,7 +3515,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": "Up to 2% — varies by category or new customers"
+    "note": "Up to 2% — varies by category or new customers",
+    "url": "https://capitaloneshopping.com/s/neimanmarcus.com/coupon"
    }
   },
   "New Balance": {
@@ -3448,7 +3554,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/newbalance.com/coupon"
    }
   },
   "Newegg": {
@@ -3556,7 +3663,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/nike.com/coupon"
    },
    "chase": {
     "boost": 5,
@@ -3604,7 +3712,8 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/officedepot.com/coupon"
    }
   },
   "Old Navy": {
@@ -3704,7 +3813,8 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/overstock.com/coupon"
    }
   },
   "Parachute": {
@@ -3742,7 +3852,8 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/parachutehome.com/coupon"
    }
   },
   "Patagonia": {
@@ -3774,7 +3885,8 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/paulaschoice.com/coupon"
    }
   },
   "Peloton": {
@@ -3784,7 +3896,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/onepeloton.com/coupon"
    }
   },
   "Perfumania": {
@@ -3802,7 +3915,8 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/perfumania.com/coupon"
    }
   },
   "Perfume Shopping": {
@@ -3866,7 +3980,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/petco.com/coupon"
    }
   },
   "PetSmart": {
@@ -3918,7 +4033,8 @@
     "base": 1.0,
     "note": "",
     "boost": 8.5,
-    "boostNote": "Typical targeted offer. Check Capital One Shopping to see if you have it."
+    "boostNote": "Typical targeted offer. Check Capital One Shopping to see if you have it.",
+    "url": "https://capitaloneshopping.com/s/petsmart.com/coupon"
    },
    "fetch": {
     "base": 0.25,
@@ -3976,7 +4092,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": "Up to 2% — varies by category or new customers"
+    "note": "Up to 2% — varies by category or new customers",
+    "url": "https://capitaloneshopping.com/s/priceline.com/coupon"
    }
   },
   "Puma": {
@@ -4034,7 +4151,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": "Up to 2% — varies by category or new customers"
+    "note": "Up to 2% — varies by category or new customers",
+    "url": "https://capitaloneshopping.com/s/puma.com/coupon"
    }
   },
   "Ray-Ban": {
@@ -4088,7 +4206,8 @@
    },
    "cap1": {
     "base": 2.5,
-    "note": "Up to 2.5% — varies by category or new customers"
+    "note": "Up to 2.5% — varies by category or new customers",
+    "url": "https://capitaloneshopping.com/s/ray-ban.com/coupon"
    }
   },
   "REI": {
@@ -4098,7 +4217,8 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/rei.com/coupon"
    }
   },
   "Saatva": {
@@ -4144,7 +4264,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/saatva.com/coupon"
    }
   },
   "Saks Fifth Avenue": {
@@ -4178,7 +4299,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/saksfifthavenue.com/coupon"
    }
   },
   "Sally Beauty": {
@@ -4188,7 +4310,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/sallybeauty.com/coupon"
    }
   },
   "Samsonite": {
@@ -4296,7 +4419,8 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": "Up to 0.5% — varies by category or new customers"
+    "note": "Up to 0.5% — varies by category or new customers",
+    "url": "https://capitaloneshopping.com/s/samsung.com/coupon"
    }
   },
   "Scheels": {
@@ -4318,7 +4442,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": "Up to 2% — varies by category or new customers"
+    "note": "Up to 2% — varies by category or new customers",
+    "url": "https://capitaloneshopping.com/s/scheels.com/coupon"
    }
   },
   "Sephora": {
@@ -4380,7 +4505,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/sephora.com/coupon"
    }
   },
   "Shein": {
@@ -4430,7 +4556,8 @@
    },
    "cap1": {
     "base": 7.5,
-    "note": "Up to 7.5% — varies by category or new customers"
+    "note": "Up to 7.5% — varies by category or new customers",
+    "url": "https://capitaloneshopping.com/s/shein.com/coupon"
    }
   },
   "Shiseido": {
@@ -4444,7 +4571,8 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/shiseido.com/coupon"
    }
   },
   "Sierra": {
@@ -4464,7 +4592,8 @@
    },
    "cap1": {
     "base": 3.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/sixt.com/coupon"
    }
   },
   "SKIMS": {
@@ -4540,7 +4669,8 @@
    },
    "cap1": {
     "base": 4.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/skinceuticals.com/coupon"
    }
   },
   "SkinStore": {
@@ -4560,7 +4690,8 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/soldejaneiro.com/coupon"
    }
   },
   "Sonos": {
@@ -4592,7 +4723,8 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/sony.com/coupon"
    }
   },
   "Sportsman's Warehouse": {
@@ -4606,7 +4738,8 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/sportsmans.com/coupon"
    }
   },
   "Staples": {
@@ -4660,7 +4793,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/staples.com/coupon"
    }
   },
   "StubHub": {
@@ -4718,7 +4852,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/stubhub.com/coupon"
    }
   },
   "Target": {
@@ -4738,7 +4873,8 @@
     "base": 0.5,
     "note": "",
     "boost": 6,
-    "boostNote": "Typical targeted offer. Check Capital One Shopping to see if you have it."
+    "boostNote": "Typical targeted offer. Check Capital One Shopping to see if you have it.",
+    "url": "https://capitaloneshopping.com/s/target.com/coupon"
    },
    "fetch": {
     "base": 0.25,
@@ -4798,7 +4934,8 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/tempurpedic.com/coupon"
    }
   },
   "Temu": {
@@ -4856,7 +4993,8 @@
    },
    "cap1": {
     "base": 9.0,
-    "note": "Up to 9% — varies by category or new customers"
+    "note": "Up to 9% — varies by category or new customers",
+    "url": "https://capitaloneshopping.com/s/temu.com/coupon"
    }
   },
   "The North Face": {
@@ -4874,7 +5012,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/thenorthface.com/coupon"
    }
   },
   "Therabody": {
@@ -4888,7 +5027,8 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/therabody.com/coupon"
    }
   },
   "TJ Maxx": {
@@ -4920,7 +5060,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/torrid.com/coupon"
    }
   },
   "Tractor Supply": {
@@ -4966,7 +5107,8 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/tractorsupply.com/coupon"
    }
   },
   "TUMI": {
@@ -4980,7 +5122,8 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/tumi.com/coupon"
    }
   },
   "UGG": {
@@ -5014,7 +5157,8 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/ugg.com/coupon"
    }
   },
   "Ulta Beauty": {
@@ -5060,7 +5204,8 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/ulta.com/coupon"
    }
   },
   "Under Armour": {
@@ -5110,7 +5255,8 @@
    },
    "cap1": {
     "base": 12.0,
-    "note": "Often a new-customer or limited-time rate"
+    "note": "Often a new-customer or limited-time rate",
+    "url": "https://capitaloneshopping.com/s/underarmour.com/coupon"
    }
   },
   "Victoria's Secret": {
@@ -5124,7 +5270,8 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/victoriassecret.com/coupon"
    }
   },
   "Vistaprint": {
@@ -5174,7 +5321,8 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/vistaprint.com/coupon"
    }
   },
   "Vitamix": {
@@ -5188,7 +5336,8 @@
    },
    "cap1": {
     "base": 3.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/vitamix.com/coupon"
    }
   },
   "Vivid Seats": {
@@ -5202,7 +5351,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/vividseats.com/coupon"
    }
   },
   "Vrbo": {
@@ -5216,7 +5366,8 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/vrbo.com/coupon"
    }
   },
   "Walgreens": {
@@ -5270,7 +5421,8 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/walgreens.com/coupon"
    }
   },
   "Walmart": {
@@ -5292,7 +5444,8 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/walmart.com/coupon"
    },
    "ibotta": {
     "base": 0.2,
@@ -5332,7 +5485,8 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/yeti.com/coupon"
    }
   },
   "Zappos": {
@@ -5386,8 +5540,167 @@
    },
    "cap1": {
     "base": 1.0,
-    "note": ""
+    "note": "",
+    "url": "https://capitaloneshopping.com/s/zappos.com/coupon"
    }
   }
+ },
+ "domains": {
+  "Abercrombie & Fitch": "abercrombie.com",
+  "Academy Sports + Outdoors": "academy.com",
+  "Ace Hardware": "acehardware.com",
+  "Adidas": "adidas.com",
+  "AliExpress": "aliexpress.com",
+  "Alo Yoga": "aloyoga.com",
+  "Amazon": "amazon.com",
+  "American Eagle": "ae.com",
+  "Apple": "apple.com",
+  "Arc'teryx": "arcteryx.com",
+  "Backcountry": "backcountry.com",
+  "Banana Republic": "bananarepublic.com",
+  "Barnes & Noble": "barnesandnoble.com",
+  "Bass Pro Shops": "basspro.com",
+  "Bath & Body Works": "bathandbodyworks.com",
+  "Beauty Brands": "beautybrands.com",
+  "Belk": "belk.com",
+  "Best Buy": "bestbuy.com",
+  "Bloomingdale's": "bloomingdales.com",
+  "Bluemercury": "bluemercury.com",
+  "Booking.com": "booking.com",
+  "Boscov's": "boscovs.com",
+  "Burlington": "burlington.com",
+  "CVS": "cvs.com",
+  "Cabela's": "cabelas.com",
+  "Camping World": "campingworld.com",
+  "Carhartt": "carhartt.com",
+  "Casper": "casper.com",
+  "Charlotte Tilbury": "charlottetilbury.com",
+  "Chewy": "chewy.com",
+  "Clarins": "clarinsusa.com",
+  "Clinique": "clinique.com",
+  "Coach": "coach.com",
+  "Coleman": "coleman.com",
+  "Columbia Sportswear": "columbia.com",
+  "Crocs": "crocs.com",
+  "DSW": "dsw.com",
+  "Dell": "dell.com",
+  "Dermstore": "dermstore.com",
+  "Dick's Sporting Goods": "dickssportinggoods.com",
+  "Dillard's": "dillards.com",
+  "DoorDash": "doordash.com",
+  "Drunk Elephant": "drunkelephant.com",
+  "Duluth Trading Co.": "duluthtrading.com",
+  "Dyson": "dyson.com",
+  "Elizabeth Arden": "elizabetharden.com",
+  "Estée Lauder": "esteelauder.com",
+  "Expedia": "expedia.com",
+  "Farfetch": "farfetch.com",
+  "Foot Locker": "footlocker.com",
+  "FragranceNet": "fragrancenet.com",
+  "FragranceX": "fragrancex.com",
+  "GameStop": "gamestop.com",
+  "Gametime": "gametime.co",
+  "Gap": "gap.com",
+  "Glossier": "glossier.com",
+  "Groupon": "groupon.com",
+  "Grubhub": "grubhub.com",
+  "HOKA": "hoka.com",
+  "HP": "hp.com",
+  "Hertz": "hertz.com",
+  "Hilton": "hilton.com",
+  "Home Depot": "homedepot.com",
+  "Hotels.com": "hotels.com",
+  "Hyatt": "hyatt.com",
+  "IHG Hotels & Resorts": "ihg.com",
+  "Instacart": "instacart.com",
+  "J.Crew": "jcrew.com",
+  "JCPenney": "jcpenney.com",
+  "Kate Spade": "katespade.com",
+  "Kiehl's": "kiehls.com",
+  "KitchenAid": "kitchenaid.com",
+  "Kohl's": "kohls.com",
+  "L.L.Bean": "llbean.com",
+  "Lancôme": "lancome-usa.com",
+  "Lands' End": "landsend.com",
+  "Le Creuset": "lecreuset.com",
+  "Lenovo": "lenovo.com",
+  "Levi's": "levi.com",
+  "Lowe's": "lowes.com",
+  "Lululemon": "lululemon.com",
+  "MAC Cosmetics": "maccosmetics.com",
+  "Macy's": "macys.com",
+  "Marmot": "marmot.com",
+  "Marriott Bonvoy": "marriott.com",
+  "Marshalls": "marshalls.com",
+  "Merrell": "merrell.com",
+  "Michaels": "michaels.com",
+  "Murad": "murad.com",
+  "NARS": "narscosmetics.com",
+  "National Car Rental": "nationalcar.com",
+  "Neiman Marcus": "neimanmarcus.com",
+  "New Balance": "newbalance.com",
+  "Newegg": "newegg.com",
+  "Nike": "nike.com",
+  "Nordstrom": "nordstrom.com",
+  "Office Depot": "officedepot.com",
+  "Old Navy": "oldnavy.com",
+  "Overstock": "overstock.com",
+  "Parachute": "parachutehome.com",
+  "Patagonia": "patagonia.com",
+  "Paula's Choice": "paulaschoice.com",
+  "Peloton": "onepeloton.com",
+  "Perfumania": "perfumania.com",
+  "Perfume Shopping": "perfumeshopping.com",
+  "PetSmart": "petsmart.com",
+  "Petco": "petco.com",
+  "Priceline": "priceline.com",
+  "Puma": "puma.com",
+  "REI": "rei.com",
+  "Ray-Ban": "ray-ban.com",
+  "SKIMS": "skims.com",
+  "Saatva": "saatva.com",
+  "Saks Fifth Avenue": "saksfifthavenue.com",
+  "Sally Beauty": "sallybeauty.com",
+  "Samsonite": "samsonite.com",
+  "Samsung": "samsung.com",
+  "Scheels": "scheels.com",
+  "Sephora": "sephora.com",
+  "Shein": "shein.com",
+  "Shiseido": "shiseido.com",
+  "Sierra": "sierra.com",
+  "Sixt": "sixt.com",
+  "SkinCeuticals": "skinceuticals.com",
+  "SkinStore": "skinstore.com",
+  "Sol de Janeiro": "soldejaneiro.com",
+  "Sonos": "sonos.com",
+  "Sony": "sony.com",
+  "Sportsman's Warehouse": "sportsmans.com",
+  "Staples": "staples.com",
+  "StubHub": "stubhub.com",
+  "TJ Maxx": "tjmaxx.com",
+  "TUMI": "tumi.com",
+  "Target": "target.com",
+  "Tempur-Pedic": "tempurpedic.com",
+  "Temu": "temu.com",
+  "The North Face": "thenorthface.com",
+  "Therabody": "therabody.com",
+  "Torrid": "torrid.com",
+  "Tractor Supply": "tractorsupply.com",
+  "UGG": "ugg.com",
+  "Ulta Beauty": "ulta.com",
+  "Under Armour": "underarmour.com",
+  "Victoria's Secret": "victoriassecret.com",
+  "Vistaprint": "vistaprint.com",
+  "Vitamix": "vitamix.com",
+  "Vivid Seats": "vividseats.com",
+  "Vrbo": "vrbo.com",
+  "Walgreens": "walgreens.com",
+  "Walmart": "walmart.com",
+  "Wayfair": "wayfair.com",
+  "West Elm": "westelm.com",
+  "Williams Sonoma": "williams-sonoma.com",
+  "YETI": "yeti.com",
+  "Zappos": "zappos.com",
+  "eBay": "ebay.com"
  }
 }

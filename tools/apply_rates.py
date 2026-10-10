@@ -5,7 +5,7 @@ P['delta']['name'] = 'Delta SkyMiles Shopping'
 air = {'delta': ('Delta SkyMiles Shopping', 1.3, 'mile'), 'american': ('American AAdvantage eShopping', 1.5, 'mile'),
        'united': ('United MileagePlus Shopping', 1.3, 'mile'), 'southwest': ('Southwest Rapid Rewards Shopping', 1.3, 'point'),
        'alaska': ('Alaska Airlines Shopping', 1.5, 'mile')}
-for k, (n, _, _) in air.items(): P[k] = {'name': n, 'type': 'miles', 'connection': 'none'}
+for k, (n, _, _) in air.items(): P[k] = {**P.get(k, {}), 'name': n, 'type': 'miles', 'connection': 'none'}
 portal = {'rakuten':'rakuten','topcashback':'topcash','befrugal':'befrugal','gocashback':'gocashback','goodshop':'goodshop',
           'rebatesme':'rebatesme','pricecom':'pricecom','extrabux':'extrabux'}
 refresh_keys = set(portal.values()) | set(air)
@@ -26,6 +26,7 @@ for line in open(src):
             note = f"Up to {x:g}% — varies by category or new customers" if up else ("Often a new-customer or limited-time rate" if x >= 12 else "")
             old = S[name].get('cap1', {})
             cap = {'base': x, 'note': note}
+            if old.get('url'): cap['url'] = old['url']
             if old.get('boost', 0) > x:  # keep the targeted-offer boost only if it beats the posted rate
                 cap['boost'] = old['boost']; cap['boostNote'] = old.get('boostNote', '')
             continue

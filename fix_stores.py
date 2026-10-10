@@ -134,3 +134,65 @@ else:
         t = t.replace('versionName "1.1"', 'versionName "1.2"')
         open(g, "w").write(t)
         print("Android:", re.findall(r'versionCode \d+|versionName "[^"]+"', t))
+
+# 1.3: a button on every program that opens that store's page in that program (links come from rates.json)
+h = open(p, encoding="utf-8").read()
+if "function linkFor(" in h:
+    print("Link buttons already in. OK")
+else:
+    sw = [
+      ("""  .winner-note{margin-top:14px; font-size:12.5px; line-height:1.5; color:var(--paper-dim);}""",
+       """  .winner-note{margin-top:14px; font-size:12.5px; line-height:1.5; color:var(--paper-dim);}
+  .go-btn{display:block; margin-top:16px; background:var(--gold); color:var(--ink); text-align:center;
+    padding:12px 14px; font-size:15px; font-weight:600; text-decoration:none; border-radius:3px;}
+  .go-link{display:inline-block; margin-top:4px; font-size:12.5px; color:var(--gold-deep);
+    font-weight:600; text-decoration:none;}"""),
+      ("""        <p class="winner-note" id="winnerNote"></p>""",
+       """        <p class="winner-note" id="winnerNote"></p>
+        <a class="go-btn" id="winnerGo" href="#" style="display:none;"></a>"""),
+      ("""async function loadRates(){""",
+       """let DOMAINS = {};
+function linkFor(store, id){
+  const e = (DATA[store] || {})[id] || {};
+  const p = PROGRAMS[id] || {};
+  if(e.url) return e.url;
+  const dm = DOMAINS[store];
+  if(p.storeUrl && (dm || p.storeUrl.indexOf('{domain}') < 0))
+    return p.storeUrl.replace('{domain}', dm || '').replace('{q}', encodeURIComponent(store));
+  return p.home || '';
+}
+async function loadRates(){"""),
+      ("""    DATA = json.stores;\n""",
+       """    DATA = json.stores;\n    DOMAINS = json.domains || {};\n"""),
+      ("""  document.getElementById('winnerNote').textContent = winner.note || '';""",
+       """  document.getElementById('winnerNote').textContent = winner.note || '';
+  const wGo = document.getElementById('winnerGo');
+  const wUrl = linkFor(currentStore, winner.id);
+  wGo.href = wUrl || '#';
+  wGo.textContent = 'Go to ' + winner.name + ' ›';
+  wGo.style.display = wUrl ? 'block' : 'none';"""),
+      ("""          ${r.note ? `<div class="note">${r.note}</div>` : ''}
+        </div>""",
+       """          ${r.note ? `<div class="note">${r.note}</div>` : ''}
+          ${linkFor(currentStore, r.id) ? `<a class="go-link" href="${linkFor(currentStore, r.id)}">Go to ${r.name} ›</a>` : ''}
+        </div>"""),
+    ]
+    bad = [a[:50] for a, b in sw if h.count(a) != 1]
+    if bad:
+        print("Link buttons: could not find the spot. Nothing changed.", bad)
+    else:
+        for a, b in sw: h = h.replace(a, b, 1)
+        open(p, "w", encoding="utf-8").write(h)
+        print("Link buttons added. OK")
+        x = home + "/ios/App/App.xcodeproj/project.pbxproj"
+        t = open(x).read()
+        t = re.sub(r"CURRENT_PROJECT_VERSION = (\d+);", lambda m: "CURRENT_PROJECT_VERSION = %d;" % (int(m.group(1)) + 1), t)
+        t = t.replace("MARKETING_VERSION = 1.2;", "MARKETING_VERSION = 1.3;")
+        open(x, "w").write(t)
+        print("iOS:", sorted(set(re.findall(r"MARKETING_VERSION = [^;]+;|CURRENT_PROJECT_VERSION = \d+;", t))))
+        g = home + "/android/app/build.gradle"
+        t = open(g).read()
+        t = re.sub(r"versionCode (\d+)", lambda m: "versionCode %d" % (int(m.group(1)) + 1), t, count=1)
+        t = t.replace('versionName "1.2"', 'versionName "1.3"')
+        open(g, "w").write(t)
+        print("Android:", re.findall(r'versionCode \d+|versionName "[^"]+"', t))

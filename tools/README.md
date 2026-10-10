@@ -17,3 +17,8 @@
 3. `python3 tools/validate.py` must print OK before committing.
 4. Commit and push to `main`. The app reads
    https://raw.githubusercontent.com/trustfundxx/boostback-rates/main/rates.json on every launch.
+
+## Links ("Go to <program>" buttons, app 1.3+)
+- `programs.<id>.home` = program homepage; `programs.<id>.storeUrl` = per-store template ({domain} from top-level `domains`, {q} = store name).
+- `stores.<name>.<id>.url` overrides both for one store. Change any of these here; no app update needed.
+- Airline portals (Delta, American, United, Southwest, Alaska/Atmos) share store IDs: `.../me____.htm?gmid=<id>` (Target 18, Kohl's 1792).
