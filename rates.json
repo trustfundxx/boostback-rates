@@ -30,7 +30,10 @@
    "type": "cashback",
    "connection": "none",
    "home": "https://www.topcashback.com/",
-   "storeUrl": "https://www.topcashback.com/search/merchants/?s={q}"
+   "storeUrl": "https://www.topcashback.com/search/merchants/?s={q}",
+   "signup": {
+    "url": "https://www.topcashback.com/ref/Member1046140908735/?source=App-iOS-TAFPage"
+   }
   },
   "honey": {
    "name": "Honey Gold",
