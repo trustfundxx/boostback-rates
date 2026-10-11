@@ -373,7 +373,10 @@ let searchMode = 'stores';
 const STORE_SEARCH = {
   'Walmart': 'https://www.walmart.com/search?q=', 'Target': 'https://www.target.com/s?searchTerm=',
   'Amazon': 'https://www.amazon.com/s?k=', 'Ulta Beauty': 'https://www.ulta.com/search?search=',
-  'CVS': 'https://www.cvs.com/search?searchTerm=', 'Walgreens': 'https://www.walgreens.com/search/results.jsp?Ntt='
+  'CVS': 'https://www.cvs.com/search?searchTerm=', 'Walgreens': 'https://www.walgreens.com/search/results.jsp?Ntt=',
+  'Sephora': 'https://www.sephora.com/search?keyword=', "Macy's": 'https://www.macys.com/shop/search?keyword=',
+  'Nordstrom': 'https://www.nordstrom.com/sr?keyword=', 'Nordstrom Rack': 'https://www.nordstromrack.com/sr?keyword=',
+  "Bloomingdale's": 'https://www.bloomingdales.com/shop/search?keyword='
 };
 function setMode(m){
   searchMode = m;
@@ -405,7 +408,7 @@ async function productSearch(q){
   document.getElementById('notCovered').style.display = 'none';
   document.getElementById('emptyState').style.display = 'none';
   box.style.display = 'block';
-  box.innerHTML = `<div class="empty-state"><p>Checking prices at Walmart, Target, Amazon, Ulta, CVS and Walgreens…</p></div>`;
+  box.innerHTML = `<div class="empty-state"><p>Checking prices at Walmart, Target, Amazon, Ulta, Sephora, CVS, Walgreens, Macy's, Nordstrom and Bloomingdale's…</p></div>`;
   input.blur();
   let json = null;
   try {

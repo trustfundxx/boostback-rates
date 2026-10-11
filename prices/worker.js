@@ -3,7 +3,8 @@
 // Google Shopping seller name (starts with)  ->  store name used in the app.
 // Matches "Walmart", "Walmart - Seller", "Amazon.com", "Amazon.com - Seller", "CVS Pharmacy", "Walgreens.com", etc.
 const STORES = [['walmart', 'Walmart'], ['target', 'Target'], ['amazon', 'Amazon'], ['ulta', 'Ulta Beauty'],
-  ['cvs', 'CVS'], ['walgreens', 'Walgreens']];
+  ['cvs', 'CVS'], ['walgreens', 'Walgreens'], ['sephora', 'Sephora'], ['macy', "Macy's"],
+  ['nordstrom rack', 'Nordstrom Rack'], ['nordstrom', 'Nordstrom'], ['bloomingdale', "Bloomingdale's"]];
 const storeFor = src => { const s = String(src || '').toLowerCase().trim(); const m = STORES.find(([k]) => s.startsWith(k)); return m ? m[1] : null; };
 const CORS = { 'Access-Control-Allow-Origin': '*', 'Content-Type': 'application/json' };
 
