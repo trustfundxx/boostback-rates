@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T20:21:13.620157Z",
+ "generated_at": "2026-10-11T20:50:59.103191Z",
  "featured": [
   "eBay",
   "PetSmart",
@@ -6436,6 +6436,156 @@
     "base": 1.0,
     "note": ""
    }
+  },
+  "Forever 21": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "Everlane": {
+   "cap1": {
+    "base": 1.5,
+    "note": ""
+   }
+  },
+  "Princess Polly": {
+   "cap1": {
+    "base": 1.0,
+    "note": ""
+   }
+  },
+  "Soma": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   }
+  },
+  "White House Black Market": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   }
+  },
+  "Swarovski": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "Hobby Lobby": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   }
+  },
+  "Cricut": {
+   "cap1": {
+    "base": 3.5,
+    "note": "Up to 3.5% — varies by category or new customers"
+   }
+  },
+  "Oriental Trading": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "AllSaints": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   }
+  },
+  "COS": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "Nobl Travel": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   }
+  },
+  "CALPAK": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "Clarks": {
+   "cap1": {
+    "base": 1.0,
+    "note": ""
+   }
+  },
+  "Saucony": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "Sam Edelman": {
+   "cap1": {
+    "base": 1.0,
+    "note": ""
+   }
+  },
+  "Teva": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   }
+  },
+  "Naturalizer": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "Vionic": {
+   "cap1": {
+    "base": 1.0,
+    "note": ""
+   }
+  },
+  "Stuart Weitzman": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "Allen Edmonds": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "ECCO": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "KEEN": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "Reebok": {
+   "cap1": {
+    "base": 3.0,
+    "note": ""
+   }
+  },
+  "Tillys": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   }
   }
  },
  "domains": {
@@ -8096,6 +8246,90 @@
    {
     "code": "CYBER30",
     "desc": "30% off sitewide plus free shipping"
+   }
+  ],
+  "Hobby Lobby": [
+   {
+    "code": "94051",
+    "desc": "40% off one regular-priced item"
+   }
+  ],
+  "Cricut": [
+   {
+    "code": "OCTSHIP",
+    "desc": "Free shipping to US/Canada on orders $99+"
+   },
+   {
+    "code": "MARSHIP",
+    "desc": "Free shipping to US/Canada on orders $99+"
+   },
+   {
+    "code": "BTS50",
+    "desc": "Free shipping on orders $50+"
+   }
+  ],
+  "AllSaints": [
+   {
+    "code": "SPRINGTIME",
+    "desc": "20% off when you buy two or more items during storewide sale"
+   }
+  ],
+  "Naturalizer": [
+   {
+    "code": "CELEBRATE",
+    "desc": "Extra 25% off sale styles"
+   }
+  ],
+  "Vionic": [
+   {
+    "code": "SUMMER20",
+    "desc": "Extra 20% off sale styles"
+   },
+   {
+    "code": "VIOAFFILIATE10",
+    "desc": "$10 off your purchase"
+   },
+   {
+    "code": "MENS15",
+    "desc": "15% off men's products"
+   }
+  ],
+  "ECCO": [
+   {
+    "code": "ECCODEAL",
+    "desc": "20% off orders of $200+"
+   },
+   {
+    "code": "NEW25",
+    "desc": "25% off select men's and women's shoes"
+   }
+  ],
+  "Reebok": [
+   {
+    "code": "FRIEND",
+    "desc": "40% off sitewide, 50% off sale"
+   },
+   {
+    "code": "REEBOKPF25",
+    "desc": "25% off for Planet Fitness members"
+   },
+   {
+    "code": "PF20",
+    "desc": "20% off sitewide for Planet Fitness Black Card members"
+   }
+  ],
+  "Tillys": [
+   {
+    "code": "TILLYS20",
+    "desc": "20% off an entire order"
+   },
+   {
+    "code": "SAVE20",
+    "desc": "$20 off orders over $100"
+   },
+   {
+    "code": "SAVE15",
+    "desc": "$15 off $75"
    }
   ]
  },
