@@ -481,3 +481,43 @@ function handleSearch(){
         t = t.replace('versionName "1.3"', 'versionName "1.4"')
         open(g, "w").write(t)
         print("Android:", re.findall(r'versionCode \d+|versionName "[^"]+"', t))
+
+# 1.4 (part 2): flat-dollar rewards ("Get up to $35 back") shown as dollars, not percent
+h = open(p, encoding="utf-8").read()
+if "e.flat" in h:
+    print("Dollar rewards already in. OK")
+else:
+    sw = [
+      ("""function renderResult(){""",
+       """function applyFlat(store, rows){
+  const amount = Math.max(1, Number(document.getElementById('amountInput').value) || 100);
+  rows.forEach(r => {
+    const e = (DATA[store] || {})[r.id] || {};
+    if(e.flat && !r.locked && !r.boosted){ r.value = e.flat / amount * 100; r.flat = e.flat; }
+  });
+  return rows;
+}
+
+function renderResult(){"""),
+      ("""  const rows = buildRows(currentStore).sort((a,b) => {""",
+       """  const rows = applyFlat(currentStore, buildRows(currentStore)).sort((a,b) => {"""),
+      ("""  const rows = buildRows(store).filter(r => !r.locked && r.value > 0).sort((a, b) => b.value - a.value);""",
+       """  const rows = buildRows(store).filter(r => !r.locked && r.value > 0 && !((DATA[store] || {})[r.id] || {}).flat).sort((a, b) => b.value - a.value);"""),
+    ]
+    bad = [a[:50] for a, b in sw if h.count(a) != 1]
+    if bad:
+        print("Dollar rewards: could not find the spot. Nothing changed.", bad)
+    else:
+        for a, b in sw: h = h.replace(a, b, 1)
+        open(p, "w", encoding="utf-8").write(h)
+        print("Dollar rewards added. OK")
+        x = home + "/ios/App/App.xcodeproj/project.pbxproj"
+        t = open(x).read()
+        t = re.sub(r"CURRENT_PROJECT_VERSION = (\d+);", lambda m: "CURRENT_PROJECT_VERSION = %d;" % (int(m.group(1)) + 1), t)
+        open(x, "w").write(t)
+        print("iOS:", sorted(set(re.findall(r"MARKETING_VERSION = [^;]+;|CURRENT_PROJECT_VERSION = \d+;", t))))
+        g = home + "/android/app/build.gradle"
+        t = open(g).read()
+        t = re.sub(r"versionCode (\d+)", lambda m: "versionCode %d" % (int(m.group(1)) + 1), t, count=1)
+        open(g, "w").write(t)
+        print("Android:", re.findall(r'versionCode \d+|versionName "[^"]+"', t))

@@ -7,7 +7,7 @@
 1b. Capital One Shopping: for each store in `tools/capitalone_sources.json`, open its page (WebFetch; if blocked for
    provenance, WebSearch with allowed_domains ["capitaloneshopping.com"] for "<store> capital one shopping" first).
    The rate is the line "Get X% back on purchases when you shop on <Store>". Add `;capitalone=X` to that store's line
-   (`u` prefix for "up to"; if only a flat-dollar offer is shown, use the % shown for most purchases, or omit the key).
+   (`u` prefix for "up to"). Flat-dollar offers ("Get up to $35 back") are recorded as `capitalone=u$35` (app 1.4+ shows them as dollars).
    Use `capitalone=` (empty) ONLY when the page loaded and shows no rate — that removes Capital One for the store.
    If the page could not be loaded, leave the key out so yesterday's rate stays.
    Stores that are only on the Capital One list still get a line: `Store Name|capitalone=X`.

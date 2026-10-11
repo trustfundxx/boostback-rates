@@ -22,7 +22,14 @@ for line in open(src):
     for pair in kv.split(';'):
         k, v = pair.split('=')
         if k == 'capitalone' and not v: cap = 'none'; continue
-        if not v or '$' in v: continue
+        if not v: continue
+        if '$' in v:  # flat-dollar reward, e.g. capitalone=u$35 ("Get up to $35 back")
+            if k != 'capitalone': continue
+            up = v.startswith('u'); x = float(v.lstrip('u').lstrip('$'))
+            if x <= 0: continue
+            note = f"Up to ${x:g} back, usually on new customers or new lines" if up else f"${x:g} back on your order"
+            cap = {'base': 0, 'flat': x, 'note': note}
+            continue
         up = v.startswith('u'); x = float(v.lstrip('u'))
         if k == 'capitalone':
             if x < 0.5: cap = 'none'; continue
