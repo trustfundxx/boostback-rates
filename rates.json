@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-10T09:09:41.461947Z",
+ "generated_at": "2026-10-11T09:21:51.289845Z",
  "featured": [
   "eBay",
   "PetSmart",
@@ -867,9 +867,9 @@
    "cap1": {
     "base": 0.5,
     "note": "",
+    "url": "https://capitaloneshopping.com/s/bestbuy.com/coupon",
     "boost": 6,
-    "boostNote": "Typical targeted offer. Check Capital One Shopping to see if you have it.",
-    "url": "https://capitaloneshopping.com/s/bestbuy.com/coupon"
+    "boostNote": "Typical targeted offer. Check Capital One Shopping to see if you have it."
    },
    "amex": {
     "boost": 8,
@@ -1661,6 +1661,11 @@
    "chase": {
     "boost": 6,
     "boostNote": "Typical Chase Offer. Check your Chase app to see if you have it."
+   },
+   "cap1": {
+    "base": 0,
+    "flat": 3.0,
+    "note": "Up to $3 back, usually on new customers or new lines"
    }
   },
   "Drunk Elephant": {
@@ -1735,7 +1740,7 @@
     "note": "2 miles/$1, valued ~1.3¢ each"
    },
    "cap1": {
-    "base": 3.0,
+    "base": 2.0,
     "note": "",
     "url": "https://capitaloneshopping.com/s/duluthtrading.com/coupon"
    }
@@ -1855,9 +1860,9 @@
    "cap1": {
     "base": 1.0,
     "note": "Up to 1% — varies by category or new customers",
+    "url": "https://capitaloneshopping.com/s/ebay.com/coupon",
     "boost": 7,
-    "boostNote": "Typical targeted offer. Check Capital One Shopping to see if you have it.",
-    "url": "https://capitaloneshopping.com/s/ebay.com/coupon"
+    "boostNote": "Typical targeted offer. Check Capital One Shopping to see if you have it."
    },
    "fetch": {
     "base": 0.25,
@@ -1996,9 +2001,9 @@
    "cap1": {
     "base": 2.0,
     "note": "Up to 2% — varies by category or new customers",
+    "url": "https://capitaloneshopping.com/s/expedia.com/coupon",
     "boost": 25,
-    "boostNote": "Typical targeted offer. Check Capital One Shopping to see if you have it.",
-    "url": "https://capitaloneshopping.com/s/expedia.com/coupon"
+    "boostNote": "Typical targeted offer. Check Capital One Shopping to see if you have it."
    },
    "delta": {
     "base": 2,
@@ -2055,7 +2060,7 @@
     "note": "1 mile/$1, valued ~1.5¢ each"
    },
    "cap1": {
-    "base": 3.5,
+    "base": 3.0,
     "note": "",
     "url": "https://capitaloneshopping.com/s/farfetch.com/coupon"
    }
@@ -2692,7 +2697,7 @@
     "note": "1 mile/$1, valued ~1.5¢ each"
    },
    "cap1": {
-    "base": 1.0,
+    "base": 0.5,
     "note": "",
     "url": "https://capitaloneshopping.com/s/jcpenney.com/coupon"
    }
@@ -3216,7 +3221,7 @@
     "note": "2 miles/$1, valued ~1.5¢ each"
    },
    "cap1": {
-    "base": 1.0,
+    "base": 2.0,
     "note": "",
     "url": "https://capitaloneshopping.com/s/lululemon.com/coupon"
    }
@@ -3789,6 +3794,10 @@
    "alaska": {
     "base": 1.5,
     "note": "1 mile/$1, valued ~1.5¢ each"
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "Overstock": {
@@ -4053,9 +4062,9 @@
    "cap1": {
     "base": 1.0,
     "note": "",
+    "url": "https://capitaloneshopping.com/s/petsmart.com/coupon",
     "boost": 8.5,
-    "boostNote": "Typical targeted offer. Check Capital One Shopping to see if you have it.",
-    "url": "https://capitaloneshopping.com/s/petsmart.com/coupon"
+    "boostNote": "Typical targeted offer. Check Capital One Shopping to see if you have it."
    },
    "fetch": {
     "base": 0.25,
@@ -4525,7 +4534,7 @@
     "note": "Typical Honey Gold value, not refreshed daily."
    },
    "cap1": {
-    "base": 2.0,
+    "base": 1.0,
     "note": "",
     "url": "https://capitaloneshopping.com/s/sephora.com/coupon"
    }
@@ -4893,9 +4902,9 @@
    "cap1": {
     "base": 0.5,
     "note": "",
+    "url": "https://capitaloneshopping.com/s/target.com/coupon",
     "boost": 6,
-    "boostNote": "Typical targeted offer. Check Capital One Shopping to see if you have it.",
-    "url": "https://capitaloneshopping.com/s/target.com/coupon"
+    "boostNote": "Typical targeted offer. Check Capital One Shopping to see if you have it."
    },
    "fetch": {
     "base": 0.25,
@@ -5032,7 +5041,7 @@
     "note": ""
    },
    "cap1": {
-    "base": 2.0,
+    "base": 3.0,
     "note": "",
     "url": "https://capitaloneshopping.com/s/thenorthface.com/coupon"
    }
@@ -5563,6 +5572,402 @@
     "base": 1.0,
     "note": "",
     "url": "https://capitaloneshopping.com/s/zappos.com/coupon"
+   }
+  },
+  "H&M": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 2.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢ each"
+   },
+   "american": {
+    "base": 1.5,
+    "note": "1 mile/$1, valued ~1.5¢ each"
+   },
+   "united": {
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢ each"
+   },
+   "southwest": {
+    "base": 1.3,
+    "note": "1 point/$1, valued ~1.3¢ each"
+   },
+   "alaska": {
+    "base": 1.5,
+    "note": "1 mile/$1, valued ~1.5¢ each"
+   }
+  },
+  "Uniqlo": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢ each"
+   },
+   "american": {
+    "base": 1.5,
+    "note": "1 mile/$1, valued ~1.5¢ each"
+   },
+   "united": {
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢ each"
+   },
+   "southwest": {
+    "base": 1.3,
+    "note": "1 point/$1, valued ~1.3¢ each"
+   },
+   "alaska": {
+    "base": 1.5,
+    "note": "1 mile/$1, valued ~1.5¢ each"
+   }
+  },
+  "Mango": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢ each"
+   },
+   "american": {
+    "base": 1.5,
+    "note": "1 mile/$1, valued ~1.5¢ each"
+   },
+   "united": {
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢ each"
+   },
+   "alaska": {
+    "base": 1.5,
+    "note": "1 mile/$1, valued ~1.5¢ each"
+   }
+  },
+  "ASOS": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 4.04,
+    "note": ""
+   },
+   "befrugal": {
+    "base": 6.0,
+    "note": ""
+   },
+   "goodshop": {
+    "base": 2.5,
+    "note": ""
+   },
+   "rebatesme": {
+    "base": 5.0,
+    "note": ""
+   },
+   "pricecom": {
+    "base": 1.8,
+    "note": ""
+   }
+  },
+  "Anthropologie": {
+   "topcash": {
+    "base": 4.0,
+    "note": ""
+   },
+   "befrugal": {
+    "base": 9.0,
+    "note": ""
+   },
+   "gocashback": {
+    "base": 3.2,
+    "note": "Up to 3.2% — varies by category or new customers"
+   },
+   "goodshop": {
+    "base": 2.0,
+    "note": ""
+   },
+   "pricecom": {
+    "base": 1.5,
+    "note": "Up to 1.5% — varies by category or new customers"
+   },
+   "extrabux": {
+    "base": 3.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 2.6,
+    "note": "2 miles/$1, valued ~1.3¢ each"
+   },
+   "american": {
+    "base": 3.0,
+    "note": "2 miles/$1, valued ~1.5¢ each"
+   },
+   "united": {
+    "base": 2.6,
+    "note": "2 miles/$1, valued ~1.3¢ each"
+   },
+   "southwest": {
+    "base": 2.6,
+    "note": "2 points/$1, valued ~1.3¢ each"
+   },
+   "alaska": {
+    "base": 3.0,
+    "note": "2 miles/$1, valued ~1.5¢ each"
+   }
+  },
+  "Free People": {
+   "goodshop": {
+    "base": 1.0,
+    "note": ""
+   },
+   "pricecom": {
+    "base": 1.0,
+    "note": ""
+   },
+   "extrabux": {
+    "base": 3.0,
+    "note": "Up to 3% — varies by category or new customers"
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢ each"
+   },
+   "american": {
+    "base": 1.5,
+    "note": "1 mile/$1, valued ~1.5¢ each"
+   },
+   "united": {
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢ each"
+   },
+   "southwest": {
+    "base": 1.3,
+    "note": "1 point/$1, valued ~1.3¢ each"
+   },
+   "alaska": {
+    "base": 1.5,
+    "note": "1 mile/$1, valued ~1.5¢ each"
+   }
+  },
+  "Urban Outfitters": {
+   "goodshop": {
+    "base": 1.0,
+    "note": ""
+   }
+  },
+  "Madewell": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 3.03,
+    "note": ""
+   },
+   "befrugal": {
+    "base": 6.5,
+    "note": ""
+   },
+   "gocashback": {
+    "base": 1.2,
+    "note": "Up to 1.2% — varies by category or new customers"
+   },
+   "goodshop": {
+    "base": 0.75,
+    "note": ""
+   },
+   "rebatesme": {
+    "base": 1.5,
+    "note": ""
+   },
+   "pricecom": {
+    "base": 1.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 3.25,
+    "note": "2.5 miles/$1, valued ~1.3¢ each"
+   },
+   "american": {
+    "base": 4.5,
+    "note": "3 miles/$1, valued ~1.5¢ each"
+   },
+   "united": {
+    "base": 2.6,
+    "note": "2 miles/$1, valued ~1.3¢ each"
+   },
+   "southwest": {
+    "base": 3.9,
+    "note": "3 points/$1, valued ~1.3¢ each"
+   },
+   "alaska": {
+    "base": 4.5,
+    "note": "3 miles/$1, valued ~1.5¢ each"
+   }
+  },
+  "Hollister": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "Athleta": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 4.04,
+    "note": ""
+   },
+   "befrugal": {
+    "base": 9.0,
+    "note": ""
+   },
+   "gocashback": {
+    "base": 0.5,
+    "note": "Up to 0.5% — varies by category or new customers"
+   },
+   "goodshop": {
+    "base": 2.5,
+    "note": ""
+   },
+   "rebatesme": {
+    "base": 4.0,
+    "note": ""
+   },
+   "pricecom": {
+    "base": 3.5,
+    "note": ""
+   },
+   "extrabux": {
+    "base": 4.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 3.25,
+    "note": "2.5 miles/$1, valued ~1.3¢ each"
+   },
+   "american": {
+    "base": 4.5,
+    "note": "3 miles/$1, valued ~1.5¢ each"
+   },
+   "united": {
+    "base": 2.6,
+    "note": "2 miles/$1, valued ~1.3¢ each"
+   },
+   "southwest": {
+    "base": 3.9,
+    "note": "3 points/$1, valued ~1.3¢ each"
+   },
+   "alaska": {
+    "base": 4.5,
+    "note": "3 miles/$1, valued ~1.5¢ each"
+   }
+  },
+  "Ann Taylor": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 1.01,
+    "note": ""
+   },
+   "befrugal": {
+    "base": 6.0,
+    "note": ""
+   },
+   "rebatesme": {
+    "base": 1.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 0.65,
+    "note": "0.5 miles/$1, valued ~1.3¢ each"
+   },
+   "united": {
+    "base": 0.65,
+    "note": "0.5 miles/$1, valued ~1.3¢ each"
+   },
+   "southwest": {
+    "base": 0.65,
+    "note": "0.5 points/$1, valued ~1.3¢ each"
+   },
+   "alaska": {
+    "base": 0.75,
+    "note": "0.5 miles/$1, valued ~1.5¢ each"
+   }
+  },
+  "LOFT": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "befrugal": {
+    "base": 5.5,
+    "note": ""
+   },
+   "rebatesme": {
+    "base": 2.5,
+    "note": ""
+   },
+   "delta": {
+    "base": 0.65,
+    "note": "0.5 miles/$1, valued ~1.3¢ each"
+   },
+   "united": {
+    "base": 0.65,
+    "note": "0.5 miles/$1, valued ~1.3¢ each"
+   },
+   "southwest": {
+    "base": 0.65,
+    "note": "0.5 points/$1, valued ~1.3¢ each"
+   },
+   "alaska": {
+    "base": 0.75,
+    "note": "0.5 miles/$1, valued ~1.5¢ each"
+   }
+  },
+  "PacSun": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 1.01,
+    "note": ""
+   },
+   "befrugal": {
+    "base": 6.0,
+    "note": ""
+   },
+   "goodshop": {
+    "base": 0.5,
+    "note": ""
+   },
+   "rebatesme": {
+    "base": 1.0,
+    "note": "Up to 1% — varies by category or new customers"
+   },
+   "pricecom": {
+    "base": 0.5,
+    "note": ""
+   }
+  },
+  "Nordstrom Rack": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
    }
   }
  },
@@ -6155,21 +6560,23 @@
   "Sonos": [
    {
     "code": "SAVE30",
-    "desc": "30% off"
+    "desc": "30% Off"
    }
   ],
   "Staples": [
    {
+    "code": "16082",
+    "desc": "Extra 10% off 2+ select chairs",
+    "exp": "Expires Oct 16"
+   },
+   {
+    "code": "39630",
+    "desc": "Five K-Cup pod packs for $50",
+    "exp": "Expires Oct 16"
+   },
+   {
     "code": "72175",
-    "desc": "40% off custom cards, photo gifts, wrapping paper and labels"
-   },
-   {
-    "code": "81728",
-    "desc": "$20 off a cleaning supplies purchase of $100 or more"
-   },
-   {
-    "code": "66856",
-    "desc": "$15 off Blueprint orders of $60 or more"
+    "desc": "40% off custom cards, photo gifts, wrapping paper, and labels"
    }
   ],
   "Tempur-Pedic": [
@@ -6223,19 +6630,19 @@
   "Under Armour": [
    {
     "code": "EXTRA15",
-    "desc": "Extra 15% off at checkout, plus free shipping on orders over $99",
-    "exp": "Expires Oct 15"
+    "desc": "Extra 15% OFF using code EXTRA15 at checkout! + Free Shipping on orders over $99",
+    "exp": "Expires Oct 16"
    }
   ],
   "Vistaprint": [
    {
     "code": "BRANDS15",
-    "desc": "15% off Carhartt, The North Face, and Champion",
-    "exp": "Expires Oct 11"
+    "desc": "Enjoy 15% off Carhartt, The North Face, and Champion",
+    "exp": "Expires Oct 12"
    },
    {
     "code": "AFFBMSM",
-    "desc": "10% off 1 item, 15% off 2 items and 20% off 3 items"
+    "desc": "Take 10% off 1 item, 15% off 2 items and 20% off 3 items"
    }
   ],
   "Vitamix": [
@@ -6253,16 +6660,16 @@
   "Walgreens": [
    {
     "code": "NOW10",
-    "desc": "$10 off $40+ sitewide",
-    "exp": "Expires Oct 10"
+    "desc": "$10 off $40+ Sitewide",
+    "exp": "Expires Oct 11"
    },
    {
     "code": "SAVE20",
-    "desc": "Extra 20% off $60+ sitewide"
+    "desc": "Extra 20% off $60+ Sitewide"
    },
    {
     "code": "WELCOME25",
-    "desc": "New customer offer: extra 25% off $25+ sitewide"
+    "desc": "New Customer Offer: Extra 25% off $25+ Sitewide"
    }
   ],
   "West Elm": [
@@ -6273,6 +6680,629 @@
    {
     "code": "DYMC",
     "desc": "Apply code at checkout to see savings"
+   }
+  ],
+  "Sixt": [
+   {
+    "code": "ELECTRIC3000",
+    "desc": "3,000 Free Miles on EVs"
+   }
+  ],
+  "SKIMS": [
+   {
+    "code": "NFE2FRMP25G4JJ",
+    "desc": "Skims discount available"
+   },
+   {
+    "code": "KJ-EMP2025",
+    "desc": "Skims discount available"
+   },
+   {
+    "code": "GA25M7FWQJ9",
+    "desc": "50% Off"
+   }
+  ],
+  "Coleman": [
+   {
+    "code": "LIGHT2019",
+    "desc": "50% off CPX LED Spotlight Was: $59.99 Now: $29.99"
+   },
+   {
+    "code": "MARINECOOLER19",
+    "desc": "50% off 50 Quart Marine Cooler Was: $59.99 Now: $29.99"
+   },
+   {
+    "code": "SLEEPS19",
+    "desc": "Over 50% off White Water Sleeping Bag Was: $62.99 Now: $29.99"
+   }
+  ],
+  "Columbia Sportswear": [
+   {
+    "code": "COLAPRMAY19",
+    "desc": "Up to 65% off select Styles"
+   },
+   {
+    "code": "19JUNE65",
+    "desc": "Up to 65% off select Brand Styles"
+   },
+   {
+    "code": "19JULY65",
+    "desc": "Up to 65% off select Gear"
+   }
+  ],
+  "Crocs": [
+   {
+    "code": "SUNNYDEAL20",
+    "desc": "Take $20 Off Orders $100 with Code SUNNYDEAL20 at Crocs.com!"
+   },
+   {
+    "code": "SUNNYDEAL15",
+    "desc": "Take $15 off Orders of $75"
+   }
+  ],
+  "Dermstore": [
+   {
+    "code": "DERM15",
+    "desc": "15% off first order for new customers"
+   }
+  ],
+  "Dillard's": [
+   {
+    "code": "SAVE15",
+    "desc": "15% Off"
+   }
+  ],
+  "DoorDash": [
+   {
+    "code": "USEG15OFF3Q26",
+    "desc": "15% off first order, $10 max discount, $15 min subtotal, select users",
+    "exp": "Expires Oct 18"
+   }
+  ],
+  "DSW": [
+   {
+    "code": "HAYRIDE",
+    "desc": "Enjoy 20% off Your Purchase",
+    "exp": "Expires Oct 12"
+   }
+  ],
+  "Foot Locker": [
+   {
+    "code": "FALL20",
+    "desc": "Take 20% off Sitewide",
+    "exp": "Expires Oct 13"
+   },
+   {
+    "code": "FALL25",
+    "desc": "Take 25% off Orders of $150 or More",
+    "exp": "Expires Oct 13"
+   },
+   {
+    "code": "SAVE15",
+    "desc": "$10 off $100+ Sitewide"
+   }
+  ],
+  "FragranceNet": [
+   {
+    "code": "LKH30",
+    "desc": "30% off Holiday Orders."
+   },
+   {
+    "code": "VDAY2006",
+    "desc": "Apply code VDAY2006 at checkout to see savings."
+   },
+   {
+    "code": "VDYTN",
+    "desc": "Apply code VDYTN at checkout to see savings."
+   }
+  ],
+  "FragranceX": [
+   {
+    "code": "PAYPAL",
+    "desc": "10% off any order with Paypal Payment"
+   }
+  ],
+  "Groupon": [
+   {
+    "code": "BEST20",
+    "desc": "Groupon discount available"
+   }
+  ],
+  "Grubhub": [
+   {
+    "code": "DEALS20",
+    "desc": "Grubhub discount available"
+   },
+   {
+    "code": "WELCOMETEN",
+    "desc": "Grubhub discount available"
+   },
+   {
+    "code": "MCDS26",
+    "desc": "Grubhub discount available"
+   }
+  ],
+  "Abercrombie & Fitch": [
+   {
+    "code": "SUITEAF",
+    "desc": "Abercrombie discount available"
+   },
+   {
+    "code": "AFEMILY",
+    "desc": "Abercrombie discount available"
+   },
+   {
+    "code": "BRES",
+    "desc": "25% off"
+   }
+  ],
+  "Academy Sports + Outdoors": [
+   {
+    "code": "ACADEMY20",
+    "desc": "Get $20 off Orders of $100+"
+   },
+   {
+    "code": "SPENDANDSAVE",
+    "desc": "$20 off any order Over $100 or $10 off any order Over $50"
+   },
+   {
+    "code": "CLOTHING25",
+    "desc": "25% off Apparel and Fan Gear"
+   }
+  ],
+  "Ace Hardware": [
+   {
+    "code": "ARDOCT26",
+    "desc": "15% off $99+ for Ace Rewards members"
+   },
+   {
+    "code": "SEPT21",
+    "desc": "15% off $99+ for Ace Rewards members"
+   }
+  ],
+  "AliExpress": [
+   {
+    "code": "5NEWUSOFF",
+    "desc": "New Users Get $5 off $20 Order"
+   },
+   {
+    "code": "12NEWUSOFF",
+    "desc": "New Users Get $12 off $80 Order"
+   },
+   {
+    "code": "0003NEWUSOFF",
+    "desc": "New Users Get $3 off $10+ Orders"
+   }
+  ],
+  "Bass Pro Shops": [
+   {
+    "code": "STOREPICKUP",
+    "desc": "10% off Orders and Pick Up in Store or Ship to Store"
+   },
+   {
+    "code": "COLUMBIA25",
+    "desc": "Save 25% on All Columbia Styles"
+   },
+   {
+    "code": "CAVECLEAR10",
+    "desc": "Additional 10% off Clearance items"
+   }
+  ],
+  "Bath & Body Works": [
+   {
+    "code": "DGCB",
+    "desc": "10% Off"
+   },
+   {
+    "code": "HAPPYHANDS",
+    "desc": "Bath & Body Works discount available"
+   }
+  ],
+  "Beauty Brands": [
+   {
+    "code": "EC17294",
+    "desc": "25% off One Regular Priced item",
+    "exp": "Expires Oct 27"
+   }
+  ],
+  "Belk": [
+   {
+    "code": "BEAUTY20",
+    "desc": "20% off Regular-priced Beauty order with Elite or Premier Card Only"
+   }
+  ],
+  "Bloomingdale's": [
+   {
+    "code": "LUCKY7",
+    "desc": "$7 off a $50+ order"
+   }
+  ],
+  "Bluemercury": [
+   {
+    "code": "WELCOME",
+    "desc": "New Customers Get 10% off Best Sellers"
+   }
+  ],
+  "Boscov's": [
+   {
+    "code": "15FORDAD",
+    "desc": "Extra 15% off men's departments and men's shoes/sandals"
+   },
+   {
+    "code": "50OFFCURT",
+    "desc": "Buy 1 curtain, get one 50% off"
+   },
+   {
+    "code": "GOBBLE",
+    "desc": "Extra 15% off Charge Appreciation"
+   }
+  ],
+  "Cabela's": [
+   {
+    "code": "STOREPICKUP",
+    "desc": "10% off buy online pick up in store or ship-to-store orders"
+   },
+   {
+    "code": "COLUMBIA25",
+    "desc": "25% off all Columbia styles"
+   },
+   {
+    "code": "CAVECLEAR10",
+    "desc": "An additional 10% off clearance items"
+   }
+  ],
+  "Carhartt": [
+   {
+    "code": "EXTRA20",
+    "desc": "Extra 20% off select clearance"
+   },
+   {
+    "code": "25OFF",
+    "desc": "25% off clearance"
+   }
+  ],
+  "Casper": [
+   {
+    "code": "EXTRA10",
+    "desc": "Final Snooze Sale: up to 30% off plus extra 10%",
+    "exp": "Expires Oct 22"
+   },
+   {
+    "code": "FFPARTNER",
+    "desc": "Friends & Family: up to 25% off mattresses, 30% off others"
+   }
+  ],
+  "Charlotte Tilbury": [
+   {
+    "code": "CT-SOCOOCSZOCL",
+    "desc": "Charlotte Tilbury discount available"
+   },
+   {
+    "code": "CT-CS39VYADXJQ",
+    "desc": "55% Off"
+   },
+   {
+    "code": "ANGELAMSMK3J",
+    "desc": "15% Off"
+   }
+  ],
+  "Chewy": [
+   {
+    "code": "B3G1",
+    "desc": "Buy 3 Get 4th Free on Toys, Apparel and More"
+   }
+  ],
+  "Clarins": [
+   {
+    "code": "BEST26",
+    "desc": "Best Sellers Plus Up: Free 7-piece Gift with any $125+ Order",
+    "exp": "Expires Oct 16"
+   }
+  ],
+  "Neiman Marcus": [
+   {
+    "code": "NMCIRCLE",
+    "desc": "Take Up to $200 Off Select Regular Priced Styles",
+    "exp": "Expires Oct 13"
+   },
+   {
+    "code": "SHIPM",
+    "desc": "Free Shipping on $150+ Orders"
+   }
+  ],
+  "New Balance": [
+   {
+    "code": "NBOCTOBER",
+    "desc": "25% off Sitewide"
+   },
+   {
+    "code": "10SHOES",
+    "desc": "$10 off ROAV, 574, CRUZ, Nergize, and Kids' Shoes"
+   },
+   {
+    "code": "EXTRA20",
+    "desc": "Get 20% off $300 order"
+   }
+  ],
+  "Newegg": [
+   {
+    "code": "CSCPSEPT20",
+    "desc": "Newegg discount available"
+   },
+   {
+    "code": "AKUYCT4",
+    "desc": "Newegg discount available"
+   },
+   {
+    "code": "ABSIGD50",
+    "desc": "Newegg discount available"
+   }
+  ],
+  "Nike": [
+   {
+    "code": "FALL20",
+    "desc": "20% off select styles for members"
+   },
+   {
+    "code": "MEMBER25",
+    "desc": "Up to 25% off select women's styles for members"
+   },
+   {
+    "code": "EXTRA20",
+    "desc": "Extra 20% off select women's styles with sign-in"
+   }
+  ],
+  "Nordstrom": [
+   {
+    "code": "BOMBA",
+    "desc": "Nordstrom discount available"
+   }
+  ],
+  "Office Depot": [
+   {
+    "code": "YES30",
+    "desc": "$30 off a $150 qualifying purchase"
+   },
+   {
+    "code": "YES40",
+    "desc": "$40 off a $200 qualifying purchase"
+   },
+   {
+    "code": "YES20",
+    "desc": "$20 off a $100 qualifying purchase"
+   }
+  ],
+  "Old Navy": [
+   {
+    "code": "YOURS",
+    "desc": "Extra 20% off Women's Essentials"
+   },
+   {
+    "code": "FIFTY",
+    "desc": "Cardmember Exclusive: 50% off Everything When You Use Your Gap Inc. Credit Card"
+   },
+   {
+    "code": "PERK",
+    "desc": "40% off When You Use Your Gap Inc. Credit Card"
+   }
+  ],
+  "Parachute": [
+   {
+    "code": "SLEEPIN",
+    "desc": "Parachute discount available"
+   }
+  ],
+  "Perfumania": [
+   {
+    "code": "AFF15",
+    "desc": "15% off any order"
+   },
+   {
+    "code": "OCT20",
+    "desc": "$20 off orders of $100+"
+   },
+   {
+    "code": "TAKE10",
+    "desc": "10% off any order"
+   }
+  ],
+  "Petco": [
+   {
+    "code": "FALLFEELS",
+    "desc": "20% Off Sitewide",
+    "exp": "Expires Oct 14"
+   }
+  ],
+  "PetSmart": [
+   {
+    "code": "SAVE20",
+    "desc": "Extra 20% off Thousands of Pet items"
+   },
+   {
+    "code": "WELL40",
+    "desc": "40% off Your 1st Autoship Order of Wellness Food and Treats"
+   },
+   {
+    "code": "CANIDAEPURE20",
+    "desc": "20% off Canidae Pure Dog and Cat Food with Your Treats Membership"
+   }
+  ],
+  "Puma": [
+   {
+    "code": "2FORU",
+    "desc": "2 for $80 on qualifying items"
+   },
+   {
+    "code": "COOL20",
+    "desc": "Up to 50% off plus extra 20% off orders"
+   },
+   {
+    "code": "FALL30",
+    "desc": "30% off order"
+   }
+  ],
+  "Saatva": [
+   {
+    "code": "BACKPACK",
+    "desc": "Free Backpack ($58) on Orders $180+"
+   }
+  ],
+  "Saks Fifth Avenue": [
+   {
+    "code": "SHIPSAKS",
+    "desc": "Free shipping on orders of $150 or more"
+   }
+  ],
+  "Samsung": [
+   {
+    "code": "BESPOKE4DOOR200",
+    "desc": "Save Up to $1,500 on Bespoke 4 Door Refrigerators Plus Get Extra $200 off"
+   }
+  ],
+  "Sephora": [
+   {
+    "code": "TRYKBEAUTY",
+    "desc": "Skincare or haircare trial size with a $30 purchase",
+    "exp": "Expires Oct 20"
+   },
+   {
+    "code": "TWOOUAI",
+    "desc": "Ouai trial sizes with a $40 purchase",
+    "exp": "Expires Oct 21"
+   },
+   {
+    "code": "FRAGPICKS",
+    "desc": "Up to 10 fragrance samples with a $50 minimum spend",
+    "exp": "Expires Oct 16"
+   }
+  ],
+  "Shiseido": [
+   {
+    "code": "SHIXRMN",
+    "desc": "15% Off"
+   },
+   {
+    "code": "JOIN",
+    "desc": "15% Off"
+   },
+   {
+    "code": "FRIENDS",
+    "desc": "30% Off"
+   }
+  ],
+  "HOKA": [
+   {
+    "code": "MACHMYDAY10",
+    "desc": "Score An Additional 10% off Mach 6 Sneakers"
+   },
+   {
+    "code": "AFTERPAYDAY",
+    "desc": "Get Free Expedited Shipping on any Order"
+   },
+   {
+    "code": "A360WELCOME20",
+    "desc": "HOKA discount available"
+   }
+  ],
+  "HP": [
+   {
+    "code": "HPDEAL25",
+    "desc": "25% off Select Full MSRP PCs and Select Displays and Accessories",
+    "exp": "Expires Oct 13"
+   },
+   {
+    "code": "PREMIUM500",
+    "desc": "$500 off PCs with Premium Performance, OmniBook Ultra Laptops and OmniStudio X",
+    "exp": "Expires Oct 20"
+   },
+   {
+    "code": "HPSMB524",
+    "desc": "Save An Extra 5% off Business PCs"
+   }
+  ],
+  "J.Crew": [
+   {
+    "code": "CARDLOVE",
+    "desc": "Enjoy an Extra 20% Off With Your J.Crew Credit Card",
+    "exp": "Expires Oct 15"
+   }
+  ],
+  "Kiehl's": [
+   {
+    "code": "DM916",
+    "desc": "BOGO on select favorites plus 30% off sitewide"
+   },
+   {
+    "code": "SEPT30",
+    "desc": "Friends and family 30% off plus gift on $125+"
+   }
+  ],
+  "Kohl's": [
+   {
+    "code": "EXTRA20",
+    "desc": "Take $20 off a $100+ Purchase",
+    "exp": "Expires Oct 13"
+   },
+   {
+    "code": "10HOME",
+    "desc": "Kohl's Rewards Exclusive: Take $10 off $50 Home",
+    "exp": "Expires Oct 19"
+   },
+   {
+    "code": "SAVING15",
+    "desc": "Customer Appreciation Event: Cardholders 30% off, Rewards 20%, Public 15%"
+   }
+  ],
+  "Lancôme": [
+   {
+    "code": "SETS25",
+    "desc": "25% off select sets"
+   },
+   {
+    "code": "STOCKUP35",
+    "desc": "35% off sitewide"
+   },
+   {
+    "code": "FALLFRIDAY",
+    "desc": "Free 3-piece gift with $250+ purchase"
+   }
+  ],
+  "Lands' End": [
+   {
+    "code": "PUMPKIN",
+    "desc": "Flock-to-it Event: 50% off sitewide + Deals under $40 + 65% off sale & clearance",
+    "exp": "Expires Oct 17"
+   }
+  ],
+  "Lenovo": [
+   {
+    "code": "EXTRAFIVE",
+    "desc": "19% off Legion 5i Gen 10 RTX 5060/Intel Ultra 7/32GB/1TB - $1,987.80"
+   },
+   {
+    "code": "THANKYOU15",
+    "desc": "Join the Email List for 15% off"
+   }
+  ],
+  "Michaels": [
+   {
+    "code": "FLASH40",
+    "desc": "40% off Entire Regular Price Purchase"
+   },
+   {
+    "code": "269REWARDS6",
+    "desc": "Michaels discount available"
+   },
+   {
+    "code": "GETMY30",
+    "desc": "Michaels discount available"
+   }
+  ],
+  "NARS": [
+   {
+    "code": "HOLIDAY",
+    "desc": "Free Silver Holiday Pouch with $100+ Order",
+    "exp": "Expires Oct 22"
    }
   ]
  },
