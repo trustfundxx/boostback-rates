@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T09:21:51.289845Z",
+ "generated_at": "2026-10-11T17:10:53.743463Z",
  "featured": [
   "eBay",
   "PetSmart",
@@ -5969,6 +5969,109 @@
     "base": 2.0,
     "note": ""
    }
+  },
+  "Sam's Club": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   }
+  },
+  "Etsy": {
+   "cap1": {
+    "base": 3.0,
+    "note": "Up to 3% — varies by category or new customers"
+   }
+  },
+  "Mattress Firm": {
+   "cap1": {
+    "base": 2.5,
+    "note": "Up to 2.5% — varies by category or new customers"
+   }
+  },
+  "Michael Kors": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "Vans": {
+   "cap1": {
+    "base": 3.5,
+    "note": ""
+   }
+  },
+  "Chico's": {
+   "cap1": {
+    "base": 1.0,
+    "note": ""
+   }
+  },
+  "Talbots": {
+   "cap1": {
+    "base": 1.0,
+    "note": ""
+   }
+  },
+  "Lane Bryant": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "Calvin Klein": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "Tommy Hilfiger": {
+   "cap1": {
+    "base": 3.0,
+    "note": ""
+   }
+  },
+  "Guess": {
+   "cap1": {
+    "base": 3.0,
+    "note": ""
+   }
+  },
+  "Pandora": {
+   "cap1": {
+    "base": 1.0,
+    "note": ""
+   }
+  },
+  "Kendra Scott": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "Warby Parker": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   }
+  },
+  "HelloFresh": {
+   "cap1": {
+    "base": 0,
+    "flat": 25.5,
+    "note": "Up to $25.5 back, usually on new customers or new lines"
+   }
+  },
+  "Omaha Steaks": {
+   "cap1": {
+    "base": 4.0,
+    "note": ""
+   }
+  },
+  "Harry & David": {
+   "cap1": {
+    "base": 1.5,
+    "note": "Up to 1.5% — varies by category or new customers"
+   }
   }
  },
  "domains": {
@@ -7303,6 +7406,59 @@
     "code": "HOLIDAY",
     "desc": "Free Silver Holiday Pouch with $100+ Order",
     "exp": "Expires Oct 22"
+   }
+  ],
+  "Mattress Firm": [
+   {
+    "code": "FLASH",
+    "desc": "Big Weekend flash sale, extra 25% off",
+    "exp": "Expires Oct 11"
+   },
+   {
+    "code": "BOGO50",
+    "desc": "Buy one, get one 50% off bedding",
+    "exp": "Expires Oct 13"
+   },
+   {
+    "code": "AFTERHOURS",
+    "desc": "Extra 15% off select mattresses",
+    "exp": "Expires Oct 14"
+   }
+  ],
+  "Guess": [
+   {
+    "code": "GET10OFF",
+    "desc": "10% Off $125+"
+   },
+   {
+    "code": "GET15OFF",
+    "desc": "15% off $150+"
+   },
+   {
+    "code": "GET20OFF",
+    "desc": "20% Off $200+"
+   }
+  ],
+  "HelloFresh": [
+   {
+    "code": "COS10STAUB",
+    "desc": "Free STAUB Baking Dish + 10 Free Meals"
+   }
+  ],
+  "Harry & David": [
+   {
+    "code": "FALLDEAL",
+    "desc": "Save 20% on Gifts Already on Sale",
+    "exp": "Expires Oct 15"
+   },
+   {
+    "code": "FALLSAVE",
+    "desc": "Save 10% on $79+, 15% off $99+, 20% off $149+ on Select Gifts",
+    "exp": "Expires Oct 27"
+   },
+   {
+    "code": "15HDAVID",
+    "desc": "15% off Sitewide"
    }
   ]
  },
