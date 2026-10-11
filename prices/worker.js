@@ -1,9 +1,10 @@
 // Boost Back price search. GET /?q=loreal+conditioner  ->  {query, results:[{store, title, price, link, thumbnail}]}
 // The SerpAPI key lives in a Cloudflare secret (SERPAPI_KEY), never in the app.
-const STORES = {            // Google Shopping seller name  ->  store name used in the app
-  'walmart': 'Walmart', 'walmart.com': 'Walmart', 'target': 'Target', 'amazon': 'Amazon', 'amazon.com': 'Amazon',
-  'ulta': 'Ulta Beauty', 'ulta beauty': 'Ulta Beauty', 'cvs': 'CVS', 'cvs pharmacy': 'CVS', 'walgreens': 'Walgreens',
-};
+// Google Shopping seller name (starts with)  ->  store name used in the app.
+// Matches "Walmart", "Walmart - Seller", "Amazon.com", "Amazon.com - Seller", "CVS Pharmacy", "Walgreens.com", etc.
+const STORES = [['walmart', 'Walmart'], ['target', 'Target'], ['amazon', 'Amazon'], ['ulta', 'Ulta Beauty'],
+  ['cvs', 'CVS'], ['walgreens', 'Walgreens']];
+const storeFor = src => { const s = String(src || '').toLowerCase().trim(); const m = STORES.find(([k]) => s.startsWith(k)); return m ? m[1] : null; };
 const CORS = { 'Access-Control-Allow-Origin': '*', 'Content-Type': 'application/json' };
 
 export default {
@@ -27,7 +28,7 @@ export default {
     const data = await r.json();
     const best = {};
     for (const it of (data.shopping_results || [])) {
-      const store = STORES[String(it.source || '').toLowerCase().trim()];
+      const store = storeFor(it.source);
       const price = typeof it.extracted_price === 'number' ? it.extracted_price : null;
       if (!store || price === null) continue;
       if (!best[store] || price < best[store].price)

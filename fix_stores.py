@@ -329,3 +329,147 @@ function renderPartners(){
         for a, b in sw: h = h.replace(a, b, 1)
         open(p, "w", encoding="utf-8").write(h)
         print("Partner deals added. OK")
+
+# 1.4: search by product -> cheapest price after cashback at Walmart, Target, Amazon, Ulta, CVS, Walgreens
+h = open(p, encoding="utf-8").read()
+if "PRICES_URL" in h:
+    print("Product search already in. OK")
+else:
+    sw = [
+      ("""  .suggestions{""",
+       """  .mode-toggle{display:flex; gap:6px; margin-bottom:8px;}
+  .mode-toggle button{flex:1; padding:8px 0; font-size:13px; letter-spacing:0.3px; font-family:var(--font-body);
+    background:transparent; border:1.5px solid var(--ink); color:var(--ink); border-radius:2px; cursor:pointer;}
+  .mode-toggle button.on{background:var(--ink); color:var(--paper);}
+  .price-row{display:flex; justify-content:space-between; align-items:flex-start; gap:10px; padding:13px 0; border-bottom:1px solid var(--line);}
+  .price-row .t{font-size:12px; color:#8a8577; margin-top:2px;}
+  .price-row .v{font-family:var(--font-mono); font-size:15px; color:var(--sage); white-space:nowrap; text-align:right;}
+  .price-row .v small{display:block; font-size:11px; color:#a39d8c; font-family:var(--font-body);}
+  .suggestions{"""),
+      ("""    <div class="search-wrap">
+      <div class="search-box">""",
+       """    <div class="search-wrap">
+      <div class="mode-toggle">
+        <button id="modeStores" class="on" onclick="setMode('stores')">Stores</button>
+        <button id="modeProducts" onclick="setMode('products')">Products</button>
+      </div>
+      <div class="search-box">"""),
+      ("""    <div id="result" style="display:none;">""",
+       """    <div id="productResult" style="display:none;"></div>
+
+    <div id="result" style="display:none;">"""),
+      ("""const input = document.getElementById('storeInput');
+input.addEventListener('input', () => {
+""",
+       """const input = document.getElementById('storeInput');
+input.addEventListener('input', () => {
+  if(searchMode === 'products') return;
+"""),
+      ("""function handleSearch(){
+  const q = input.value.trim();
+  if(!q) return;""",
+       """const PRICES_URL = 'https://boostback-prices.boostback.workers.dev/';
+let searchMode = 'stores';
+const STORE_SEARCH = {
+  'Walmart': 'https://www.walmart.com/search?q=', 'Target': 'https://www.target.com/s?searchTerm=',
+  'Amazon': 'https://www.amazon.com/s?k=', 'Ulta Beauty': 'https://www.ulta.com/search?search=',
+  'CVS': 'https://www.cvs.com/search?searchTerm=', 'Walgreens': 'https://www.walgreens.com/search/results.jsp?Ntt='
+};
+function setMode(m){
+  searchMode = m;
+  document.getElementById('modeStores').classList.toggle('on', m === 'stores');
+  document.getElementById('modeProducts').classList.toggle('on', m === 'products');
+  input.placeholder = m === 'products' ? "What are you buying? (e.g. L'Oreal conditioner)" : 'Where are you shopping?';
+  input.value = '';
+  document.getElementById('suggestions').classList.remove('open');
+  document.getElementById('chips').style.display = m === 'products' ? 'none' : '';
+  document.getElementById('result').style.display = 'none';
+  document.getElementById('notCovered').style.display = 'none';
+  document.getElementById('productResult').style.display = 'none';
+  document.getElementById('emptyState').style.display = m === 'products' ? 'none' : 'block';
+  currentStore = null;
+}
+function bestReward(store){
+  if(!DATA[store]) return null;
+  const rows = buildRows(store).filter(r => !r.locked && r.value > 0).sort((a, b) => b.value - a.value);
+  return rows[0] || null;
+}
+async function productSearch(q){
+  if(PAYWALL_ENABLED && !hasProAccess){
+    input.blur();
+    rcReady.then(() => { if(hasProAccess) productSearch(q); else showPaywall(); });
+    return;
+  }
+  const box = document.getElementById('productResult');
+  document.getElementById('result').style.display = 'none';
+  document.getElementById('notCovered').style.display = 'none';
+  document.getElementById('emptyState').style.display = 'none';
+  box.style.display = 'block';
+  box.innerHTML = `<div class="empty-state"><p>Checking prices at Walmart, Target, Amazon, Ulta, CVS and Walgreens…</p></div>`;
+  input.blur();
+  let json = null;
+  try {
+    const r = await fetch(PRICES_URL + '?q=' + encodeURIComponent(q));
+    if(r.ok) json = await r.json();
+  } catch(e){}
+  if(!json){ box.innerHTML = `<div class="empty-state"><p>Couldn't load prices right now. Try again in a minute.</p></div>`; return; }
+  const items = (json.results || []).map(x => {
+    const rw = bestReward(x.store);
+    const back = rw ? x.price * rw.value / 100 : 0;
+    return { ...x, rw, back, net: x.price - back };
+  }).sort((a, b) => a.net - b.net);
+  if(!items.length){ box.innerHTML = `<div class="empty-state"><p>No prices found at these stores for "${esc(q)}". Try fewer words or the brand name.</p></div>`; return; }
+  const w = items[0];
+  const shop = x => STORE_SEARCH[x.store] ? STORE_SEARCH[x.store] + encodeURIComponent(x.title || q) : '';
+  const wGo = w.rw ? linkFor(w.store, w.rw.id) : '';
+  box.innerHTML = `
+    <div class="store-strip"><h2>${esc(q)}</h2></div>
+    <div class="winner-card" style="margin-top:16px;">
+      <div class="winner-name">${esc(w.store)}</div>
+      <p class="winner-sub">${esc(w.title)}</p>
+      <div class="winner-figures"><div>
+        <div class="big">$${w.net.toFixed(2)}</div>
+        <div class="label">AFTER CASHBACK${w.rw ? ' · $' + w.price.toFixed(2) + ' minus $' + w.back.toFixed(2) + ' from ' + esc(w.rw.name) : ''}</div>
+      </div></div>
+      ${wGo ? `<a class="go-btn" href="${wGo}">Go to ${esc(w.rw.name)} first ›</a>` : ''}
+      ${shop(w) ? `<a class="join-link" href="${shop(w)}">See it at ${esc(w.store)} ›</a>` : ''}
+    </div>
+    <div class="rest-label">OTHER STORES, CHEAPEST FIRST</div>
+    <div class="alt-list">${items.slice(1).map(x => `
+      <div class="price-row">
+        <div>
+          <div class="name">${esc(x.store)}</div>
+          <div class="t">${esc(x.title)}</div>
+          ${x.rw ? `<a class="go-link" href="${linkFor(x.store, x.rw.id)}">Go to ${esc(x.rw.name)} ›</a>` : ''}
+          ${shop(x) ? `<br><a class="join-link" href="${shop(x)}">See it at ${esc(x.store)} ›</a>` : ''}
+        </div>
+        <div class="v">$${x.net.toFixed(2)}<small>$${x.price.toFixed(2)}${x.rw ? ' − $' + x.back.toFixed(2) : ''}</small></div>
+      </div>`).join('')}
+    </div>
+    <p class="disclaimer">Prices from Google Shopping, checked just now. Sizes and versions can differ between stores, so check the product name. Open the cashback program first, then shop, so the cashback counts.</p>`;
+}
+
+function handleSearch(){
+  const q = input.value.trim();
+  if(!q) return;
+  if(searchMode === 'products'){ productSearch(q); return; }"""),
+    ]
+    bad = [a[:50] for a, b in sw if h.count(a) != 1]
+    if bad:
+        print("Product search: could not find the spot. Nothing changed.", bad)
+    else:
+        for a, b in sw: h = h.replace(a, b, 1)
+        open(p, "w", encoding="utf-8").write(h)
+        print("Product search added. OK")
+        x = home + "/ios/App/App.xcodeproj/project.pbxproj"
+        t = open(x).read()
+        t = re.sub(r"CURRENT_PROJECT_VERSION = (\d+);", lambda m: "CURRENT_PROJECT_VERSION = %d;" % (int(m.group(1)) + 1), t)
+        t = t.replace("MARKETING_VERSION = 1.3;", "MARKETING_VERSION = 1.4;")
+        open(x, "w").write(t)
+        print("iOS:", sorted(set(re.findall(r"MARKETING_VERSION = [^;]+;|CURRENT_PROJECT_VERSION = \d+;", t))))
+        g = home + "/android/app/build.gradle"
+        t = open(g).read()
+        t = re.sub(r"versionCode (\d+)", lambda m: "versionCode %d" % (int(m.group(1)) + 1), t, count=1)
+        t = t.replace('versionName "1.3"', 'versionName "1.4"')
+        open(g, "w").write(t)
+        print("Android:", re.findall(r'versionCode \d+|versionName "[^"]+"', t))
