@@ -91,7 +91,10 @@
    "name": "BeFrugal",
    "type": "cashback",
    "connection": "none",
-   "home": "https://www.befrugal.com/"
+   "home": "https://www.befrugal.com/",
+   "signup": {
+    "url": "https://www.befrugal.com/rs/AGSETWH/"
+   }
   },
   "goodshop": {
    "name": "Goodshop",
