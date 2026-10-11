@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T17:10:53.743463Z",
+ "generated_at": "2026-10-11T18:58:11.598325Z",
  "featured": [
   "eBay",
   "PetSmart",
@@ -6072,6 +6072,130 @@
     "base": 1.5,
     "note": "Up to 1.5% — varies by category or new customers"
    }
+  },
+  "Finish Line": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "Purple": {
+   "cap1": {
+    "base": 1.0,
+    "note": ""
+   }
+  },
+  "Skechers": {
+   "cap1": {
+    "base": 6.0,
+    "note": ""
+   }
+  },
+  "Advance Auto Parts": {
+   "cap1": {
+    "base": 1.0,
+    "note": ""
+   }
+  },
+  "Carter's": {
+   "cap1": {
+    "base": 1.0,
+    "note": ""
+   }
+  },
+  "The Children's Place": {
+   "cap1": {
+    "base": 0.5,
+    "note": "Up to 0.5% — varies by category or new customers"
+   }
+  },
+  "LEGO": {
+   "cap1": {
+    "base": 1.0,
+    "note": "Up to 1% — varies by category or new customers"
+   }
+  },
+  "Spanx": {
+   "cap1": {
+    "base": 6.0,
+    "note": ""
+   }
+  },
+  "Tory Burch": {
+   "cap1": {
+    "base": 1.0,
+    "note": ""
+   }
+  },
+  "Vera Bradley": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   }
+  },
+  "QVC": {
+   "cap1": {
+    "base": 4.0,
+    "note": ""
+   }
+  },
+  "HSN": {
+   "cap1": {
+    "base": 2.5,
+    "note": "Up to 2.5% — varies by category or new customers"
+   }
+  },
+  "J.Jill": {
+   "cap1": {
+    "base": 2.5,
+    "note": ""
+   }
+  },
+  "1-800-Flowers": {
+   "cap1": {
+    "base": 4.0,
+    "note": ""
+   }
+  },
+  "Verizon": {
+   "cap1": {
+    "base": 0,
+    "flat": 35.0,
+    "note": "Up to $35 back, usually on new customers or new lines"
+   }
+  },
+  "T-Mobile": {
+   "cap1": {
+    "base": 0,
+    "flat": 10.0,
+    "note": "$10 back on your order"
+   }
+  },
+  "AT&T": {
+   "cap1": {
+    "base": 0,
+    "flat": 20.0,
+    "note": "Up to $20 back, usually on new customers or new lines"
+   }
+  },
+  "Visible": {
+   "cap1": {
+    "base": 0,
+    "flat": 10.0,
+    "note": "$10 back on your order"
+   }
+  },
+  "iHerb": {
+   "cap1": {
+    "base": 4.0,
+    "note": ""
+   }
+  },
+  "GNC": {
+   "cap1": {
+    "base": 3.0,
+    "note": ""
+   }
   }
  },
  "domains": {
@@ -7459,6 +7583,95 @@
    {
     "code": "15HDAVID",
     "desc": "15% off Sitewide"
+   }
+  ],
+  "Finish Line": [
+   {
+    "code": "FNL10",
+    "desc": "$10 off orders of $100 or more"
+   },
+   {
+    "code": "FNL15",
+    "desc": "$15 off orders of $150 or more"
+   }
+  ],
+  "Carter's": [
+   {
+    "code": "FALL4ALL",
+    "desc": "25% off $50+"
+   },
+   {
+    "code": "FALL10",
+    "desc": "Extra 10% off $50+"
+   },
+   {
+    "code": "LOVEFALL",
+    "desc": "20% off $40+"
+   }
+  ],
+  "Spanx": [
+   {
+    "code": "2DAYSHIP",
+    "desc": "Free two-day shipping"
+   }
+  ],
+  "1-800-Flowers": [
+   {
+    "code": "SENDCOMFORT",
+    "desc": "15% off same-day sympathy flowers"
+   },
+   {
+    "code": "SMEDY15",
+    "desc": "15% off same-day flowers and gifts delivery"
+   },
+   {
+    "code": "FLWR10",
+    "desc": "$10 off orders of $59.99+"
+   }
+  ],
+  "Visible": [
+   {
+    "code": "SAVE6",
+    "desc": "$6/mo off the $25/mo Visible plan ($19/mo for 1 year)",
+    "exp": "Expires Oct 18"
+   },
+   {
+    "code": "SAVEHALF",
+    "desc": "50% off Visible+ Pro annual plan ($225 upfront)",
+    "exp": "Expires Oct 18"
+   },
+   {
+    "code": "APPLEWATCH",
+    "desc": "Up to $100 off Apple Watch with new wearable line on Visible+ Pro",
+    "exp": "Expires Oct 18"
+   }
+  ],
+  "iHerb": [
+   {
+    "code": "GOLDUS",
+    "desc": "10% off when you spend $70 (US orders only)"
+   },
+   {
+    "code": "NEW20",
+    "desc": "20% off for new customers"
+   },
+   {
+    "code": "NEW25",
+    "desc": "25% off for new customers"
+   }
+  ],
+  "GNC": [
+   {
+    "code": "OCT25",
+    "desc": "$25 off orders $150+"
+   },
+   {
+    "code": "SAVE30",
+    "desc": "$30 off $150+ orders and free domestic shipping"
+   },
+   {
+    "code": "GNC15",
+    "desc": "15% off sitewide"
    }
   ]
  },
