@@ -408,7 +408,7 @@ async function productSearch(q){
   document.getElementById('notCovered').style.display = 'none';
   document.getElementById('emptyState').style.display = 'none';
   box.style.display = 'block';
-  box.innerHTML = `<div class="empty-state"><p>Checking prices at Walmart, Target, Amazon, Ulta, Sephora, CVS, Walgreens, Macy's, Nordstrom and Bloomingdale's…</p></div>`;
+  box.innerHTML = `<div class="empty-state"><p>Checking prices at Walmart, Target, Amazon, Ulta, Sephora, Macy's, Kohl's and more…</p></div>`;
   input.blur();
   let json = null;
   try {
@@ -416,14 +416,19 @@ async function productSearch(q){
     if(r.ok) json = await r.json();
   } catch(e){}
   if(!json){ box.innerHTML = `<div class="empty-state"><p>Couldn't load prices right now. Try again in a minute.</p></div>`; return; }
-  const items = (json.results || []).map(x => {
+  const known = {};
+  storeNames.forEach(n => { known[norm(n)] = n; });
+  Object.keys(STORE_SEARCH).forEach(n => { known[norm(n)] = known[norm(n)] || n; });
+  const seen = {};
+  const items = (json.results || []).map(x => ({ ...x, store: known[norm(x.store)] || null }))
+    .filter(x => x.store && !seen[x.store] && (seen[x.store] = true)).map(x => {
     const rw = bestReward(x.store);
     const back = rw ? x.price * rw.value / 100 : 0;
     return { ...x, rw, back, net: x.price - back };
   }).sort((a, b) => a.net - b.net);
   if(!items.length){ box.innerHTML = `<div class="empty-state"><p>No prices found at these stores for "${esc(q)}". Try fewer words or the brand name.</p></div>`; return; }
   const w = items[0];
-  const shop = x => (x.link && x.link.indexOf('google.') < 0) ? x.link : (STORE_SEARCH[x.store] ? STORE_SEARCH[x.store] + encodeURIComponent(x.title || q) : '');
+  const shop = x => (x.link && x.link.indexOf('google.') < 0) ? x.link : (STORE_SEARCH[x.store] ? STORE_SEARCH[x.store] + encodeURIComponent(x.title || q) : (DOMAINS[x.store] ? 'https://www.' + DOMAINS[x.store].replace(/^www\./, '') : ''));
   const wGo = w.rw ? linkFor(w.store, w.rw.id) : '';
   box.innerHTML = `
     <div class="store-strip"><h2>${esc(q)}</h2></div>

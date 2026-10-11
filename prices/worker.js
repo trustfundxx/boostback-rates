@@ -5,7 +5,14 @@
 const STORES = [['walmart', 'Walmart'], ['target', 'Target'], ['amazon', 'Amazon'], ['ulta', 'Ulta Beauty'],
   ['cvs', 'CVS'], ['walgreens', 'Walgreens'], ['sephora', 'Sephora'], ['macy', "Macy's"],
   ['nordstrom rack', 'Nordstrom Rack'], ['nordstrom', 'Nordstrom'], ['bloomingdale', "Bloomingdale's"]];
-const storeFor = src => { const s = String(src || '').toLowerCase().trim(); const m = STORES.find(([k]) => s.startsWith(k)); return m ? m[1] : null; };
+// Resale / marketplace sellers are skipped (used items, random third-party sellers).
+const SKIP = ['mercari', 'poshmark', 'ebay', 'aliexpress', 'temu', 'depop', 'facebook', 'etsy', 'editorialist', 'walmart - seller', 'amazon.com - seller'];
+const storeFor = src => {
+  const s = String(src || '').toLowerCase().trim();
+  if (!s || s === '?' || SKIP.some(k => s.startsWith(k))) return null;
+  const m = STORES.find(([k]) => s.startsWith(k));
+  return m ? m[1] : String(src).replace(/\.com$/i, '').trim();   // any other store: the app decides if it knows it
+};
 const CORS = { 'Access-Control-Allow-Origin': '*', 'Content-Type': 'application/json' };
 
 export default {
@@ -60,7 +67,9 @@ export default {
       product_stores: stores.map(st => (st.name || '?') + ' | ' + (st.extracted_price ?? st.price ?? '')) }), { headers: CORS });
     for (const it of all) add(storeFor(it.source), it.title, typeof it.extracted_price === 'number' ? it.extracted_price : null,
       it.link || it.product_link, it.thumbnail, false);
-    const results = Object.values(best).sort((a, b) => a.price - b.price).map(({ same, ...x }) => ({ ...x, sameItem: same }));
+    let picked = Object.values(best);
+    if (picked.filter(x => x.same).length >= 2) picked = picked.filter(x => x.same);  // compare the exact same item when we can
+    const results = picked.sort((a, b) => a.price - b.price).map(({ same, ...x }) => ({ ...x, sameItem: same }));
     const res = new Response(JSON.stringify({ query: q, checked: new Date().toISOString(), results }),
       { headers: { ...CORS, 'Cache-Control': 'public, max-age=21600' } });
     if (results.length) ctx.waitUntil(cache.put(cacheKey, res.clone()));  // never cache an empty answer
