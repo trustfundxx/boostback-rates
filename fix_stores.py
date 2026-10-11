@@ -219,7 +219,7 @@ let LIVE_COUPONS = {};
 function esc(s){ return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
 function joinFor(id){ const s = (PROGRAMS[id] || {}).signup; return s && s.url ? s : null; }
 function copyCode(btn, code){
-  try { if(navigator.clipboard) navigator.clipboard.writeText(code); } catch(e){}
+  try { if(navigator.clipboard) navigator.clipboard.writeText(code).catch(function(){}); } catch(e){}
   btn.textContent = 'COPIED';
   setTimeout(function(){ btn.textContent = 'COPY'; }, 1200);
 }"""),
