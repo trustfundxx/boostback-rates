@@ -31,3 +31,8 @@ for every store whose page loaded — `[]` when it loaded with no codes. Then `p
 
 ## Sign-up links
 `programs.<id>.signup.url` is Maria's personal sign-up link (shown as "New to X? Sign up here ›"). Never change or remove these.
+
+## New stores (tools/new_stores.json)
+Stores listed there are created by apply_rates.py the first time any program posts a rate for them (and dropped again if nothing is posted).
+Their cashbackindex URLs in sources.json are best guesses: if one fails, WebSearch cashbackindex.com for that store's
+comparison page, use it, and fix the URL in tools/sources.json (commit that file too).

@@ -10,10 +10,13 @@ portal = {'rakuten':'rakuten','topcashback':'topcash','befrugal':'befrugal','goc
           'rebatesme':'rebatesme','pricecom':'pricecom','extrabux':'extrabux'}
 refresh_keys = set(portal.values()) | set(air)
 missing = []
+import os
+NEW = set(json.load(open(os.path.join(os.path.dirname(__file__), 'new_stores.json')))) if os.path.exists(os.path.join(os.path.dirname(__file__), 'new_stores.json')) else set()
 for line in open(src):
     line = line.strip()
     if not line: continue
     name, kv = line.split('|', 1)
+    if name not in S and name in NEW: S[name] = {}
     if name not in S: missing.append(name); continue
     fresh = {}; cap = None
     for pair in kv.split(';'):
@@ -45,6 +48,7 @@ for line in open(src):
     if not fresh: continue
     kept = {k: v for k, v in S[name].items() if k not in refresh_keys}
     S[name] = {**fresh, **kept}
+for n in [n for n, e in S.items() if not e]: del S[n]  # new store with nothing posted yet
 d['generated_at'] = datetime.datetime.utcnow().isoformat() + 'Z'
 json.dump(d, open(f, 'w'), indent=1, ensure_ascii=False)
 withair = sum(1 for e in S.values() if any(k in e for k in air))
