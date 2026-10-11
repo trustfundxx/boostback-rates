@@ -137,7 +137,10 @@
    "name": "Mr. Rebates",
    "type": "cashback",
    "connection": "none",
-   "home": "https://www.mrrebates.com/"
+   "home": "https://www.mrrebates.com/",
+   "signup": {
+    "url": "https://www.mrrebates.com/?refid=3979963"
+   }
   },
   "extrabux": {
    "name": "Extrabux",
