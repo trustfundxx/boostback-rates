@@ -20,17 +20,22 @@ for line in open(src):
     if name not in S: missing.append(name); continue
     fresh = {}; cap = None
     for pair in kv.split(';'):
-        k, v = pair.split('=')
+        if '=' not in pair: continue
+        k, v = pair.split('=', 1); k = k.strip(); v = v.strip().replace('%', '').replace(' ', '')
         if k == 'capitalone' and not v: cap = 'none'; continue
         if not v: continue
         if '$' in v:  # flat-dollar reward, e.g. capitalone=u$35 ("Get up to $35 back")
             if k != 'capitalone': continue
-            up = v.startswith('u'); x = float(v.lstrip('u').lstrip('$'))
+            up = v.startswith('u')
+            try: x = float(v.lstrip('u').lstrip('$'))
+            except ValueError: continue
             if x <= 0: continue
             note = f"Up to ${x:g} back, usually on new customers or new lines" if up else f"${x:g} back on your order"
             cap = {'base': 0, 'flat': x, 'note': note}
             continue
-        up = v.startswith('u'); x = float(v.lstrip('u'))
+        up = v.startswith('u')
+        try: x = float(v.lstrip('u'))
+        except ValueError: continue  # unreadable value: skip rather than guess
         if k == 'capitalone':
             if x < 0.5: cap = 'none'; continue
             note = f"Up to {x:g}% — varies by category or new customers" if up else ("Often a new-customer or limited-time rate" if x >= 12 else "")

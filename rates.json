@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T20:50:59.103191Z",
+ "generated_at": "2026-10-11T22:38:32.172252Z",
  "featured": [
   "eBay",
   "PetSmart",
@@ -6586,6 +6586,217 @@
     "base": 0.5,
     "note": ""
    }
+  },
+  "Buckle": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "Johnnie-O": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "MeUndies": {
+   "cap1": {
+    "base": 3.0,
+    "note": ""
+   }
+  },
+  "Chubbies": {
+   "cap1": {
+    "base": 1.0,
+    "note": ""
+   }
+  },
+  "Taylor Stitch": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   }
+  },
+  "Todd Snyder": {
+   "cap1": {
+    "base": 1.0,
+    "note": ""
+   }
+  },
+  "Faherty": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   }
+  },
+  "Mr Porter": {
+   "cap1": {
+    "base": 5.5,
+    "note": ""
+   }
+  },
+  "Perry Ellis": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "Nautica": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "Psycho Bunny": {
+   "cap1": {
+    "base": 2.0,
+    "note": "Up to 2% — varies by category or new customers"
+   }
+  },
+  "Cavender's": {
+   "cap1": {
+    "base": 1.0,
+    "note": ""
+   }
+  },
+  "Lee": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   }
+  },
+  "Untuckit": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   }
+  },
+  "Sweetwater": {
+   "cap1": {
+    "base": 1.0,
+    "note": ""
+   }
+  },
+  "Bed Bath & Beyond": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   }
+  },
+  "Home Chef": {
+   "cap1": {
+    "base": 0,
+    "flat": 6.0,
+    "note": "$6 back on your order"
+   }
+  },
+  "Factor": {
+   "cap1": {
+    "base": 0,
+    "flat": 25.5,
+    "note": "Up to $25.5 back, usually on new customers or new lines"
+   }
+  },
+  "Blue Apron": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "Green Chef": {
+   "cap1": {
+    "base": 0,
+    "flat": 21.0,
+    "note": "Up to $21 back, usually on new customers or new lines"
+   }
+  },
+  "Hungryroot": {
+   "cap1": {
+    "base": 0,
+    "flat": 2.0,
+    "note": "$2 back on your order"
+   }
+  },
+  "Goldbelly": {
+   "cap1": {
+    "base": 1.0,
+    "note": ""
+   }
+  },
+  "Snake River Farms": {
+   "cap1": {
+    "base": 0.75,
+    "note": "Up to 0.75% — varies by category or new customers"
+   }
+  },
+  "ButcherBox": {
+   "cap1": {
+    "base": 0,
+    "flat": 3.0,
+    "note": "Up to $3 back, usually on new customers or new lines"
+   }
+  },
+  "Thrive Market": {
+   "cap1": {
+    "base": 0,
+    "flat": 6.5,
+    "note": "Up to $6.5 back, usually on new customers or new lines"
+   }
+  },
+  "Wine.com": {
+   "cap1": {
+    "base": 2.0,
+    "note": "Up to 2% — varies by category or new customers"
+   }
+  },
+  "Hickory Farms": {
+   "cap1": {
+    "base": 4.0,
+    "note": ""
+   }
+  },
+  "Edible Arrangements": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   }
+  },
+  "Shari's Berries": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "Uber Eats": {
+   "cap1": {
+    "base": 0,
+    "flat": 1.0,
+    "note": "$1 back on your order"
+   }
+  },
+  "Gymboree": {
+   "cap1": {
+    "base": 0.5,
+    "note": "Up to 0.5% — varies by category or new customers"
+   }
+  },
+  "Janie and Jack": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   }
+  },
+  "Hanna Andersson": {
+   "cap1": {
+    "base": 1.0,
+    "note": ""
+   }
+  },
+  "Kids Foot Locker": {
+   "cap1": {
+    "base": 1.0,
+    "note": ""
+   }
   }
  },
  "domains": {
@@ -8330,6 +8541,165 @@
    {
     "code": "SAVE15",
     "desc": "$15 off $75"
+   }
+  ],
+  "Johnnie-O": [
+   {
+    "code": "15HEAT",
+    "desc": "Save 15% on your first order"
+   }
+  ],
+  "Todd Snyder": [
+   {
+    "code": "FIRST15",
+    "desc": "15% off first order"
+   }
+  ],
+  "Perry Ellis": [
+   {
+    "code": "20UNDERWEAR",
+    "desc": "20% off underwear",
+    "exp": "Expires Oct 14"
+   }
+  ],
+  "Nautica": [
+   {
+    "code": "FALL26",
+    "desc": "20% off orders of $125",
+    "exp": "Expires Oct 15"
+   },
+   {
+    "code": "AFFTIER15",
+    "desc": "15% off $100+ or 20% off $150+ (online only)"
+   }
+  ],
+  "Lee": [
+   {
+    "code": "BF40",
+    "desc": "Black Friday Preview: 40% off orders",
+    "exp": "Expires Oct 14"
+   }
+  ],
+  "Factor": [
+   {
+    "code": "CAPBFAST",
+    "desc": "Up to $130 off + Free Breakfast for 1 Year"
+   }
+  ],
+  "Green Chef": [
+   {
+    "code": "COS50GC",
+    "desc": "50% off + 20% off for two months"
+   }
+  ],
+  "Hungryroot": [
+   {
+    "code": "SHOWCASE",
+    "desc": "55% Off"
+   },
+   {
+    "code": "ATOLLS35",
+    "desc": "35% Off"
+   },
+   {
+    "code": "40OFF1ST",
+    "desc": "40% Off"
+   }
+  ],
+  "Goldbelly": [
+   {
+    "code": "BELLY20",
+    "desc": "$20 off your first order of $100+"
+   },
+   {
+    "code": "AFF20",
+    "desc": "First-time customers $20 off"
+   }
+  ],
+  "Wine.com": [
+   {
+    "code": "FSNOW",
+    "desc": "Free shipping on orders of $175+"
+   },
+   {
+    "code": "FALLHAUL15",
+    "desc": "$15 off orders of $150+"
+   }
+  ],
+  "Hickory Farms": [
+   {
+    "code": "AF10EVR",
+    "desc": "10% off orders of $75+"
+   },
+   {
+    "code": "HFAF150",
+    "desc": "20% off orders over $150 + free shipping sitewide"
+   },
+   {
+    "code": "HFDAD23",
+    "desc": "Up to 25% off select gifts"
+   }
+  ],
+  "Edible Arrangements": [
+   {
+    "code": "BDAY10",
+    "desc": "10% off birthday baskets"
+   }
+  ],
+  "Shari's Berries": [
+   {
+    "code": "15BRY",
+    "desc": "15% off orders over $49.99 sitewide",
+    "exp": "Expires Oct 19"
+   },
+   {
+    "code": "BERRIES15",
+    "desc": "15% off orders of $44.99+"
+   },
+   {
+    "code": "SBSAVE10",
+    "desc": "$10 off orders of $59.99+"
+   }
+  ],
+  "Gymboree": [
+   {
+    "code": "FREESHIP",
+    "desc": "Free shipping, no minimum"
+   },
+   {
+    "code": "EXTRA25",
+    "desc": "25% off any order"
+   },
+   {
+    "code": "FALL",
+    "desc": "20% off entire order"
+   }
+  ],
+  "Hanna Andersson": [
+   {
+    "code": "NEW20",
+    "desc": "Friends & Family: 40% off everything + extra 20% off new arrivals",
+    "exp": "Expires Oct 12"
+   },
+   {
+    "code": "FALLPLAY25",
+    "desc": "New customers get 25% off total order"
+   }
+  ],
+  "Kids Foot Locker": [
+   {
+    "code": "FALL25",
+    "desc": "25% off $150+ orders",
+    "exp": "Expires Oct 13"
+   },
+   {
+    "code": "FALL20",
+    "desc": "20% off select items",
+    "exp": "Expires Oct 13"
+   },
+   {
+    "code": "BOO15",
+    "desc": "$15 off $150+ orders"
    }
   ]
  },
