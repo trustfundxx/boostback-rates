@@ -19,7 +19,8 @@ export default {
     // same search within 6 hours is answered from cache, so it doesn't use up searches
     const cacheKey = new Request('https://cache.boostback/' + encodeURIComponent(q.toLowerCase()));
     const cache = caches.default;
-    const hit = await cache.match(cacheKey);
+    const debug = url.searchParams.get('debug') === '1';
+    const hit = debug ? null : await cache.match(cacheKey);
     if (hit) return hit;
 
     const api = 'https://serpapi.com/search.json?engine=google_shopping&gl=us&hl=en&num=60&q='
@@ -27,8 +28,12 @@ export default {
     const r = await fetch(api);
     if (!r.ok) return new Response(JSON.stringify({ error: 'price lookup failed', status: r.status }), { status: 502, headers: CORS });
     const data = await r.json();
+    const all = [...(data.shopping_results || []), ...(data.inline_shopping_results || [])];
+    for (const c of (data.categorized_shopping_results || [])) all.push(...(c.shopping_results || []));
+    if (debug) return new Response(JSON.stringify({ query: q, keys: Object.keys(data), count: all.length,
+      sources: all.map(it => (it.source || '?') + ' | ' + (it.extracted_price ?? it.price ?? '')) }), { headers: CORS });
     const best = {};
-    for (const it of (data.shopping_results || [])) {
+    for (const it of all) {
       const store = storeFor(it.source);
       const price = typeof it.extracted_price === 'number' ? it.extracted_price : null;
       if (!store || price === null) continue;
@@ -38,7 +43,7 @@ export default {
     const results = Object.values(best).sort((a, b) => a.price - b.price);
     const res = new Response(JSON.stringify({ query: q, checked: new Date().toISOString(), results }),
       { headers: { ...CORS, 'Cache-Control': 'public, max-age=21600' } });
-    ctx.waitUntil(cache.put(cacheKey, res.clone()));
+    if (results.length) ctx.waitUntil(cache.put(cacheKey, res.clone()));  // never cache an empty answer
     return res;
   }
 };
