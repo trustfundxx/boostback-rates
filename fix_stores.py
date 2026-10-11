@@ -580,3 +580,37 @@ async function loadRates(){"""),
         t = t.replace('versionName "1.4"', 'versionName "1.5"')
         open(g, "w").write(t)
         print("Android:", re.findall(r'versionCode \d+|versionName "[^"]+"', t))
+
+# 1.5 (part 2): ask for an App Store / Play Store review after a few store lookups (Apple/Google decide when to actually show it)
+h = open(p, encoding="utf-8").read()
+if "InAppReview" in h:
+    print("Review prompt already in. OK")
+else:
+    sw = [
+      ("""function selectStore(store){""",
+       """function maybeAskForReview(){
+  try {
+    const n = (parseInt(localStorage.getItem('bb_lookups') || '0', 10) || 0) + 1;
+    localStorage.setItem('bb_lookups', String(n));
+    if([5, 20, 50].indexOf(n) < 0) return;
+    const cap = window.Capacitor;
+    if(!cap) return;
+    const plug = (cap.Plugins && cap.Plugins.InAppReview) || (typeof cap.registerPlugin === 'function' ? cap.registerPlugin('InAppReview') : null);
+    if(plug && plug.requestReview) setTimeout(() => { plug.requestReview().catch(() => {}); }, 1500);
+  } catch(e){}
+}
+
+function selectStore(store){"""),
+      ("""  document.getElementById('result').style.display = 'block';
+  renderResult();""",
+       """  document.getElementById('result').style.display = 'block';
+  renderResult();
+  maybeAskForReview();"""),
+    ]
+    bad = [a[:50] for a, b in sw if h.count(a) != 1]
+    if bad:
+        print("Review prompt: could not find the spot. Nothing changed.", bad)
+    else:
+        for a, b in sw: h = h.replace(a, b, 1)
+        open(p, "w", encoding="utf-8").write(h)
+        print("Review prompt added. OK")
