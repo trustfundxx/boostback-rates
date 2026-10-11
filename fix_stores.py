@@ -270,3 +270,62 @@ function copyCode(btn, code){
         for a, b in sw: h = h.replace(a, b, 1)
         open(p, "w", encoding="utf-8").write(h)
         print("Coupons + sign-up links added. OK")
+
+# 1.3 (part 3): partner deal card (e.g. Hooga Health) read from rates.json "partners"
+h = open(p, encoding="utf-8").read()
+if "partnerBox" in h:
+    print("Partner deals already in. OK")
+else:
+    sw = [
+      ("""  .coupon-exp{font-size:11px; color:#a39d8c; margin-top:3px;}""",
+       """  .coupon-exp{font-size:11px; color:#a39d8c; margin-top:3px;}
+  .partner-card{border-style:solid; border-color:var(--gold); margin-bottom:6px;}
+  .partner-name{font-family:var(--font-display); font-size:19px; color:var(--ink); margin:2px 0 4px;}
+  .partner-card .go-btn{margin-top:12px;}"""),
+      ("""    <div class="empty-state" id="notCovered" style="display:none;">""",
+       """    <div id="partnerBox"></div>
+
+    <div class="empty-state" id="notCovered" style="display:none;">"""),
+      ("""    LIVE_COUPONS = json.coupons || {};\n""",
+       """    LIVE_COUPONS = json.coupons || {};\n    PARTNERS = (json.partners || []).filter(x => x && x.name && x.url);\n    renderPartners();\n"""),
+      ("""let LIVE_COUPONS = {};""",
+       """let LIVE_COUPONS = {};
+let PARTNERS = [];
+function renderPartners(){
+  const box = document.getElementById('partnerBox');
+  if(!box) return;
+  box.innerHTML = PARTNERS.map(x => {
+    const code = x.code ? String(x.code).replace(/[^A-Za-z0-9_-]/g, '') : '';
+    return `<div class="coupon-card partner-card">
+      <div class="coupon-label">${esc(x.label || 'PARTNER DEAL')}</div>
+      <div class="partner-name">${esc(x.name)}</div>
+      ${x.desc ? `<p class="coupon-desc" style="margin-top:0;">${esc(x.desc)}</p>` : ''}
+      ${code ? `<div class="coupon-row" style="margin-top:10px;"><div class="coupon-code">${code}</div><button class="coupon-copy" onclick="copyCode(this,'${code}')">COPY</button></div>` : ''}
+      <a class="go-btn" href="${esc(x.url)}">${esc(x.button || ('Shop ' + x.name + ' ›'))}</a>
+      <div class="coupon-exp" style="margin-top:8px;">Boost Back may earn a commission from this partner.</div>
+    </div>`;
+  }).join('');
+}"""),
+      ("""  if(match){ selectStore(match); return; }
+  showNotCovered(q);""",
+       """  if(match){ selectStore(match); return; }
+  const pm = PARTNERS.find(x => norm(x.name).includes(nq) || nq.includes(norm(x.name)));
+  if(pm){
+    currentStore = null;
+    document.getElementById('suggestions').classList.remove('open');
+    document.getElementById('result').style.display = 'none';
+    document.getElementById('notCovered').style.display = 'none';
+    document.getElementById('emptyState').style.display = 'none';
+    input.blur();
+    document.getElementById('partnerBox').scrollIntoView({behavior:'smooth', block:'center'});
+    return;
+  }
+  showNotCovered(q);"""),
+    ]
+    bad = [a[:50] for a, b in sw if h.count(a) != 1]
+    if bad:
+        print("Partner deals: could not find the spot. Nothing changed.", bad)
+    else:
+        for a, b in sw: h = h.replace(a, b, 1)
+        open(p, "w", encoding="utf-8").write(h)
+        print("Partner deals added. OK")
