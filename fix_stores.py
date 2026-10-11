@@ -621,7 +621,8 @@ if "$1.99/mo" in h and "$14.99/y" in h:
     print("Prices already $1.99 / $14.99. OK")
 elif h.count("$2.99/mo<") == 1 and h.count("$2.99/month") == 1 and h.count("$19.99/yr") == 1 and h.count("$19.99/year") == 1:
     h = (h.replace("$2.99/mo<", "$1.99/mo<").replace("$2.99/month", "$1.99/month")
-          .replace("$19.99/yr", "$14.99/yr").replace("$19.99/year", "$14.99/year"))
+          .replace("$19.99/yr", "$14.99/yr").replace("$19.99/year", "$14.99/year")
+          .replace("Best value · Save 44%", "Best value · Save 37%"))
     open(p, "w", encoding="utf-8").write(h)
     print("Prices changed to $1.99/month and $14.99/year. OK")
 else:
