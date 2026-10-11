@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T18:58:11.598325Z",
+ "generated_at": "2026-10-11T20:21:13.620157Z",
  "featured": [
   "eBay",
   "PetSmart",
@@ -6196,6 +6196,246 @@
     "base": 3.0,
     "note": ""
    }
+  },
+  "Lulus": {
+   "cap1": {
+    "base": 0.75,
+    "note": "Up to 0.75% — varies by category or new customers"
+   }
+  },
+  "Good American": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "Lucky Brand": {
+   "cap1": {
+    "base": 3.0,
+    "note": ""
+   }
+  },
+  "Steve Madden": {
+   "cap1": {
+    "base": 3.0,
+    "note": ""
+   }
+  },
+  "Birkenstock": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   }
+  },
+  "Dr. Martens": {
+   "cap1": {
+    "base": 1.0,
+    "note": ""
+   }
+  },
+  "ASICS": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "On Running": {
+   "cap1": {
+    "base": 1.0,
+    "note": "Up to 1% — varies by category or new customers"
+   }
+  },
+  "Brooks Running": {
+   "cap1": {
+    "base": 3.0,
+    "note": ""
+   }
+  },
+  "Timberland": {
+   "cap1": {
+    "base": 2.0,
+    "note": "Up to 2% — varies by category or new customers"
+   }
+  },
+  "Cole Haan": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "Rothy's": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "Sperry": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   }
+  },
+  "HEYDUDE": {
+   "cap1": {
+    "base": 1.0,
+    "note": ""
+   }
+  },
+  "Famous Footwear": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   }
+  },
+  "Journeys": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "Oakley": {
+   "cap1": {
+    "base": 2.0,
+    "note": "Up to 2% — varies by category or new customers"
+   }
+  },
+  "Disney Store": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "Callaway Golf": {
+   "cap1": {
+    "base": 1.0,
+    "note": ""
+   }
+  },
+  "Golf Galaxy": {
+   "cap1": {
+    "base": 1.0,
+    "note": ""
+   }
+  },
+  "Dermalogica": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "Tatcha": {
+   "cap1": {
+    "base": 3.0,
+    "note": ""
+   }
+  },
+  "Kérastase": {
+   "cap1": {
+    "base": 4.0,
+    "note": ""
+   }
+  },
+  "Jo Malone London": {
+   "cap1": {
+    "base": 1.0,
+    "note": ""
+   }
+  },
+  "Soko Glam": {
+   "cap1": {
+    "base": 1.0,
+    "note": ""
+   }
+  },
+  "YesStyle": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   }
+  },
+  "ThirdLove": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "True Religion": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "Shopbop": {
+   "cap1": {
+    "base": 1.5,
+    "note": ""
+   }
+  },
+  "Net-a-Porter": {
+   "cap1": {
+    "base": 6.0,
+    "note": ""
+   }
+  },
+  "Rent the Runway": {
+   "cap1": {
+    "base": 2.5,
+    "note": "Up to 2.5% — varies by category or new customers"
+   }
+  },
+  "Lilly Pulitzer": {
+   "cap1": {
+    "base": 2.0,
+    "note": "Up to 2% — varies by category or new customers"
+   }
+  },
+  "Vineyard Vines": {
+   "cap1": {
+    "base": 3.0,
+    "note": ""
+   }
+  },
+  "Brooks Brothers": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   }
+  },
+  "Bonobos": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "Men's Wearhouse": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "Jos. A. Bank": {
+   "cap1": {
+    "base": 1.0,
+    "note": ""
+   }
+  },
+  "Ariat": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   }
+  },
+  "Wrangler": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "Tecovas": {
+   "cap1": {
+    "base": 1.0,
+    "note": ""
+   }
   }
  },
  "domains": {
@@ -7672,6 +7912,190 @@
    {
     "code": "GNC15",
     "desc": "15% off sitewide"
+   }
+  ],
+  "Lulus": [
+   {
+    "code": "BUY2GET1",
+    "desc": "Buy 2, Get 1 Free Sale"
+   }
+  ],
+  "Lucky Brand": [
+   {
+    "code": "AFFLUCKY20",
+    "desc": "20% off orders $125+"
+   },
+   {
+    "code": "25OFFNOW",
+    "desc": "$25 off orders of $100+"
+   },
+   {
+    "code": "LUCKY25",
+    "desc": "25% off orders of $150"
+   }
+  ],
+  "ASICS": [
+   {
+    "code": "180DEAL",
+    "desc": "Free shipping on orders of $99 or more"
+   },
+   {
+    "code": "4SHORTS",
+    "desc": "10% off 2 pairs of shorts, 15% off 3, 20% off 4+"
+   },
+   {
+    "code": "3FORFALL",
+    "desc": "Select apparel 3 for $75; free shipping for members"
+   }
+  ],
+  "Timberland": [
+   {
+    "code": "FALL10",
+    "desc": "Extra 10% off Fall Favorites"
+   },
+   {
+    "code": "FALLDEALS",
+    "desc": "50% off Select Styles"
+   },
+   {
+    "code": "SWEET20",
+    "desc": "20% off any order"
+   }
+  ],
+  "Cole Haan": [
+   {
+    "code": "BAGS20",
+    "desc": "20% off Men's and Women's Bags"
+   },
+   {
+    "code": "BOOTS",
+    "desc": "Boots under $100, plus an extra 20% off boots"
+   },
+   {
+    "code": "APRIL",
+    "desc": "30% off your purchase (Spring Kickoff Sale)"
+   }
+  ],
+  "Rothy's": [
+   {
+    "code": "WELCOME20",
+    "desc": "$20 off first purchase for new customers"
+   }
+  ],
+  "Famous Footwear": [
+   {
+    "code": "FALLINTO15",
+    "desc": "$15 off $75"
+   },
+   {
+    "code": "FALLFEELS",
+    "desc": "15% off sitewide"
+   },
+   {
+    "code": "MEMBER20",
+    "desc": "20% off any order for Famously You members"
+   }
+  ],
+  "Journeys": [
+   {
+    "code": "HOLIDAY20",
+    "desc": "Extra 20% off sale items"
+   },
+   {
+    "code": "CAREKIT15",
+    "desc": "15% off a Care Kit with kids' UGG, Timberland, or Dr. Martens pair"
+   }
+  ],
+  "Callaway Golf": [
+   {
+    "code": "SEPTBONUS",
+    "desc": "50% Trade Bonus Towards New Apex and Rogue Products"
+   }
+  ],
+  "Kérastase": [
+   {
+    "code": "FRIENDSFAM",
+    "desc": "20% off + bag, 3 deluxe samples, free shipping on $100+",
+    "exp": "Expires Oct 26"
+   }
+  ],
+  "Jo Malone London": [
+   {
+    "code": "FESTIVE",
+    "desc": "Free Deluxe Duo of The Scents of the Season with $150 purchase",
+    "exp": "Expires Oct 22"
+   }
+  ],
+  "True Religion": [
+   {
+    "code": "ONEDAY",
+    "desc": "25% off $150+ order"
+   },
+   {
+    "code": "OFF20",
+    "desc": "20% off $100+ order"
+   },
+   {
+    "code": "MORE15",
+    "desc": "15% off $99+ order"
+   }
+  ],
+  "Shopbop": [
+   {
+    "code": "FALL",
+    "desc": "Up to 25% off select styles and brands"
+   },
+   {
+    "code": "EXTRA25",
+    "desc": "Extra 25% off sale styles"
+   },
+   {
+    "code": "NEW20",
+    "desc": "20% off first order"
+   }
+  ],
+  "Net-a-Porter": [
+   {
+    "code": "FIRST10",
+    "desc": "10% off your first order"
+   }
+  ],
+  "Jos. A. Bank": [
+   {
+    "code": "25OFF",
+    "desc": "25% off orders of $125+"
+   },
+   {
+    "code": "SAVE30",
+    "desc": "20% off $125, 25% off $150, or 30% off $200"
+   },
+   {
+    "code": "FRIENDS25",
+    "desc": "25% off any order"
+   }
+  ],
+  "Ariat": [
+   {
+    "code": "EXTRA20",
+    "desc": "Extra 20% off clearance"
+   },
+   {
+    "code": "GIFT2025",
+    "desc": "$15 off $150, $35 off $250, $100 off $500 on regular prices"
+   }
+  ],
+  "Wrangler": [
+   {
+    "code": "JEANS",
+    "desc": "Buy 1, get 1 50% off jeans"
+   },
+   {
+    "code": "DADSGIFT19",
+    "desc": "20% off men's styles"
+   },
+   {
+    "code": "CYBER30",
+    "desc": "30% off sitewide plus free shipping"
    }
   ]
  },
