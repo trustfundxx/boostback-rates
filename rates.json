@@ -5993,5 +5993,12 @@
     "desc": "Apply code at checkout to see savings"
    }
   ]
- }
+ },
+ "partners": [
+  {
+   "name": "Hooga Health",
+   "desc": "Health and wellness supplements.",
+   "url": "https://hoogahealth.com/Mariavalentina?ref=Mariavalentina"
+  }
+ ]
 }
