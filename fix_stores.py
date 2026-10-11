@@ -196,3 +196,77 @@ async function loadRates(){"""),
         t = t.replace('versionName "1.2"', 'versionName "1.3"')
         open(g, "w").write(t)
         print("Android:", re.findall(r'versionCode \d+|versionName "[^"]+"', t))
+
+# 1.3 (part 2): real coupon codes and "New to X? Sign up" links, both read from rates.json
+h = open(p, encoding="utf-8").read()
+if "json.coupons" in h:
+    print("Coupons + sign-up links already in. OK")
+else:
+    sw = [
+      ("""  .coupon-desc{font-size:12.5px; color:#5a5648; margin:8px 0 0;}""",
+       """  .coupon-desc{font-size:12.5px; color:#5a5648; margin:8px 0 0;}
+  .coupon-item{padding:10px 0; border-top:1px dashed var(--line);}
+  .coupon-item:first-of-type{border-top:none; padding-top:2px;}
+  .coupon-exp{font-size:11px; color:#a39d8c; margin-top:3px;}
+  .join-link{display:inline-block; margin-top:3px; font-size:12px; color:#5a5648; text-decoration:underline;}
+  .winner-card .join-link{display:block; text-align:center; margin-top:10px; color:var(--paper-dim);}"""),
+      ("""        <a class="go-btn" id="winnerGo" href="#" style="display:none;"></a>""",
+       """        <a class="go-btn" id="winnerGo" href="#" style="display:none;"></a>
+        <a class="join-link" id="winnerJoin" href="#" style="display:none;"></a>"""),
+      ("""let DOMAINS = {};""",
+       """let DOMAINS = {};
+let LIVE_COUPONS = {};
+function esc(s){ return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+function joinFor(id){ const s = (PROGRAMS[id] || {}).signup; return s && s.url ? s : null; }
+function copyCode(btn, code){
+  try { if(navigator.clipboard) navigator.clipboard.writeText(code); } catch(e){}
+  btn.textContent = 'COPIED';
+  setTimeout(function(){ btn.textContent = 'COPY'; }, 1200);
+}"""),
+      ("""    DOMAINS = json.domains || {};\n""",
+       """    DOMAINS = json.domains || {};\n    LIVE_COUPONS = json.coupons || {};\n"""),
+      ("""  wGo.style.display = wUrl ? 'block' : 'none';""",
+       """  wGo.style.display = wUrl ? 'block' : 'none';
+  const wJoin = document.getElementById('winnerJoin');
+  const wj = joinFor(winner.id);
+  wJoin.href = wj ? wj.url : '#';
+  wJoin.textContent = wj ? (wj.label || ('New to ' + winner.name + '? Sign up here ›')) : '';
+  wJoin.style.display = wj ? 'block' : 'none';"""),
+      ("""          ${linkFor(currentStore, r.id) ? `<a class="go-link" href="${linkFor(currentStore, r.id)}">Go to ${r.name} ›</a>` : ''}""",
+       """          ${linkFor(currentStore, r.id) ? `<a class="go-link" href="${linkFor(currentStore, r.id)}">Go to ${r.name} ›</a>` : ''}
+          ${joinFor(r.id) ? `<br><a class="join-link" href="${esc(joinFor(r.id).url)}">${esc(joinFor(r.id).label || ('New to ' + r.name + '? Sign up here ›'))}</a>` : ''}"""),
+      ("""  const coupon = SHOW_DEALS ? COUPONS[currentStore] : null;
+  const couponCard = document.getElementById('couponCard');
+  if(coupon){
+    document.getElementById('couponCode').textContent = coupon.code;
+    document.getElementById('couponDesc').textContent = coupon.desc;
+    couponCard.style.display = 'block';
+  } else {
+    couponCard.style.display = 'none';
+  }""",
+       """  const codes = (LIVE_COUPONS[currentStore] || []).filter(c => c && c.code).slice(0, 3);
+  const couponCard = document.getElementById('couponCard');
+  if(codes.length){
+    couponCard.innerHTML = `<div class="coupon-label">COUPON CODES</div>` + codes.map(c => {
+      const code = String(c.code).replace(/[^A-Za-z0-9_-]/g, '');
+      return `<div class="coupon-item">
+        <div class="coupon-row">
+          <div class="coupon-code">${code}</div>
+          <button class="coupon-copy" onclick="copyCode(this,'${code}')">COPY</button>
+        </div>
+        ${c.desc ? `<p class="coupon-desc">${esc(c.desc)}</p>` : ''}
+        ${c.exp ? `<div class="coupon-exp">${esc(c.exp)}</div>` : ''}
+      </div>`;
+    }).join('') + `<p class="coupon-exp" style="margin-top:8px;">Codes found this morning. Some only work on certain items or for store members.</p>`;
+    couponCard.style.display = 'block';
+  } else {
+    couponCard.style.display = 'none';
+  }"""),
+    ]
+    bad = [a[:50] for a, b in sw if h.count(a) != 1]
+    if bad:
+        print("Coupons + sign-up links: could not find the spot. Nothing changed.", bad)
+    else:
+        for a, b in sw: h = h.replace(a, b, 1)
+        open(p, "w", encoding="utf-8").write(h)
+        print("Coupons + sign-up links added. OK")

@@ -22,3 +22,12 @@
 - `programs.<id>.home` = program homepage; `programs.<id>.storeUrl` = per-store template ({domain} from top-level `domains`, {q} = store name).
 - `stores.<name>.<id>.url` overrides both for one store. Change any of these here; no app update needed.
 - Airline portals (Delta, American, United, Southwest, Alaska/Atmos) share store IDs: `.../me____.htm?gmid=<id>` (Target 18, Kohl's 1792).
+
+## Coupon codes (app 1.3+)
+While fetching each Capital One Shopping store page, also list its coupon CODES (skip no-code "deals"). Pick up to 3:
+prefer ones with an expiry date or a recent "last used", then most uses; skip expired or obviously unrelated codes.
+Write `{"Store": [{"code": "...", "desc": "<=80 chars", "exp": "Expires Oct 12"}]}` (exp optional; turn "in 2 days" into a date)
+for every store whose page loaded — `[]` when it loaded with no codes. Then `python3 tools/apply_coupons.py rates.json <file>`.
+
+## Sign-up links
+`programs.<id>.signup.url` is Maria's personal sign-up link (shown as "New to X? Sign up here ›"). Never change or remove these.

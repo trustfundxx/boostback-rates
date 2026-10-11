@@ -20,7 +20,10 @@
    "type": "cashback",
    "connection": "none",
    "home": "https://www.rakuten.com/",
-   "storeUrl": "https://www.rakuten.com/shop/{domain}"
+   "storeUrl": "https://www.rakuten.com/shop/{domain}",
+   "signup": {
+    "url": "https://www.rakuten.com/r/THEMAR1388?eeid=44748"
+   }
   },
   "topcash": {
    "name": "TopCashback",
@@ -46,13 +49,19 @@
    "type": "cashback",
    "connection": "boost",
    "home": "https://capitaloneshopping.com/",
-   "storeUrl": "https://capitaloneshopping.com/s/{domain}/coupon"
+   "storeUrl": "https://capitaloneshopping.com/s/{domain}/coupon",
+   "signup": {
+    "url": "https://capitaloneshopping.com/r/998d2b9a-830e-4af8-a7b3-91df3472ff8b"
+   }
   },
   "fetch": {
    "name": "Fetch Rewards",
    "type": "points",
    "connection": "boost",
-   "home": "https://fetch.com/"
+   "home": "https://fetch.com/",
+   "signup": {
+    "url": "https://referral.fetch.com/vvv3/share?code=KRV1J1"
+   }
   },
   "ibotta": {
    "name": "Ibotta",
@@ -5702,5 +5711,130 @@
   "YETI": "yeti.com",
   "Zappos": "zappos.com",
   "eBay": "ebay.com"
+ },
+ "coupons": {
+  "Sonos": [
+   {
+    "code": "SAVE30",
+    "desc": "30% off"
+   }
+  ],
+  "Staples": [
+   {
+    "code": "72175",
+    "desc": "40% off custom cards, photo gifts, wrapping paper and labels"
+   },
+   {
+    "code": "81728",
+    "desc": "$20 off a cleaning supplies purchase of $100 or more"
+   },
+   {
+    "code": "66856",
+    "desc": "$15 off Blueprint orders of $60 or more"
+   }
+  ],
+  "Tempur-Pedic": [
+   {
+    "code": "CLOUD30",
+    "desc": "30% off Cloud Mattress"
+   },
+   {
+    "code": "SHEETS25",
+    "desc": "25% off Sheets"
+   },
+   {
+    "code": "CHAIR15",
+    "desc": "15% off Lumbar Support Office Chair"
+   }
+  ],
+  "Therabody": [
+   {
+    "code": "EARLYBF",
+    "desc": "Apply code at checkout to see savings"
+   },
+   {
+    "code": "EXTRA",
+    "desc": "Apply code at checkout to see savings"
+   },
+   {
+    "code": "RECOVERY",
+    "desc": "Apply code at checkout to see savings"
+   }
+  ],
+  "UGG": [
+   {
+    "code": "UGG2DAY",
+    "desc": "UGG discount available"
+   },
+   {
+    "code": "BLACKFRIDAY",
+    "desc": "UGG discount available"
+   },
+   {
+    "code": "CYBERMONDAY",
+    "desc": "UGG discount available"
+   }
+  ],
+  "Ulta Beauty": [
+   {
+    "code": "628621",
+    "desc": "Ulta Beauty discount available"
+   }
+  ],
+  "Under Armour": [
+   {
+    "code": "EXTRA15",
+    "desc": "Extra 15% off at checkout, plus free shipping on orders over $99",
+    "exp": "Expires Oct 15"
+   }
+  ],
+  "Vistaprint": [
+   {
+    "code": "BRANDS15",
+    "desc": "15% off Carhartt, The North Face, and Champion",
+    "exp": "Expires Oct 11"
+   },
+   {
+    "code": "AFFBMSM",
+    "desc": "10% off 1 item, 15% off 2 items and 20% off 3 items"
+   }
+  ],
+  "Vitamix": [
+   {
+    "code": "07-0063",
+    "desc": "Vitamix discount available"
+   }
+  ],
+  "Vivid Seats": [
+   {
+    "code": "VIVID10",
+    "desc": "Existing Customers Get $10 off Ticket $100+ Order"
+   }
+  ],
+  "Walgreens": [
+   {
+    "code": "NOW10",
+    "desc": "$10 off $40+ sitewide",
+    "exp": "Expires Oct 10"
+   },
+   {
+    "code": "SAVE20",
+    "desc": "Extra 20% off $60+ sitewide"
+   },
+   {
+    "code": "WELCOME25",
+    "desc": "New customer offer: extra 25% off $25+ sitewide"
+   }
+  ],
+  "West Elm": [
+   {
+    "code": "WINWIN",
+    "desc": "20% Off"
+   },
+   {
+    "code": "DYMC",
+    "desc": "Apply code at checkout to see savings"
+   }
+  ]
  }
 }
