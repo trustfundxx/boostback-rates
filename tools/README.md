@@ -36,3 +36,9 @@ for every store whose page loaded — `[]` when it loaded with no codes. Then `p
 Stores listed there are created by apply_rates.py the first time any program posts a rate for them (and dropped again if nothing is posted).
 Their cashbackindex URLs in sources.json are best guesses: if one fails, WebSearch cashbackindex.com for that store's
 comparison page, use it, and fix the URL in tools/sources.json (commit that file too).
+
+## Split into 4 parts (one scheduled run each)
+There are too many stores for one run, so the refresh is split: `python3 tools/shard.py K 4` lists the stores for part K.
+A run for part K only fetches those stores. If the push is rejected because another part pushed first:
+`git fetch origin && git reset --hard origin/main`, re-run apply_rates.py and apply_coupons.py with your saved result files,
+validate, commit and push again.
