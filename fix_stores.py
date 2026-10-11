@@ -614,3 +614,14 @@ function selectStore(store){"""),
         for a, b in sw: h = h.replace(a, b, 1)
         open(p, "w", encoding="utf-8").write(h)
         print("Review prompt added. OK")
+
+# 1.5 (part 3): monthly price $1.99 on the paywall (must match App Store Connect / Play Console)
+h = open(p, encoding="utf-8").read()
+if "$1.99/mo" in h:
+    print("Price text already $1.99. OK")
+elif h.count("$2.99/mo") == 1 and h.count("$2.99/month") == 1:
+    h = h.replace("$2.99/mo<", "$1.99/mo<").replace("$2.99/month", "$1.99/month")
+    open(p, "w", encoding="utf-8").write(h)
+    print("Price text changed to $1.99. OK")
+else:
+    print("Price text: could not find the spot. Nothing changed.")
