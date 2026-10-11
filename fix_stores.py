@@ -423,7 +423,7 @@ async function productSearch(q){
   }).sort((a, b) => a.net - b.net);
   if(!items.length){ box.innerHTML = `<div class="empty-state"><p>No prices found at these stores for "${esc(q)}". Try fewer words or the brand name.</p></div>`; return; }
   const w = items[0];
-  const shop = x => STORE_SEARCH[x.store] ? STORE_SEARCH[x.store] + encodeURIComponent(x.title || q) : '';
+  const shop = x => (x.link && x.link.indexOf('google.') < 0) ? x.link : (STORE_SEARCH[x.store] ? STORE_SEARCH[x.store] + encodeURIComponent(x.title || q) : '');
   const wGo = w.rw ? linkFor(w.store, w.rw.id) : '';
   box.innerHTML = `
     <div class="store-strip"><h2>${esc(q)}</h2></div>
