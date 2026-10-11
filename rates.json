@@ -67,7 +67,10 @@
    "name": "Ibotta",
    "type": "cashback",
    "connection": "boost",
-   "home": "https://home.ibotta.com/"
+   "home": "https://home.ibotta.com/",
+   "signup": {
+    "url": "https://ibotta.onelink.me/iUfE/1005cd3f?friend_code=nrbtndd"
+   }
   },
   "amex": {
    "name": "Amex Offers",
