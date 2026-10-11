@@ -18,6 +18,10 @@ const CORS = { 'Access-Control-Allow-Origin': '*', 'Content-Type': 'application/
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
+    if (url.pathname === '/rates') {  // backup route for the daily rates file
+      const r = await fetch('https://raw.githubusercontent.com/trustfundxx/boostback-rates/main/rates.json', { cf: { cacheTtl: 300 } });
+      return new Response(await r.text(), { status: r.status, headers: { ...CORS, 'Cache-Control': 'public, max-age=300' } });
+    }
     const q = (url.searchParams.get('q') || '').trim().slice(0, 100);
     if (!q) return new Response(JSON.stringify({ error: 'missing q' }), { status: 400, headers: CORS });
     if (env.APP_TOKEN && url.searchParams.get('t') !== env.APP_TOKEN)

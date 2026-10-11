@@ -521,3 +521,62 @@ function renderResult(){"""),
         t = re.sub(r"versionCode (\d+)", lambda m: "versionCode %d" % (int(m.group(1)) + 1), t, count=1)
         open(g, "w").write(t)
         print("Android:", re.findall(r'versionCode \d+|versionName "[^"]+"', t))
+
+# 1.5: iPhone fix - download the daily file and prices through the phone's own network layer when the web view can't
+h = open(p, encoding="utf-8").read()
+if "getJSON(" in h:
+    print("iPhone download fix already in. OK")
+else:
+    sw = [
+      ("""async function loadRates(){""",
+       """const RATES_BACKUPS = [
+  'https://cdn.jsdelivr.net/gh/trustfundxx/boostback-rates@main/rates.json',
+  'https://boostback-prices.boostback.workers.dev/rates'
+];
+async function getJSON(url){
+  // 1) normal web request
+  try {
+    const r = await fetch(url, { cache: 'no-store' });
+    if(r.ok){ const j = await r.json(); if(j) return j; }
+  } catch(e){}
+  // 2) native request (works on iPhone where the web view is blocked)
+  try {
+    const H = window.Capacitor && window.Capacitor.Plugins && window.Capacitor.Plugins.CapacitorHttp;
+    if(H){
+      const res = await H.get({ url: url, headers: { 'Accept': 'application/json' } });
+      if(res && res.status >= 200 && res.status < 300){
+        const d = typeof res.data === 'string' ? JSON.parse(res.data) : res.data;
+        if(d) return d;
+      }
+    }
+  } catch(e){}
+  return null;
+}
+async function loadRates(){"""),
+      ("""      const r = await fetch(RATES_URL, { cache: 'no-store' });
+      if(r.ok) json = await r.json();""",
+       """      json = await getJSON(RATES_URL);
+      for(let i = 0; !json && i < RATES_BACKUPS.length; i++) json = await getJSON(RATES_BACKUPS[i]);"""),
+      ("""    const r = await fetch(PRICES_URL + '?q=' + encodeURIComponent(q));
+    if(r.ok) json = await r.json();""",
+       """    json = await getJSON(PRICES_URL + '?q=' + encodeURIComponent(q));"""),
+    ]
+    bad = [a[:50] for a, b in sw if h.count(a) != 1]
+    if bad:
+        print("iPhone download fix: could not find the spot. Nothing changed.", bad)
+    else:
+        for a, b in sw: h = h.replace(a, b, 1)
+        open(p, "w", encoding="utf-8").write(h)
+        print("iPhone download fix added. OK")
+        x = home + "/ios/App/App.xcodeproj/project.pbxproj"
+        t = open(x).read()
+        t = re.sub(r"CURRENT_PROJECT_VERSION = (\d+);", lambda m: "CURRENT_PROJECT_VERSION = %d;" % (int(m.group(1)) + 1), t)
+        t = t.replace("MARKETING_VERSION = 1.4;", "MARKETING_VERSION = 1.5;")
+        open(x, "w").write(t)
+        print("iOS:", sorted(set(re.findall(r"MARKETING_VERSION = [^;]+;|CURRENT_PROJECT_VERSION = \d+;", t))))
+        g = home + "/android/app/build.gradle"
+        t = open(g).read()
+        t = re.sub(r"versionCode (\d+)", lambda m: "versionCode %d" % (int(m.group(1)) + 1), t, count=1)
+        t = t.replace('versionName "1.4"', 'versionName "1.5"')
+        open(g, "w").write(t)
+        print("Android:", re.findall(r'versionCode \d+|versionName "[^"]+"', t))
