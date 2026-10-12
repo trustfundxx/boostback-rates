@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T22:38:32.172252Z",
+ "generated_at": "2026-10-12T00:46:48.829331Z",
  "featured": [
   "eBay",
   "PetSmart",
@@ -6797,6 +6797,42 @@
     "base": 1.0,
     "note": ""
    }
+  },
+  "Burt's Bees Baby": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "Mini Boden": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "Monica + Andy": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   }
+  },
+  "American Girl": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   }
+  },
+  "Zoro": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   }
+  },
+  "Acme Tools": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   }
   }
  },
  "domains": {
@@ -8700,6 +8736,39 @@
    {
     "code": "BOO15",
     "desc": "$15 off $150+ orders"
+   }
+  ],
+  "Mini Boden": [
+   {
+    "code": "AUG342",
+    "desc": "Selected Childrenswear: 3 for 2",
+    "exp": "Expires in 1 day"
+   },
+   {
+    "code": "GD7X",
+    "desc": "15% off new childrenswear",
+    "exp": "Expires today"
+   },
+   {
+    "code": "WXNW",
+    "desc": "10% off new womenswear",
+    "exp": "Expires today"
+   }
+  ],
+  "Zoro": [
+   {
+    "code": "AFGV9263",
+    "desc": "15% off Zoro Select orders of $200+",
+    "exp": "Expires in 6 days"
+   },
+   {
+    "code": "PUMPS9246",
+    "desc": "20% off pumps (weekly deal)",
+    "exp": "Expires in 6 days"
+   },
+   {
+    "code": "FALL93A26",
+    "desc": "10% off fall seasonal categories"
    }
   ]
  },
