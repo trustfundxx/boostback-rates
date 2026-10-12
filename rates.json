@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T04:17:08.101870Z",
+ "generated_at": "2026-10-12T04:17:30.846554Z",
  "featured": [
   "eBay",
   "PetSmart",
@@ -8957,6 +8957,21 @@
   "TireAgent": {
    "cap1": {
     "base": 3.0,
+    "note": ""
+   },
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "CARiD": {
+   "topcash": {
+    "base": 1.01,
+    "note": ""
+   },
+   "pricecom": {
+    "base": 1.0,
     "note": ""
    },
    "fetch": {
