@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T04:12:09.570890Z",
+ "generated_at": "2026-10-12T04:17:08.101870Z",
  "featured": [
   "eBay",
   "PetSmart",
@@ -8876,6 +8876,94 @@
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
    }
+  },
+  "Siena Sleep": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   },
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Serta": {
+   "cap1": {
+    "base": 6.0,
+    "note": ""
+   },
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Sealy": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   },
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Zinus": {
+   "cap1": {
+    "base": 3.0,
+    "note": ""
+   },
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Nolah": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   },
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Sears": {
+   "cap1": {
+    "base": 1.0,
+    "note": ""
+   },
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Spirit Halloween": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   },
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "TireAgent": {
+   "cap1": {
+    "base": 3.0,
+    "note": ""
+   },
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
   }
  },
  "domains": {
@@ -10976,6 +11064,26 @@
    {
     "code": "SAVINGS26",
     "desc": "Up to $120 off JEGS-Built products"
+   }
+  ],
+  "Sealy": [
+   {
+    "code": "PPSPRING",
+    "desc": "Queen Posturepedic spring mattress $699 (was $799)"
+   }
+  ],
+  "Sears": [
+   {
+    "code": "SECRET50",
+    "desc": "$50 off $750+ appliances and floor care"
+   },
+   {
+    "code": "FALL10",
+    "desc": "$10 off $75+ clothing, shoes, home, jewelry"
+   },
+   {
+    "code": "FALL50",
+    "desc": "$50 off $750+ appliances and floor care"
    }
   ]
  },
