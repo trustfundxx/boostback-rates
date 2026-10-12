@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T04:03:10.248871Z",
+ "generated_at": "2026-10-12T04:07:50.821271Z",
  "featured": [
   "eBay",
   "PetSmart",
@@ -8763,6 +8763,28 @@
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
    }
+  },
+  "Mizuno": {
+   "cap1": {
+    "base": 3.0,
+    "note": ""
+   },
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "PGA TOUR Superstore": {
+   "cap1": {
+    "base": 1.0,
+    "note": ""
+   },
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
   }
  },
  "domains": {
@@ -9350,7 +9372,9 @@
   "Visible": "visible.com",
   "YesStyle": "yesstyle.com",
   "Ardene": "ardene.com",
-  "Halara": "thehalara.com"
+  "Halara": "thehalara.com",
+  "Mizuno": "usa.mizuno.com",
+  "PGA TOUR Superstore": "pgatoursuperstore.com"
  },
  "coupons": {
   "Sonos": [
@@ -10845,6 +10869,12 @@
    {
     "code": "SHOP20",
     "desc": "Extra 20% off orders of $50 or more"
+   }
+  ],
+  "Mizuno": [
+   {
+    "code": "IOPM-WAVERIDER24",
+    "desc": "25% off Wave Rider 24 styles"
    }
   ]
  },
