@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T00:52:00.431535Z",
+ "generated_at": "2026-10-12T01:35:08.257299Z",
  "featured": [
   "eBay",
   "PetSmart",
@@ -8466,6 +8466,160 @@
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
    }
+  },
+  "Draper James": {
+   "cap1": {
+    "base": 3.0,
+    "note": ""
+   },
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Karen Kane": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   },
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "NYDJ": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   },
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Jones New York": {
+   "cap1": {
+    "base": 2.5,
+    "note": ""
+   },
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Vince Camuto": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   },
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Nine West": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   },
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Kut from the Kloth": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   },
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Food Lion": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   },
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Giant Food": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   },
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Stop & Shop": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   },
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Dollar Tree": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   },
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "At Home": {
+   "cap1": {
+    "base": 4.5,
+    "note": ""
+   },
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "B&H Photo": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   },
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Adorama": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   },
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
   }
  },
  "domains": {
@@ -10430,6 +10584,47 @@
    {
     "code": "BARBOUR",
     "desc": "Free shipping on Barbour items"
+   }
+  ],
+  "Jones New York": [
+   {
+    "code": "WEAREJNY",
+    "desc": "50% off sitewide"
+   },
+   {
+    "code": "HELLO",
+    "desc": "40% off sitewide"
+   },
+   {
+    "code": "FREE2DAY",
+    "desc": "Free 2-day express shipping on orders over $150"
+   }
+  ],
+  "Nine West": [
+   {
+    "code": "10FALLNW",
+    "desc": "$10 off select styles, plus free returns"
+   },
+   {
+    "code": "BOOTS25NW",
+    "desc": "25% off boots and booties"
+   },
+   {
+    "code": "TAKE25NW",
+    "desc": "25% off sitewide"
+   }
+  ],
+  "Giant Food": [
+   {
+    "code": "GIANTSAVE25",
+    "desc": "$25 off delivery or pickup order of $100+",
+    "exp": "Expires Oct 16"
+   }
+  ],
+  "B&H Photo": [
+   {
+    "code": "STYLEREFRESH",
+    "desc": "Take 10% off select luxury watches"
    }
   ]
  },
