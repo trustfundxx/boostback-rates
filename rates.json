@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T02:52:40.081629Z",
+ "generated_at": "2026-10-12T03:59:29.517560Z",
  "featured": [
   "eBay",
   "PetSmart",
@@ -8741,6 +8741,13 @@
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
    }
+  },
+  "Ardene": {
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
   }
  },
  "domains": {
@@ -9326,7 +9333,8 @@
   "T-Mobile": "t-mobile.com",
   "AT&T": "att.com",
   "Visible": "visible.com",
-  "YesStyle": "yesstyle.com"
+  "YesStyle": "yesstyle.com",
+  "Ardene": "ardene.com"
  },
  "coupons": {
   "Sonos": [
@@ -10807,6 +10815,20 @@
    {
     "code": "BACKTO19",
     "desc": "Up to $700 off Mattress Order"
+   }
+  ],
+  "Ardene": [
+   {
+    "code": "ARDENETEN",
+    "desc": "$10 off orders of $100 or more"
+   },
+   {
+    "code": "ARDENEFIVE",
+    "desc": "$5 off orders of $75 or more"
+   },
+   {
+    "code": "SHOP20",
+    "desc": "Extra 20% off orders of $50 or more"
    }
   ]
  },
