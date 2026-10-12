@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T00:46:48.829331Z",
+ "generated_at": "2026-10-12T00:49:54.135598Z",
  "featured": [
   "eBay",
   "PetSmart",
@@ -6833,6 +6833,79 @@
     "base": 0.5,
     "note": ""
    }
+  },
+  "Chemical Guys": {
+   "cap1": {
+    "base": 0.5,
+    "note": "Up to 0.5% — varies by category or new customers"
+   }
+  },
+  "Coldwater Creek": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   }
+  },
+  "Soft Surroundings": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   }
+  },
+  "Orvis": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   }
+  },
+  "Garnet Hill": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   }
+  },
+  "Woodcraft": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   }
+  },
+  "Global Industrial": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   }
+  },
+  "CarParts.com": {
+   "cap1": {
+    "base": 1.0,
+    "note": ""
+   }
+  },
+  "Parts Geek": {
+   "cap1": {
+    "base": 0,
+    "flat": 1.0,
+    "note": "$1 back on your order"
+   }
+  },
+  "Tire Rack": {
+   "cap1": {
+    "base": 1.0,
+    "note": ""
+   }
+  },
+  "Discount Tire": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   }
+  },
+  "SimpleTire": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   }
   }
  },
  "domains": {
@@ -8769,6 +8842,34 @@
    {
     "code": "FALL93A26",
     "desc": "10% off fall seasonal categories"
+   }
+  ],
+  "Chemical Guys": [
+   {
+    "code": "APRIL20OFF",
+    "desc": "$20 off orders of $100 or more"
+   },
+   {
+    "code": "BRUSH",
+    "desc": "10% off Interior and Exterior Brushes"
+   },
+   {
+    "code": "TORQ50",
+    "desc": "$50 off Starter Polishing Kits"
+   }
+  ],
+  "Orvis": [
+   {
+    "code": "50DEAL",
+    "desc": "Up to $50 off apparel and home merchandise"
+   },
+   {
+    "code": "ATREAT4U",
+    "desc": "$30 off full-price apparel orders $150+, plus free shipping"
+   },
+   {
+    "code": "BARBOUR",
+    "desc": "Free shipping on Barbour items"
    }
   ]
  },
