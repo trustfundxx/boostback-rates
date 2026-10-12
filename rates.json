@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T01:35:08.257299Z",
+ "generated_at": "2026-10-12T02:52:40.081629Z",
  "featured": [
   "eBay",
   "PetSmart",
@@ -8620,6 +8620,127 @@
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
    }
+  },
+  "The Vitamin Shoppe": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   },
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Grande Cosmetics": {
+   "cap1": {
+    "base": 3.0,
+    "note": ""
+   },
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "JetBlue": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   },
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Musely": {
+   "cap1": {
+    "base": 3.0,
+    "note": ""
+   },
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "NOBULL": {
+   "cap1": {
+    "base": 3.0,
+    "note": ""
+   },
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Redbubble": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   },
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Tuft & Needle": {
+   "cap1": {
+    "base": 6.0,
+    "note": ""
+   },
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Leesa": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   },
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Avocado Green Mattress": {
+   "cap1": {
+    "base": 1.0,
+    "note": ""
+   },
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Sleep Number": {
+   "cap1": {
+    "base": 3.0,
+    "note": ""
+   },
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Bear Mattress": {
+   "cap1": {
+    "base": 2.0,
+    "note": ""
+   },
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
   }
  },
  "domains": {
@@ -10625,6 +10746,67 @@
    {
     "code": "STYLEREFRESH",
     "desc": "Take 10% off select luxury watches"
+   }
+  ],
+  "The Vitamin Shoppe": [
+   {
+    "code": "OCTBOOST",
+    "desc": "15% off $75, 25% off $150, in-store and online",
+    "exp": "Expires today"
+   }
+  ],
+  "Grande Cosmetics": [
+   {
+    "code": "LONGLASHES20",
+    "desc": "20% off for new customers"
+   },
+   {
+    "code": "AFTERPAYDAY",
+    "desc": "25% off the site"
+   },
+   {
+    "code": "DREAM20",
+    "desc": "20% off the site"
+   }
+  ],
+  "Musely": [
+   {
+    "code": "ONE29",
+    "desc": "First-time customers get 29% off all treatments"
+   }
+  ],
+  "NOBULL": [
+   {
+    "code": "GRUDEN",
+    "desc": "35% off"
+   },
+   {
+    "code": "WELCOME25",
+    "desc": "25% off first order"
+   },
+   {
+    "code": "PANTS40",
+    "desc": "40% off NOBULL pants"
+   }
+  ],
+  "Redbubble": [
+   {
+    "code": "POPPROMO",
+    "desc": "20% off Sitewide"
+   },
+   {
+    "code": "SHIRTLOVE30",
+    "desc": "30% off All T-shirts"
+   },
+   {
+    "code": "SHOPEARLY",
+    "desc": "20-60% off Sitewide"
+   }
+  ],
+  "Leesa": [
+   {
+    "code": "BACKTO19",
+    "desc": "Up to $700 off Mattress Order"
    }
   ]
  },
