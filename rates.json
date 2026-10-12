@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T03:59:29.517560Z",
+ "generated_at": "2026-10-12T04:03:10.248871Z",
  "featured": [
   "eBay",
   "PetSmart",
@@ -8748,6 +8748,21 @@
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
    }
+  },
+  "Halara": {
+   "rakuten": {
+    "base": 2.5,
+    "note": ""
+   },
+   "extrabux": {
+    "base": 4.0,
+    "note": ""
+   },
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
   }
  },
  "domains": {
@@ -9334,7 +9349,8 @@
   "AT&T": "att.com",
   "Visible": "visible.com",
   "YesStyle": "yesstyle.com",
-  "Ardene": "ardene.com"
+  "Ardene": "ardene.com",
+  "Halara": "thehalara.com"
  },
  "coupons": {
   "Sonos": [
