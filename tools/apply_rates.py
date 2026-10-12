@@ -61,6 +61,9 @@ for line in open(src):
     kept = {k: v for k, v in S[name].items() if k not in refresh_keys}
     S[name] = {**fresh, **kept}
 for n in [n for n, e in S.items() if not e]: del S[n]  # new store with nothing posted yet
+FETCH_ROW = {'base': 0, 'flat': 0.025, 'note': 'Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app.'}
+for e in S.values():
+    if 'fetch' not in e: e['fetch'] = dict(FETCH_ROW)
 d['generated_at'] = datetime.datetime.utcnow().isoformat() + 'Z'
 json.dump(d, open(f, 'w'), indent=1, ensure_ascii=False)
 withair = sum(1 for e in S.values() if any(k in e for k in air))
