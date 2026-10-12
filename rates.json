@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T04:07:50.821271Z",
+ "generated_at": "2026-10-12T04:12:09.570890Z",
  "featured": [
   "eBay",
   "PetSmart",
@@ -8837,6 +8837,31 @@
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
    }
+  },
+  "Phlur": {
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Snif": {
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Fragrance Outlet": {
+   "cap1": {
+    "base": 0.5,
+    "note": ""
+   },
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
   }
  },
  "domains": {
@@ -9427,7 +9452,10 @@
   "Halara": "thehalara.com",
   "Mizuno": "usa.mizuno.com",
   "PGA TOUR Superstore": "pgatoursuperstore.com",
-  "Field & Stream": "tractorsupply.com"
+  "Field & Stream": "tractorsupply.com",
+  "Phlur": "phlur.com",
+  "Snif": "snif.co",
+  "Fragrance Outlet": "fragranceoutlet.com"
  },
  "coupons": {
   "Sonos": [
