@@ -68,7 +68,8 @@ export default {
       } catch (e) {}
     }
     if (debug) return new Response(JSON.stringify({ query: q, top: top ? top.title : null,
-      product_stores: stores.map(st => (st.name || '?') + ' | ' + (st.extracted_price ?? st.price ?? '')) }), { headers: CORS });
+      product_stores: stores.map(st => (st.name || '?') + ' | ' + (st.extracted_price ?? st.price ?? '')),
+      other_results: all.slice(0, 40).map(it => (it.source || '?') + ' | ' + (it.extracted_price ?? '') + ' | ' + (it.title || '')) }), { headers: CORS });
     for (const it of all) add(storeFor(it.source), it.title, typeof it.extracted_price === 'number' ? it.extracted_price : null,
       it.link || it.product_link, it.thumbnail, false);
     let picked = Object.values(best);
