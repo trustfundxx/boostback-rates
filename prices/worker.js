@@ -28,7 +28,7 @@ export default {
       return new Response(JSON.stringify({ error: 'forbidden' }), { status: 403, headers: CORS });
 
     // same search within 6 hours is answered from cache, so it doesn't use up searches
-    const cacheKey = new Request('https://cache.boostback/' + encodeURIComponent(q.toLowerCase()));
+    const cacheKey = new Request('https://cache.boostback/v2/' + encodeURIComponent(q.toLowerCase()));
     const cache = caches.default;
     const debug = url.searchParams.get('debug') === '1';
     const hit = debug ? null : await cache.match(cacheKey);
@@ -72,7 +72,13 @@ export default {
     for (const it of all) add(storeFor(it.source), it.title, typeof it.extracted_price === 'number' ? it.extracted_price : null,
       it.link || it.product_link, it.thumbnail, false);
     let picked = Object.values(best);
-    if (picked.filter(x => x.same).length >= 2) picked = picked.filter(x => x.same);  // compare the exact same item when we can
+    // Google's list for the exact item often leaves out big stores (Sephora, Ulta...). Keep a big store from the
+    // general results too when its listing has every word of the search in its title.
+    const norm = t => String(t || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    const words = norm(q).split(/[^a-z0-9]+/).filter(w => w.length > 1);
+    const major = new Set(STORES.map(([, n]) => n));
+    const matches = x => words.every(w => norm(x.title).includes(w));
+    if (picked.filter(x => x.same).length >= 2) picked = picked.filter(x => x.same || (major.has(x.store) && matches(x)));
     const results = picked.sort((a, b) => a.price - b.price).map(({ same, ...x }) => ({ ...x, sameItem: same }));
     const res = new Response(JSON.stringify({ query: q, checked: new Date().toISOString(), results }),
       { headers: { ...CORS, 'Cache-Control': 'public, max-age=21600' } });
