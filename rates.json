@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T19:50:00.810585Z",
+ "generated_at": "2026-10-18T06:15:04.112885Z",
  "featured": [
   "eBay",
   "PetSmart",
@@ -2407,7 +2407,7 @@
   },
   "Gap": {
    "rakuten": {
-    "base": 2.0,
+    "base": 4.0,
     "note": ""
    },
    "topcash": {
@@ -2821,8 +2821,8 @@
   },
   "IHG Hotels & Resorts": {
    "rakuten": {
-    "base": 5.0,
-    "note": "Up to 5% — varies by category or new customers"
+    "base": 6.0,
+    "note": ""
    },
    "topcash": {
     "base": 10.0,
@@ -2833,8 +2833,8 @@
     "note": "Up to 9% — varies by category or new customers"
    },
    "gocashback": {
-    "base": 2.0,
-    "note": "Up to 2% — varies by category or new customers"
+    "base": 3.0,
+    "note": "Up to 3% — varies by category or new customers"
    },
    "rebatesme": {
     "base": 4.0,
@@ -2849,12 +2849,12 @@
     "note": ""
    },
    "american": {
-    "base": 5.25,
-    "note": "3.5 miles/$1, valued ~1.5¢ each"
+    "base": 2.25,
+    "note": "1.5 miles/$1, valued ~1.5¢ each"
    },
    "united": {
-    "base": 3.9,
-    "note": "3 miles/$1, valued ~1.3¢ each"
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢ each"
    },
    "cap1": {
     "base": 2.0,
@@ -4630,8 +4630,8 @@
     "note": ""
    },
    "topcash": {
-    "base": 8.0,
-    "note": ""
+    "base": 15.0,
+    "note": "Often a new-customer or limited-time rate"
    },
    "befrugal": {
     "base": 18.0,
@@ -5742,8 +5742,8 @@
     "note": "Up to 4.9% — varies by category or new customers"
    },
    "extrabux": {
-    "base": 7.0,
-    "note": "Up to 7% — varies by category or new customers"
+    "base": 5.6,
+    "note": "Up to 5.6% — varies by category or new customers"
    },
    "delta": {
     "base": 1.3,
@@ -7423,7 +7423,7 @@
   },
   "Skechers": {
    "cap1": {
-    "base": 6.0,
+    "base": 8.0,
     "note": ""
    },
    "fetch": {
@@ -7671,8 +7671,8 @@
     "note": ""
    },
    "befrugal": {
-    "base": 13.0,
-    "note": "Often a new-customer or limited-time rate"
+    "base": 10.0,
+    "note": ""
    },
    "goodshop": {
     "base": 2.0,
@@ -7691,24 +7691,24 @@
     "note": ""
    },
    "delta": {
-    "base": 2.6,
-    "note": "2 miles/$1, valued ~1.3¢ each"
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢ each"
    },
    "american": {
-    "base": 3.0,
-    "note": "2 miles/$1, valued ~1.5¢ each"
+    "base": 1.5,
+    "note": "1 mile/$1, valued ~1.5¢ each"
    },
    "united": {
-    "base": 2.6,
-    "note": "2 miles/$1, valued ~1.3¢ each"
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢ each"
    },
    "southwest": {
-    "base": 2.6,
-    "note": "2 points/$1, valued ~1.3¢ each"
+    "base": 1.3,
+    "note": "1 point/$1, valued ~1.3¢ each"
    },
    "alaska": {
-    "base": 3.0,
-    "note": "2 miles/$1, valued ~1.5¢ each"
+    "base": 1.5,
+    "note": "1 mile/$1, valued ~1.5¢ each"
    },
    "cap1": {
     "base": 4.0,
@@ -7788,7 +7788,7 @@
     "note": "7 miles/$1, valued ~1.5¢ each"
    },
    "cap1": {
-    "base": 4.0,
+    "base": 5.5,
     "note": ""
    },
    "fetch": {
@@ -7826,11 +7826,6 @@
    }
   },
   "AT&T": {
-   "cap1": {
-    "base": 0,
-    "flat": 20.0,
-    "note": "Up to $20 back, usually on new customers or new lines"
-   },
    "fetch": {
     "base": 0,
     "flat": 0.025,
@@ -8005,8 +8000,8 @@
     "note": "1 mile/$1, valued ~1.5¢ each"
    },
    "cap1": {
-    "base": 0.75,
-    "note": "Up to 0.75% — varies by category or new customers"
+    "base": 1.0,
+    "note": "Up to 1% — varies by category or new customers"
    },
    "fetch": {
     "base": 0,
@@ -8054,7 +8049,7 @@
   },
   "Steve Madden": {
    "cap1": {
-    "base": 3.0,
+    "base": 2.0,
     "note": ""
    },
    "fetch": {
@@ -9507,6 +9502,26 @@
     "base": 1.5,
     "note": ""
    },
+   "delta": {
+    "base": 3.9,
+    "note": "3 miles/$1, valued ~1.3¢ each"
+   },
+   "american": {
+    "base": 5.25,
+    "note": "3.5 miles/$1, valued ~1.5¢ each"
+   },
+   "united": {
+    "base": 3.9,
+    "note": "3 miles/$1, valued ~1.3¢ each"
+   },
+   "southwest": {
+    "base": 3.9,
+    "note": "3 points/$1, valued ~1.3¢ each"
+   },
+   "alaska": {
+    "base": 6.0,
+    "note": "4 miles/$1, valued ~1.5¢ each"
+   },
    "cap1": {
     "base": 2.0,
     "note": ""
@@ -10314,26 +10329,6 @@
     "base": 3.0,
     "note": ""
    },
-   "delta": {
-    "base": 1.3,
-    "note": "1 mile/$1, valued ~1.3¢ each"
-   },
-   "american": {
-    "base": 1.5,
-    "note": "1 mile/$1, valued ~1.5¢ each"
-   },
-   "united": {
-    "base": 1.3,
-    "note": "1 mile/$1, valued ~1.3¢ each"
-   },
-   "southwest": {
-    "base": 1.3,
-    "note": "1 point/$1, valued ~1.3¢ each"
-   },
-   "alaska": {
-    "base": 1.5,
-    "note": "1 mile/$1, valued ~1.5¢ each"
-   },
    "cap1": {
     "base": 1.0,
     "note": ""
@@ -10346,8 +10341,8 @@
   },
   "Snake River Farms": {
    "cap1": {
-    "base": 0.75,
-    "note": "Up to 0.75% — varies by category or new customers"
+    "base": 2.5,
+    "note": "Up to 2.5% — varies by category or new customers"
    },
    "fetch": {
     "base": 0,
@@ -10946,6 +10941,10 @@
    }
   },
   "Parts Geek": {
+   "rebatesme": {
+    "base": 3.5,
+    "note": ""
+   },
    "cap1": {
     "base": 0,
     "flat": 1.0,
@@ -12477,6 +12476,33 @@
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
    }
+  },
+  "J&P Cycles": {
+   "topcash": {
+    "base": 2.02,
+    "note": ""
+   },
+   "befrugal": {
+    "base": 9.0,
+    "note": ""
+   },
+   "gocashback": {
+    "base": 1.0,
+    "note": ""
+   },
+   "goodshop": {
+    "base": 3.5,
+    "note": "Up to 3.5% — varies by category or new customers"
+   },
+   "rebatesme": {
+    "base": 7.0,
+    "note": "Up to 7% — varies by category or new customers"
+   },
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
   }
  },
  "domains": {
@@ -13215,7 +13241,7 @@
   "SKIMS": [
    {
     "code": "NFE2FRMP25G4JJ",
-    "desc": "Skims discount available"
+    "desc": "50% off"
    },
    {
     "code": "GA25M7FWQJ9",
@@ -13223,7 +13249,7 @@
    },
    {
     "code": "KJ-EMP2025",
-    "desc": "Skims discount available"
+    "desc": "50% Off"
    }
   ],
   "Coleman": [
@@ -13395,12 +13421,12 @@
     "desc": "New Users Get $3 off $10+ Orders"
    },
    {
-    "code": "12NEWUSOFF",
-    "desc": "New Users Get $12 off $80 Order"
-   },
-   {
     "code": "5NEWUSOFF",
     "desc": "New Users Get $5 off $20 Order"
+   },
+   {
+    "code": "12NEWUSOFF",
+    "desc": "New Users Get $12 off $80 Order"
    }
   ],
   "Bass Pro Shops": [
@@ -13501,12 +13527,12 @@
   "Casper": [
    {
     "code": "EXTRA10",
-    "desc": "Up to 30% off everything, plus 10% more",
-    "exp": "Expires Oct 23"
+    "desc": "Final Snooze Sale: up to 30% off everything plus extra 10% off",
+    "exp": "Expires Oct 21"
    },
    {
     "code": "FFPARTNER",
-    "desc": "Friends & Family: up to 25% off mattresses, up to 30% off other items"
+    "desc": "Friends & Family: up to 25% off mattresses, up to 30% off everything else"
    }
   ],
   "Charlotte Tilbury": [
@@ -13519,8 +13545,8 @@
     "desc": "15% Off"
    },
    {
-    "code": "CT-CS6MD0QNQYR",
-    "desc": "20% Off"
+    "code": "CTAPP15",
+    "desc": "15% Off"
    }
   ],
   "Chewy": [
@@ -13663,15 +13689,15 @@
   "Puma": [
    {
     "code": "2FORU",
-    "desc": "Qualifying items Now: 2 for $80"
+    "desc": "Two items for $80 on qualifying products"
    },
    {
     "code": "COOL20",
-    "desc": "Up to 50% + Extra 20% off Orders"
+    "desc": "Up to 50% off plus an extra 20% off orders"
    },
    {
     "code": "FALL30",
-    "desc": "Fall Sitewide Sale: 30% off Order"
+    "desc": "30% off an order (fall sitewide)"
    }
   ],
   "Saatva": [
@@ -13815,12 +13841,17 @@
   ],
   "Lenovo": [
    {
+    "code": "OUTLET15",
+    "desc": "Extra 15% off Outlet",
+    "exp": "Expires Oct 27"
+   },
+   {
     "code": "EXTRAFIVE",
     "desc": "19% off Legion 5i Gen 10 RTX 5060/Intel Ultra 7/32GB/1TB"
    },
    {
     "code": "THANKYOU15",
-    "desc": "15% off when you join the email list"
+    "desc": "15% off for joining the email list"
    }
   ],
   "Michaels": [
@@ -13929,16 +13960,16 @@
   ],
   "1-800-Flowers": [
    {
-    "code": "SENDCOMFORT",
-    "desc": "Save 15% on same-day sympathy flowers"
+    "code": "SMEDY15",
+    "desc": "15% off same-day flower and gift delivery"
    },
    {
-    "code": "SMEDY15",
-    "desc": "Save 15% on Same-Day Flowers & Gifts Delivery Service at 1800flowers.com."
+    "code": "SENDCOMFORT",
+    "desc": "15% off same-day sympathy flowers"
    },
    {
     "code": "FLWR10",
-    "desc": "Save $10 on orders of $59.99 or more"
+    "desc": "$10 off orders of $59.99 or more"
    }
   ],
   "Visible": [
@@ -13986,12 +14017,6 @@
     "desc": "15% off sitewide"
    }
   ],
-  "Lulus": [
-   {
-    "code": "BUY2GET1",
-    "desc": "Buy 2, Get 1 Free Sale"
-   }
-  ],
   "Lucky Brand": [
    {
     "code": "AFFLUCKY20",
@@ -14014,13 +14039,12 @@
   ],
   "Cole Haan": [
    {
-    "code": "OCTOBER",
-    "desc": "30% off order (available 10/22 6 PM EST - 10/29 6 AM EST)",
-    "exp": "Expires Oct 29"
-   },
-   {
     "code": "OCT25",
     "desc": "Extra 25% off select styles"
+   },
+   {
+    "code": "OCTOBER",
+    "desc": "30% off order (autumn essentials)"
    },
    {
     "code": "OCT20",
@@ -14189,8 +14213,8 @@
   ],
   "Naturalizer": [
    {
-    "code": "CELEBRATE",
-    "desc": "Extra 25% off sale styles"
+    "code": "HELLOFALL",
+    "desc": "20% off new fall styles"
    }
   ],
   "Vionic": [
@@ -14338,15 +14362,15 @@
    {
     "code": "15BRY",
     "desc": "15% off Orders Over $49.99 Sitewide",
-    "exp": "Expires Oct 20"
+    "exp": "Expires Oct 26"
+   },
+   {
+    "code": "SBIRTHDAY10",
+    "desc": "Save 10% on Birthday Berries and Gifts"
    },
    {
     "code": "SBFIVE",
     "desc": "Get $5 off Your Order of Delicious Dipped Berries"
-   },
-   {
-    "code": "BERRIES15",
-    "desc": "Get 15% off Orders $44.99+"
    }
   ],
   "Gymboree": [
@@ -14436,16 +14460,16 @@
   ],
   "Orvis": [
    {
+    "code": "FALLSAVE",
+    "desc": "Up to $50 off sitewide"
+   },
+   {
+    "code": "NEW4FALL",
+    "desc": "$25 off $50+ or $50 off $200+ on select men's and women's apparel"
+   },
+   {
     "code": "SAVE25",
-    "desc": "$25 off $50+"
-   },
-   {
-    "code": "SAVE30",
-    "desc": "$30 off $150+"
-   },
-   {
-    "code": "SHIPFREE",
-    "desc": "Free standard shipping on all orders"
+    "desc": "$25 off $50+ orders"
    }
   ],
   "Nine West": [
@@ -14454,12 +14478,12 @@
     "desc": "25% off sitewide"
    },
    {
-    "code": "SAVE25",
-    "desc": "$25 off orders over $100"
-   },
-   {
     "code": "CELEBRATEU",
     "desc": "25% off orders over $75"
+   },
+   {
+    "code": "10FALLNW",
+    "desc": "$10 off select styles, free returns"
    }
   ],
   "Giant Food": [
@@ -14504,16 +14528,16 @@
   ],
   "NOBULL": [
    {
+    "code": "TAKE10",
+    "desc": "NOBULL discount available"
+   },
+   {
     "code": "GRUDEN",
     "desc": "35% Off"
    },
    {
     "code": "WELCOME25",
     "desc": "25% off First Order"
-   },
-   {
-    "code": "TAKE10",
-    "desc": "NOBULL discount available"
    }
   ],
   "Redbubble": [
@@ -14593,22 +14617,18 @@
   "Madewell": [
    {
     "code": "LONGWEEKEND",
-    "desc": "Extra 30-50% off the sale, with up to 70% off original prices",
-    "exp": "Expires Oct 14"
+    "desc": "Enjoy An Extra 30-50% Off Sale",
+    "exp": "Expires Oct 20"
    }
   ],
   "Murad": [
    {
     "code": "RETINAL",
-    "desc": "Free Retinal Duo on orders of $125 or more",
-    "exp": "Expires Oct 13"
+    "desc": "Get a Free Retinal Duo on Purchases of $125 or More",
+    "exp": "Expires Oct 19"
    }
   ],
   "Nordstrom Rack": [
-   {
-    "code": "EMPLOYEE",
-    "desc": "20% Off"
-   },
    {
     "code": "RZUGYMR",
     "desc": "Nordstrom Rack discount available"
@@ -14625,7 +14645,7 @@
    },
    {
     "code": "FIRSTORDER",
-    "desc": "25% off"
+    "desc": "25% Off"
    }
   ],
   "Teva": [
@@ -14969,6 +14989,13 @@
    {
     "code": "15ALLCOUNTRY",
     "desc": "15% off Country Life"
+   }
+  ],
+  "Snake River Farms": [
+   {
+    "code": "STOCKUP",
+    "desc": "Fall Stock Up: $50 off $250+, $75 off $325, $120 off $400",
+    "exp": "Expires Oct 19"
    }
   ]
  },
