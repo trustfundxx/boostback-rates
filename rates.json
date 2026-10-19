@@ -12756,6 +12756,13 @@
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
    }
+  },
+  "Zara": {
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
   }
  },
  "domains": {
@@ -15305,6 +15312,12 @@
    {
     "code": "REAL",
     "desc": "20% off select items"
+   }
+  ],
+  "Zara": [
+   {
+    "code": "SUMMER2026",
+    "desc": "10% Off"
    }
   ]
  },
