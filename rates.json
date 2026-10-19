@@ -12763,6 +12763,34 @@
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
    }
+  },
+  "4 Wheel Parts": {
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Buy Buy Baby": {
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Dressbarn": {
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Fashion Nova": {
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
   }
  },
  "domains": {
@@ -15318,6 +15346,54 @@
    {
     "code": "SUMMER2026",
     "desc": "10% Off"
+   }
+  ],
+  "4 Wheel Parts": [
+   {
+    "code": "MEM26",
+    "desc": "20% Off"
+   },
+   {
+    "code": "FWP65",
+    "desc": "15% Off"
+   },
+   {
+    "code": "SHOCK10",
+    "desc": "10% Off"
+   }
+  ],
+  "Buy Buy Baby": [
+   {
+    "code": "326599",
+    "desc": "buybuy BABY discount available"
+   }
+  ],
+  "Dressbarn": [
+   {
+    "code": "GET35",
+    "desc": "Dress Barn discount available"
+   },
+   {
+    "code": "WELCOME15",
+    "desc": "Dress Barn discount available"
+   },
+   {
+    "code": "15SPECIAL",
+    "desc": "Dress Barn discount available"
+   }
+  ],
+  "Fashion Nova": [
+   {
+    "code": "VIP40",
+    "desc": "Fashion Nova discount available"
+   },
+   {
+    "code": "GET30",
+    "desc": "Fashion Nova discount available"
+   },
+   {
+    "code": "GET20",
+    "desc": "Fashion Nova discount available"
    }
   ]
  },
