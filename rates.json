@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T05:59:46.320718Z",
+ "generated_at": "2026-10-20T06:58:50.987745Z",
  "featured": [
   "eBay",
   "PetSmart",
@@ -4164,8 +4164,8 @@
   },
   "Office Depot": {
    "topcash": {
-    "base": 4.0,
-    "note": ""
+    "base": 15.0,
+    "note": "Often a new-customer or limited-time rate"
    },
    "gocashback": {
     "base": 4.0,
@@ -4180,16 +4180,16 @@
     "note": "1.5 miles/$1, valued ~1.5¢ each"
    },
    "united": {
-    "base": 3.9,
-    "note": "3 miles/$1, valued ~1.3¢ each"
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢ each"
    },
    "southwest": {
     "base": 1.3,
     "note": "1 point/$1, valued ~1.3¢ each"
    },
    "alaska": {
-    "base": 3.0,
-    "note": "2 miles/$1, valued ~1.5¢ each"
+    "base": 1.5,
+    "note": "1 mile/$1, valued ~1.5¢ each"
    },
    "cap1": {
     "base": 0.5,
@@ -4956,7 +4956,7 @@
     "note": ""
    },
    "extrabux": {
-    "base": 2.0,
+    "base": 1.5,
     "note": ""
    },
    "delta": {
@@ -5922,16 +5922,16 @@
     "note": ""
    },
    "delta": {
-    "base": 5.2,
-    "note": "4 miles/$1, valued ~1.3¢ each"
+    "base": 13.0,
+    "note": "10 miles/$1, valued ~1.3¢ each"
    },
    "american": {
     "base": 7.5,
     "note": "5 miles/$1, valued ~1.5¢ each"
    },
    "united": {
-    "base": 5.2,
-    "note": "4 miles/$1, valued ~1.3¢ each"
+    "base": 13.0,
+    "note": "10 miles/$1, valued ~1.3¢ each"
    },
    "southwest": {
     "base": 6.5,
@@ -6489,6 +6489,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": ""
    }
   },
   "Urban Outfitters": {
@@ -12877,6 +12881,90 @@
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
    }
+  },
+  "12th Tribe": {
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "AKIRA": {
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Anne Klein": {
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Awara": {
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Eloquii": {
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Evereve": {
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Grainger": {
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Jewel-Osco": {
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Johnston & Murphy": {
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Justice": {
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Pottery Barn Kids": {
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Puritan's Pride": {
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
   }
  },
  "domains": {
@@ -13543,13 +13631,13 @@
   "Under Armour": [
    {
     "code": "EXTRA10",
-    "desc": "Take 10% OFF; Free Shipping on orders $50+",
-    "exp": "Expires Nov 1"
+    "desc": "Take 10% OFF using code EXTRA10 at checkout! Free Shipping on orders $50+",
+    "exp": "Expires Nov 3"
    },
    {
     "code": "OCT40",
-    "desc": "EXTRA 40% OFF + stack 10% OFF with EXTRA10; free shipping on $50+",
-    "exp": "Expires Nov 1"
+    "desc": "Get an EXTRA 40% OFF using code OCT40 + Stack 10% OFF using code EXTRA10",
+    "exp": "Expires Nov 3"
    }
   ],
   "Vistaprint": [
@@ -13580,18 +13668,18 @@
   ],
   "Walgreens": [
    {
-    "code": "OCT20",
-    "desc": "20% off qualifying orders of $50+",
+    "code": "OCT15",
+    "desc": "Extra 15% off Qualifying Orders $35+",
     "exp": "Expires Nov 1"
    },
    {
-    "code": "OCT15",
-    "desc": "15% off qualifying orders of $35+",
+    "code": "OCT20",
+    "desc": "Extra 20% off Qualifying Orders $50+",
     "exp": "Expires Nov 1"
    },
    {
     "code": "SAVE20",
-    "desc": "20% off orders of $60+ sitewide"
+    "desc": "Extra 20% off $60+ Sitewide"
    }
   ],
   "West Elm": [
@@ -13647,23 +13735,16 @@
     "desc": "15% off"
    }
   ],
-  "DoorDash": [
-   {
-    "code": "USEG15OFF3Q26",
-    "desc": "15% off first order, $10 max discount, $15 min subtotal, select users",
-    "exp": "Expires Oct 18"
-   }
-  ],
   "Foot Locker": [
    {
-    "code": "FALL20",
-    "desc": "Take 20% off Sitewide",
-    "exp": "Expires Oct 13"
+    "code": "SPOOKY10",
+    "desc": "Get $10 off Orders Over $100+",
+    "exp": "Expires Oct 31"
    },
    {
-    "code": "FALL25",
-    "desc": "Take 25% off Orders of $150 or More",
-    "exp": "Expires Oct 13"
+    "code": "SPOOKY15",
+    "desc": "Get $15 off Orders Over $150+",
+    "exp": "Expires Oct 31"
    },
    {
     "code": "SAVE15",
@@ -13676,12 +13757,12 @@
     "desc": "30% off Holiday Orders."
    },
    {
-    "code": "VDAY2006",
-    "desc": "Apply code VDAY2006 at checkout to see savings."
+    "code": "VDYTN",
+    "desc": "Fragrance Net discount available"
    },
    {
-    "code": "VDYTN",
-    "desc": "Apply code VDYTN at checkout to see savings."
+    "code": "VDYTY",
+    "desc": "Fragrance Net discount available"
    }
   ],
   "FragranceX": [
@@ -13716,11 +13797,11 @@
     "desc": "25% off"
    },
    {
-    "code": "KING",
-    "desc": "10% Off"
+    "code": "SUITEAF",
+    "desc": "Abercrombie discount available"
    },
    {
-    "code": "SUITEAF",
+    "code": "AFLTK",
     "desc": "Abercrombie discount available"
    }
   ],
@@ -13784,19 +13865,23 @@
   ],
   "Bath & Body Works": [
    {
-    "code": "DGCB",
-    "desc": "10% Off"
+    "code": "STOCKED",
+    "desc": "Bath & Body Works discount available"
    },
    {
-    "code": "HAPPYHANDS",
-    "desc": "Apply code HAPPYHANDS at checkout to see savings."
+    "code": "WARM",
+    "desc": "Bath & Body Works discount available"
+   },
+   {
+    "code": "FRESHPICKS",
+    "desc": "Bath & Body Works discount available"
    }
   ],
   "Beauty Brands": [
    {
     "code": "EC17294",
     "desc": "25% off One Regular Priced item.",
-    "exp": "Expires Oct 28"
+    "exp": "Expires Nov 5"
    }
   ],
   "Belk": [
@@ -14119,7 +14204,7 @@
    {
     "code": "CARDLOVE",
     "desc": "Enjoy an Extra 20% Off With Your J.Crew Credit Card",
-    "exp": "Expires Oct 15"
+    "exp": "Expires Oct 24"
    }
   ],
   "Kiehl's": [
@@ -14150,16 +14235,17 @@
   ],
   "Lancôme": [
    {
+    "code": "EXCLUSIVE",
+    "desc": "Buy one, get one on select products",
+    "exp": "Expires Oct 25"
+   },
+   {
     "code": "SETS25",
-    "desc": "25% off select sets"
+    "desc": "25% off select sets, while supplies last"
    },
    {
     "code": "STOCKUP35",
     "desc": "35% off sitewide"
-   },
-   {
-    "code": "FALLFRIDAY",
-    "desc": "Free 3-piece gift with $250+ purchase"
    }
   ],
   "Lands' End": [
@@ -14207,19 +14293,19 @@
   ],
   "Mattress Firm": [
    {
+    "code": "FLASH",
+    "desc": "Big Weekend Flash Sale - Extra 25% off Select Mattresses, Bedding and More",
+    "exp": "Expires Oct 20"
+   },
+   {
     "code": "AFTERHOURS",
-    "desc": "After Hours Flash Sale - Extra 15% off Select Mattresses & More",
-    "exp": "Expires Oct 21"
+    "desc": "Upgrade Your Sleep Sale® - Save $300 on Select Purple® Mattresses",
+    "exp": "Expires Oct 23"
    },
    {
     "code": "36HOUR",
-    "desc": "Extra 20% off Non-map",
-    "exp": "Expires Oct 28"
-   },
-   {
-    "code": "BOGO50",
-    "desc": "Buy 1, Get 1 50% off Bedding",
-    "exp": "Expires Oct 20"
+    "desc": "Save Up to $650 on the DreamCloud PressureSmart™ Collection",
+    "exp": "Expires Oct 30"
    }
   ],
   "Guess": [
@@ -14244,18 +14330,14 @@
   ],
   "Harry & David": [
    {
-    "code": "FALLDEAL",
-    "desc": "Save 20% on Gifts Already on Sale",
-    "exp": "Expires Oct 15"
-   },
-   {
     "code": "FALLSAVE",
-    "desc": "Save 10% on $79+, 15% off $99+, 20% off $149+ on Select Gifts",
+    "desc": "Save 10% on $79+, 15% off $99+, and 20% off $149+ on Select Gifts",
     "exp": "Expires Oct 27"
    },
    {
     "code": "15HDAVID",
-    "desc": "15% off Sitewide"
+    "desc": "15% off Sitewide",
+    "exp": "Expires Nov 2"
    }
   ],
   "Finish Line": [
@@ -14349,8 +14431,14 @@
   ],
   "Lucky Brand": [
    {
+    "code": "LUCKYYOU",
+    "desc": "Take 40% off Cozy Sweaters, Denim Jackets, & More",
+    "exp": "Expires Oct 27"
+   },
+   {
     "code": "AFFLUCKY20",
-    "desc": "Get 20% off Orders $125+"
+    "desc": "Get 20% off Orders $125+",
+    "exp": "Expires Nov 2"
    }
   ],
   "Timberland": [
@@ -14385,21 +14473,21 @@
   "Rothy's": [
    {
     "code": "WELCOME20",
-    "desc": "$20 off first purchase for new customers"
+    "desc": "New Customers - Get $20 off Your First Purchase"
    }
   ],
   "Famous Footwear": [
    {
-    "code": "FALLINTO15",
-    "desc": "$15 off $75"
+    "code": "YOUSAVE20",
+    "desc": "20% off any order"
    },
    {
-    "code": "FALLFEELS",
-    "desc": "15% off sitewide"
+    "code": "FRESH15",
+    "desc": "15% off any order"
    },
    {
-    "code": "MEMBER20",
-    "desc": "20% off any order for Famously You members"
+    "code": "GOSAVE15",
+    "desc": "15% off any order"
    }
   ],
   "Journeys": [
@@ -14539,7 +14627,7 @@
   "AllSaints": [
    {
     "code": "SPRINGTIME",
-    "desc": "20% off when buying 2 items, storewide sale"
+    "desc": "20% off When Buying 2 items Storewide Sale"
    }
   ],
   "Vionic": [
@@ -14571,7 +14659,7 @@
   "Tillys": [
    {
     "code": "SAVE20",
-    "desc": "$20 off Purchases Over $100"
+    "desc": "$20 off purchases over $100"
    }
   ],
   "Johnnie-O": [
@@ -14658,21 +14746,25 @@
   "Hickory Farms": [
    {
     "code": "AF10EVR",
-    "desc": "10% off orders of $75+"
+    "desc": "10% off Orders $75+"
    },
    {
     "code": "HFAF150",
-    "desc": "20% off orders over $150 + free shipping sitewide"
+    "desc": "Take 20% off Orders over $150 and Get Unlimited Free Shipping Sitewide"
    },
    {
     "code": "HFDAD23",
-    "desc": "Up to 25% off select gifts"
+    "desc": "Up to 25% off Select Gifts"
    }
   ],
   "Edible Arrangements": [
    {
     "code": "BDAY10",
     "desc": "10% off birthday baskets"
+   },
+   {
+    "code": "FREEDEL",
+    "desc": "10% off birthday baskets; free shipping offer"
    }
   ],
   "Shari's Berries": [
@@ -14692,16 +14784,16 @@
   ],
   "Gymboree": [
    {
-    "code": "GET20",
-    "desc": "20% off sitewide"
+    "code": "50OFF",
+    "desc": "50% off sitewide"
+   },
+   {
+    "code": "EXTRA25",
+    "desc": "25% off any order"
    },
    {
     "code": "FREESHIP",
     "desc": "Free shipping, no minimum"
-   },
-   {
-    "code": "EXTRA25",
-    "desc": "Extra 25% off any order"
    }
   ],
   "Hanna Andersson": [
@@ -15019,15 +15111,15 @@
   "Aerosoles": [
    {
     "code": "AEROMYSTERY",
-    "desc": "40% off sitewide"
+    "desc": "Mystery Sale - 40% off Sitewide"
    },
    {
     "code": "PASSWORD123",
-    "desc": "25% off sitewide"
+    "desc": "25% off Sitewide"
    },
    {
-    "code": "ICONS25",
-    "desc": "25% off iconic styles"
+    "code": "SHARETHELOVE",
+    "desc": "$25 off $100+ Order"
    }
   ],
   "AutoZone": [
@@ -15067,7 +15159,7 @@
   "Levi's": [
    {
     "code": "HURRY30",
-    "desc": "Extra 30% off Sale Styles"
+    "desc": "Extra 30% off Sale Styles."
    }
   ],
   "Urban Outfitters": [
@@ -15336,17 +15428,17 @@
   ],
   "Merrell": [
    {
+    "code": "SAVE40",
+    "desc": "Extra 40% off Select Styles",
+    "exp": "Expires Oct 23"
+   },
+   {
     "code": "GETOUTSIDE",
     "desc": "$20 off any Order $100+"
    },
    {
-    "code": "SAVE40",
-    "desc": "Extra 40% off Select Styles",
-    "exp": "Expires Oct 21"
-   },
-   {
-    "code": "TRAIL20",
-    "desc": "20% off Sitewide"
+    "code": "TCC10",
+    "desc": "10% off any Order"
    }
   ],
   "Monica + Andy": [
@@ -15376,8 +15468,8 @@
   "The Children's Place": [
    {
     "code": "B2G1",
-    "desc": "Buy two denim items, get one free",
-    "exp": "Expires Oct 22"
+    "desc": "US_Denim buy 2 get 1 free with code B2G1",
+    "exp": "Expires Oct 24"
    }
   ],
   "Coldwater Creek": [
@@ -15644,6 +15736,172 @@
    {
     "code": "WANDS_7_26_14_POD",
     "desc": "20% Off"
+   }
+  ],
+  "12th Tribe": [
+   {
+    "code": "MISSYOU15",
+    "desc": "12THTRIBE discount"
+   },
+   {
+    "code": "SAVE10",
+    "desc": "12THTRIBE discount"
+   },
+   {
+    "code": "SAVE15",
+    "desc": "12THTRIBE discount"
+   }
+  ],
+  "AKIRA": [
+   {
+    "code": "2QV5JGS8C7JF",
+    "desc": "AKIRA discount available"
+   },
+   {
+    "code": "20%OFFHTS492S",
+    "desc": "AKIRA discount available"
+   },
+   {
+    "code": "15-X1PXP11",
+    "desc": "15% Off"
+   }
+  ],
+  "Anne Klein": [
+   {
+    "code": "AK15",
+    "desc": "15% Off"
+   }
+  ],
+  "Awara": [
+   {
+    "code": "REVIEWED",
+    "desc": "$350 off Mattress"
+   }
+  ],
+  "Coleman": [
+   {
+    "code": "MARINECOOLER19",
+    "desc": "50% off 50 Quart Marine Cooler"
+   },
+   {
+    "code": "LIGHT2019",
+    "desc": "50% off CPX LED Spotlight"
+   },
+   {
+    "code": "SLEEPS19",
+    "desc": "Over 50% off White Water Sleeping Bag"
+   }
+  ],
+  "Eloquii": [
+   {
+    "code": "EQFIFTY",
+    "desc": "ELOQUII discount available"
+   },
+   {
+    "code": "EQVIP",
+    "desc": "ELOQUII discount available"
+   },
+   {
+    "code": "E5Z4P2B",
+    "desc": "ELOQUII discount available"
+   }
+  ],
+  "Evereve": [
+   {
+    "code": "SAVE10",
+    "desc": "10% Off"
+   }
+  ],
+  "Grainger": [
+   {
+    "code": "UCM082",
+    "desc": "Apply code UCM082 at checkout to see savings"
+   }
+  ],
+  "Indochino": [
+   {
+    "code": "BUNDLES",
+    "desc": "Two chinos for $99"
+   },
+   {
+    "code": "3SHIRTS",
+    "desc": "Three shirts for $149"
+   },
+   {
+    "code": "GET20",
+    "desc": "20% off sitewide"
+   }
+  ],
+  "Jewel-Osco": [
+   {
+    "code": "SAVE20",
+    "desc": "$20 off + Free Delivery with $75+ Orders on Your 1st Order"
+   }
+  ],
+  "Johnston & Murphy": [
+   {
+    "code": "PW1536FBBB",
+    "desc": "Johnston & Murphy discount available"
+   },
+   {
+    "code": "EXTRA30",
+    "desc": "30% Off"
+   }
+  ],
+  "Justice": [
+   {
+    "code": "25FAST",
+    "desc": "25% off entire site"
+   },
+   {
+    "code": "FALL40",
+    "desc": "Up to 40% off sitewide"
+   },
+   {
+    "code": "SPRING15",
+    "desc": "15% off any order"
+   }
+  ],
+  "Pottery Barn Kids": [
+   {
+    "code": "EXTRA20",
+    "desc": "20% Off"
+   },
+   {
+    "code": "PBK30",
+    "desc": "30% Off"
+   },
+   {
+    "code": "HOORAY",
+    "desc": "Pottery Barn Kids discount available"
+   }
+  ],
+  "Puritan's Pride": [
+   {
+    "code": "PERK20R",
+    "desc": "Puritan's Pride discount available"
+   },
+   {
+    "code": "20PRIDE",
+    "desc": "Puritan's Pride discount available"
+   },
+   {
+    "code": "REORDER",
+    "desc": "10% Off"
+   }
+  ],
+  "Stop & Shop": [
+   {
+    "code": "SSASAVE80",
+    "desc": "New delivery/pickup customers save $80 + free delivery or pickup for 90 days"
+   },
+   {
+    "code": "SSONLINE50",
+    "desc": "$25 off first two delivery or pickup orders of $100+"
+   },
+   {
+    "code": "COLD10",
+    "desc": "10% off first order"
    }
   ]
  },
