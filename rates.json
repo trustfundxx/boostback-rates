@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T13:19:34.823294Z",
+ "generated_at": "2026-10-20T05:59:46.320718Z",
  "featured": [
   "eBay",
   "PetSmart",
@@ -375,7 +375,7 @@
     "note": ""
    },
    "topcash": {
-    "base": 30.0,
+    "base": 15.0,
     "note": "Often a new-customer or limited-time rate"
    },
    "befrugal": {
@@ -399,8 +399,8 @@
     "note": "Up to 4.5% — varies by category or new customers"
    },
    "extrabux": {
-    "base": 8.5,
-    "note": "Up to 8.5% — varies by category or new customers"
+    "base": 10.5,
+    "note": "Up to 10.5% — varies by category or new customers"
    },
    "delta": {
     "base": 4.55,
@@ -925,24 +925,24 @@
     "note": ""
    },
    "delta": {
-    "base": 6.5,
-    "note": "5 miles/$1, valued ~1.3¢ each"
+    "base": 5.2,
+    "note": "4 miles/$1, valued ~1.3¢ each"
    },
    "american": {
-    "base": 9.0,
-    "note": "6 miles/$1, valued ~1.5¢ each"
+    "base": 7.5,
+    "note": "5 miles/$1, valued ~1.5¢ each"
    },
    "united": {
     "base": 5.2,
     "note": "4 miles/$1, valued ~1.3¢ each"
    },
    "southwest": {
-    "base": 7.8,
-    "note": "6 points/$1, valued ~1.3¢ each"
+    "base": 6.5,
+    "note": "5 points/$1, valued ~1.3¢ each"
    },
    "alaska": {
-    "base": 9.0,
-    "note": "6 miles/$1, valued ~1.5¢ each"
+    "base": 7.5,
+    "note": "5 miles/$1, valued ~1.5¢ each"
    },
    "cap1": {
     "base": 0.5,
@@ -1641,7 +1641,7 @@
   },
   "CVS": {
    "rakuten": {
-    "base": 5.0,
+    "base": 3.0,
     "note": ""
    },
    "topcash": {
@@ -2593,6 +2593,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "Hilton": {
@@ -5843,7 +5847,7 @@
   "Ulta Beauty": {
    "rakuten": {
     "base": 2.0,
-    "note": "Up to 2% — varies by category or new customers"
+    "note": ""
    },
    "topcash": {
     "base": 4.0,
@@ -5862,24 +5866,24 @@
     "note": ""
    },
    "delta": {
-    "base": 2.6,
-    "note": "2 miles/$1, valued ~1.3¢ each"
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢ each"
    },
    "american": {
-    "base": 3.0,
-    "note": "2 miles/$1, valued ~1.5¢ each"
+    "base": 2.25,
+    "note": "1.5 miles/$1, valued ~1.5¢ each"
    },
    "united": {
-    "base": 2.6,
-    "note": "2 miles/$1, valued ~1.3¢ each"
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢ each"
    },
    "southwest": {
-    "base": 2.6,
-    "note": "2 points/$1, valued ~1.3¢ each"
+    "base": 1.3,
+    "note": "1 point/$1, valued ~1.3¢ each"
    },
    "alaska": {
-    "base": 3.0,
-    "note": "2 miles/$1, valued ~1.5¢ each"
+    "base": 1.5,
+    "note": "1 mile/$1, valued ~1.5¢ each"
    },
    "cap1": {
     "base": 1.0,
@@ -6528,24 +6532,24 @@
     "note": ""
    },
    "delta": {
-    "base": 3.25,
-    "note": "2.5 miles/$1, valued ~1.3¢ each"
+    "base": 1.95,
+    "note": "1.5 miles/$1, valued ~1.3¢ each"
    },
    "american": {
-    "base": 4.5,
-    "note": "3 miles/$1, valued ~1.5¢ each"
+    "base": 3.0,
+    "note": "2 miles/$1, valued ~1.5¢ each"
    },
    "united": {
-    "base": 2.6,
-    "note": "2 miles/$1, valued ~1.3¢ each"
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢ each"
    },
    "southwest": {
-    "base": 3.9,
-    "note": "3 points/$1, valued ~1.3¢ each"
+    "base": 2.6,
+    "note": "2 points/$1, valued ~1.3¢ each"
    },
    "alaska": {
-    "base": 4.5,
-    "note": "3 miles/$1, valued ~1.5¢ each"
+    "base": 3.0,
+    "note": "2 miles/$1, valued ~1.5¢ each"
    },
    "fetch": {
     "base": 0,
@@ -6651,22 +6655,6 @@
    "rebatesme": {
     "base": 1.0,
     "note": ""
-   },
-   "delta": {
-    "base": 0.65,
-    "note": "0.5 miles/$1, valued ~1.3¢ each"
-   },
-   "united": {
-    "base": 0.65,
-    "note": "0.5 miles/$1, valued ~1.3¢ each"
-   },
-   "southwest": {
-    "base": 0.65,
-    "note": "0.5 points/$1, valued ~1.3¢ each"
-   },
-   "alaska": {
-    "base": 0.75,
-    "note": "0.5 miles/$1, valued ~1.5¢ each"
    },
    "fetch": {
     "base": 0,
@@ -7007,7 +6995,7 @@
     "note": "1 mile/$1, valued ~1.5¢ each"
    },
    "cap1": {
-    "base": 1.0,
+    "base": 2.0,
     "note": ""
    },
    "fetch": {
@@ -7499,7 +7487,7 @@
   },
   "Skechers": {
    "cap1": {
-    "base": 8.0,
+    "base": 10.5,
     "note": ""
    },
    "fetch": {
@@ -7980,8 +7968,8 @@
    },
    "cap1": {
     "base": 0,
-    "flat": 35.0,
-    "note": "Up to $35 back, usually on new customers or new lines"
+    "flat": 60.0,
+    "note": "Up to $60 back, usually on new customers or new lines"
    },
    "fetch": {
     "base": 0,
@@ -8450,7 +8438,7 @@
     "note": "1 mile/$1, valued ~1.5¢ each"
    },
    "cap1": {
-    "base": 2.0,
+    "base": 3.5,
     "note": ""
    },
    "fetch": {
@@ -8652,12 +8640,12 @@
   },
   "Oakley": {
    "rakuten": {
-    "base": 4.0,
-    "note": "Up to 4% — varies by category or new customers"
+    "base": 10.0,
+    "note": "Up to 10% — varies by category or new customers"
    },
    "topcash": {
-    "base": 7.07,
-    "note": ""
+    "base": 15.15,
+    "note": "Often a new-customer or limited-time rate"
    },
    "befrugal": {
     "base": 16.0,
@@ -8991,7 +8979,7 @@
   },
   "Net-a-Porter": {
    "cap1": {
-    "base": 6.0,
+    "base": 6.5,
     "note": ""
    },
    "fetch": {
@@ -10526,7 +10514,7 @@
     "note": "Up to 1% — varies by category or new customers"
    },
    "extrabux": {
-    "base": 3.0,
+    "base": 2.5,
     "note": ""
    },
    "cap1": {
@@ -10818,7 +10806,7 @@
     "note": "1 mile/$1, valued ~1.5¢ each"
    },
    "cap1": {
-    "base": 1.0,
+    "base": 2.0,
     "note": ""
    },
    "fetch": {
@@ -11525,7 +11513,7 @@
   },
   "NOBULL": {
    "cap1": {
-    "base": 3.0,
+    "base": 5.0,
     "note": ""
    },
    "fetch": {
@@ -11971,8 +11959,8 @@
     "note": "Up to 6% — varies by category or new customers"
    },
    "pricecom": {
-    "base": 5.0,
-    "note": "Up to 5% — varies by category or new customers"
+    "base": 3.0,
+    "note": "Up to 3% — varies by category or new customers"
    },
    "delta": {
     "base": 1.3,
@@ -12791,6 +12779,104 @@
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
    }
+  },
+  "Acme Markets": {
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Appleseed's": {
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "AutoAnything": {
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Christopher & Banks": {
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Costco": {
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Gopuff": {
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Massimo Dutti": {
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Micro Center": {
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Pottery Barn": {
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Randalls": {
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Rhone": {
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Shoe Carnival": {
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Skullcandy": {
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Vuori": {
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
   }
  },
  "domains": {
@@ -13510,32 +13596,18 @@
   ],
   "West Elm": [
    {
-    "code": "DYMC",
-    "desc": "West Elm discount available"
-   },
-   {
     "code": "WINWIN",
     "desc": "20% Off"
+   },
+   {
+    "code": "DYMC",
+    "desc": "West Elm discount available"
    }
   ],
   "Sixt": [
    {
     "code": "ELECTRIC3000",
     "desc": "3,000 Free Miles on EVs"
-   }
-  ],
-  "SKIMS": [
-   {
-    "code": "NFE2FRMP25G4JJ",
-    "desc": "50% off"
-   },
-   {
-    "code": "GA25M7FWQJ9",
-    "desc": "50% Off"
-   },
-   {
-    "code": "KJ-EMP2025",
-    "desc": "50% Off"
    }
   ],
   "Columbia Sportswear": [
@@ -13685,29 +13757,29 @@
   "AliExpress": [
    {
     "code": "0003NEWUSOFF",
-    "desc": "New Users Get $3 off $10+ Orders"
-   },
-   {
-    "code": "5NEWUSOFF",
-    "desc": "New Users Get $5 off $20 Order"
+    "desc": "New users: $3 off $10+ orders"
    },
    {
     "code": "12NEWUSOFF",
-    "desc": "New Users Get $12 off $80 Order"
+    "desc": "New users: $12 off $80 order"
+   },
+   {
+    "code": "5NEWUSOFF",
+    "desc": "New users: $5 off $20 order"
    }
   ],
   "Bass Pro Shops": [
    {
     "code": "COLUMBIA25",
-    "desc": "25% off all Columbia styles"
+    "desc": "Save 25% on All Columbia Styles"
    },
    {
     "code": "STOREPICKUP",
-    "desc": "10% off orders with in-store pickup or ship-to-store"
+    "desc": "10% off Orders and Pick Up in Store or Ship to Store"
    },
    {
     "code": "CAVECLEAR10",
-    "desc": "Extra 10% off clearance items"
+    "desc": "Additional 10% off Clearance items"
    }
   ],
   "Bath & Body Works": [
@@ -13755,16 +13827,12 @@
   ],
   "Boscov's": [
    {
-    "code": "15FORDAD",
-    "desc": "Extra 15% off men's and young men's departments and men's shoes"
-   },
-   {
-    "code": "50OFFCURT",
-    "desc": "Buy 1 curtain, get one 50% off"
+    "code": "GOBBLE",
+    "desc": "15% off charge appreciation"
    },
    {
     "code": "CLINFALL20SSUP",
-    "desc": "Free Clinique overnight mask with $75 Clinique spend"
+    "desc": "Free Clinique overnight mask with $75 Clinique order"
    }
   ],
   "Cabela's": [
@@ -13794,26 +13862,26 @@
   "Casper": [
    {
     "code": "EXTRA10",
-    "desc": "Final Snooze Sale: up to 30% off everything plus extra 10% off",
-    "exp": "Expires Oct 21"
+    "desc": "Up to 30% off everything, plus extra 10%",
+    "exp": "Expires Oct 22"
    },
    {
     "code": "FFPARTNER",
-    "desc": "Friends & Family: up to 25% off mattresses, up to 30% off everything else"
+    "desc": "Up to 25% off mattresses, up to 30% off everything else"
    }
   ],
   "Charlotte Tilbury": [
    {
     "code": "CT-SOCOOCSZOCL",
-    "desc": "20% Off"
-   },
-   {
-    "code": "ANGELAMSMK3J",
-    "desc": "15% Off"
+    "desc": "20% off"
    },
    {
     "code": "CTAPP15",
-    "desc": "15% Off"
+    "desc": "15% off"
+   },
+   {
+    "code": "ANGELAMSMK3J",
+    "desc": "15% off"
    }
   ],
   "Chewy": [
@@ -13955,16 +14023,16 @@
   ],
   "Puma": [
    {
+    "code": "FALL30",
+    "desc": "30% off sitewide order"
+   },
+   {
     "code": "2FORU",
-    "desc": "Two items for $80 on qualifying products"
+    "desc": "2 for $80 on qualifying items"
    },
    {
     "code": "COOL20",
-    "desc": "Up to 50% off plus an extra 20% off orders"
-   },
-   {
-    "code": "FALL30",
-    "desc": "30% off an order (fall sitewide)"
+    "desc": "Up to 50% off plus extra 20% off orders"
    }
   ],
   "Saatva": [
@@ -14223,7 +14291,7 @@
   "1-800-Flowers": [
    {
     "code": "SMEDY15",
-    "desc": "15% off same-day flower and gift delivery"
+    "desc": "15% off same-day flowers and gifts delivery"
    },
    {
     "code": "SENDCOMFORT",
@@ -14301,12 +14369,13 @@
   ],
   "Cole Haan": [
    {
-    "code": "OCT25",
-    "desc": "Extra 25% off select styles"
+    "code": "OCTOBER",
+    "desc": "30% off order (Autumn Essentials), available 10/22 6PM EST - 10/29 6AM EST",
+    "exp": "Expires Oct 29"
    },
    {
-    "code": "OCTOBER",
-    "desc": "30% off order (autumn essentials)"
+    "code": "OCT25",
+    "desc": "Extra 25% off select styles"
    },
    {
     "code": "OCT20",
@@ -14473,12 +14542,6 @@
     "desc": "20% off when buying 2 items, storewide sale"
    }
   ],
-  "Naturalizer": [
-   {
-    "code": "HELLOFALL",
-    "desc": "20% off new fall styles"
-   }
-  ],
   "Vionic": [
    {
     "code": "VIOAFFILIATE10",
@@ -14489,8 +14552,8 @@
     "desc": "Summer Sale on Sale - Extra 20% off Sale Styles"
    },
    {
-    "code": "MENS15",
-    "desc": "Take 15% off Men's Products"
+    "code": "PEDICURE40",
+    "desc": "Vionic Shoes discount available"
    }
   ],
   "ECCO": [
@@ -14616,11 +14679,11 @@
    {
     "code": "15BRY",
     "desc": "15% off Orders Over $49.99 Sitewide",
-    "exp": "Expires Oct 26"
+    "exp": "Expires Oct 28"
    },
    {
-    "code": "SBIRTHDAY10",
-    "desc": "Save 10% on Birthday Berries and Gifts"
+    "code": "BERRIES15",
+    "desc": "Get 15% off Orders $44.99+"
    },
    {
     "code": "SBFIVE",
@@ -14643,9 +14706,9 @@
   ],
   "Hanna Andersson": [
    {
-    "code": "NEW20",
-    "desc": "Friends & Family Event: 40% off Everything + Extra 20% off New Arrivals",
-    "exp": "Expires Oct 13"
+    "code": "FUN20",
+    "desc": "Friends & Family Event: 40% off Absolutely Everything + Extra 20% off Order",
+    "exp": "Expires Oct 20"
    },
    {
     "code": "FALLPLAY25",
@@ -14732,19 +14795,19 @@
     "desc": "25% off sitewide"
    },
    {
-    "code": "CELEBRATEU",
-    "desc": "25% off orders over $75"
+    "code": "SAVE25",
+    "desc": "$25 off orders over $100"
    },
    {
-    "code": "10FALLNW",
-    "desc": "$10 off select styles, free returns"
+    "code": "EXTRA30NW",
+    "desc": "Extra 30% off sale, up to 70% off"
    }
   ],
   "Giant Food": [
    {
     "code": "GIANTSAVE25",
-    "desc": "Enjoy $25 off your next order of $100 or more with code GIANTSAVE25",
-    "exp": "Expires Oct 17"
+    "desc": "$25 off your next order of $100 or more",
+    "exp": "Expires Oct 25"
    }
   ],
   "B&H Photo": [
@@ -14765,7 +14828,7 @@
    {
     "code": "OCTBOOST",
     "desc": "Take 15% off $75, 25% off $150 In-Store and Online",
-    "exp": "Expires Oct 12"
+    "exp": "Expires Oct 20"
    }
   ],
   "Grande Cosmetics": [
@@ -14782,16 +14845,17 @@
   ],
   "NOBULL": [
    {
+    "code": "FIRST50",
+    "desc": "Take $50 off Your First Order of $150 or More",
+    "exp": "Expires Oct 30"
+   },
+   {
     "code": "TAKE10",
     "desc": "NOBULL discount available"
    },
    {
     "code": "GRUDEN",
     "desc": "35% Off"
-   },
-   {
-    "code": "WELCOME25",
-    "desc": "25% off First Order"
    }
   ],
   "Redbubble": [
@@ -14831,7 +14895,7 @@
   "Mizuno": [
    {
     "code": "IOPM-WAVERIDER24",
-    "desc": "25% off Wave Rider 24 Styles Now On Sale"
+    "desc": "25% off Wave Rider 24 styles, currently on sale"
    }
   ],
   "JEGS": [
@@ -14871,15 +14935,15 @@
   "Madewell": [
    {
     "code": "LONGWEEKEND",
-    "desc": "Enjoy An Extra 30-50% Off Sale",
-    "exp": "Expires Oct 20"
+    "desc": "Extra 30-50% off the sale, up to 70% off original prices",
+    "exp": "Expires Oct 22"
    }
   ],
   "Murad": [
    {
     "code": "RETINAL",
     "desc": "Get a Free Retinal Duo on Purchases of $125 or More",
-    "exp": "Expires Oct 19"
+    "exp": "Expires Oct 21"
    }
   ],
   "Nordstrom Rack": [
@@ -14910,16 +14974,16 @@
   ],
   "Ticketmaster": [
    {
-    "code": "SOAFF3",
-    "desc": "20% Off"
-   },
-   {
-    "code": "TMN241",
+    "code": "TMNTX",
     "desc": "50% Off"
    },
    {
     "code": "TREAT",
     "desc": "25% Off"
+   },
+   {
+    "code": "SOAFF3",
+    "desc": "20% Off"
    }
   ],
   "Easy Spirit": [
@@ -15253,7 +15317,7 @@
    {
     "code": "STOCKUP",
     "desc": "Fall Stock Up: $50 off $250+, $75 off $325, $120 off $400",
-    "exp": "Expires Oct 19"
+    "exp": "Expires Oct 21"
    }
   ],
   "Marmot": [
@@ -15394,6 +15458,192 @@
    {
     "code": "GET20",
     "desc": "Fashion Nova discount available"
+   }
+  ],
+  "Acme Markets": [
+   {
+    "code": "BIZSAVE30",
+    "desc": "ACME discount available"
+   },
+   {
+    "code": "FREE",
+    "desc": "ACME discount available"
+   },
+   {
+    "code": "FREEORFLASH",
+    "desc": "ACME discount available"
+   }
+  ],
+  "American Girl": [
+   {
+    "code": "HOLIDAYPJ",
+    "desc": "Up to 30% off Sale items and Monthly Specials"
+   },
+   {
+    "code": "HOLIDAYPJ2",
+    "desc": "Save $15 when you buy matching Girl & Doll Holiday PJs"
+   },
+   {
+    "code": "HOLIDAYWISH",
+    "desc": "Save on Final Sale items"
+   }
+  ],
+  "Appleseed's": [
+   {
+    "code": "A1049",
+    "desc": "Appleseed's discount available"
+   },
+   {
+    "code": "A11020",
+    "desc": "Appleseed's discount available"
+   },
+   {
+    "code": "A11079",
+    "desc": "Appleseed's discount available"
+   }
+  ],
+  "AutoAnything": [
+   {
+    "code": "AASPECIAL",
+    "desc": "10% off sitewide"
+   },
+   {
+    "code": "SHHH20",
+    "desc": "20% off orders of $99+"
+   },
+   {
+    "code": "SADDLEMAN5",
+    "desc": "5% off Saddleman Brand of Custom Seat Covers"
+   }
+  ],
+  "Christopher & Banks": [
+   {
+    "code": "COMEBACK20",
+    "desc": "Christopher and Banks discount available"
+   },
+   {
+    "code": "REWARD20",
+    "desc": "20% Off"
+   },
+   {
+    "code": "JOINCB10",
+    "desc": "Christopher and Banks discount available"
+   }
+  ],
+  "Costco": [
+   {
+    "code": "AFFNMBR",
+    "desc": "Costco discount available"
+   },
+   {
+    "code": "COSTX",
+    "desc": "Costco discount available"
+   },
+   {
+    "code": "QNZ9GUM",
+    "desc": "Costco discount available"
+   }
+  ],
+  "Gopuff": [
+   {
+    "code": "G0KX86BELX",
+    "desc": "60% off"
+   },
+   {
+    "code": "GO221EMPBX",
+    "desc": "GoPuff discount available"
+   },
+   {
+    "code": "WELCOME40",
+    "desc": "40% Off"
+   }
+  ],
+  "Massimo Dutti": [
+   {
+    "code": "WELCOMEDUTTI10",
+    "desc": "Massimo Dutti discount available"
+   }
+  ],
+  "Micro Center": [
+   {
+    "code": "NEWUSER25",
+    "desc": "Micro Center discount available"
+   }
+  ],
+  "Pottery Barn": [
+   {
+    "code": "OUTDOOR15",
+    "desc": "15% Off"
+   },
+   {
+    "code": "WELCOME10",
+    "desc": "10% Off"
+   },
+   {
+    "code": "DESIGN",
+    "desc": "Pottery Barn discount available"
+   }
+  ],
+  "Randalls": [
+   {
+    "code": "HEALTHYSNACKS",
+    "desc": "Save $5 When You Spend $20+ on Select items"
+   },
+   {
+    "code": "EXCLUSIVEHOLIDAY",
+    "desc": "Save $5 When You Spend $20 on Select items"
+   }
+  ],
+  "Rhone": [
+   {
+    "code": "WALKSAUCE20",
+    "desc": "Rhone discount available"
+   },
+   {
+    "code": "BRIGHTON20",
+    "desc": "Rhone discount available"
+   },
+   {
+    "code": "HELEN",
+    "desc": "Rhone discount available"
+   }
+  ],
+  "Shoe Carnival": [
+   {
+    "code": "SAVEMORE",
+    "desc": "15% off Orders."
+   },
+   {
+    "code": "SAVEAROUND20",
+    "desc": "Shoe Carnival discount available"
+   }
+  ],
+  "Skullcandy": [
+   {
+    "code": "ATTNV_OCT25_AB_10",
+    "desc": "Skullcandy discount available"
+   },
+   {
+    "code": "CHELSEA15",
+    "desc": "15% off"
+   },
+   {
+    "code": "FALLSALE",
+    "desc": "Skullcandy discount available"
+   }
+  ],
+  "Vuori": [
+   {
+    "code": "NEWVUORI-V220",
+    "desc": "20% Off"
+   },
+   {
+    "code": "SAMKORE_8_26_9_POD",
+    "desc": "20% Off"
+   },
+   {
+    "code": "WANDS_7_26_14_POD",
+    "desc": "20% Off"
    }
   ]
  },
