@@ -93,16 +93,17 @@ export default {
 const IATA = /^[A-Z]{3}$/, DAY = /^\d{4}-\d{2}-\d{2}$/;
 async function flights(url, env, ctx) {
   const g = k => (url.searchParams.get(k) || '').trim().toUpperCase();
+  const CAB = { ECONOMY: 1, PREMIUM: 2, BUSINESS: 3, FIRST: 4 }, cabin = CAB[g('cabin')] ? g('cabin') : 'ECONOMY';
   const from = g('from'), to = g('to'), date = (url.searchParams.get('date') || '').trim(), ret = (url.searchParams.get('ret') || '').trim();
   if (!IATA.test(from) || !IATA.test(to) || !DAY.test(date) || (ret && !DAY.test(ret)))
     return new Response(JSON.stringify({ error: 'Use 3-letter airport codes and dates like 2026-11-20' }), { status: 400, headers: CORS });
-  const cacheKey = new Request('https://cache.boostback/flights/' + [from, to, date, ret].join('/'));
+  const cacheKey = new Request('https://cache.boostback/flights/' + [from, to, date, ret, cabin].join('/'));
   const cache = caches.default;
   const hit = await cache.match(cacheKey);
   if (hit) return hit;
   const api = 'https://serpapi.com/search.json?engine=google_flights&hl=en&gl=us&currency=USD'
     + '&departure_id=' + from + '&arrival_id=' + to + '&outbound_date=' + date
-    + (ret ? '&return_date=' + ret + '&type=1' : '&type=2') + '&api_key=' + env.SERPAPI_KEY;
+    + '&travel_class=' + CAB[cabin] + (ret ? '&return_date=' + ret + '&type=1' : '&type=2') + '&api_key=' + env.SERPAPI_KEY;
   const r = await fetch(api);
   if (!r.ok) return new Response(JSON.stringify({ error: 'flight lookup failed', status: r.status }), { status: 502, headers: CORS });
   const d = await r.json();
@@ -121,7 +122,7 @@ async function flights(url, env, ctx) {
     };
   });
   const link = (d.search_metadata || {}).google_flights_url || ('https://www.google.com/travel/flights?q=' + encodeURIComponent('flights from ' + from + ' to ' + to + ' on ' + date));
-  const res = new Response(JSON.stringify({ from, to, date, ret, roundTrip: !!ret, checked: new Date().toISOString(), link, results }),
+  const res = new Response(JSON.stringify({ from, to, date, ret, cabin: cabin.toLowerCase(), roundTrip: !!ret, checked: new Date().toISOString(), link, results }),
     { headers: { ...CORS, 'Cache-Control': 'public, max-age=21600' } });
   if (results.length) ctx.waitUntil(cache.put(cacheKey, res.clone()));
   return res;

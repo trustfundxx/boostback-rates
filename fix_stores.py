@@ -652,6 +652,10 @@ else:
         <input id="fTo" maxlength="3" placeholder="To (MCO)" autocapitalize="characters">
         <label>Leave<input id="fDate" type="date"></label>
         <label>Return (optional)<input id="fRet" type="date"></label>
+        <select id="fCabin" style="flex:1 1 100%; padding:10px; font-size:15px; border:1.5px solid var(--ink); border-radius:2px; background:transparent; color:var(--ink);">
+          <option value="economy">Economy</option><option value="premium">Premium economy</option>
+          <option value="business">Business</option><option value="first">First</option>
+        </select>
         <button onclick="flightSearch()">Find flights</button>"""),
       ("""  document.getElementById('modeProducts').classList.toggle('on', m === 'products');""",
        """  document.getElementById('modeProducts').classList.toggle('on', m === 'products');
@@ -671,7 +675,7 @@ async function flightSearch(){
     return;
   }
   const v = id => document.getElementById(id).value.trim();
-  const from = v('fFrom').toUpperCase(), to = v('fTo').toUpperCase(), date = v('fDate'), ret = v('fRet');
+  const from = v('fFrom').toUpperCase(), to = v('fTo').toUpperCase(), date = v('fDate'), ret = v('fRet'), cabin = v('fCabin') || 'economy';
   const box = document.getElementById('productResult');
   document.getElementById('result').style.display = 'none';
   document.getElementById('notCovered').style.display = 'none';
@@ -683,7 +687,7 @@ async function flightSearch(){
   if(document.activeElement) document.activeElement.blur();
   box.innerHTML = `<div class="empty-state"><p>Checking flights ${from} → ${to}…</p></div>`;
   if(!TRAVEL){ const j = await getJSON(RATES_URL); TRAVEL = (j && j.travel) || {programs:{}, airlines:{}}; }
-  const json = await getJSON(PRICES_URL + 'flights?from=' + from + '&to=' + to + '&date=' + date + (ret ? '&ret=' + ret : ''));
+  const json = await getJSON(PRICES_URL + 'flights?from=' + from + '&to=' + to + '&date=' + date + (ret ? '&ret=' + ret : '') + '&cabin=' + cabin);
   if(!json || !json.results){ box.innerHTML = `<div class="empty-state"><p>Couldn't load flights right now. Check the airport codes and try again.</p></div>`; return; }
   if(!json.results.length){ box.innerHTML = `<div class="empty-state"><p>No flights found for ${from} → ${to} on that date.</p></div>`; return; }
   const progsFor = names => {
@@ -694,11 +698,12 @@ async function flightSearch(){
     return ids.map(id => TRAVEL.programs[id]).filter(Boolean);
   };
   const t = s => (s || '').split(' ')[1] || '';
+  const ymd = d => d.slice(2).replace(/-/g, '');
   const dur = m => m ? Math.floor(m / 60) + 'h ' + (m % 60) + 'm' : '';
   const rows = json.results.slice().sort((a, b) => a.price - b.price);
   box.innerHTML = `
     <div class="store-strip"><h2>${from} → ${to}</h2></div>
-    <p class="winner-sub" style="margin-top:6px;">${esc(date)}${ret ? ' · return ' + esc(ret) + ' · round-trip prices' : ' · one way'}</p>
+    <p class="winner-sub" style="margin-top:6px;">${esc(date)}${ret ? ' · return ' + esc(ret) + ' · round-trip prices' : ' · one way'} · ${cabin === 'premium' ? 'premium economy' : cabin}</p>
     <div class="alt-list">${rows.map(f => {
       const ps = progsFor(f.airlines);
       return `<div class="price-row">
@@ -711,6 +716,8 @@ async function flightSearch(){
       </div>`; }).join('')}
     </div>
     <a class="go-btn" href="${json.link}" style="margin-top:16px;">See these flights on Google Flights ›</a>
+    <a class="join-link" href="https://www.skyscanner.com/transport/flights/${from.toLowerCase()}/${to.toLowerCase()}/${ymd(date)}/${ret ? ymd(ret) + '/' : ''}?cabinclass=${cabin === 'premium' ? 'premiumeconomy' : cabin}&adults=1">Compare on Skyscanner ›</a><br>
+    <a class="join-link" href="https://www.kayak.com/flights/${from}-${to}/${date}${ret ? '/' + ret : ''}${cabin === 'economy' ? '' : '/' + cabin}">Compare on Kayak ›</a>
     <p class="disclaimer">Cash fares from Google Flights, checked just now. "Book with points" lists the mileage programs that can book that airline and the cards whose points move to them (ratio card:miles). Points prices change daily, so check the program's site.</p>`;
 }
 
