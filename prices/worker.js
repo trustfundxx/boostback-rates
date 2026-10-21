@@ -22,6 +22,7 @@ export default {
       const r = await fetch('https://raw.githubusercontent.com/trustfundxx/boostback-rates/main/rates.json', { cf: { cacheTtl: 300 } });
       return new Response(await r.text(), { status: r.status, headers: { ...CORS, 'Cache-Control': 'public, max-age=300' } });
     }
+    if (url.pathname === '/flights') return flights(url, env, ctx);
     const q = (url.searchParams.get('q') || '').trim().slice(0, 100);
     if (!q) return new Response(JSON.stringify({ error: 'missing q' }), { status: 400, headers: CORS });
     if (env.APP_TOKEN && url.searchParams.get('t') !== env.APP_TOKEN)
@@ -87,3 +88,41 @@ export default {
     return res;
   }
 };
+
+// Flights: GET /flights?from=SYR&to=MCO&date=2026-11-20[&ret=2026-11-27]  (cash fares from Google Flights)
+const IATA = /^[A-Z]{3}$/, DAY = /^\d{4}-\d{2}-\d{2}$/;
+async function flights(url, env, ctx) {
+  const g = k => (url.searchParams.get(k) || '').trim().toUpperCase();
+  const from = g('from'), to = g('to'), date = (url.searchParams.get('date') || '').trim(), ret = (url.searchParams.get('ret') || '').trim();
+  if (!IATA.test(from) || !IATA.test(to) || !DAY.test(date) || (ret && !DAY.test(ret)))
+    return new Response(JSON.stringify({ error: 'Use 3-letter airport codes and dates like 2026-11-20' }), { status: 400, headers: CORS });
+  const cacheKey = new Request('https://cache.boostback/flights/' + [from, to, date, ret].join('/'));
+  const cache = caches.default;
+  const hit = await cache.match(cacheKey);
+  if (hit) return hit;
+  const api = 'https://serpapi.com/search.json?engine=google_flights&hl=en&gl=us&currency=USD'
+    + '&departure_id=' + from + '&arrival_id=' + to + '&outbound_date=' + date
+    + (ret ? '&return_date=' + ret + '&type=1' : '&type=2') + '&api_key=' + env.SERPAPI_KEY;
+  const r = await fetch(api);
+  if (!r.ok) return new Response(JSON.stringify({ error: 'flight lookup failed', status: r.status }), { status: 502, headers: CORS });
+  const d = await r.json();
+  const list = [...(d.best_flights || []), ...(d.other_flights || [])];
+  const results = list.filter(f => typeof f.price === 'number' && (f.flights || []).length).slice(0, 25).map(f => {
+    const legs = f.flights;
+    return {
+      price: f.price,
+      airlines: [...new Set(legs.map(l => l.airline).filter(Boolean))],
+      flightNumbers: legs.map(l => l.flight_number).filter(Boolean),
+      depart: (legs[0].departure_airport || {}).time || '',
+      arrive: (legs[legs.length - 1].arrival_airport || {}).time || '',
+      stops: legs.length - 1,
+      duration: f.total_duration || null,
+      logo: f.airline_logo || legs[0].airline_logo || ''
+    };
+  });
+  const link = (d.search_metadata || {}).google_flights_url || ('https://www.google.com/travel/flights?q=' + encodeURIComponent('flights from ' + from + ' to ' + to + ' on ' + date));
+  const res = new Response(JSON.stringify({ from, to, date, ret, roundTrip: !!ret, checked: new Date().toISOString(), link, results }),
+    { headers: { ...CORS, 'Cache-Control': 'public, max-age=21600' } });
+  if (results.length) ctx.waitUntil(cache.put(cacheKey, res.clone()));
+  return res;
+}
