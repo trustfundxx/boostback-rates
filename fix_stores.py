@@ -781,3 +781,32 @@ const airSite = a => { const k = Object.keys(AIRSITE).find(k => (a || '').toLowe
         t = re.sub(r"versionCode (\d+)", lambda m: "versionCode %d" % (int(m.group(1)) + 1), t, count=1)
         open(g, "w").write(t)
         print("Android:", re.findall(r'versionCode \d+|versionName "[^"]+"', t))
+
+# 1.6 (part 3): tap a flight -> that exact flight on its date (link comes from the price server, so it can be improved without an app update)
+h = open(p, encoding="utf-8").read()
+if "f.link || json.link" in h:
+    print("Exact-flight links already in. OK")
+else:
+    sw = [
+      ("""href="${airSite(f.airlines[0]) || json.link}">${esc(f.airlines.join(' + '))} ›</a>""",
+       """href="${f.link || json.link}">${esc(f.airlines.join(' + '))} ›</a>"""),
+      ("""          <a class="go-link" href="${airSite(f.airlines[0]) || json.link}">${airSite(f.airlines[0]) ? 'Book on ' + esc(airSite(f.airlines[0]).replace('https://www.', '')) : 'Book on Google Flights'} ›</a>""",
+       """          <a class="go-link" href="${f.link || json.link}">Book this flight ›</a>"""),
+    ]
+    bad = [a[:50] for a, b in sw if h.count(a) != 1]
+    if bad:
+        print("Exact-flight links: could not find the spot. Nothing changed.", bad)
+    else:
+        for a, b in sw: h = h.replace(a, b, 1)
+        open(p, "w", encoding="utf-8").write(h)
+        print("Exact-flight links added. OK")
+        x = home + "/ios/App/App.xcodeproj/project.pbxproj"
+        t = open(x).read()
+        t = re.sub(r"CURRENT_PROJECT_VERSION = (\d+);", lambda m: "CURRENT_PROJECT_VERSION = %d;" % (int(m.group(1)) + 1), t)
+        open(x, "w").write(t)
+        print("iOS:", sorted(set(re.findall(r"MARKETING_VERSION = [^;]+;|CURRENT_PROJECT_VERSION = \d+;", t))))
+        g = home + "/android/app/build.gradle"
+        t = open(g).read()
+        t = re.sub(r"versionCode (\d+)", lambda m: "versionCode %d" % (int(m.group(1)) + 1), t, count=1)
+        open(g, "w").write(t)
+        print("Android:", re.findall(r'versionCode \d+|versionName "[^"]+"', t))
