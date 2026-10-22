@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T18:01:44.416562Z",
+ "generated_at": "2026-10-22T17:56:02.335596Z",
  "featured": [
   "eBay",
   "PetSmart",
@@ -7178,10 +7178,6 @@
     "base": 1.5,
     "note": "1 mile/$1, valued ~1.5¢ each"
    },
-   "cap1": {
-    "base": 0.5,
-    "note": ""
-   },
    "fetch": {
     "base": 0,
     "flat": 0.025,
@@ -12474,6 +12470,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": ""
    }
   },
   "Zara": {
@@ -15394,6 +15394,20 @@
     "code": "FREESHIPONUS",
     "desc": "Buck Mason discount - apply at checkout",
     "exp": ""
+   }
+  ],
+  "The RealReal": [
+   {
+    "code": "EM$300",
+    "desc": "Apply code EM$300 at checkout to see savings"
+   },
+   {
+    "code": "FREE$100",
+    "desc": "Apply code FREE$100 at checkout to see savings"
+   },
+   {
+    "code": "OWS",
+    "desc": "Apply code OWS at checkout to see savings"
    }
   ]
  },
