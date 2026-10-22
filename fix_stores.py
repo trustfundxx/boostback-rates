@@ -743,3 +743,41 @@ function handleSearch(){
         t = t.replace('versionName "1.5"', 'versionName "1.6"')
         open(g, "w").write(t)
         print("Android:", re.findall(r'versionCode \d+|versionName "[^"]+"', t))
+
+# 1.7: tap a flight to book it on the airline's own site (and the Google Flights search for that trip)
+h = open(p, encoding="utf-8").read()
+if "AIRSITE" in h:
+    print("Flight booking links already in. OK")
+else:
+    sw = [
+      ("""let TRAVEL = null;""",
+       """let TRAVEL = null;
+const AIRSITE = {'Delta': 'https://www.delta.com', 'United': 'https://www.united.com', 'American': 'https://www.aa.com',
+  'Southwest': 'https://www.southwest.com', 'Alaska': 'https://www.alaskaair.com', 'JetBlue': 'https://www.jetblue.com',
+  'Spirit': 'https://www.spirit.com', 'Frontier': 'https://www.flyfrontier.com', 'Allegiant': 'https://www.allegiantair.com',
+  'Breeze': 'https://www.flybreeze.com', 'Sun Country': 'https://www.suncountry.com', 'Hawaiian': 'https://www.hawaiianairlines.com',
+  'Air Canada': 'https://www.aircanada.com', 'Porter': 'https://www.flyporter.com', 'WestJet': 'https://www.westjet.com'};
+const airSite = a => { const k = Object.keys(AIRSITE).find(k => (a || '').toLowerCase().indexOf(k.toLowerCase()) === 0); return k ? AIRSITE[k] : ''; };"""),
+      ("""          <div class="name">${esc(f.airlines.join(' + '))}</div>""",
+       """          <a class="name" style="display:block; color:inherit; text-decoration:none;" href="${airSite(f.airlines[0]) || json.link}">${esc(f.airlines.join(' + '))} ›</a>"""),
+      ("""          ${ps.length ? `<div class="pts">Book with points:""",
+       """          <a class="go-link" href="${airSite(f.airlines[0]) || json.link}">${airSite(f.airlines[0]) ? 'Book on ' + esc(airSite(f.airlines[0]).replace('https://www.', '')) : 'Book on Google Flights'} ›</a>
+          ${ps.length ? `<div class="pts">Book with points:"""),
+    ]
+    bad = [a[:50] for a, b in sw if h.count(a) != 1]
+    if bad:
+        print("Flight booking links: could not find the spot. Nothing changed.", bad)
+    else:
+        for a, b in sw: h = h.replace(a, b, 1)
+        open(p, "w", encoding="utf-8").write(h)
+        print("Flight booking links added. OK")
+        x = home + "/ios/App/App.xcodeproj/project.pbxproj"
+        t = open(x).read()
+        t = re.sub(r"CURRENT_PROJECT_VERSION = (\d+);", lambda m: "CURRENT_PROJECT_VERSION = %d;" % (int(m.group(1)) + 1), t)
+        open(x, "w").write(t)
+        print("iOS:", sorted(set(re.findall(r"MARKETING_VERSION = [^;]+;|CURRENT_PROJECT_VERSION = \d+;", t))))
+        g = home + "/android/app/build.gradle"
+        t = open(g).read()
+        t = re.sub(r"versionCode (\d+)", lambda m: "versionCode %d" % (int(m.group(1)) + 1), t, count=1)
+        open(g, "w").write(t)
+        print("Android:", re.findall(r'versionCode \d+|versionName "[^"]+"', t))
