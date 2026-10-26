@@ -15086,5 +15086,116 @@
    "desc": "Health and wellness supplements.",
    "url": "https://hoogahealth.com/Mariavalentina?ref=Mariavalentina"
   }
- ]
+ ],
+ "travel": {
+  "source": "Card transfer partners from NerdWallet's chart, updated Oct 20, 2026",
+  "programs": {
+   "delta": {
+    "name": "Delta SkyMiles",
+    "cards": [
+     "Amex 1:1"
+    ]
+   },
+   "united": {
+    "name": "United MileagePlus",
+    "cards": [
+     "Chase 1:1",
+     "Bilt 1:1"
+    ]
+   },
+   "american": {
+    "name": "American AAdvantage",
+    "cards": [
+     "Citi 1:1"
+    ]
+   },
+   "southwest": {
+    "name": "Southwest Rapid Rewards",
+    "cards": [
+     "Chase 1:1",
+     "Bilt 1:1"
+    ]
+   },
+   "alaska": {
+    "name": "Alaska Atmos Rewards",
+    "cards": [
+     "Bilt 1:1"
+    ]
+   },
+   "jetblue": {
+    "name": "JetBlue TrueBlue",
+    "cards": [
+     "Chase 1:1",
+     "Citi 1:1",
+     "Bilt 1:1",
+     "Amex 2.5:2",
+     "Capital One 5:3"
+    ]
+   },
+   "aeroplan": {
+    "name": "Air Canada Aeroplan",
+    "cards": [
+     "Chase 1:1",
+     "Amex 1:1",
+     "Capital One 1:1",
+     "Bilt 1:1"
+    ]
+   },
+   "flyingblue": {
+    "name": "Air France-KLM Flying Blue",
+    "cards": [
+     "Chase 1:1",
+     "Amex 1:1",
+     "Capital One 1:1",
+     "Citi 1:1",
+     "Bilt 1:1"
+    ]
+   },
+   "virgin": {
+    "name": "Virgin Atlantic Flying Club",
+    "cards": [
+     "Chase 1:1",
+     "Amex 1:1",
+     "Capital One 1:1",
+     "Citi 1:1",
+     "Bilt 1:1"
+    ]
+   },
+   "avios": {
+    "name": "British Airways Avios",
+    "cards": [
+     "Chase 1:1",
+     "Amex 1:1",
+     "Capital One 1:1",
+     "Bilt 1:1"
+    ]
+   }
+  },
+  "airlines": {
+   "Delta": [
+    "delta",
+    "flyingblue",
+    "virgin"
+   ],
+   "United": [
+    "united",
+    "aeroplan"
+   ],
+   "American": [
+    "american",
+    "avios"
+   ],
+   "Southwest": [
+    "southwest"
+   ],
+   "Alaska": [
+    "alaska",
+    "american",
+    "avios"
+   ],
+   "JetBlue": [
+    "jetblue"
+   ]
+  }
+ }
 }

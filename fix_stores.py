@@ -628,6 +628,189 @@ elif h.count("$2.99/mo<") == 1 and h.count("$2.99/month") == 1 and h.count("$19.
 else:
     print("Prices: could not find the spot. Nothing changed.")
 
+# 1.6: Flights tab - cash fares from Google Flights + which points programs and cards can book each airline
+h = open(p, encoding="utf-8").read()
+if "flightSearch(" in h:
+    print("Flights already in. OK")
+else:
+    sw = [
+      ("""  .suggestions{""",
+       """  .flight-form{display:none; gap:6px; flex-wrap:wrap; margin-bottom:8px;}
+  .flight-form input{flex:1 1 40%; min-width:0; padding:11px 10px; font-size:15px; border:1.5px solid var(--ink); border-radius:2px;
+    background:transparent; color:var(--ink); font-family:var(--font-body);}
+  .flight-form label{flex:1 1 40%; font-size:11px; color:#8a8577; letter-spacing:0.3px;}
+  .flight-form label input{display:block; width:100%; box-sizing:border-box; margin-top:3px;}
+  .flight-form button{flex:1 1 100%; padding:12px 0; font-size:15px; background:var(--ink); color:var(--paper); border:none; border-radius:2px; cursor:pointer;}
+  .pts{font-size:12px; color:#5d6b57; margin-top:4px; line-height:1.45;}
+  .suggestions{"""),
+      ("""        <button id="modeProducts" onclick="setMode('products')">Products</button>""",
+       """        <button id="modeProducts" onclick="setMode('products')">Products</button>
+        <button id="modeFlights" onclick="setMode('flights')">Flights</button>
+      </div>
+      <div class="flight-form" id="flightForm">
+        <input id="fFrom" maxlength="3" placeholder="From (SYR)" autocapitalize="characters">
+        <input id="fTo" maxlength="3" placeholder="To (MCO)" autocapitalize="characters">
+        <label>Leave<input id="fDate" type="date"></label>
+        <label>Return (optional)<input id="fRet" type="date"></label>
+        <select id="fCabin" style="flex:1 1 100%; padding:10px; font-size:15px; border:1.5px solid var(--ink); border-radius:2px; background:transparent; color:var(--ink);">
+          <option value="economy">Economy</option><option value="premium">Premium economy</option>
+          <option value="business">Business</option><option value="first">First</option>
+        </select>
+        <button onclick="flightSearch()">Find flights</button>"""),
+      ("""  document.getElementById('modeProducts').classList.toggle('on', m === 'products');""",
+       """  document.getElementById('modeProducts').classList.toggle('on', m === 'products');
+  document.getElementById('modeFlights').classList.toggle('on', m === 'flights');
+  document.getElementById('flightForm').style.display = m === 'flights' ? 'flex' : 'none';
+  document.querySelector('.search-box').style.display = m === 'flights' ? 'none' : '';"""),
+      ("""  document.getElementById('chips').style.display = m === 'products' ? 'none' : '';""",
+       """  document.getElementById('chips').style.display = m !== 'stores' ? 'none' : '';"""),
+      ("""  document.getElementById('emptyState').style.display = m === 'products' ? 'none' : 'block';""",
+       """  document.getElementById('emptyState').style.display = m !== 'stores' ? 'none' : 'block';"""),
+      ("""function handleSearch(){
+  const q = input.value.trim();""",
+       """let TRAVEL = null;
+async function flightSearch(){
+  if(PAYWALL_ENABLED && !hasProAccess){
+    rcReady.then(() => { if(hasProAccess) flightSearch(); else showPaywall(); });
+    return;
+  }
+  const v = id => document.getElementById(id).value.trim();
+  const from = v('fFrom').toUpperCase(), to = v('fTo').toUpperCase(), date = v('fDate'), ret = v('fRet'), cabin = v('fCabin') || 'economy';
+  const box = document.getElementById('productResult');
+  document.getElementById('result').style.display = 'none';
+  document.getElementById('notCovered').style.display = 'none';
+  document.getElementById('emptyState').style.display = 'none';
+  box.style.display = 'block';
+  if(!/^[A-Z]{3}$/.test(from) || !/^[A-Z]{3}$/.test(to) || !date){
+    box.innerHTML = `<div class="empty-state"><p>Type 3-letter airport codes (like SYR and MCO) and pick a date.</p></div>`; return;
+  }
+  if(document.activeElement) document.activeElement.blur();
+  box.innerHTML = `<div class="empty-state"><p>Checking flights ${from} → ${to}…</p></div>`;
+  if(!TRAVEL){ const j = await getJSON(RATES_URL); TRAVEL = (j && j.travel) || {programs:{}, airlines:{}}; }
+  const json = await getJSON(PRICES_URL + 'flights?from=' + from + '&to=' + to + '&date=' + date + (ret ? '&ret=' + ret : '') + '&cabin=' + cabin);
+  if(!json || !json.results){ box.innerHTML = `<div class="empty-state"><p>Couldn't load flights right now. Check the airport codes and try again.</p></div>`; return; }
+  if(!json.results.length){ box.innerHTML = `<div class="empty-state"><p>No flights found for ${from} → ${to} on that date.</p></div>`; return; }
+  const progsFor = names => {
+    const ids = [];
+    names.forEach(a => Object.keys(TRAVEL.airlines || {}).forEach(k => {
+      if(a.toLowerCase().indexOf(k.toLowerCase()) === 0) (TRAVEL.airlines[k] || []).forEach(id => { if(ids.indexOf(id) < 0) ids.push(id); });
+    }));
+    return ids.map(id => TRAVEL.programs[id]).filter(Boolean);
+  };
+  const t = s => (s || '').split(' ')[1] || '';
+  const ymd = d => d.slice(2).replace(/-/g, '');
+  const dur = m => m ? Math.floor(m / 60) + 'h ' + (m % 60) + 'm' : '';
+  const rows = json.results.slice().sort((a, b) => a.price - b.price);
+  box.innerHTML = `
+    <div class="store-strip"><h2>${from} → ${to}</h2></div>
+    <p class="winner-sub" style="margin-top:6px;">${esc(date)}${ret ? ' · return ' + esc(ret) + ' · round-trip prices' : ' · one way'} · ${cabin === 'premium' ? 'premium economy' : cabin}</p>
+    <div class="alt-list">${rows.map(f => {
+      const ps = progsFor(f.airlines);
+      return `<div class="price-row">
+        <div>
+          <div class="name">${esc(f.airlines.join(' + '))}</div>
+          <div class="t">${t(f.depart)} → ${t(f.arrive)} · ${f.stops ? f.stops + (f.stops > 1 ? ' stops' : ' stop') : 'Nonstop'}${f.duration ? ' · ' + dur(f.duration) : ''}</div>
+          ${ps.length ? `<div class="pts">Book with points: ${ps.map(p => esc(p.name) + ' (' + esc(p.cards.join(', ')) + ')').join('; ')}</div>` : ''}
+        </div>
+        <div class="v">$${f.price}</div>
+      </div>`; }).join('')}
+    </div>
+    <a class="go-btn" href="${json.link}" style="margin-top:16px;">See these flights on Google Flights ›</a>
+    <a class="join-link" href="https://www.skyscanner.com/transport/flights/${from.toLowerCase()}/${to.toLowerCase()}/${ymd(date)}/${ret ? ymd(ret) + '/' : ''}?cabinclass=${cabin === 'premium' ? 'premiumeconomy' : cabin}&adults=1">Compare on Skyscanner ›</a><br>
+    <a class="join-link" href="https://www.kayak.com/flights/${from}-${to}/${date}${ret ? '/' + ret : ''}${cabin === 'economy' ? '' : '/' + cabin}">Compare on Kayak ›</a>
+    <p class="disclaimer">Cash fares from Google Flights, checked just now. "Book with points" lists the mileage programs that can book that airline and the cards whose points move to them (ratio card:miles). Points prices change daily, so check the program's site.</p>`;
+}
+
+function handleSearch(){
+  const q = input.value.trim();"""),
+    ]
+    bad = [a[:50] for a, b in sw if h.count(a) != 1]
+    if bad:
+        print("Flights: could not find the spot. Nothing changed.", bad)
+    else:
+        for a, b in sw: h = h.replace(a, b, 1)
+        open(p, "w", encoding="utf-8").write(h)
+        print("Flights added. OK")
+        x = home + "/ios/App/App.xcodeproj/project.pbxproj"
+        t = open(x).read()
+        t = re.sub(r"CURRENT_PROJECT_VERSION = (\d+);", lambda m: "CURRENT_PROJECT_VERSION = %d;" % (int(m.group(1)) + 1), t)
+        t = t.replace("MARKETING_VERSION = 1.5;", "MARKETING_VERSION = 1.6;")
+        open(x, "w").write(t)
+        print("iOS:", sorted(set(re.findall(r"MARKETING_VERSION = [^;]+;|CURRENT_PROJECT_VERSION = \d+;", t))))
+        g = home + "/android/app/build.gradle"
+        t = open(g).read()
+        t = re.sub(r"versionCode (\d+)", lambda m: "versionCode %d" % (int(m.group(1)) + 1), t, count=1)
+        t = t.replace('versionName "1.5"', 'versionName "1.6"')
+        open(g, "w").write(t)
+        print("Android:", re.findall(r'versionCode \d+|versionName "[^"]+"', t))
+
+# 1.7: tap a flight to book it on the airline's own site (and the Google Flights search for that trip)
+h = open(p, encoding="utf-8").read()
+if "AIRSITE" in h:
+    print("Flight booking links already in. OK")
+else:
+    sw = [
+      ("""let TRAVEL = null;""",
+       """let TRAVEL = null;
+const AIRSITE = {'Delta': 'https://www.delta.com', 'United': 'https://www.united.com', 'American': 'https://www.aa.com',
+  'Southwest': 'https://www.southwest.com', 'Alaska': 'https://www.alaskaair.com', 'JetBlue': 'https://www.jetblue.com',
+  'Spirit': 'https://www.spirit.com', 'Frontier': 'https://www.flyfrontier.com', 'Allegiant': 'https://www.allegiantair.com',
+  'Breeze': 'https://www.flybreeze.com', 'Sun Country': 'https://www.suncountry.com', 'Hawaiian': 'https://www.hawaiianairlines.com',
+  'Air Canada': 'https://www.aircanada.com', 'Porter': 'https://www.flyporter.com', 'WestJet': 'https://www.westjet.com'};
+const airSite = a => { const k = Object.keys(AIRSITE).find(k => (a || '').toLowerCase().indexOf(k.toLowerCase()) === 0); return k ? AIRSITE[k] : ''; };"""),
+      ("""          <div class="name">${esc(f.airlines.join(' + '))}</div>""",
+       """          <a class="name" style="display:block; color:inherit; text-decoration:none;" href="${airSite(f.airlines[0]) || json.link}">${esc(f.airlines.join(' + '))} ›</a>"""),
+      ("""          ${ps.length ? `<div class="pts">Book with points:""",
+       """          <a class="go-link" href="${airSite(f.airlines[0]) || json.link}">${airSite(f.airlines[0]) ? 'Book on ' + esc(airSite(f.airlines[0]).replace('https://www.', '')) : 'Book on Google Flights'} ›</a>
+          ${ps.length ? `<div class="pts">Book with points:"""),
+    ]
+    bad = [a[:50] for a, b in sw if h.count(a) != 1]
+    if bad:
+        print("Flight booking links: could not find the spot. Nothing changed.", bad)
+    else:
+        for a, b in sw: h = h.replace(a, b, 1)
+        open(p, "w", encoding="utf-8").write(h)
+        print("Flight booking links added. OK")
+        x = home + "/ios/App/App.xcodeproj/project.pbxproj"
+        t = open(x).read()
+        t = re.sub(r"CURRENT_PROJECT_VERSION = (\d+);", lambda m: "CURRENT_PROJECT_VERSION = %d;" % (int(m.group(1)) + 1), t)
+        open(x, "w").write(t)
+        print("iOS:", sorted(set(re.findall(r"MARKETING_VERSION = [^;]+;|CURRENT_PROJECT_VERSION = \d+;", t))))
+        g = home + "/android/app/build.gradle"
+        t = open(g).read()
+        t = re.sub(r"versionCode (\d+)", lambda m: "versionCode %d" % (int(m.group(1)) + 1), t, count=1)
+        open(g, "w").write(t)
+        print("Android:", re.findall(r'versionCode \d+|versionName "[^"]+"', t))
+
+# 1.6 (part 3): tap a flight -> that exact flight on its date (link comes from the price server, so it can be improved without an app update)
+h = open(p, encoding="utf-8").read()
+if "f.link || json.link" in h:
+    print("Exact-flight links already in. OK")
+else:
+    sw = [
+      ("""href="${airSite(f.airlines[0]) || json.link}">${esc(f.airlines.join(' + '))} ›</a>""",
+       """href="${f.link || json.link}">${esc(f.airlines.join(' + '))} ›</a>"""),
+      ("""          <a class="go-link" href="${airSite(f.airlines[0]) || json.link}">${airSite(f.airlines[0]) ? 'Book on ' + esc(airSite(f.airlines[0]).replace('https://www.', '')) : 'Book on Google Flights'} ›</a>""",
+       """          <a class="go-link" href="${f.link || json.link}">Book this flight ›</a>"""),
+    ]
+    bad = [a[:50] for a, b in sw if h.count(a) != 1]
+    if bad:
+        print("Exact-flight links: could not find the spot. Nothing changed.", bad)
+    else:
+        for a, b in sw: h = h.replace(a, b, 1)
+        open(p, "w", encoding="utf-8").write(h)
+        print("Exact-flight links added. OK")
+        x = home + "/ios/App/App.xcodeproj/project.pbxproj"
+        t = open(x).read()
+        t = re.sub(r"CURRENT_PROJECT_VERSION = (\d+);", lambda m: "CURRENT_PROJECT_VERSION = %d;" % (int(m.group(1)) + 1), t)
+        open(x, "w").write(t)
+        print("iOS:", sorted(set(re.findall(r"MARKETING_VERSION = [^;]+;|CURRENT_PROJECT_VERSION = \d+;", t))))
+        g = home + "/android/app/build.gradle"
+        t = open(g).read()
+        t = re.sub(r"versionCode (\d+)", lambda m: "versionCode %d" % (int(m.group(1)) + 1), t, count=1)
+        open(g, "w").write(t)
+        print("Android:", re.findall(r'versionCode \d+|versionName "[^"]+"', t))
+
 # 1.6 (part 4): Android uses its own RevenueCat key (goog_...), iPhone keeps appl_...
 h = open(p, encoding="utf-8").read()
 if "goog_wtaZGcCyWIxxtxPrMlarqOVlicc" in h:
