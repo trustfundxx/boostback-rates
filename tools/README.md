@@ -43,3 +43,6 @@ There are too many stores for one run, so the refresh is split: `python3 tools/s
 A run for part K only fetches those stores. If the push is rejected because another part pushed first:
 `git fetch origin && git reset --hard origin/main`, re-run apply_rates.py and apply_coupons.py with your saved result files,
 validate, commit and push again.
+
+## Never force-push
+Never use `git push --force` (or -f) on main. If a push is rejected: `git fetch origin && git reset --hard origin/main`, re-apply your changes, and push again. Force-pushing deletes other work (it erased the Flights feature once).
