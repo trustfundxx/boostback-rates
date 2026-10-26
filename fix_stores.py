@@ -627,3 +627,23 @@ elif h.count("$2.99/mo<") == 1 and h.count("$2.99/month") == 1 and h.count("$19.
     print("Prices changed to $1.99/month and $14.99/year. OK")
 else:
     print("Prices: could not find the spot. Nothing changed.")
+
+# 1.6 (part 4): Android uses its own RevenueCat key (goog_...), iPhone keeps appl_...
+h = open(p, encoding="utf-8").read()
+if "goog_wtaZGcCyWIxxtxPrMlarqOVlicc" in h:
+    print("Android RevenueCat key already in. OK")
+else:
+    key = "appl_PwqXWdjBhMosezXMTNjCJQYcBFD"
+    both = "((window.Capacitor && window.Capacitor.getPlatform && window.Capacitor.getPlatform() === 'android') ? 'goog_wtaZGcCyWIxxtxPrMlarqOVlicc' : 'appl_PwqXWdjBhMosezXMTNjCJQYcBFD')"
+    n = h.count("'" + key + "'") + h.count('"' + key + '"')
+    if n < 1:
+        print("Android RevenueCat key: could not find the spot. Nothing changed.")
+    else:
+        h = h.replace("'" + key + "'", both).replace('"' + key + '"', both)
+        open(p, "w", encoding="utf-8").write(h)
+        print("Android RevenueCat key added (%d spot). OK" % n)
+        g = home + "/android/app/build.gradle"
+        t = open(g).read()
+        t = re.sub(r"versionCode (\d+)", lambda m: "versionCode %d" % (int(m.group(1)) + 1), t, count=1)
+        open(g, "w").write(t)
+        print("Android:", re.findall(r'versionCode \d+|versionName "[^"]+"', t))
