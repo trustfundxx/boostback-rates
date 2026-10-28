@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T09:56:00.304333Z",
+ "generated_at": "2026-10-28T13:54:05.640178Z",
  "featured": [
   "eBay",
   "PetSmart",
@@ -194,11 +194,6 @@
     "base": 0.8,
     "note": ""
    },
-   "cap1": {
-    "base": 0.5,
-    "note": "Up to 0.5% — varies by category or new customers",
-    "url": "https://capitaloneshopping.com/s/academy.com/coupon"
-   },
    "fetch": {
     "base": 0,
     "flat": 0.025,
@@ -317,11 +312,6 @@
    "alaska": {
     "base": 15.0,
     "note": "10 miles/$1, valued ~1.5¢ each"
-   },
-   "cap1": {
-    "base": 2.0,
-    "note": "Up to 2% — varies by category or new customers",
-    "url": "https://capitaloneshopping.com/s/adidas.com/coupon"
    },
    "fetch": {
     "base": 0,
@@ -678,11 +668,6 @@
     "base": 2.0,
     "note": ""
    },
-   "cap1": {
-    "base": 1.0,
-    "note": "",
-    "url": "https://capitaloneshopping.com/s/barnesandnoble.com/coupon"
-   },
    "fetch": {
     "base": 0,
     "flat": 0.025,
@@ -974,11 +959,6 @@
     "base": 3.0,
     "note": "2 miles/$1, valued ~1.5¢ each"
    },
-   "cap1": {
-    "base": 0.5,
-    "note": "",
-    "url": "https://capitaloneshopping.com/s/bloomingdales.com/coupon"
-   },
    "fetch": {
     "base": 0,
     "flat": 0.025,
@@ -1257,7 +1237,7 @@
     "note": ""
    },
    "cap1": {
-    "base": 2.5,
+    "base": 4.0,
     "note": "",
     "url": "https://capitaloneshopping.com/s/chewy.com/coupon"
    },
@@ -1429,7 +1409,7 @@
     "note": ""
    },
    "cap1": {
-    "base": 10.0,
+    "base": 3.0,
     "note": "",
     "url": "https://capitaloneshopping.com/s/columbia.com/coupon"
    },
@@ -1828,11 +1808,6 @@
     "base": 1.5,
     "note": "1 mile/$1, valued ~1.5¢ each"
    },
-   "cap1": {
-    "base": 2.0,
-    "note": "",
-    "url": "https://capitaloneshopping.com/s/dyson.com/coupon"
-   },
    "fetch": {
     "base": 0,
     "flat": 0.025,
@@ -2092,11 +2067,6 @@
     "base": 1.5,
     "note": "1 mile/$1, valued ~1.5¢ each"
    },
-   "cap1": {
-    "base": 3.0,
-    "note": "",
-    "url": "https://capitaloneshopping.com/s/farfetch.com/coupon"
-   },
    "fetch": {
     "base": 0,
     "flat": 0.025,
@@ -2158,11 +2128,6 @@
    "rebatesme": {
     "base": 7.0,
     "note": ""
-   },
-   "cap1": {
-    "base": 2.0,
-    "note": "",
-    "url": "https://capitaloneshopping.com/s/fragrancex.com/coupon"
    },
    "fetch": {
     "base": 0,
@@ -5606,7 +5571,7 @@
   },
   "Vistaprint": {
    "rakuten": {
-    "base": 2.0,
+    "base": 4.0,
     "note": ""
    },
    "topcash": {
@@ -5630,24 +5595,24 @@
     "note": "Up to 4% — varies by category or new customers"
    },
    "delta": {
-    "base": 2.6,
-    "note": "2 miles/$1, valued ~1.3¢ each"
+    "base": 3.25,
+    "note": "2.5 miles/$1, valued ~1.3¢ each"
    },
    "american": {
-    "base": 3.0,
-    "note": "2 miles/$1, valued ~1.5¢ each"
+    "base": 4.5,
+    "note": "3 miles/$1, valued ~1.5¢ each"
    },
    "united": {
     "base": 2.6,
     "note": "2 miles/$1, valued ~1.3¢ each"
    },
    "southwest": {
-    "base": 2.6,
-    "note": "2 points/$1, valued ~1.3¢ each"
+    "base": 3.9,
+    "note": "3 points/$1, valued ~1.3¢ each"
    },
    "alaska": {
-    "base": 3.0,
-    "note": "2 miles/$1, valued ~1.5¢ each"
+    "base": 4.5,
+    "note": "3 miles/$1, valued ~1.5¢ each"
    },
    "cap1": {
     "base": 2.0,
@@ -5781,8 +5746,8 @@
     "note": ""
    },
    "befrugal": {
-    "base": 15.0,
-    "note": "Up to 15% — varies by category or new customers"
+    "base": 18.0,
+    "note": "Up to 18% — varies by category or new customers"
    },
    "goodshop": {
     "base": 2.0,
@@ -6072,10 +6037,6 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
-   },
-   "cap1": {
-    "base": 1.0,
-    "note": "Up to 1% — varies by category or new customers"
    }
   },
   "Free People": {
@@ -7037,10 +6998,6 @@
     "base": 4.5,
     "note": "3 miles/$1, valued ~1.5¢ each"
    },
-   "cap1": {
-    "base": 3.0,
-    "note": ""
-   },
    "fetch": {
     "base": 0,
     "flat": 0.025,
@@ -7633,10 +7590,6 @@
     "base": 3.0,
     "note": "2 miles/$1, valued ~1.5¢ each"
    },
-   "cap1": {
-    "base": 4.0,
-    "note": ""
-   },
    "fetch": {
     "base": 0,
     "flat": 0.025,
@@ -7854,10 +7807,6 @@
     "base": 2.0,
     "note": ""
    },
-   "cap1": {
-    "base": 1.0,
-    "note": ""
-   },
    "fetch": {
     "base": 0,
     "flat": 0.025,
@@ -7867,10 +7816,6 @@
   "ASICS": {
    "rakuten": {
     "base": 3.0,
-    "note": ""
-   },
-   "cap1": {
-    "base": 2.0,
     "note": ""
    },
    "fetch": {
@@ -7936,7 +7881,7 @@
    },
    "cap1": {
     "base": 2.0,
-    "note": "Up to 2% — varies by category or new customers"
+    "note": ""
    },
    "fetch": {
     "base": 0,
@@ -8237,10 +8182,6 @@
     "base": 3.0,
     "note": ""
    },
-   "cap1": {
-    "base": 1.0,
-    "note": ""
-   },
    "fetch": {
     "base": 0,
     "flat": 0.025,
@@ -8299,10 +8240,6 @@
    }
   },
   "Dermalogica": {
-   "cap1": {
-    "base": 2.0,
-    "note": ""
-   },
    "fetch": {
     "base": 0,
     "flat": 0.025,
@@ -8311,7 +8248,7 @@
   },
   "Tatcha": {
    "cap1": {
-    "base": 3.0,
+    "base": 2.0,
     "note": ""
    },
    "fetch": {
@@ -8388,6 +8325,30 @@
    }
   },
   "True Religion": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 4.04,
+    "note": ""
+   },
+   "befrugal": {
+    "base": 10.0,
+    "note": ""
+   },
+   "goodshop": {
+    "base": 2.5,
+    "note": ""
+   },
+   "rebatesme": {
+    "base": 4.0,
+    "note": ""
+   },
+   "pricecom": {
+    "base": 1.0,
+    "note": ""
+   },
    "cap1": {
     "base": 2.0,
     "note": ""
@@ -8791,10 +8752,6 @@
     "base": 13.0,
     "note": "Often a new-customer or limited-time rate"
    },
-   "cap1": {
-    "base": 2.0,
-    "note": ""
-   },
    "fetch": {
     "base": 0,
     "flat": 0.025,
@@ -8804,10 +8761,6 @@
   "Everlane": {
    "rakuten": {
     "base": 5.0,
-    "note": ""
-   },
-   "cap1": {
-    "base": 1.5,
     "note": ""
    },
    "fetch": {
@@ -9759,10 +9712,6 @@
     "base": 2.0,
     "note": ""
    },
-   "cap1": {
-    "base": 1.0,
-    "note": ""
-   },
    "fetch": {
     "base": 0,
     "flat": 0.025,
@@ -9811,10 +9760,6 @@
     "base": 2.0,
     "note": ""
    },
-   "cap1": {
-    "base": 0.5,
-    "note": ""
-   },
    "fetch": {
     "base": 0,
     "flat": 0.025,
@@ -9834,11 +9779,6 @@
    }
   },
   "Factor": {
-   "cap1": {
-    "base": 0,
-    "flat": 25.5,
-    "note": "Up to $25.5 back, usually on new customers or new lines"
-   },
    "fetch": {
     "base": 0,
     "flat": 0.025,
@@ -9938,11 +9878,6 @@
    }
   },
   "ButcherBox": {
-   "cap1": {
-    "base": 0,
-    "flat": 3.0,
-    "note": "Up to $3 back, usually on new customers or new lines"
-   },
    "fetch": {
     "base": 0,
     "flat": 0.025,
@@ -10785,10 +10720,6 @@
     "base": 2.0,
     "note": ""
    },
-   "cap1": {
-    "base": 4.5,
-    "note": ""
-   },
    "fetch": {
     "base": 0,
     "flat": 0.025,
@@ -10796,10 +10727,6 @@
    }
   },
   "B&H Photo": {
-   "cap1": {
-    "base": 0.5,
-    "note": ""
-   },
    "fetch": {
     "base": 0,
     "flat": 0.025,
@@ -11777,10 +11704,6 @@
     "base": 2.0,
     "note": ""
    },
-   "cap1": {
-    "base": 0.5,
-    "note": ""
-   },
    "fetch": {
     "base": 0,
     "flat": 0.025,
@@ -11788,6 +11711,10 @@
    }
   },
   "LifeStride": {
+   "extrabux": {
+    "base": 2.0,
+    "note": ""
+   },
    "cap1": {
     "base": 2.0,
     "note": ""
@@ -11830,10 +11757,6 @@
     "base": 2.0,
     "note": ""
    },
-   "cap1": {
-    "base": 0.5,
-    "note": ""
-   },
    "fetch": {
     "base": 0,
     "flat": 0.025,
@@ -11843,10 +11766,6 @@
   "Boden": {
    "extrabux": {
     "base": 1.5,
-    "note": ""
-   },
-   "cap1": {
-    "base": 2.0,
     "note": ""
    },
    "fetch": {
@@ -13089,6 +13008,20 @@
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
    }
+  },
+  "Tom Thumb": {
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "WinkBeds": {
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
   }
  },
  "domains": {
@@ -13688,18 +13621,18 @@
   "UGG": [
    {
     "code": "SAVE",
-    "desc": "10% off exclusive styles",
-    "exp": ""
+    "desc": "Save 10% on Select Exclusive Styles",
+    "exp": "Not specified"
    },
    {
     "code": "CYBERMONDAY",
-    "desc": "Cyber Monday discount",
-    "exp": ""
+    "desc": "UGG discount available",
+    "exp": "Not specified"
    },
    {
-    "code": "CYBER15",
-    "desc": "15% off sitewide",
-    "exp": ""
+    "code": "AFTERPAY",
+    "desc": "20% off Select Exclusive Styles",
+    "exp": "Not specified"
    }
   ],
   "Ulta Beauty": [
@@ -13711,18 +13644,18 @@
   "Vistaprint": [
    {
     "code": "WED50",
-    "desc": "up to 50% off wedding invitations",
-    "exp": ""
+    "desc": "Up to 50% off wedding invitations",
+    "exp": "Not specified"
    },
    {
     "code": "CABIN50",
-    "desc": "up to $50 off orders",
-    "exp": ""
+    "desc": "Up to $50 off orders",
+    "exp": "Not specified"
    },
    {
     "code": "SAVEBIG",
-    "desc": "up to 50% off sitewide",
-    "exp": ""
+    "desc": "Semi-annual sale, up to 50% off sitewide",
+    "exp": "Not specified"
    }
   ],
   "Vitamix": [
@@ -13848,19 +13781,25 @@
   ],
   "Carhartt": [
    {
-    "code": "PARTNER25",
-    "desc": "Free shipping on select Carhartt items",
-    "exp": "Not listed"
+    "code": "APRON2020",
+    "desc": "Free Guinness apron on orders over $200",
+    "exp": "",
+    "uses": "2",
+    "last": "15 hours ago"
    },
    {
-    "code": "7009CAW15RUGGED",
-    "desc": "15% off sitewide",
-    "exp": "Not listed"
+    "code": "NLD8",
+    "desc": "Carhartt discount",
+    "exp": "",
+    "uses": "5",
+    "last": "3 days ago"
    },
    {
-    "code": "DOUBLEFRONT26",
-    "desc": "25% off eligible Carhartt orders",
-    "exp": "Not listed"
+    "code": "25OFF",
+    "desc": "25% off clearance",
+    "exp": "",
+    "uses": "2",
+    "last": ""
    }
   ],
   "Casper": [
@@ -14041,19 +13980,19 @@
   ],
   "True Religion": [
    {
-    "code": "DEAL20",
-    "desc": "20% off",
-    "exp": ""
+    "code": "1DAY",
+    "desc": "25% off orders $150+",
+    "exp": "Not specified"
    },
    {
-    "code": "SUMMER23",
-    "desc": "Summer promotion",
-    "exp": ""
+    "code": "BADDIE",
+    "desc": "25% off orders $150+",
+    "exp": "Not specified"
    },
    {
-    "code": "CYBER20",
-    "desc": "Cyber Monday promotion",
-    "exp": ""
+    "code": "BFSAVE",
+    "desc": "Extra 20% off $150+, valid 11/28-11/29",
+    "exp": "Valid 11/28-11/29"
    }
   ],
   "Net-a-Porter": [
@@ -14378,18 +14317,18 @@
   "Uniqlo": [
    {
     "code": "CLS0WV72L",
-    "desc": "10% off",
-    "exp": ""
+    "desc": "10% Off",
+    "exp": "Not specified"
    },
    {
     "code": "PUFFTECH",
-    "desc": "10% off",
-    "exp": ""
+    "desc": "10% Off",
+    "exp": "Not specified"
    },
    {
     "code": "UPON",
-    "desc": "35% off",
-    "exp": ""
+    "desc": "35% Off",
+    "exp": "Not specified"
    }
   ],
   "ASOS": [
@@ -14495,7 +14434,7 @@
    {
     "code": "SUMMER2026",
     "desc": "10% off",
-    "exp": ""
+    "exp": "Not specified"
    }
   ],
   "4 Wheel Parts": [
@@ -15324,6 +15263,174 @@
     "code": "15FUSION",
     "desc": "15% off",
     "exp": "Not shown"
+   }
+  ],
+  "Chewy": [
+   {
+    "code": "B3G1",
+    "desc": "Buy 3 Get 4th Free on Toys, Apparel and More",
+    "exp": "",
+    "uses": "",
+    "last": ""
+   }
+  ],
+  "Clarins": [
+   {
+    "code": "HALLOWEEN26",
+    "desc": "Halloween Gift: Free 6-Piece Gift with $100+ Order",
+    "exp": "Expires in 4 days",
+    "uses": "",
+    "last": ""
+   }
+  ],
+  "Columbia Sportswear": [
+   {
+    "code": "19JULY65",
+    "desc": "Up to 65% off select Gear",
+    "exp": "",
+    "uses": "14",
+    "last": "2 hours ago"
+   },
+   {
+    "code": "COLBACK2SCHOOL",
+    "desc": "Up to 65% off select Columbia styles",
+    "exp": "",
+    "uses": "3",
+    "last": "16 hours ago"
+   },
+   {
+    "code": "COLBRR60",
+    "desc": "Up to 60% off select Styles",
+    "exp": "",
+    "uses": "3",
+    "last": "2 days ago"
+   }
+  ],
+  "Cricut": [
+   {
+    "code": "MARSHIP",
+    "desc": "Free shipping to US/Canada, orders $99+",
+    "exp": "",
+    "uses": "2",
+    "last": "19 hours ago"
+   },
+   {
+    "code": "APRSHIP",
+    "desc": "Free shipping to US/Canada, orders $99+",
+    "exp": "",
+    "uses": "8",
+    "last": "2 days ago"
+   },
+   {
+    "code": "BTS50",
+    "desc": "Free shipping on orders $50+",
+    "exp": "",
+    "uses": "10",
+    "last": "3 days ago"
+   }
+  ],
+  "Tatcha": [
+   {
+    "code": "FORYOU",
+    "desc": "20% off sitewide (Self Love event)",
+    "exp": "Not specified"
+   },
+   {
+    "code": "CYBER24",
+    "desc": "25% off sitewide plus tiered gifts",
+    "exp": "Not specified"
+   },
+   {
+    "code": "SAKURA26",
+    "desc": "10-15% off plus gift box",
+    "exp": "Not specified"
+   }
+  ],
+  "Tempur-Pedic": [
+   {
+    "code": "TOPPERS",
+    "desc": "Shop Tempur-Cloud Topper Savings",
+    "exp": "Not specified"
+   },
+   {
+    "code": "CLOUD30",
+    "desc": "30% off Cloud Mattress",
+    "exp": "Not specified"
+   },
+   {
+    "code": "SHEETS25",
+    "desc": "25% off Sheets",
+    "exp": "Not specified"
+   }
+  ],
+  "ThirdLove": [
+   {
+    "code": "K19CSDGA9GH5",
+    "desc": "Third Love discount available",
+    "exp": "Not specified"
+   },
+   {
+    "code": "RVR51BY3KEQF",
+    "desc": "Third Love discount available",
+    "exp": "Not specified"
+   }
+  ],
+  "Timberland": [
+   {
+    "code": "FALL10",
+    "desc": "Extra 10% off fall favorites",
+    "exp": "Not specified"
+   },
+   {
+    "code": "TURKEY20",
+    "desc": "20% off the order",
+    "exp": "Not specified"
+   },
+   {
+    "code": "WMNS50",
+    "desc": "50% off women's fall favorites",
+    "exp": "Not specified"
+   }
+  ],
+  "Tom Thumb": [
+   {
+    "code": "ACI40",
+    "desc": "40% Off",
+    "exp": "Not specified"
+   },
+   {
+    "code": "BIZSAVE30",
+    "desc": "Tom Thumb discount available",
+    "exp": "Not specified"
+   }
+  ],
+  "WinkBeds": [
+   {
+    "code": "SAVE300",
+    "desc": "Wink Beds discount available",
+    "exp": "Not specified"
+   },
+   {
+    "code": "WCMEMORIALDAY26",
+    "desc": "Wink Beds discount available",
+    "exp": "Not specified"
+   }
+  ],
+  "Wrangler": [
+   {
+    "code": "STOCKUP",
+    "desc": "Buy 1 Get 1 50% off shirts",
+    "exp": "Not specified"
+   },
+   {
+    "code": "JEANS",
+    "desc": "Buy 1 Get 1 50% off jeans",
+    "exp": "Not specified"
+   },
+   {
+    "code": "CYBER30",
+    "desc": "30% off sitewide plus free shipping",
+    "exp": "Not specified"
    }
   ]
  },
