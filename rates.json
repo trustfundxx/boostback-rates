@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T05:51:38.747065Z",
+ "generated_at": "2026-10-28T09:56:00.304333Z",
  "featured": [
   "eBay",
   "PetSmart",
@@ -571,7 +571,7 @@
     "note": "2 miles/$1, valued ~1.3¢ each"
    },
    "cap1": {
-    "base": 0.5,
+    "base": 1.0,
     "note": "",
     "url": "https://capitaloneshopping.com/s/arcteryx.com/coupon"
    },
@@ -1039,7 +1039,7 @@
     "note": "1 mile/$1, valued ~1.5¢ each"
    },
    "cap1": {
-    "base": 2.0,
+    "base": 3.0,
     "note": "",
     "url": "https://capitaloneshopping.com/s/bluemercury.com/coupon"
    },
@@ -1670,9 +1670,8 @@
     "boostNote": "Typical Chase Offer. Check your Chase app to see if you have it."
    },
    "cap1": {
-    "base": 0,
-    "flat": 3.0,
-    "note": "Up to $3 back, usually on new customers or new lines"
+    "base": 1.0,
+    "note": "Up to 1% — varies by category or new customers"
    },
    "fetch": {
     "base": 0,
@@ -1766,7 +1765,7 @@
     "note": "2 miles/$1, valued ~1.3¢ each"
    },
    "cap1": {
-    "base": 2.0,
+    "base": 3.0,
     "note": "",
     "url": "https://capitaloneshopping.com/s/duluthtrading.com/coupon"
    },
@@ -2355,8 +2354,8 @@
     "note": "2 miles/$1, valued ~1.5¢ each"
    },
    "cap1": {
-    "base": 1.0,
-    "note": "Up to 1% — varies by category or new customers",
+    "base": 0.75,
+    "note": "Up to 0.75% — varies by category or new customers",
     "url": "https://capitaloneshopping.com/s/groupon.com/coupon"
    },
    "fetch": {
@@ -4285,7 +4284,7 @@
     "note": "Typical Honey Gold value, not refreshed daily."
    },
    "cap1": {
-    "base": 1.0,
+    "base": 2.0,
     "note": "",
     "url": "https://capitaloneshopping.com/s/petsmart.com/coupon",
     "boost": 8.5,
@@ -7893,7 +7892,7 @@
   },
   "Brooks Running": {
    "cap1": {
-    "base": 3.0,
+    "base": 2.0,
     "note": ""
    },
    "fetch": {
@@ -8980,7 +8979,7 @@
     "note": ""
    },
    "cap1": {
-    "base": 0.5,
+    "base": 2.0,
     "note": ""
    },
    "fetch": {
@@ -10095,7 +10094,7 @@
    },
    "cap1": {
     "base": 0.5,
-    "note": "Up to 0.5% — varies by category or new customers"
+    "note": ""
    },
    "fetch": {
     "base": 0,
@@ -10206,7 +10205,7 @@
   },
   "Burt's Bees Baby": {
    "cap1": {
-    "base": 0.5,
+    "base": 3.5,
     "note": ""
    },
    "fetch": {
@@ -13686,16 +13685,6 @@
   "Fragrance Outlet": "fragranceoutlet.com"
  },
  "coupons": {
-  "Therabody": [
-   {
-    "code": "EARLYBF",
-    "desc": "Free Shipping on any Order"
-   },
-   {
-    "code": "RECOVERY",
-    "desc": "Shop TheraFace Mask"
-   }
-  ],
   "UGG": [
    {
     "code": "SAVE",
@@ -13717,18 +13706,6 @@
    {
     "code": "628621",
     "desc": "Ulta Beauty discount available"
-   }
-  ],
-  "Under Armour": [
-   {
-    "code": "EXTRA10",
-    "desc": "Take 10% OFF using code EXTRA10 at checkout! Free Shipping on orders $50+",
-    "exp": "Expires Nov 3"
-   },
-   {
-    "code": "OCT40",
-    "desc": "Get an EXTRA 40% OFF using code OCT40 + Stack 10% OFF using code EXTRA10",
-    "exp": "Expires Nov 3"
    }
   ],
   "Vistaprint": [
@@ -13765,28 +13742,6 @@
     "exp": ""
    }
   ],
-  "Vivid Seats": [
-   {
-    "code": "VIVID10",
-    "desc": "Existing Customers Get $10 off Ticket $100+ Order"
-   }
-  ],
-  "Walgreens": [
-   {
-    "code": "OCT15",
-    "desc": "Extra 15% off Qualifying Orders $35+",
-    "exp": "Expires Nov 1"
-   },
-   {
-    "code": "OCT20",
-    "desc": "Extra 20% off Qualifying Orders $50+",
-    "exp": "Expires Nov 1"
-   },
-   {
-    "code": "SAVE20",
-    "desc": "Extra 20% off $60+ Sitewide"
-   }
-  ],
   "West Elm": [
    {
     "code": "WINWIN",
@@ -13814,56 +13769,6 @@
     "code": "DERM15",
     "desc": "15% off the first order for new customers",
     "exp": ""
-   }
-  ],
-  "Foot Locker": [
-   {
-    "code": "SPOOKY10",
-    "desc": "Get $10 off Orders Over $100+",
-    "exp": "Expires Oct 31"
-   },
-   {
-    "code": "SPOOKY15",
-    "desc": "Get $15 off Orders Over $150+",
-    "exp": "Expires Oct 31"
-   },
-   {
-    "code": "SAVE15",
-    "desc": "$10 off $100+ Sitewide"
-   }
-  ],
-  "FragranceNet": [
-   {
-    "code": "LKH30",
-    "desc": "30% off Holiday Orders."
-   },
-   {
-    "code": "VDYTN",
-    "desc": "Fragrance Net discount available"
-   },
-   {
-    "code": "VDYTY",
-    "desc": "Fragrance Net discount available"
-   }
-  ],
-  "Groupon": [
-   {
-    "code": "BEST20",
-    "desc": "Groupon discount available"
-   }
-  ],
-  "Abercrombie & Fitch": [
-   {
-    "code": "BRES",
-    "desc": "25% off"
-   },
-   {
-    "code": "SUITEAF",
-    "desc": "Abercrombie discount available"
-   },
-   {
-    "code": "AFLTK",
-    "desc": "Abercrombie discount available"
    }
   ],
   "Ace Hardware": [
@@ -13912,27 +13817,6 @@
     "exp": null
    }
   ],
-  "Bath & Body Works": [
-   {
-    "code": "STOCKED",
-    "desc": "Bath & Body Works discount available"
-   },
-   {
-    "code": "WARM",
-    "desc": "Bath & Body Works discount available"
-   },
-   {
-    "code": "FRESHPICKS",
-    "desc": "Bath & Body Works discount available"
-   }
-  ],
-  "Beauty Brands": [
-   {
-    "code": "EC17294",
-    "desc": "25% off One Regular Priced item.",
-    "exp": "Expires Nov 5"
-   }
-  ],
   "Belk": [
    {
     "code": "BACKTOSCHOOL",
@@ -13943,12 +13827,6 @@
     "code": "BEAUTY20",
     "desc": "20% off Regular-priced Beauty order with Elite or Premier Card Only",
     "exp": "Not shown"
-   }
-  ],
-  "Bluemercury": [
-   {
-    "code": "WELCOME",
-    "desc": "New Customers Get 10% off Best Sellers"
    }
   ],
   "Boscov's": [
@@ -13966,20 +13844,6 @@
     "code": "15FORDAD",
     "desc": "Extra 15% off Men's & Young Men's Shoes & Sandals",
     "exp": null
-   }
-  ],
-  "Cabela's": [
-   {
-    "code": "STOREPICKUP",
-    "desc": "10% off Bopis is Back Pick Up In-Store or Ship to Store"
-   },
-   {
-    "code": "CAVECLEAR10",
-    "desc": "Additional 10% off Clearance items"
-   },
-   {
-    "code": "COLUMBIA25",
-    "desc": "Save 25% on All Columbia Styles"
    }
   ],
   "Carhartt": [
@@ -14023,20 +13887,6 @@
     "exp": ""
    }
   ],
-  "New Balance": [
-   {
-    "code": "10SHOES",
-    "desc": "$10 off ROAV, 574, CRUZ, Nergize, and Kids' Shoes"
-   },
-   {
-    "code": "EXTRA20",
-    "desc": "Get 20% off $300 order"
-   },
-   {
-    "code": "15OFF150",
-    "desc": "$15 off $150 Orders and Free Shipping"
-   }
-  ],
   "Nike": [
    {
     "code": "AFF25",
@@ -14061,34 +13911,6 @@
     "exp": "Not stated"
    }
   ],
-  "Office Depot": [
-   {
-    "code": "YES30",
-    "desc": "$30 off a $150 qualifying purchase"
-   },
-   {
-    "code": "YES40",
-    "desc": "$40 off a $200 qualifying purchase"
-   },
-   {
-    "code": "YES20",
-    "desc": "$20 off a $100 qualifying purchase"
-   }
-  ],
-  "PetSmart": [
-   {
-    "code": "SAVE20",
-    "desc": "Extra 20% off Thousands of Pet items"
-   },
-   {
-    "code": "2MEYERS",
-    "desc": "Save $2 on 1 Mrs Meyers Clean Day, Pets Grooming Product"
-   },
-   {
-    "code": "CANIDAE5",
-    "desc": "$5 off Select Canidae Products"
-   }
-  ],
   "Puma": [
    {
     "code": "FALL30",
@@ -14101,39 +13923,6 @@
    {
     "code": "COOL20",
     "desc": "Up to 50% off plus extra 20% off orders"
-   }
-  ],
-  "Saatva": [
-   {
-    "code": "BACKPACK",
-    "desc": "Free Backpack ($58) on Orders $180+"
-   }
-  ],
-  "Samsung": [
-   {
-    "code": "BESPOKE4DOOR200",
-    "desc": "Save Up to $1,500 on Bespoke 4 Door Refrigerators Plus Get Extra $200 off"
-   }
-  ],
-  "HOKA": [
-   {
-    "code": "MACHMYDAY10",
-    "desc": "Score An Additional 10% off Mach 6 Sneakers"
-   },
-   {
-    "code": "AFTERPAYDAY",
-    "desc": "Get Free Expedited Shipping on any Order"
-   },
-   {
-    "code": "A360WELCOME20",
-    "desc": "HOKA discount available"
-   }
-  ],
-  "J.Crew": [
-   {
-    "code": "CARDLOVE",
-    "desc": "Enjoy an Extra 20% Off With Your J.Crew Credit Card",
-    "exp": "Expires Oct 24"
    }
   ],
   "Kohl's": [
@@ -14151,21 +13940,6 @@
     "code": "SAVING15",
     "desc": "Listed under Customer Appreciation Event",
     "exp": ""
-   }
-  ],
-  "Lancôme": [
-   {
-    "code": "EXCLUSIVE",
-    "desc": "Buy one, get one on select products",
-    "exp": "Expires Oct 25"
-   },
-   {
-    "code": "SETS25",
-    "desc": "25% off select sets, while supplies last"
-   },
-   {
-    "code": "STOCKUP35",
-    "desc": "35% off sitewide"
    }
   ],
   "Lenovo": [
@@ -14202,35 +13976,6 @@
     "exp": ""
    }
   ],
-  "Mattress Firm": [
-   {
-    "code": "FLASH",
-    "desc": "Big Weekend Flash Sale - Extra 25% off Select Mattresses, Bedding and More",
-    "exp": "Expires Oct 20"
-   },
-   {
-    "code": "AFTERHOURS",
-    "desc": "Upgrade Your Sleep Sale® - Save $300 on Select Purple® Mattresses",
-    "exp": "Expires Oct 23"
-   },
-   {
-    "code": "36HOUR",
-    "desc": "Save Up to $650 on the DreamCloud PressureSmart™ Collection",
-    "exp": "Expires Oct 30"
-   }
-  ],
-  "Harry & David": [
-   {
-    "code": "FALLSAVE",
-    "desc": "Save 10% on $79+, 15% off $99+, and 20% off $149+ on Select Gifts",
-    "exp": "Expires Oct 27"
-   },
-   {
-    "code": "15HDAVID",
-    "desc": "15% off Sitewide",
-    "exp": "Expires Nov 2"
-   }
-  ],
   "Carter's": [
    {
     "code": "25HOORAY",
@@ -14246,12 +13991,6 @@
     "code": "BONUS20",
     "desc": "$20 bonus card on $100 spend",
     "exp": "Not stated"
-   }
-  ],
-  "Spanx": [
-   {
-    "code": "2DAYSHIP",
-    "desc": "Free two-day shipping"
    }
   ],
   "1-800-Flowers": [
@@ -14271,49 +14010,6 @@
     "exp": "None listed"
    }
   ],
-  "Visible": [
-   {
-    "code": "SAVE6",
-    "desc": "$6/mo off the $25/mo Visible plan ($19/mo for 1 year)",
-    "exp": "Expires Oct 18"
-   },
-   {
-    "code": "SAVEHALF",
-    "desc": "50% off Visible+ Pro annual plan ($225 upfront)",
-    "exp": "Expires Oct 18"
-   },
-   {
-    "code": "APPLEWATCH",
-    "desc": "Up to $100 off Apple Watch with new wearable line on Visible+ Pro",
-    "exp": "Expires Oct 18"
-   }
-  ],
-  "GNC": [
-   {
-    "code": "OCT25",
-    "desc": "$25 off orders $150+"
-   },
-   {
-    "code": "SAVE30",
-    "desc": "$30 off $150+ orders and free domestic shipping"
-   },
-   {
-    "code": "GNC15",
-    "desc": "15% off sitewide"
-   }
-  ],
-  "Lucky Brand": [
-   {
-    "code": "LUCKYYOU",
-    "desc": "Take 40% off Cozy Sweaters, Denim Jackets, & More",
-    "exp": "Expires Oct 27"
-   },
-   {
-    "code": "AFFLUCKY20",
-    "desc": "Get 20% off Orders $125+",
-    "exp": "Expires Nov 2"
-   }
-  ],
   "Cole Haan": [
    {
     "code": "APRIL",
@@ -14329,26 +14025,6 @@
     "code": "BOOTS",
     "desc": "Boots under $100 plus an extra 20% off boots",
     "exp": ""
-   }
-  ],
-  "Rothy's": [
-   {
-    "code": "WELCOME20",
-    "desc": "New Customers - Get $20 off Your First Purchase"
-   }
-  ],
-  "Famous Footwear": [
-   {
-    "code": "YOUSAVE20",
-    "desc": "20% off any order"
-   },
-   {
-    "code": "FRESH15",
-    "desc": "15% off any order"
-   },
-   {
-    "code": "GOSAVE15",
-    "desc": "15% off any order"
    }
   ],
   "Journeys": [
@@ -14399,29 +14075,11 @@
     "exp": "Not stated"
    }
   ],
-  "AllSaints": [
-   {
-    "code": "SPRINGTIME",
-    "desc": "20% off When Buying 2 items Storewide Sale"
-   }
-  ],
   "Vionic": [
    {
     "code": "SUMMER20",
     "desc": "20% off summer items",
     "exp": "Expires Sept 30"
-   }
-  ],
-  "Tillys": [
-   {
-    "code": "SAVE20",
-    "desc": "$20 off purchases over $100"
-   }
-  ],
-  "Todd Snyder": [
-   {
-    "code": "FIRST15",
-    "desc": "15% off first order"
    }
   ],
   "Perry Ellis": [
@@ -14441,17 +14099,6 @@
     "exp": ""
    }
   ],
-  "Nautica": [
-   {
-    "code": "FALL26",
-    "desc": "20% off $125",
-    "exp": "Expires Oct 22"
-   },
-   {
-    "code": "AFFTIER15",
-    "desc": "15% off orders $100+ or 20% off orders $150+ (online only)"
-   }
-  ],
   "Goldbelly": [
    {
     "code": "BELLY20",
@@ -14462,40 +14109,6 @@
     "code": "AFF20",
     "desc": "$20 off Mother's Day gifts for first-time customers",
     "exp": "Not specified"
-   }
-  ],
-  "Wine.com": [
-   {
-    "code": "FSNOW",
-    "desc": "Free shipping on orders of $175+"
-   },
-   {
-    "code": "FALLHAUL15",
-    "desc": "$15 off orders of $150+"
-   }
-  ],
-  "Hickory Farms": [
-   {
-    "code": "AF10EVR",
-    "desc": "10% off Orders $75+"
-   },
-   {
-    "code": "HFAF150",
-    "desc": "Take 20% off Orders over $150 and Get Unlimited Free Shipping Sitewide"
-   },
-   {
-    "code": "HFDAD23",
-    "desc": "Up to 25% off Select Gifts"
-   }
-  ],
-  "Edible Arrangements": [
-   {
-    "code": "BDAY10",
-    "desc": "10% off birthday baskets"
-   },
-   {
-    "code": "FREEDEL",
-    "desc": "10% off birthday baskets; free shipping offer"
    }
   ],
   "Shari's Berries": [
@@ -14513,20 +14126,6 @@
     "code": "SBSAVE10",
     "desc": "$10 off Orders of $59.99+",
     "exp": ""
-   }
-  ],
-  "Gymboree": [
-   {
-    "code": "50OFF",
-    "desc": "50% off sitewide"
-   },
-   {
-    "code": "EXTRA25",
-    "desc": "25% off any order"
-   },
-   {
-    "code": "FREESHIP",
-    "desc": "Free shipping, no minimum"
    }
   ],
   "Hanna Andersson": [
@@ -14556,20 +14155,6 @@
     "code": "AFWG1321",
     "desc": "15% off everyday essentials when you spend $200+",
     "exp": "Expires Oct 12"
-   }
-  ],
-  "Chemical Guys": [
-   {
-    "code": "APRIL20OFF",
-    "desc": "Take $20 off Orders of $100 or More"
-   },
-   {
-    "code": "BRUSH",
-    "desc": "10% off Interior and Exterior Brushes"
-   },
-   {
-    "code": "TORQ50",
-    "desc": "$50 off Starter Polishing Kits"
    }
   ],
   "Orvis": [
@@ -14638,12 +14223,6 @@
     "code": "VIP15",
     "desc": "15% off for VIP members",
     "exp": ""
-   }
-  ],
-  "Musely": [
-   {
-    "code": "ONE29",
-    "desc": "First Time Orders Recieve 29% off all Treatments"
    }
   ],
   "NOBULL": [
@@ -14796,66 +14375,6 @@
     "exp": ""
    }
   ],
-  "Aerosoles": [
-   {
-    "code": "AEROMYSTERY",
-    "desc": "Mystery Sale - 40% off Sitewide"
-   },
-   {
-    "code": "PASSWORD123",
-    "desc": "25% off Sitewide"
-   },
-   {
-    "code": "SHARETHELOVE",
-    "desc": "$25 off $100+ Order"
-   }
-  ],
-  "AutoZone": [
-   {
-    "code": "AZSAVINGS",
-    "desc": "Autozone discount available"
-   },
-   {
-    "code": "AUTUMN20",
-    "desc": "20% off $125+ Orders"
-   },
-   {
-    "code": "BACKTOSCHOOL20",
-    "desc": "20% Off"
-   }
-  ],
-  "Blick Art Materials": [
-   {
-    "code": "WSCK",
-    "desc": "15% Off"
-   },
-   {
-    "code": "PREFER",
-    "desc": "10% Off"
-   },
-   {
-    "code": "CFGJ",
-    "desc": "Dick Blick Art Materials discount available"
-   }
-  ],
-  "Club Monaco": [
-   {
-    "code": "20OFF",
-    "desc": "35% Off"
-   }
-  ],
-  "Levi's": [
-   {
-    "code": "HURRY30",
-    "desc": "Extra 30% off Sale Styles."
-   }
-  ],
-  "Urban Outfitters": [
-   {
-    "code": "WARMUP",
-    "desc": "Up To 40% Off Summer Essentials - Dresses, Shorts, Swim & More"
-   }
-  ],
   "Uniqlo": [
    {
     "code": "CLS0WV72L",
@@ -14953,66 +14472,6 @@
     "code": "VIP15",
     "desc": "15% off for VIP members",
     "exp": ""
-   }
-  ],
-  "Marmot": [
-   {
-    "code": "EXTRA20",
-    "desc": "Save An Additional 20% on All Sale items"
-   },
-   {
-    "code": "EXTRA25",
-    "desc": "Additional 25% off Sale"
-   },
-   {
-    "code": "20MORE",
-    "desc": "Extra 20% off Clearance Event"
-   }
-  ],
-  "Merrell": [
-   {
-    "code": "SAVE40",
-    "desc": "Extra 40% off Select Styles",
-    "exp": "Expires Oct 23"
-   },
-   {
-    "code": "GETOUTSIDE",
-    "desc": "$20 off any Order $100+"
-   },
-   {
-    "code": "TCC10",
-    "desc": "10% off any Order"
-   }
-  ],
-  "Monica + Andy": [
-   {
-    "code": "WELCOME20",
-    "desc": "20% off First Order"
-   },
-   {
-    "code": "WELCOME10",
-    "desc": "Monica + Andy discount available"
-   }
-  ],
-  "Northern Tool": [
-   {
-    "code": "268179",
-    "desc": "Free Shipping on $49+ Order"
-   },
-   {
-    "code": "267280",
-    "desc": "$20 Gift Card with $100 Order"
-   },
-   {
-    "code": "267433",
-    "desc": "Free Shipping on Orders $149+"
-   }
-  ],
-  "The Children's Place": [
-   {
-    "code": "B2G1",
-    "desc": "US_Denim buy 2 get 1 free with code B2G1",
-    "exp": "Expires Oct 24"
    }
   ],
   "Coldwater Creek": [
@@ -15293,172 +14752,6 @@
    {
     "code": "WANDS_7_26_14_POD",
     "desc": "20% Off"
-   }
-  ],
-  "12th Tribe": [
-   {
-    "code": "MISSYOU15",
-    "desc": "12THTRIBE discount"
-   },
-   {
-    "code": "SAVE10",
-    "desc": "12THTRIBE discount"
-   },
-   {
-    "code": "SAVE15",
-    "desc": "12THTRIBE discount"
-   }
-  ],
-  "AKIRA": [
-   {
-    "code": "2QV5JGS8C7JF",
-    "desc": "AKIRA discount available"
-   },
-   {
-    "code": "20%OFFHTS492S",
-    "desc": "AKIRA discount available"
-   },
-   {
-    "code": "15-X1PXP11",
-    "desc": "15% Off"
-   }
-  ],
-  "Anne Klein": [
-   {
-    "code": "AK15",
-    "desc": "15% Off"
-   }
-  ],
-  "Awara": [
-   {
-    "code": "REVIEWED",
-    "desc": "$350 off Mattress"
-   }
-  ],
-  "Coleman": [
-   {
-    "code": "MARINECOOLER19",
-    "desc": "50% off 50 Quart Marine Cooler"
-   },
-   {
-    "code": "LIGHT2019",
-    "desc": "50% off CPX LED Spotlight"
-   },
-   {
-    "code": "SLEEPS19",
-    "desc": "Over 50% off White Water Sleeping Bag"
-   }
-  ],
-  "Eloquii": [
-   {
-    "code": "EQFIFTY",
-    "desc": "ELOQUII discount available"
-   },
-   {
-    "code": "EQVIP",
-    "desc": "ELOQUII discount available"
-   },
-   {
-    "code": "E5Z4P2B",
-    "desc": "ELOQUII discount available"
-   }
-  ],
-  "Evereve": [
-   {
-    "code": "SAVE10",
-    "desc": "10% Off"
-   }
-  ],
-  "Grainger": [
-   {
-    "code": "UCM082",
-    "desc": "Apply code UCM082 at checkout to see savings"
-   }
-  ],
-  "Indochino": [
-   {
-    "code": "BUNDLES",
-    "desc": "Two chinos for $99"
-   },
-   {
-    "code": "3SHIRTS",
-    "desc": "Three shirts for $149"
-   },
-   {
-    "code": "GET20",
-    "desc": "20% off sitewide"
-   }
-  ],
-  "Jewel-Osco": [
-   {
-    "code": "SAVE20",
-    "desc": "$20 off + Free Delivery with $75+ Orders on Your 1st Order"
-   }
-  ],
-  "Johnston & Murphy": [
-   {
-    "code": "PW1536FBBB",
-    "desc": "Johnston & Murphy discount available"
-   },
-   {
-    "code": "EXTRA30",
-    "desc": "30% Off"
-   }
-  ],
-  "Justice": [
-   {
-    "code": "25FAST",
-    "desc": "25% off entire site"
-   },
-   {
-    "code": "FALL40",
-    "desc": "Up to 40% off sitewide"
-   },
-   {
-    "code": "SPRING15",
-    "desc": "15% off any order"
-   }
-  ],
-  "Pottery Barn Kids": [
-   {
-    "code": "EXTRA20",
-    "desc": "20% Off"
-   },
-   {
-    "code": "PBK30",
-    "desc": "30% Off"
-   },
-   {
-    "code": "HOORAY",
-    "desc": "Pottery Barn Kids discount available"
-   }
-  ],
-  "Puritan's Pride": [
-   {
-    "code": "PERK20R",
-    "desc": "Puritan's Pride discount available"
-   },
-   {
-    "code": "20PRIDE",
-    "desc": "Puritan's Pride discount available"
-   },
-   {
-    "code": "REORDER",
-    "desc": "10% Off"
-   }
-  ],
-  "Stop & Shop": [
-   {
-    "code": "SSASAVE80",
-    "desc": "New delivery/pickup customers save $80 + free delivery or pickup for 90 days"
-   },
-   {
-    "code": "SSONLINE50",
-    "desc": "$25 off first two delivery or pickup orders of $100+"
-   },
-   {
-    "code": "COLD10",
-    "desc": "10% off first order"
    }
   ],
   "Buck Mason": [
