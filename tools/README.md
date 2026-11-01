@@ -46,3 +46,6 @@ validate, commit and push again.
 
 ## Never force-push
 Never use `git push --force` (or -f) on main. If a push is rejected: `git fetch origin && git reset --hard origin/main`, re-apply your changes, and push again. Force-pushing deletes other work (it erased the Flights feature once).
+
+## Fetching websites
+Use only the WebSearch and WebFetch tools for cashbackindex.com and capitaloneshopping.com. The shell (curl, wget, Python) is blocked from those sites with a 403 - that is expected, not a problem, and nobody needs to allowlist anything. If WebFetch refuses a URL, WebSearch for the store first (allowed_domains set to that site), then fetch the result link.
