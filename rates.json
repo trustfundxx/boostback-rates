@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T14:54:37.671812Z",
+ "generated_at": "2026-11-04T18:58:29.934544Z",
  "featured": [
   "eBay",
   "PetSmart",
@@ -301,6 +301,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": ""
    }
   },
   "Adidas": {
@@ -822,7 +826,7 @@
     "note": ""
    },
    "topcash": {
-    "base": 10.0,
+    "base": 4.0,
     "note": ""
    },
    "befrugal": {
@@ -838,8 +842,8 @@
     "note": ""
    },
    "rebatesme": {
-    "base": 12.0,
-    "note": "Often a new-customer or limited-time rate"
+    "base": 8.0,
+    "note": ""
    },
    "pricecom": {
     "base": 3.5,
@@ -870,7 +874,7 @@
     "note": "1 mile/$1, valued ~1.5¢ each"
    },
    "cap1": {
-    "base": 3.0,
+    "base": 2.0,
     "note": "",
     "url": "https://capitaloneshopping.com/s/belk.com/coupon"
    },
@@ -1712,7 +1716,7 @@
   },
   "Dermstore": {
    "rakuten": {
-    "base": 3.0,
+    "base": 10.0,
     "note": ""
    },
    "topcash": {
@@ -2035,10 +2039,6 @@
     "base": 2.5,
     "note": ""
    },
-   "extrabux": {
-    "base": 8.8,
-    "note": ""
-   },
    "delta": {
     "base": 1.3,
     "note": "1 mile/$1, valued ~1.3¢ each"
@@ -2128,7 +2128,7 @@
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
    },
    "cap1": {
-    "base": 3.0,
+    "base": 2.0,
     "note": ""
    }
   },
@@ -3361,7 +3361,7 @@
    },
    "befrugal": {
     "base": 6.0,
-    "note": ""
+    "note": "Up to 6% — varies by category or new customers"
    },
    "gocashback": {
     "base": 1.0,
@@ -3391,10 +3391,6 @@
     "base": 0.65,
     "note": "0.5 points/$1, valued ~1.3¢ each"
    },
-   "alaska": {
-    "base": 0.75,
-    "note": "0.5 miles/$1, valued ~1.5¢ each"
-   },
    "cap1": {
     "base": 0.5,
     "note": "",
@@ -3422,10 +3418,6 @@
    "southwest": {
     "base": 2.6,
     "note": "2 points/$1, valued ~1.3¢ each"
-   },
-   "alaska": {
-    "base": 3.0,
-    "note": "2 miles/$1, valued ~1.5¢ each"
    },
    "fetch": {
     "base": 0,
@@ -3537,10 +3529,6 @@
    "southwest": {
     "base": 2.6,
     "note": "2 points/$1, valued ~1.3¢ each"
-   },
-   "alaska": {
-    "base": 4.5,
-    "note": "3 miles/$1, valued ~1.5¢ each"
    },
    "cap1": {
     "base": 1.5,
@@ -3802,10 +3790,6 @@
     "base": 3.9,
     "note": "3 points/$1, valued ~1.3¢ each"
    },
-   "alaska": {
-    "base": 6.0,
-    "note": "4 miles/$1, valued ~1.5¢ each"
-   },
    "fetch": {
     "base": 0,
     "flat": 0.025,
@@ -3948,6 +3932,22 @@
     "base": 2.5,
     "note": "Up to 2.5% — varies by category or new customers"
    },
+   "delta": {
+    "base": 3.25,
+    "note": "2.5 miles/$1, valued ~1.3¢ each"
+   },
+   "american": {
+    "base": 4.5,
+    "note": "3 miles/$1, valued ~1.5¢ each"
+   },
+   "united": {
+    "base": 2.6,
+    "note": "2 miles/$1, valued ~1.3¢ each"
+   },
+   "southwest": {
+    "base": 3.9,
+    "note": "3 points/$1, valued ~1.3¢ each"
+   },
    "cap1": {
     "base": 2.0,
     "note": "",
@@ -4047,10 +4047,6 @@
     "base": 1.3,
     "note": "1 point/$1, valued ~1.3¢ each"
    },
-   "alaska": {
-    "base": 1.5,
-    "note": "1 mile/$1, valued ~1.5¢ each"
-   },
    "fetch": {
     "base": 0,
     "flat": 0.025,
@@ -4141,10 +4137,6 @@
    "southwest": {
     "base": 2.6,
     "note": "2 points/$1, valued ~1.3¢ each"
-   },
-   "alaska": {
-    "base": 3.0,
-    "note": "2 miles/$1, valued ~1.5¢ each"
    },
    "fetch": {
     "base": 0,
@@ -6095,6 +6087,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "Ann Taylor": {
@@ -6907,7 +6903,7 @@
   },
   "Carter's": {
    "rakuten": {
-    "base": 10.0,
+    "base": 2.0,
     "note": ""
    },
    "topcash": {
@@ -8357,12 +8353,12 @@
   },
   "Men's Wearhouse": {
    "rakuten": {
-    "base": 10.0,
+    "base": 2.5,
     "note": ""
    },
    "topcash": {
-    "base": 13.13,
-    "note": "Often a new-customer or limited-time rate"
+    "base": 5.05,
+    "note": ""
    },
    "befrugal": {
     "base": 15.0,
@@ -8373,24 +8369,20 @@
     "note": ""
    },
    "delta": {
-    "base": 5.2,
-    "note": "4 miles/$1, valued ~1.3¢ each"
+    "base": 1.95,
+    "note": "1.5 miles/$1, valued ~1.3¢ each"
    },
    "american": {
-    "base": 7.5,
-    "note": "5 miles/$1, valued ~1.5¢ each"
+    "base": 3.0,
+    "note": "2 miles/$1, valued ~1.5¢ each"
    },
    "united": {
-    "base": 3.9,
-    "note": "3 miles/$1, valued ~1.3¢ each"
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢ each"
    },
    "southwest": {
-    "base": 6.5,
-    "note": "5 points/$1, valued ~1.3¢ each"
-   },
-   "alaska": {
-    "base": 7.5,
-    "note": "5 miles/$1, valued ~1.5¢ each"
+    "base": 2.6,
+    "note": "2 points/$1, valued ~1.3¢ each"
    },
    "fetch": {
     "base": 0,
@@ -8971,6 +8963,10 @@
     "base": 2.0,
     "note": ""
    },
+   "extrabux": {
+    "base": 3.0,
+    "note": ""
+   },
    "delta": {
     "base": 2.6,
     "note": "2 miles/$1, valued ~1.3¢ each"
@@ -8992,7 +8988,7 @@
     "note": "3 miles/$1, valued ~1.5¢ each"
    },
    "cap1": {
-    "base": 0.5,
+    "base": 2.0,
     "note": ""
    },
    "fetch": {
@@ -9238,10 +9234,6 @@
    "southwest": {
     "base": 3.9,
     "note": "3 points/$1, valued ~1.3¢ each"
-   },
-   "alaska": {
-    "base": 4.5,
-    "note": "3 miles/$1, valued ~1.5¢ each"
    },
    "fetch": {
     "base": 0,
@@ -11578,10 +11570,6 @@
     "base": 2.6,
     "note": "2 points/$1, valued ~1.3¢ each"
    },
-   "alaska": {
-    "base": 3.0,
-    "note": "2 miles/$1, valued ~1.5¢ each"
-   },
    "fetch": {
     "base": 0,
     "flat": 0.025,
@@ -13265,27 +13253,21 @@
   ],
   "Crocs": [
    {
-    "code": "CROCTOBER25",
-    "description": "Take 25% Off Sitewide",
-    "expiry": "Expires in 7 days",
-    "usage_count": "2472 uses",
-    "last_used": "Last used 30 minutes ago"
+    "code": "CROCSCOZY20",
+    "desc": "",
+    "exp": "No expiry shown"
    },
    {
-    "code": "CROCSCOZY20",
-    "description": "Take $20 off Orders $100",
-    "expiry": "Not stated",
-    "usage_count": "766 uses",
-    "last_used": "Last used 30 minutes ago"
+    "code": "CROCTOBER25",
+    "desc": "",
+    "exp": "Expires in 7 days"
    }
   ],
   "Dermstore": [
    {
     "code": "DERM15",
-    "description": "New customers get 15% off their first order",
-    "expiry": "Not stated",
-    "usage_count": "Not stated",
-    "last_used": "Not stated"
+    "desc": "",
+    "exp": "Not stated"
    }
   ],
   "AliExpress": [
@@ -13322,18 +13304,18 @@
   "Belk": [
    {
     "code": "BACKTOSCHOOL",
-    "desc": "Back-to-school code",
-    "exp": "Not listed"
+    "desc": "75% off fine jewelry clearance",
+    "exp": "Expires in 2 days"
    },
    {
     "code": "BEAUTY20",
-    "desc": "20% off regular-priced beauty (Elite/Premier card only)",
-    "exp": "Not listed"
+    "desc": "20% off regular-priced beauty",
+    "exp": "No expiry"
    },
    {
-    "code": "11134572",
-    "desc": "30% off men's apparel, 15% off men's shoes",
-    "exp": "Not listed"
+    "code": "11292367",
+    "desc": "25% off any order",
+    "exp": "Expires in 6 days"
    }
   ],
   "Boscov's": [
@@ -13413,34 +13395,26 @@
   ],
   "Nike": [
    {
-    "code": "FLASH20",
-    "description": "20% off men's Air Huarache",
-    "expiry": "Not stated",
-    "usage": "Not stated",
-    "last_used": "Not stated"
+    "code": "AFF25",
+    "desc": "No details given",
+    "exp": null
+   },
+   {
+    "code": "FALL20",
+    "desc": "20% off select styles for members",
+    "exp": null
    },
    {
     "code": "MEMBER25",
-    "description": "Up to 25% off select women's styles for members",
-    "expiry": "Not stated",
-    "usage": "Not stated",
-    "last_used": "Not stated"
-   },
-   {
-    "code": "TEAMUP",
-    "description": "10% off $100 sitewide",
-    "expiry": "Not stated",
-    "usage": "Not stated",
-    "last_used": "Not stated"
+    "desc": "Up to 25% off select women's styles for members",
+    "exp": null
    }
   ],
   "Nordstrom": [
    {
     "code": "BOMBA",
     "desc": "Nordstrom discount available",
-    "exp": "Not listed",
-    "uses": "Not listed",
-    "last_used": "Not listed"
+    "exp": null
    }
   ],
   "Puma": [
@@ -13495,24 +13469,18 @@
   "Michaels": [
    {
     "code": "FLASH40",
-    "description": "40% off Entire Regular Price Purchase",
-    "expiry": "Not stated",
-    "usage": "3,650 uses",
-    "last_used": "Not stated"
+    "desc": "40% off Entire Regular Price Purchase",
+    "exp": "Not stated"
    },
    {
-    "code": "FLASH30",
-    "description": "Michaels discount available",
-    "expiry": "Not stated",
-    "usage": "2,768 uses",
-    "last_used": "Not stated"
+    "code": "269REWARDS6",
+    "desc": "Michaels discount available",
+    "exp": "Not stated"
    },
    {
     "code": "269REWARDS9",
-    "description": "Michaels discount available",
-    "expiry": "Not stated",
-    "usage": "375 uses",
-    "last_used": "Not stated"
+    "desc": "Michaels discount available",
+    "exp": "Not stated"
    }
   ],
   "Carter's": [
@@ -13923,35 +13891,35 @@
   "BJ's Wholesale": [
    {
     "code": "AU45",
-    "desc": "BJ's Wholesale Club discount available",
-    "exp": "Not listed"
+    "desc": "Generic BJ's discount",
+    "exp": "Not stated"
    },
    {
     "code": "AU15",
-    "desc": "BJ's Wholesale Club discount available",
-    "exp": "Not listed"
+    "desc": "Generic BJ's discount",
+    "exp": "Not stated"
    },
    {
-    "code": "AU25",
-    "desc": "BJ's Wholesale Club discount available",
-    "exp": "Not listed"
+    "code": "EASYORDER",
+    "desc": "Save $5 on $100+ Orders",
+    "exp": "Not stated"
    }
   ],
   "Fossil": [
    {
     "code": "6YZWHZHMAU",
-    "desc": "15% Off",
-    "exp": ""
+    "desc": "",
+    "exp": "Not listed"
    },
    {
     "code": "CAN5905SHIP",
-    "desc": "10% Off",
-    "exp": ""
+    "desc": "",
+    "exp": "Not listed"
    },
    {
     "code": "CAN5910SHIP",
-    "desc": "Fossil discount available",
-    "exp": ""
+    "desc": "",
+    "exp": "Not listed"
    }
   ],
   "Snake River Farms": [
@@ -13973,25 +13941,19 @@
   ],
   "Coldwater Creek": [
    {
-    "code": "BESTEVER",
-    "description": "50% off any order",
-    "expiry": "Not stated",
-    "usage_count": "Not stated",
-    "last_used": "Not stated"
+    "code": "25FALL",
+    "desc": "",
+    "exp": "Not listed"
    },
    {
-    "code": "FRIENDS",
-    "description": "50% off everything, free shipping",
-    "expiry": "Not stated",
-    "usage_count": "Not stated",
-    "last_used": "Not stated"
+    "code": "25OFF",
+    "desc": "",
+    "exp": "Not listed"
    },
    {
-    "code": "GIFT",
-    "description": "40% off everything, free shipping",
-    "expiry": "Not stated",
-    "usage_count": "Not stated",
-    "last_used": "Not stated"
+    "code": "40SALE",
+    "desc": "",
+    "exp": "Not listed"
    }
   ],
   "Zara": [
@@ -14005,40 +13967,34 @@
    {
     "code": "4WD350",
     "desc": "10% Off",
-    "exp": "Not listed"
+    "exp": "Not stated"
    },
    {
     "code": "4WP65",
     "desc": "10% Off",
-    "exp": "Not listed"
+    "exp": "Not stated"
    },
    {
     "code": "FLASH",
     "desc": "10% Off",
-    "exp": "Not listed"
+    "exp": "Not stated"
    }
   ],
   "Fashion Nova": [
    {
     "code": "VIP40",
-    "description": "Fashion Nova discount available",
-    "expiry": "Not stated",
-    "usage_count": "44,199 uses",
-    "last_used": "1 day ago"
+    "desc": "",
+    "exp": "Not stated"
    },
    {
     "code": "GET30",
-    "description": "Fashion Nova discount available",
-    "expiry": "Not stated",
-    "usage_count": "20,375 uses",
-    "last_used": "1 day ago"
+    "desc": "",
+    "exp": "Not stated"
    },
    {
     "code": "GET20",
-    "description": "Fashion Nova discount available",
-    "expiry": "Not stated",
-    "usage_count": "14,299 uses",
-    "last_used": "1 day ago"
+    "desc": "",
+    "exp": "Not stated"
    }
   ],
   "Acme Markets": [
@@ -14710,25 +14666,19 @@
   ],
   "Old Navy": [
    {
-    "code": "PERK",
-    "description": "40% off When You Use Your Gap Inc. Credit Card",
-    "expiry": "Not stated",
-    "usage": "1023 uses",
-    "last_used": "55 minutes ago"
-   },
-   {
     "code": "GREAT",
-    "description": "Old Navy discount available",
-    "expiry": "Not stated",
-    "usage": "586 uses",
-    "last_used": "55 minutes ago"
+    "desc": "Old Navy discount available",
+    "exp": "Expires in 8 days"
    },
    {
-    "code": "EXTRA",
-    "description": "Extra 40% off Clearance",
-    "expiry": "Not stated",
-    "usage": "17784 uses",
-    "last_used": "1 day ago"
+    "code": "YOURS",
+    "desc": "Extra 20% off Women's Essentials",
+    "exp": null
+   },
+   {
+    "code": "10EXTRA",
+    "desc": "Extra 10% off Clearance",
+    "exp": null
    }
   ],
   "Saks Fifth Avenue": [
@@ -15208,98 +15158,80 @@
   "Converse": [
    {
     "code": "HONEYCOUPON",
-    "description": "Converse discount available",
-    "expiry": "Not stated",
-    "usage_count": "Not stated",
-    "last_used": "Not stated"
+    "desc": "",
+    "exp": "Not stated"
    }
   ],
   "Dr. Scholl's Shoes": [
    {
     "code": "DRSPAIR20",
-    "desc": "20% off when buying 2 pairs",
-    "exp": "Valid until 9/30"
+    "desc": "",
+    "exp": "Ends Sept 30"
    },
    {
     "code": "SAVE10DRS",
-    "desc": "$10 off $50",
-    "exp": "Valid until 10/31"
-   },
-   {
-    "code": "ALLTHESUN",
-    "desc": "40% off sandals + free shipping",
-    "exp": "Valid 4/16-4/19"
+    "desc": "",
+    "exp": "Ends Oct 31"
    }
   ],
   "Dressbarn": [
    {
-    "code": "EXTRA25",
-    "description": "25% Off",
-    "expiry": "Not stated",
-    "usage_count": "7 uses ($11.81 avg. savings)",
-    "last_used": "16 hours ago"
-   },
-   {
     "code": "GET35",
-    "description": "Dress Barn discount available",
-    "expiry": "Not stated",
-    "usage_count": "34 uses ($28.15 avg. savings)",
-    "last_used": "16 hours ago"
+    "desc": "",
+    "exp": "Not shown"
    },
    {
     "code": "WELCOME15",
-    "description": "Dress Barn discount available",
-    "expiry": "Not stated",
-    "usage_count": "95 uses ($15.56 avg. savings)",
-    "last_used": "12 hours ago"
+    "desc": "",
+    "exp": "Not shown"
+   },
+   {
+    "code": "15SPECIAL",
+    "desc": "",
+    "exp": "Not shown"
    }
   ],
   "ECCO": [
    {
     "code": "ECCODEAL",
-    "desc": "20% off purchases of $200+",
-    "exp": ""
-   },
-   {
-    "code": "5MAY19",
-    "desc": "Extra 30% off women's sale sneakers, free shipping",
-    "exp": ""
-   },
-   {
-    "code": "BAG19",
-    "desc": "10% off leather accessories, free shipping",
-    "exp": ""
+    "desc": "",
+    "exp": "Not stated"
    }
   ],
   "Elizabeth Arden": [
    {
     "code": "EAFAM",
-    "desc": "Friends and Family - 25% off $125 Orders Sitewide, Including Cleanser and Retinol HPR Eye Cream and Advanced Gold Caps",
+    "desc": "",
     "exp": "Expires in 12 days"
    },
    {
     "code": "EAFAVES25",
-    "desc": "25% off any $100 Purchase + 7-piece Gift",
-    "exp": ""
+    "desc": "",
+    "exp": "Not shown"
    },
    {
     "code": "EAFAMCA",
-    "desc": "Friends and Family - 25% off Sitewide with any Purchase Including Retinol Eye Cream and Ceramide Cleaner and Advanced Gold",
+    "desc": "",
     "exp": "Expires in 12 days"
    }
   ],
   "Estée Lauder": [
    {
-    "code": "OCTOBER",
-    "desc": "Up to 25% Off! Get 20% Off $50+ or 25% Off $125+",
-    "exp": "Expires in 3 days"
+    "code": "ELEVEN26",
+    "desc": "",
+    "exp": "Expires in 8 days"
    }
   ],
   "Francesca's": [
    {
+    "code": "CODE PROVIDED WITH SIGNUP",
+    "desc": "",
+    "exp": "Not stated"
+   },
+   {
     "code": "HONEYFRAN",
-    "desc": "20% Off",
-    "exp": ""
+    "desc": "",
+    "exp": "Not stated"
    }
   ],
   "Green Chef": [
@@ -15394,11 +15326,19 @@
   ],
   "Neiman Marcus": [
    {
-    "code": "BOMBA",
-    "description": "Neiman Marcus discount available",
-    "expiry": "Not listed",
-    "usage": "Not listed",
-    "last_used": "Not listed"
+    "code": "SHOPNM",
+    "desc": "Up to $300 off a regular-price purchase; beauty, fragrance, and jewelry excluded",
+    "exp": "Not stated"
+   },
+   {
+    "code": "NMSHOP",
+    "desc": "Up to $750 gift card with regular-price purchase of $200+",
+    "exp": "Not stated"
+   },
+   {
+    "code": "OURGIFT",
+    "desc": "$100-$1,250 gift card; beauty and fragrance included, jewelry excluded",
+    "exp": "Not stated"
    }
   ],
   "Reebok": [
@@ -16078,6 +16018,54 @@
    {
     "code": "ARDENETEN",
     "desc": "$10 off any order of $100 or more"
+   }
+  ],
+  "Ace Hardware": [
+   {
+    "code": "OCT19",
+    "desc": "15% off $99+ for AR members",
+    "exp": "Not stated"
+   },
+   {
+    "code": "ARDOCT26",
+    "desc": "15% off $99+ for AR members",
+    "exp": "Not stated"
+   }
+  ],
+  "Andie Swim": [
+   {
+    "code": "BEACHREADY",
+    "desc": "Savings on TKEEs and Hat Action sale",
+    "exp": "Not listed"
+   },
+   {
+    "code": "BF20",
+    "desc": "Cyber Week: up to 20% off $149+ order",
+    "exp": "Not listed"
+   },
+   {
+    "code": "BF30",
+    "desc": "Cyber Week: up to 30% off $249+ order",
+    "exp": "Not listed"
+   }
+  ],
+  "Ariat": [
+   {
+    "code": "GIFT2025",
+    "desc": "Buy More Save More on Regular",
+    "exp": "Not listed"
+   },
+   {
+    "code": "JULY4",
+    "desc": "Buy 1 Get 1 50% off Select",
+    "exp": "Not listed"
+   }
+  ],
+  "Buck Mason": [
+   {
+    "code": "FREESHIPONUS",
+    "desc": "Buck Mason discount available",
+    "exp": "Not stated"
    }
   ]
  },
