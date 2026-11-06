@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T10:53:20.695587Z",
+ "generated_at": "2026-11-06T18:54:22.244568Z",
  "featured": [
   "eBay",
   "PetSmart",
@@ -1703,7 +1703,7 @@
   },
   "Dermstore": {
    "rakuten": {
-    "base": 10.0,
+    "base": 3.0,
     "note": ""
    },
    "topcash": {
@@ -3338,6 +3338,10 @@
     "base": 2.6,
     "note": "2 points/$1, valued ~1.3¢ each"
    },
+   "alaska": {
+    "base": 3.0,
+    "note": "2 miles/$1, valued ~1.5¢ each"
+   },
    "fetch": {
     "base": 0,
     "flat": 0.025,
@@ -3947,7 +3951,7 @@
     "note": "Up to 1.8% — varies by category or new customers"
    },
    "extrabux": {
-    "base": 3.0,
+    "base": 4.0,
     "note": ""
    },
    "delta": {
@@ -3965,6 +3969,10 @@
    "southwest": {
     "base": 1.3,
     "note": "1 point/$1, valued ~1.3¢ each"
+   },
+   "alaska": {
+    "base": 1.5,
+    "note": "1 mile/$1, valued ~1.5¢ each"
    },
    "fetch": {
     "base": 0,
@@ -4289,6 +4297,10 @@
    "extrabux": {
     "base": 5.0,
     "note": "Up to 5% — varies by category or new customers"
+   },
+   "united": {
+    "base": 2.6,
+    "note": "2 miles/$1, valued ~1.3¢ each"
    },
    "fetch": {
     "base": 0,
@@ -6149,6 +6161,26 @@
     "base": 2.0,
     "note": ""
    },
+   "delta": {
+    "base": 0.65,
+    "note": "0.5 miles/$1, valued ~1.3¢ each"
+   },
+   "american": {
+    "base": 0.75,
+    "note": "0.5 miles/$1, valued ~1.5¢ each"
+   },
+   "united": {
+    "base": 6.5,
+    "note": "5 miles/$1, valued ~1.3¢ each"
+   },
+   "southwest": {
+    "base": 0.65,
+    "note": "0.5 points/$1, valued ~1.3¢ each"
+   },
+   "alaska": {
+    "base": 0.75,
+    "note": "0.5 miles/$1, valued ~1.5¢ each"
+   },
    "fetch": {
     "base": 0,
     "flat": 0.025,
@@ -6802,7 +6834,7 @@
   },
   "Carter's": {
    "rakuten": {
-    "base": 2.0,
+    "base": 10.0,
     "note": ""
    },
    "topcash": {
@@ -6854,7 +6886,7 @@
     "note": "2 miles/$1, valued ~1.5¢ each"
    },
    "cap1": {
-    "base": 3.0,
+    "base": 4.0,
     "note": ""
    },
    "fetch": {
@@ -8417,6 +8449,26 @@
     "base": 2.0,
     "note": ""
    },
+   "delta": {
+    "base": 3.25,
+    "note": "2.5 miles/$1, valued ~1.3¢ each"
+   },
+   "american": {
+    "base": 4.5,
+    "note": "3 miles/$1, valued ~1.5¢ each"
+   },
+   "united": {
+    "base": 2.6,
+    "note": "2 miles/$1, valued ~1.3¢ each"
+   },
+   "southwest": {
+    "base": 3.9,
+    "note": "3 points/$1, valued ~1.3¢ each"
+   },
+   "alaska": {
+    "base": 4.5,
+    "note": "3 miles/$1, valued ~1.5¢ each"
+   },
    "fetch": {
     "base": 0,
     "flat": 0.025,
@@ -8772,10 +8824,6 @@
    },
    "pricecom": {
     "base": 2.0,
-    "note": ""
-   },
-   "extrabux": {
-    "base": 3.0,
     "note": ""
    },
    "delta": {
@@ -13060,20 +13108,22 @@
   "Crocs": [
    {
     "code": "CROCSCOZY20",
-    "desc": "",
-    "exp": "No expiry shown"
+    "desc": "Take $20 off Orders $100",
+    "uses": "766",
+    "last_used": "30 minutes ago"
    },
    {
     "code": "CROCTOBER25",
-    "desc": "",
-    "exp": "Expires in 7 days"
+    "desc": "Take 25% Off Sitewide",
+    "exp": "Expires in 7 days",
+    "uses": "2472",
+    "last_used": "30 minutes ago"
    }
   ],
   "Dermstore": [
    {
     "code": "DERM15",
-    "desc": "",
-    "exp": "Not stated"
+    "desc": "New customers get 15% off their first order!"
    }
   ],
   "AliExpress": [
@@ -13298,29 +13348,6 @@
     "code": "269REWARDS9",
     "desc": "Michaels discount available",
     "exp": "Not stated"
-   }
-  ],
-  "Carter's": [
-   {
-    "code": "25HOORAY",
-    "description": "25% off $50+",
-    "expiry": "Not stated",
-    "usage_count": "Not stated",
-    "last_used": "Not stated"
-   },
-   {
-    "code": "BESTDEAL",
-    "description": "25% off any order",
-    "expiry": "Not stated",
-    "usage_count": "Not stated",
-    "last_used": "Not stated"
-   },
-   {
-    "code": "BIGDEAL",
-    "description": "25% off $40+, plus free shipping",
-    "expiry": "Not stated",
-    "usage_count": "Not stated",
-    "last_used": "Not stated"
    }
   ],
   "1-800-Flowers": [
@@ -13735,8 +13762,7 @@
   "ASOS": [
    {
     "code": "EXPRESSUSA120",
-    "desc": "Free Express Shipping on $120+ Order",
-    "exp": "Not stated"
+    "desc": "Free Express Shipping on $120+ Order"
    }
   ],
   "BJ's Wholesale": [
@@ -13817,18 +13843,15 @@
   "4 Wheel Parts": [
    {
     "code": "4WD350",
-    "desc": "10% Off",
-    "exp": "Not stated"
+    "desc": "10% off"
    },
    {
     "code": "4WP65",
-    "desc": "10% Off",
-    "exp": "Not stated"
+    "desc": "10% off"
    },
    {
     "code": "FLASH",
-    "desc": "10% Off",
-    "exp": "Not stated"
+    "desc": "10% off"
    }
   ],
   "Fashion Nova": [
@@ -14886,8 +14909,7 @@
   "Converse": [
    {
     "code": "HONEYCOUPON",
-    "desc": "",
-    "exp": "Not stated"
+    "desc": "Converse discount available"
    }
   ],
   "Dr. Scholl's Shoes": [
@@ -15561,42 +15583,50 @@
   "Ace Hardware": [
    {
     "code": "OCT19",
-    "desc": "15% off $99+ for AR members",
-    "exp": "Not stated"
+    "desc": "15% off $99+, AR members",
+    "uses": "19 (avg. save $49.65)",
+    "last_used": "3 days ago"
    },
    {
     "code": "ARDOCT26",
-    "desc": "15% off $99+ for AR members",
-    "exp": "Not stated"
+    "desc": "15% off $99+, AR members",
+    "uses": "597 (avg. save $25.50)"
+   },
+   {
+    "code": "CYBER25",
+    "desc": "Cyber Week: 15% off $49+, Members"
    }
   ],
   "Andie Swim": [
    {
     "code": "BEACHREADY",
-    "desc": "Savings on TKEEs and Hat Action sale",
-    "exp": "Not listed"
+    "desc": "Savings on TKEEs and Hat Attack items"
+   },
+   {
+    "code": "BESTOFBEST",
+    "desc": "Best-of sale"
    },
    {
     "code": "BF20",
-    "desc": "Cyber Week: up to 20% off $149+ order",
-    "exp": "Not listed"
-   },
-   {
-    "code": "BF30",
-    "desc": "Cyber Week: up to 30% off $249+ order",
-    "exp": "Not listed"
+    "desc": "Cyber Week: 20% off orders over $149"
    }
   ],
   "Ariat": [
    {
     "code": "GIFT2025",
-    "desc": "Buy More Save More on Regular",
-    "exp": "Not listed"
+    "desc": "Buy More Save More on Regular Prices",
+    "uses": "10",
+    "last_used": "24 hours ago"
    },
    {
     "code": "JULY4",
-    "desc": "Buy 1 Get 1 50% off Select",
-    "exp": "Not listed"
+    "desc": "Buy 1 Get 1 50% off Select Styles",
+    "uses": "6"
+   },
+   {
+    "code": "EXTRA20",
+    "desc": "Holiday Magic - Save An Extra 20% on Clearance",
+    "uses": "5"
    }
   ],
   "Buck Mason": [
