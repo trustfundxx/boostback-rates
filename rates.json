@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T18:58:29.934544Z",
+ "generated_at": "2026-11-06T06:50:38.138988Z",
  "featured": [
   "eBay",
   "PetSmart",
@@ -2301,7 +2301,7 @@
   },
   "Gap": {
    "rakuten": {
-    "base": 2.0,
+    "base": 6.0,
     "note": ""
    },
    "topcash": {
@@ -2329,7 +2329,7 @@
     "note": "Up to 1% — varies by category or new customers"
    },
    "extrabux": {
-    "base": 4.0,
+    "base": 3.0,
     "note": ""
    },
    "delta": {
@@ -6009,15 +6009,7 @@
   },
   "Hollister": {
    "rakuten": {
-    "base": 1.8,
-    "note": ""
-   },
-   "rebatesme": {
-    "base": 1.5,
-    "note": ""
-   },
-   "befrugal": {
-    "base": 3.4,
+    "base": 10.0,
     "note": ""
    },
    "fetch": {
@@ -7940,8 +7932,8 @@
     "note": "2 miles/$1, valued ~1.5¢ each"
    },
    "cap1": {
-    "base": 2.8,
-    "note": ""
+    "base": 2.0,
+    "note": "Up to 2% — varies by category or new customers"
    },
    "fetch": {
     "base": 0,
@@ -10180,7 +10172,7 @@
    "cap1": {
     "base": 0,
     "flat": 1.0,
-    "note": "Up to $1 back, usually on new customers or new lines"
+    "note": "$1 back on your order"
    },
    "fetch": {
     "base": 0,
@@ -10332,10 +10324,6 @@
    "befrugal": {
     "base": 8.0,
     "note": ""
-   },
-   "gocashback": {
-    "base": 3.2,
-    "note": "Up to 3.2% — varies by category or new customers"
    },
    "goodshop": {
     "base": 3.0,
@@ -11804,13 +11792,49 @@
    }
   },
   "Massimo Dutti": {
-   "goodshop": {
-    "base": 2.6,
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 3.03,
     "note": ""
    },
    "befrugal": {
-    "base": 1.6,
+    "base": 8.0,
     "note": ""
+   },
+   "goodshop": {
+    "base": 3.0,
+    "note": ""
+   },
+   "rebatesme": {
+    "base": 4.0,
+    "note": "Up to 4% — varies by category or new customers"
+   },
+   "pricecom": {
+    "base": 2.5,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢ each"
+   },
+   "american": {
+    "base": 2.25,
+    "note": "1.5 miles/$1, valued ~1.5¢ each"
+   },
+   "united": {
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢ each"
+   },
+   "southwest": {
+    "base": 1.3,
+    "note": "1 point/$1, valued ~1.3¢ each"
+   },
+   "alaska": {
+    "base": 1.5,
+    "note": "1 mile/$1, valued ~1.5¢ each"
    },
    "fetch": {
     "base": 0,
@@ -13456,14 +13480,25 @@
   ],
   "Lenovo": [
    {
-    "code": "EXTRAFIVE",
-    "desc": "19% off Legion 5i Gen 10 RTX 5060/Intel Ultra 7/32GB/1TB",
-    "exp": "Not listed"
+    "code": "BFVIP",
+    "desc": "Limited time offer: use code BFVIP for exclusive savings at checkout. Hurry, ends 11/8!",
+    "exp": "Expires in 3 days",
+    "usage": "98 uses | $195.43 avg. savings",
+    "last_used": "Last used 48 minutes ago"
    },
    {
-    "code": "THANKYOU15",
-    "desc": "Join the Email List for 15% off",
-    "exp": "Not listed"
+    "code": "LENOVODEAL",
+    "desc": "Limited Time Offer: Save an EXTRA 5% off your total order! Some exclusions apply",
+    "exp": "Expires in 3 days",
+    "usage": "1252 uses | $81.62 avg. savings",
+    "last_used": "Last used 48 minutes ago"
+   },
+   {
+    "code": "EXTRAFIVE",
+    "desc": "19% off Legion 5i Gen 10 RTX™ 5060/Intel® Ultra 7/32GB/1TB - $1,987.80",
+    "exp": "Not listed",
+    "usage": "5052 uses | $77.69 avg. savings",
+    "last_used": "Last used 48 minutes ago"
    }
   ],
   "Michaels": [
@@ -13531,13 +13566,13 @@
   "Journeys": [
    {
     "code": "CAREKIT15",
-    "desc": "15% off care kit when buying pair of kids UGG/Timberland/Dr Martens",
-    "exp": "Not listed"
+    "desc": "15% off a Care Kit when you buy a pair of kids' UGG, Timberland, or Dr. Martens shoes",
+    "exp": "Not stated"
    },
    {
     "code": "HOLIDAY20",
     "desc": "Extra 20% off sale items",
-    "exp": "Not listed"
+    "exp": "Not stated"
    }
   ],
   "True Religion": [
@@ -13560,8 +13595,10 @@
   "Net-a-Porter": [
    {
     "code": "FIRST10",
-    "desc": "10% off your first order",
-    "exp": ""
+    "desc": "10% off Your First Order",
+    "exp": "Not stated",
+    "usage": "Not stated",
+    "last_used": "Not stated"
    }
   ],
   "Vionic": [
@@ -13575,23 +13612,29 @@
    {
     "code": "20UNDERWEAR",
     "desc": "20% off underwear",
-    "exp": "Expires in 3 days"
+    "exp": "Expires in 3 days",
+    "usage": "Not shown",
+    "last_used": "Not shown"
    },
    {
-    "code": "30UNDERWEAR",
-    "desc": "30% off underwear",
-    "exp": ""
+    "code": "FRIENDS",
+    "desc": "30% off site plus free shipping",
+    "exp": "Not shown",
+    "usage": "Not shown",
+    "last_used": "Not shown"
    },
    {
-    "code": "40SALE",
-    "desc": "40% off select styles",
-    "exp": ""
+    "code": "SAVEMORE",
+    "desc": "Tiered: 20% off $50+, 30% off $100+, 40% off $200+",
+    "exp": "Not shown",
+    "usage": "Not shown",
+    "last_used": "Not shown"
    }
   ],
   "Goldbelly": [
    {
     "code": "BELLY20",
-    "desc": "Get $20 off First Order of $100+",
+    "desc": "Get $20 off Your First Order of $100+",
     "exp": "Not stated"
    },
    {
@@ -13648,52 +13691,64 @@
   ],
   "Orvis": [
    {
-    "code": "50DEAL",
-    "desc": "Up to $50 off apparel and home merchandise",
-    "exp": ""
+    "code": "DEAL25",
+    "desc": "$25 off $50+ or $50 off $200+ on full-price men's apparel",
+    "exp": "Not shown",
+    "usage": "Not shown",
+    "last_used": "Not shown"
    },
    {
-    "code": "APRIL25",
-    "desc": "$25 off orders over $50",
-    "exp": ""
+    "code": "ENJOY30",
+    "desc": "$30 off full-price men's/women's apparel over $150",
+    "exp": "Not shown",
+    "usage": "Not shown",
+    "last_used": "Not shown"
    },
    {
-    "code": "ATREAT4U",
-    "desc": "$30 off full-price men's and women's apparel $150+",
-    "exp": ""
+    "code": "FAMILY",
+    "desc": "25% off apparel and home",
+    "exp": "Not shown",
+    "usage": "Not shown",
+    "last_used": "Not shown"
    }
   ],
   "Nine West": [
    {
     "code": "10FALLNW",
-    "desc": "Fall Forward: $10 off Select Styles + Free Returns",
-    "exp": ""
+    "desc": "$10 off select styles, plus free returns",
+    "exp": "Not shown",
+    "usage": "Not shown",
+    "last_used": "Not shown"
    },
    {
-    "code": "20EXTRA",
-    "desc": "Nine West discount available",
-    "exp": ""
+    "code": "30SALENW",
+    "desc": "Up to 80% off semi-annual sale, plus extra 30% off",
+    "exp": "Not shown",
+    "usage": "Not shown",
+    "last_used": "Not shown"
    },
    {
-    "code": "30EXTRANW",
-    "desc": "Sale's on Sale: Extra 30% off Sale",
-    "exp": ""
+    "code": "BOOTS25NW",
+    "desc": "25% off boots and booties",
+    "exp": "Not shown",
+    "usage": "Not shown",
+    "last_used": "Not shown"
    }
   ],
   "Giant Food": [
    {
     "code": "GFORDERWITHUS",
-    "desc": "$20 off first order of $60+, plus free delivery/pickup 60 days",
+    "desc": "$20 off a first order of $60+, plus 60 days of free delivery or pickup",
     "exp": "Not stated"
    },
    {
     "code": "GFPICK100",
-    "desc": "$25 off first four pickup orders of $100+",
+    "desc": "$25 off the first four pickup orders of $100+",
     "exp": "Not stated"
    },
    {
     "code": "GIANT100",
-    "desc": "$25 off first four orders of $100+",
+    "desc": "$25 off the first four orders of $100+ for delivery or pickup",
     "exp": "Not stated"
    }
   ],
@@ -13716,19 +13771,25 @@
   ],
   "NOBULL": [
    {
-    "code": "PANTS40",
-    "desc": "40% off NOBULL pants",
-    "exp": ""
+    "code": "EXTRA10",
+    "desc": "10% Off",
+    "exp": "Not shown",
+    "usage": "71 uses | $19.74 avg savings",
+    "last_used": "Not shown"
    },
    {
     "code": "FIRST50",
-    "desc": "$50 off a first order of $150 or more",
-    "exp": "Expires in 10 days"
+    "desc": "Take $50 off Your First Order of $150 or More",
+    "exp": "Not shown",
+    "usage": "239 uses | $47.79 avg savings",
+    "last_used": "Not shown"
    },
    {
-    "code": "WELCOME25",
-    "desc": "25% off first order",
-    "exp": ""
+    "code": "GRUDEN",
+    "desc": "35% Off",
+    "exp": "Not shown",
+    "usage": "965 uses | $55.59 avg savings",
+    "last_used": "Not shown"
    }
   ],
   "Mizuno": [
@@ -13763,27 +13824,35 @@
   "Madewell": [
    {
     "code": "LONGWEEKEND",
-    "desc": "Extra 30-50% Off Sale (Up to 70% Off Original) and 30% Off Fall Selects",
-    "exp": "Expires in 2 days"
+    "desc": "Enjoy An Extra 30-50% Off Sale (That's Up to 70% Off Original Prices)",
+    "exp": "Expires in 2 days",
+    "usage": "Not shown",
+    "last_used": "Not shown"
    }
   ],
   "Murad": [
    {
     "code": "RETINAL",
-    "desc": "Free Retinal Duo on purchases of $125 or more",
-    "exp": "Expires in 1 day"
+    "desc": "Get a Free Retinal Duo on Purchases of $125 or More",
+    "exp": "Expires in 1 day",
+    "usage": "Not stated",
+    "last_used": "Not stated"
    }
   ],
   "Nordstrom Rack": [
    {
     "code": "EMPLOYEE",
-    "desc": "20% off",
-    "exp": ""
+    "desc": "20% Off",
+    "exp": "Not stated",
+    "usage": "1430 Uses",
+    "last_used": "Not stated"
    },
    {
     "code": "RZUGYMR",
-    "desc": "Nordstrom Rack discount",
-    "exp": ""
+    "desc": "Nordstrom Rack discount available",
+    "exp": "Not stated",
+    "usage": "518 Uses",
+    "last_used": "Not stated"
    }
   ],
   "Primary": [
@@ -14097,46 +14166,59 @@
   "Gopuff": [
    {
     "code": "WELCOME",
-    "desc": "March Madness - 50% off first 2 orders"
+    "desc": "March Madness is Here - 50% off Your First 2 Orders",
+    "exp": "Not stated"
    },
    {
     "code": "GO1JNEYMWX",
-    "desc": "75% Off"
+    "desc": "75% Off",
+    "exp": "Not stated"
    },
    {
     "code": "G0KX86BELX",
-    "desc": "60% off"
+    "desc": "60% off",
+    "exp": "Not stated"
    }
   ],
   "Massimo Dutti": [
    {
     "code": "WELCOMEDUTTI10",
     "desc": "Massimo Dutti discount available",
-    "exp": ""
+    "exp": "Not stated",
+    "usage": "Not stated",
+    "last_used": "Not stated"
    }
   ],
   "Micro Center": [
    {
     "code": "NEWUSER25",
-    "desc": "Apply code NEWUSER25 at checkout to see savings",
-    "exp": ""
+    "desc": "Micro Center discount available",
+    "exp": "Not stated",
+    "usage": "Not stated",
+    "last_used": "Not stated"
    }
   ],
   "Pottery Barn": [
    {
     "code": "DESIGN",
     "desc": "Pottery Barn discount available",
-    "exp": "Not stated"
+    "exp": "Not stated",
+    "usage": "Not stated",
+    "last": "Not stated"
    },
    {
     "code": "DPB0Z9",
     "desc": "Pottery Barn discount available",
-    "exp": "Not stated"
+    "exp": "Not stated",
+    "usage": "Not stated",
+    "last": "Not stated"
    },
    {
     "code": "OUTDOOR15",
     "desc": "15% Off",
-    "exp": "Not stated"
+    "exp": "Not stated",
+    "usage": "Not stated",
+    "last": "Not stated"
    }
   ],
   "Randalls": [
@@ -14300,18 +14382,24 @@
   "Naturalizer": [
    {
     "code": "FRIDAY10",
-    "desc": "Up to 50% off + Free Shipping + extra 10% off",
-    "exp": ""
+    "desc": "Black Friday one-day: up to 50% off, free shipping, extra 10%",
+    "exp": "None listed",
+    "usage": "None",
+    "last_used": "None"
    },
    {
     "code": "NAT2PAIR",
-    "desc": "20% off 2 pairs",
-    "exp": "Through 6/30"
+    "desc": "Buy 2 pairs, 20% off",
+    "exp": "Valid through 6/30",
+    "usage": "571 uses",
+    "last_used": "last used 3 hours ago"
    },
    {
     "code": "SAVE10NAT",
-    "desc": "$10 off $75",
-    "exp": "Until 6/30"
+    "desc": "$10 off when you spend $75",
+    "exp": "Valid until 6/30",
+    "usage": "1148 uses",
+    "last_used": "last used 1 hour ago"
    }
   ],
   "Reformation": [
