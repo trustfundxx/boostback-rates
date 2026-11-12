@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T14:50:51.900899Z",
+ "generated_at": "2026-11-12T18:53:35.077050Z",
  "featured": [
   "eBay",
   "PetSmart",
@@ -603,7 +603,7 @@
     "note": "1 mile/$1, valued ~1.5¢ each"
    },
    "cap1": {
-    "base": 1.0,
+    "base": 0.5,
     "note": "",
     "url": "https://capitaloneshopping.com/s/apple.com/coupon"
    },
@@ -6918,7 +6918,7 @@
     "note": ""
    },
    "cap1": {
-    "base": 2.0,
+    "base": 0.5,
     "note": ""
    },
    "fetch": {
@@ -8072,7 +8072,7 @@
     "note": ""
    },
    "cap1": {
-    "base": 2.0,
+    "base": 0.5,
     "note": ""
    },
    "fetch": {
@@ -16328,18 +16328,8 @@
   "Belk": [
    {
     "code": "BACKTOSCHOOL",
-    "desc": "Discount on Belk sterling silver and Silverworks",
-    "exp": "Expires in 6 days"
-   },
-   {
-    "code": "BEAUTY20",
-    "desc": "20% off regular-price Beauty orders, Elite/Premier Card only",
-    "exp": "Expires in 6 days"
-   },
-   {
-    "code": "11134572",
-    "desc": "30% off regular/sale men's apparel, 15% off men's shoes",
-    "exp": "Expires in 6 days"
+    "desc": "Belk discount available",
+    "exp": ""
    }
   ],
   "Nike": [
@@ -16461,7 +16451,7 @@
    {
     "code": "EXPRESSUSA120",
     "desc": "Free Express Shipping on $120+ Order",
-    "exp": "Not shown"
+    "exp": ""
    }
   ],
   "BJ's Wholesale": [
@@ -16880,13 +16870,6 @@
     "code": "MEMBER5",
     "desc": "Extra 5% for members",
     "exp": ""
-   }
-  ],
-  "Buy Buy Baby": [
-   {
-    "code": "326599",
-    "desc": "Apply code 326599 at checkout to see savings",
-    "exp": "Not shown"
    }
   ],
   "Converse": [
@@ -17436,58 +17419,51 @@
    {
     "code": "OCT19",
     "desc": "15% off $99+ for AR Members",
-    "exp": "Not shown"
+    "exp": ""
    },
    {
     "code": "10FEB",
-    "desc": "10% off select regular-priced items for Rewards Members",
-    "exp": "Not shown"
+    "desc": "10% off select regular-priced items",
+    "exp": ""
    },
    {
-    "code": "ARDOCT26",
-    "desc": "15% off $99+ for AR Members",
-    "exp": "Not shown"
+    "code": "AF1075AUG",
+    "desc": "10% off online orders over $75",
+    "exp": ""
    }
   ],
   "Andie Swim": [
    {
     "code": "BEACHREADY",
-    "desc": "Savings on TKEEs and the Hat Attack sale",
-    "exp": "Not shown"
+    "desc": "Savings on TKEEs and Hat Attack Sale",
+    "exp": ""
+   },
+   {
+    "code": "BESTOFBEST",
+    "desc": "Best of Best Sale",
+    "exp": ""
    },
    {
     "code": "BF20",
-    "desc": "Cyber Week: 20% off orders of $149 or more",
-    "exp": "Not shown"
-   },
-   {
-    "code": "BF30",
-    "desc": "Cyber Week: 30% off orders of $249 or more",
-    "exp": "Not shown"
+    "desc": "20% off Cyber Week orders of $149+",
+    "exp": ""
    }
   ],
   "Ariat": [
    {
     "code": "GIFT2025",
-    "desc": "Tiered savings: $15 off $150, $35 off $250, or $100 off $500",
-    "exp": "Not shown"
+    "desc": "$15 off $150, $35 off $250, $100 off $500",
+    "exp": ""
    },
    {
     "code": "JULY4",
-    "desc": "Buy one item, get a second 50% off on select styles",
-    "exp": "Not shown"
+    "desc": "Buy 1, get 1 50% off select styles",
+    "exp": ""
    },
    {
-    "code": "EXTRATWO24",
-    "desc": "Labor Day savings: 10% off qualifying Two24 product purchases",
-    "exp": "Not shown"
-   }
-  ],
-  "Buck Mason": [
-   {
-    "code": "FREESHIPONUS",
-    "desc": "Apply code FREESHIPONUS at checkout to see savings",
-    "exp": "Not shown"
+    "code": "EXTRA20",
+    "desc": "Extra 20% off clearance",
+    "exp": ""
    }
   ],
   "Chemical Guys": [
@@ -18907,18 +18883,18 @@
   "Bombas": [
    {
     "code": "COMFORT20",
-    "desc": "20% off first purchase in Black Hive Collection",
-    "exp": "Not shown"
+    "desc": "20% off first purchase from Black Hive Collection",
+    "exp": ""
    },
    {
     "code": "BACKINBOMBAS",
-    "desc": "More than 25% off select sock packs featuring core favorites",
-    "exp": "Not shown"
+    "desc": "Over 25% off select sock packs",
+    "exp": ""
    },
    {
     "code": "BOMBAS20",
-    "desc": "Take 20% off your very first order placed on Bombas website",
-    "exp": "Not shown"
+    "desc": "20% off your first order",
+    "exp": ""
    }
   ],
   "Carter's": [
