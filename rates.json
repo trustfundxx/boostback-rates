@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T20:27:11.498609Z",
+ "generated_at": "2026-11-18T06:53:43.835513Z",
  "featured": [
   "eBay",
   "PetSmart",
@@ -6190,8 +6190,8 @@
   },
   "Etsy": {
    "cap1": {
-    "base": 1.0,
-    "note": "Up to 1% — varies by category or new customers"
+    "base": 0.5,
+    "note": ""
    },
    "fetch": {
     "base": 0,
@@ -6678,6 +6678,10 @@
     "base": 1.0,
     "note": ""
    },
+   "pricecom": {
+    "base": 0.5,
+    "note": ""
+   },
    "cap1": {
     "base": 1.0,
     "note": ""
@@ -7107,6 +7111,10 @@
    "southwest": {
     "base": 9.1,
     "note": "7 points/$1, valued ~1.3¢ each"
+   },
+   "alaska": {
+    "base": 10.5,
+    "note": "7 miles/$1, valued ~1.5¢ each"
    },
    "cap1": {
     "base": 4.0,
@@ -15128,21 +15136,18 @@
   "1-800-Flowers": [
    {
     "code": "SAVETWENTY",
-    "desc": "20% off sitewide on best-selling flowers and gifts",
-    "exp": "None listed",
-    "lastused": "48 minutes ago"
-   },
-   {
-    "code": "JOLLYTWNTY",
-    "desc": "20% off sitewide",
-    "exp": "None listed",
-    "lastused": "48 minutes ago"
+    "desc": "20% off sitewide flowers and gifts",
+    "exp": "Expires in 7 days"
    },
    {
     "code": "FLOWERSALE",
-    "desc": "Tiered discount: 10% at $69, 15% at $99, 20% at $149",
-    "exp": "Expires today",
-    "lastused": "2 hours ago"
+    "desc": "10% at $69, 15% at $99, 20% at $149",
+    "exp": "Expires in 7 days"
+   },
+   {
+    "code": "20FORBES",
+    "desc": "20% off sitewide",
+    "exp": ""
    }
   ],
   "True Religion": [
@@ -16289,24 +16294,18 @@
   "Sephora": [
    {
     "code": "LIFTCREAM",
-    "desc": "Caudalie trial size with $40 purchase",
-    "exp": "8 days",
-    "usage_count": "4",
-    "last_used": "9 hours ago"
+    "desc": "Trial-size Caudalie offer $40+ purchase",
+    "exp": "Expires in 8 days"
    },
    {
     "code": "MOROCCAN4X",
-    "desc": "4X points on moroccanoil",
-    "exp": "5 days",
-    "usage_count": "3",
-    "last_used": "1 day ago"
+    "desc": "4X Beauty Insider points on moroccanoil",
+    "exp": "Expires in 5 days"
    },
    {
     "code": "DGSHAMP",
-    "desc": "Dr. Groot trial size with $30 purchase",
-    "exp": "6 days",
-    "usage_count": "1",
-    "last_used": "2 days ago"
+    "desc": "Dr. Groot trial-size $30+ purchase",
+    "exp": "Expires in 6 days"
    }
   ],
   "Shopbop": [
@@ -17093,18 +17092,18 @@
   ],
   "Amazon": [
    {
-    "code": "SBE2J8G4",
-    "desc": "96% off gas-powered motorcycle-style bike",
+    "code": "YDPFNIAB",
+    "desc": "Smart bike helmet",
     "exp": ""
    },
    {
-    "code": "FVTVRJ7K",
-    "desc": "74% off a KASPURO massage chair",
+    "code": "2UIQ3QF3",
+    "desc": "Bluetooth earbuds",
     "exp": ""
    },
    {
-    "code": "A5XD9EYU",
-    "desc": "92% off propane gas fire pit table 50000 BTU",
+    "code": "53OO50JQHJ",
+    "desc": "SLR camera",
     "exp": ""
    }
   ],
@@ -17340,12 +17339,12 @@
   "Costco": [
    {
     "code": "AFFNMBR",
-    "desc": "Costco discount available",
+    "desc": "Costco discount",
     "exp": ""
    },
    {
     "code": "QNZ9GUM",
-    "desc": "Costco discount available",
+    "desc": "Costco discount",
     "exp": ""
    }
   ],
@@ -17823,14 +17822,9 @@
   ],
   "Kroger": [
    {
-    "code": "WELOVEKROGER",
-    "desc": "Kroger Ship to Home discount available",
-    "exp": "Not stated"
-   },
-   {
     "code": "GETITNOW20",
     "desc": "20% Off",
-    "exp": "Not stated"
+    "exp": ""
    }
   ],
   "Pottery Barn": [
@@ -18037,10 +18031,8 @@
   "Ulta Beauty": [
    {
     "code": "628621",
-    "desc": "Ulta Beauty discount available - Apply code 628621 at checkout to see savings",
-    "exp": "None shown",
-    "usage": "Not shown",
-    "last_used": "Not shown"
+    "desc": "General Ulta Beauty discount",
+    "exp": ""
    }
   ],
   "Edible Arrangements": [
