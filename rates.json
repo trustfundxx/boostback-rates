@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T11:00:24.930462Z",
+ "generated_at": "2026-11-20T14:52:15.778836Z",
  "featured": [
   "eBay",
   "PetSmart",
@@ -195,7 +195,7 @@
     "note": ""
    },
    "befrugal": {
-    "base": 7.0,
+    "base": 6.0,
     "note": ""
    },
    "gocashback": {
@@ -3328,6 +3328,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": "Up to 0.5% — varies by category or new customers"
    }
   },
   "Marshalls": {
@@ -3447,6 +3451,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": ""
    }
   },
   "Neiman Marcus": {
@@ -3799,6 +3807,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": ""
    }
   },
   "Parachute": {
@@ -3911,6 +3923,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": ""
    }
   },
   "Perfume Shopping": {
@@ -3977,6 +3993,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "PetSmart": {
@@ -4544,6 +4564,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 7.5,
+    "note": "Up to 7.5% — varies by category or new customers"
    }
   },
   "Shiseido": {
@@ -4667,6 +4691,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": ""
    }
   },
   "SkinStore": {
@@ -5646,6 +5674,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "ASOS": {
@@ -6103,6 +6135,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "Vans": {
@@ -6351,6 +6387,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": ""
    }
   },
   "Kendra Scott": {
@@ -6557,6 +6597,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": ""
    }
   },
   "Skechers": {
@@ -7381,6 +7425,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": "Up to 1% — varies by category or new customers"
    }
   },
   "Brooks Running": {
@@ -7560,6 +7608,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": ""
    }
   },
   "HEYDUDE": {
@@ -7968,6 +8020,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 1.5,
+    "note": ""
    }
   },
   "Net-a-Porter": {
@@ -8377,6 +8433,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": ""
    }
   },
   "White House Black Market": {
@@ -8666,6 +8726,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "Sam Edelman": {
@@ -8673,6 +8737,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": ""
    }
   },
   "Teva": {
@@ -8761,6 +8829,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "Allen Edmonds": {
@@ -9173,6 +9245,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 2.5,
+    "note": "Up to 2.5% — varies by category or new customers"
    }
   },
   "Cavender's": {
@@ -9262,7 +9338,7 @@
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
    },
    "cap1": {
-    "base": 2.0,
+    "base": 1.0,
     "note": ""
    }
   },
@@ -9394,6 +9470,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 3.0,
+    "note": "Up to 3% — varies by category or new customers"
    }
   },
   "Thrive Market": {
@@ -9698,6 +9778,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 4.0,
+    "note": ""
    }
   },
   "Monica + Andy": {
@@ -9891,6 +9975,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": ""
    }
   },
   "Orvis": {
@@ -10095,6 +10183,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "Draper James": {
@@ -10432,6 +10524,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "Tuft & Needle": {
@@ -10774,6 +10870,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "Zinus": {
@@ -10804,6 +10904,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "Sears": {
@@ -11318,6 +11422,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "Quince": {
@@ -11389,7 +11497,7 @@
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
    },
    "cap1": {
-    "base": 2.0,
+    "base": 4.0,
     "note": ""
    }
   },
@@ -11409,6 +11517,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": ""
    }
   },
   "NAPA Auto Parts": {
@@ -14165,6 +14277,27 @@
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
    }
+  },
+  "Monos": {
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Nectar": {
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
+  },
+  "Safeway": {
+   "fetch": {
+    "base": 0,
+    "flat": 0.025,
+    "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   }
   }
  },
  "domains": {
@@ -15710,93 +15843,93 @@
   "ASICS": [
    {
     "code": "1000KIDS",
-    "desc": "Medical Professionals get 30% off full-priced products",
-    "exp": ""
+    "desc": "Store code",
+    "exp": "Not stated"
    },
    {
     "code": "180DEAL",
-    "desc": "Free shipping on $99+ orders",
-    "exp": ""
+    "desc": "Store code",
+    "exp": "Not stated"
    },
    {
     "code": "2K8",
-    "desc": "GT-2000 10 now $56.95",
-    "exp": ""
+    "desc": "Store code",
+    "exp": "Not stated"
    }
   ],
   "Academy Sports + Outdoors": [
    {
-    "code": "LUCKY20",
-    "desc": "$20 off a $115+ order",
-    "exp": ""
-   },
-   {
-    "code": "25OFFPROFORM",
-    "desc": "25% off a Proform order",
-    "exp": ""
+    "code": "SPRINGARRIVALS",
+    "desc": "Store promo code",
+    "exp": "Not stated"
    },
    {
     "code": "ACADEMY20",
     "desc": "$20 off orders of $100+",
-    "exp": ""
+    "exp": "Not stated"
+   },
+   {
+    "code": "OCT15AFF",
+    "desc": "15% off orders",
+    "exp": "Not stated"
    }
   ],
   "Allbirds": [
    {
     "code": "AFF-1023",
-    "desc": "15% off a first order for new customers",
-    "exp": ""
+    "desc": "15% off first order for new customers",
+    "exp": "Not stated"
    },
    {
     "code": "AFF-23-DEC30",
     "desc": "Extra 30% off select styles and colors",
-    "exp": ""
+    "exp": "Not stated"
    },
    {
     "code": "AFF-23-DEC40",
     "desc": "Extra 40% off select styles and colors",
-    "exp": ""
+    "exp": "Not stated"
    }
   ],
   "Albertsons": [
    {
     "code": "BIZSAVE30",
     "desc": "Albertsons discount available",
-    "exp": ""
+    "exp": "Not stated"
    },
    {
     "code": "SAVE30",
-    "desc": "Save $30 on Your 1st Online/Delivery Order When You Spend $75+",
-    "exp": ""
+    "desc": "Save $30 on Your 1st Online or Delivery Order When You Spend $75+",
+    "exp": "Not stated"
    },
    {
     "code": "CELLAR4PACK",
-    "desc": "Vine and Cellar: 10% off 4+ bottles",
-    "exp": ""
+    "desc": "Vine and Cellar: 10% off 4+ Bottles",
+    "exp": "Not stated"
    }
   ],
   "Bloomingdale's": [
    {
     "code": "LUCKY7",
-    "desc": "$7 off a $50+ order",
-    "exp": ""
+    "desc": "$7 off $50+ order",
+    "exp": "Not stated"
    }
   ],
   "Ardene": [
    {
     "code": "5OFF100",
     "desc": "$5 off orders of $100 or more",
-    "exp": ""
+    "exp": "Not stated"
    },
    {
     "code": "ARDENEFIVE",
-    "desc": "$5 off any order of $75 or more",
-    "exp": ""
+    "desc": "$5 off orders of $75 or more",
+    "exp": "Not stated"
    },
    {
     "code": "ARDENETEN",
-    "desc": "$10 off any order of $100 or more",
-    "exp": ""
+    "desc": "$10 off orders of $100 or more",
+    "exp": "Not stated"
    }
   ],
   "Ace Hardware": [
@@ -15974,92 +16107,76 @@
   "Avenue": [
    {
     "code": "WWHELLO1",
-    "desc": "50% Off",
-    "exp": "Not stated",
-    "uses": "596",
-    "last_used": "1 hour ago"
+    "desc": "50% off",
+    "exp": "Not stated"
    },
    {
     "code": "WOW20",
-    "desc": "20% Off",
-    "exp": "Not stated",
-    "uses": "684",
-    "last_used": "1 hour ago"
+    "desc": "20% off",
+    "exp": "Not stated"
    },
    {
     "code": "FBWELCOME40",
-    "desc": "40% Off",
-    "exp": "Not stated",
-    "uses": "661",
-    "last_used": "1 hour ago"
+    "desc": "40% off",
+    "exp": "Not stated"
    }
   ],
   "B&H Photo": [
    {
     "code": "BHBILD25",
-    "desc": "Generic B&H discount up to $2275 on Monitors",
-    "exp": ""
+    "desc": "B&H Photo Video discount available",
+    "exp": "Not stated"
    },
    {
     "code": "BHNAB25",
-    "desc": "Save $3000 on Blackmagic Design 8TB Cloud",
-    "exp": "2 days"
+    "desc": "B&H Photo Video discount available",
+    "exp": "Expires in 2 days"
    },
    {
     "code": "CANONSAVEBIG",
-    "desc": "Save $101 on Angler CatchLight Reflector V2",
-    "exp": "2 days"
+    "desc": "B&H Photo Video discount available",
+    "exp": "Expires in 2 days"
    }
   ],
   "Bealls": [
    {
     "code": "25OFF",
-    "desc": "25% off sitewide on apparel, home, and more",
-    "exp": ""
+    "desc": "25% off sitewide",
+    "exp": "Not stated"
    },
    {
     "code": "2DAY",
-    "desc": "15% off or $10 off orders of $50+",
-    "exp": ""
+    "desc": "15% off orders; $10 off $50+",
+    "exp": "Not stated"
    },
    {
     "code": "2FREESHIP",
-    "desc": "Free shipping when you buy two pairs of shoes",
-    "exp": ""
+    "desc": "Free shipping on two pairs of shoes",
+    "exp": "Not stated"
    }
   ],
   "Boden": [
    {
-    "code": "AUG342",
-    "desc": "Selected Childrenswear Now: 3 for 2",
-    "exp": "1 day"
-   },
-   {
-    "code": "WXNW",
-    "desc": "10% off New in Womenswear",
-    "exp": "today"
-   },
-   {
-    "code": "GD7X",
-    "desc": "15% off New in Childrenswear",
-    "exp": "today"
+    "code": "AX6V",
+    "desc": "15% off New-In Styles",
+    "exp": "Expires in 10 days"
    }
   ],
   "Callaway Golf": [
    {
     "code": "JUNEBONUS",
-    "desc": "50% trade-in bonus toward Rogue ST and Apex families",
-    "exp": ""
+    "desc": "50% Trade-In Bonus Towards The Rogue ST and Apex Families",
+    "exp": "Not stated"
    },
    {
     "code": "MAYBONUS",
-    "desc": "50% trade bonus toward new Rogue product",
-    "exp": ""
+    "desc": "50% Trade Bonus Towards New Rogue Product",
+    "exp": "Not stated"
    },
    {
     "code": "SEPTBONUS",
-    "desc": "50% trade bonus toward new Apex and Rogue products",
-    "exp": ""
+    "desc": "50% Trade Bonus Towards New Apex and Rogue Products",
+    "exp": "Not stated"
    }
   ],
   "Finish Line": [
@@ -16076,71 +16193,46 @@
   ],
   "Roaman's": [
    {
-    "code": "RMSHIPPING2026",
-    "desc": "Roaman's discount available",
-    "exp": "Not stated",
-    "usage_count": "85",
-    "last_used": "9 hours ago"
+    "code": "SITEWIDE50",
+    "desc": "50% off"
    },
    {
-    "code": "OSPFAMILY",
-    "desc": "30% Off",
-    "exp": "Not stated",
-    "usage_count": "832",
-    "last_used": "50 minutes ago"
+    "code": "LDW2026",
+    "desc": "60% off"
    },
    {
-    "code": "FAMILYSAVES30",
-    "desc": "30% Off",
-    "exp": "Not stated",
-    "usage_count": "1525",
-    "last_used": "50 minutes ago"
+    "code": "TICKTOCK501",
+    "desc": "80% off"
    }
   ],
   "Sephora": [
    {
     "code": "LIFTCREAM",
-    "desc": "Free Caudalie trial size with $40+ merchandise (online only)",
-    "exp": "Expires in 8 days",
-    "uses": "4",
-    "last_used": "9 hours ago"
+    "desc": "Caudalie trial size with $40 purchase",
+    "exp": "Expires 8 days"
    },
    {
-    "code": "MOROCCAN4X",
-    "desc": "4X points on moroccanoil products",
-    "exp": "Expires in 5 days",
-    "uses": "3",
-    "last_used": "1 day ago"
+    "code": "ALLFAVES",
+    "desc": "Free sample bag with $55+ spend"
    },
    {
-    "code": "DGSHAMP",
-    "desc": "Free Dr. Groot trial size with $30+ merchandise",
-    "exp": "Expires in 6 days",
-    "uses": "1",
-    "last_used": "2 days ago"
+    "code": "KBEAUTY",
+    "desc": "Skincare trial size with $40 purchase",
+    "exp": "Expires 12 days"
    }
   ],
   "Shopbop": [
    {
-    "code": "FALL",
-    "desc": "25% off select styles and featured brands",
-    "exp": "Not listed",
-    "usage_count": "",
-    "last_used": ""
+    "code": "NEW20",
+    "desc": "20% off your first order"
    },
    {
-    "code": "EXTRA10",
-    "desc": "Up to 50% off plus extra 10% off sale",
-    "exp": "Not listed",
-    "usage_count": "",
-    "last_used": ""
+    "code": "EXTRA30",
+    "desc": "Up to 75% off orders"
    },
    {
-    "code": "EXTRA25",
-    "desc": "Extra 25% off all sale styles",
-    "exp": "Not listed",
-    "usage_count": "",
-    "last_used": ""
+    "code": "BEAUTY20",
+    "desc": "20% off beauty products"
    }
   ],
   "CarParts.com": [
@@ -16904,19 +16996,19 @@
   ],
   "Amazon": [
    {
-    "code": "YDPFNIAB",
-    "desc": "Smart bike helmet",
-    "exp": ""
+    "code": "SBE2J8G4",
+    "desc": "96% off gas-powered motorcycle-style bike",
+    "exp": "Not stated"
    },
    {
-    "code": "2UIQ3QF3",
-    "desc": "Bluetooth earbuds",
-    "exp": ""
+    "code": "FVTVRJ7K",
+    "desc": "74% off massage chair",
+    "exp": "Not stated"
    },
    {
-    "code": "53OO50JQHJ",
-    "desc": "SLR camera",
-    "exp": ""
+    "code": "A5XD9EYU",
+    "desc": "92% off propane fire pit table",
+    "exp": "Not stated"
    }
   ],
   "Psycho Bunny": [
@@ -16931,47 +17023,29 @@
   "Ralph Lauren": [
    {
     "code": "K63ZXGCFV46P6VXD",
-    "desc": "25% Off",
-    "exp": "Not listed",
-    "usage_count": "742",
-    "last_used": "9 hours ago"
+    "desc": "25% off"
    },
    {
-    "code": "CGMB435B7B4LQSKP",
-    "desc": "25% Off",
-    "exp": "Not listed",
-    "usage_count": "96",
-    "last_used": "3 days ago"
+    "code": "FZ999B2QKV2S9XTD",
+    "desc": "40% off"
    },
    {
-    "code": "3CWBQ6M672ST5TMD",
-    "desc": "Ralph Lauren discount available",
-    "exp": "Not listed",
-    "usage_count": "429",
-    "last_used": "4 days ago"
+    "code": "GIFTFORYOU",
+    "desc": "10% off"
    }
   ],
   "Redbubble": [
    {
     "code": "POPPROMO",
-    "desc": "20% off Sitewide",
-    "exp": "Not stated",
-    "usage_count": "",
-    "last_used": ""
+    "desc": "20% off sitewide"
    },
    {
     "code": "SHIRTLOVE30",
-    "desc": "30% off All T-shirts",
-    "exp": "Not stated",
-    "usage_count": "",
-    "last_used": ""
+    "desc": "30% off all T-shirts"
    },
    {
-    "code": "SHOPEARLY",
-    "desc": "20-60% off Sitewide",
-    "exp": "Not stated",
-    "usage_count": "",
-    "last_used": ""
+    "code": "YOUDESERVEIT",
+    "desc": "Up to 40% off sitewide"
    }
   ],
   "Saucony": [
@@ -16985,25 +17059,19 @@
   ],
   "Staples": [
    {
-    "code": "65134",
-    "desc": "Buy 1, Get 1 50% off select shipping tape",
-    "exp": "Not listed",
-    "usage_count": "",
-    "last_used": ""
+    "code": "44999",
+    "desc": "Buy 1, get 1 50% off Velcro products",
+    "exp": "Oct 31, 2026"
    },
    {
-    "code": "21343",
-    "desc": "Buy 1, Get 1 50% off packing tape",
-    "exp": "Not listed",
-    "usage_count": "",
-    "last_used": ""
+    "code": "12623",
+    "desc": "Chair Savings: extra 20% off 5+ select items",
+    "exp": "Oct 24, 2026"
    },
    {
-    "code": "29155",
-    "desc": "30% off select sign holders",
-    "exp": "Not listed",
-    "usage_count": "",
-    "last_used": ""
+    "code": "71849",
+    "desc": "Buy 3, get 1 free on Staples mailers",
+    "exp": "Oct 31, 2026"
    }
   ],
   "Bombas": [
@@ -17887,13 +17955,6 @@
     "last": "2 hours ago"
    }
   ],
-  "Anthropologie": [
-   {
-    "code": "BDAY20",
-    "desc": "AnthroPerks members: Extra 20% off during birthday month",
-    "exp": ""
-   }
-  ],
   "Carhartt": [
    {
     "code": "3AQS10",
@@ -18321,6 +18382,120 @@
     "exp": "Expires in 4 days",
     "uses": "210",
     "last_used": "45 minutes ago"
+   }
+  ],
+  "LifeStride": [
+   {
+    "code": "LS2PAIR",
+    "desc": "Buy 2 pairs and get 20% off, plus free shipping",
+    "exp": "Expires Sep 30"
+   },
+   {
+    "code": "LS15OFF",
+    "desc": "$15 off a $75 purchase, plus free shipping",
+    "exp": "Expires Oct 31"
+   },
+   {
+    "code": "SAVE10LS",
+    "desc": "$10 off a $50 purchase, plus free shipping"
+   }
+  ],
+  "Mini Boden": [
+   {
+    "code": "AX6V",
+    "desc": "15% off New-In Styles",
+    "exp": "Expires in 10 days"
+   }
+  ],
+  "Monos": [
+   {
+    "code": "FREEPERSONALIZATION",
+    "desc": "25% off",
+    "note": "May be expired"
+   },
+   {
+    "code": "BLACKFRIDAY",
+    "desc": "25% off",
+    "note": "Likely expired"
+   },
+   {
+    "code": "SUMMER",
+    "desc": "30% off",
+    "note": "Likely expired"
+   }
+  ],
+  "NAPA Auto Parts": [
+   {
+    "code": "SMOOTHSAVINGS",
+    "desc": "20% off",
+    "note": "Likely expired"
+   },
+   {
+    "code": "LABORDAY2026",
+    "desc": "",
+    "note": "Likely expired"
+   }
+  ],
+  "Nectar": [
+   {
+    "code": "EPBF26",
+    "desc": "Nectar Sleep promo code"
+   },
+   {
+    "code": "THANKUDOC-MQZ6CK",
+    "desc": "50% off"
+   },
+   {
+    "code": "CPXQZND7",
+    "desc": "Save up to 50% on mattresses",
+    "exp": "Expires in 11 days"
+   }
+  ],
+  "Newegg": [
+   {
+    "code": "EDUFLS12",
+    "desc": "Educational promotion"
+   },
+   {
+    "code": "2DATMN",
+    "desc": "2-day promotion"
+   },
+   {
+    "code": "ABSIGD50",
+    "desc": "Save up to $50"
+   }
+  ],
+  "Perfumania": [
+   {
+    "code": "43646",
+    "desc": "30% off select items"
+   },
+   {
+    "code": "44696",
+    "desc": "Extra 15% off select items"
+   },
+   {
+    "code": "10BF",
+    "desc": "$10 off purchases over $75"
+   }
+  ],
+  "Petco": [
+   {
+    "code": "FALLFEELS",
+    "desc": "20% off sitewide",
+    "exp": "Expires in 3 days"
+   }
+  ],
+  "Safeway": [
+   {
+    "code": "TWENTY",
+    "desc": "$20 off a first order of $49 or more"
+   }
+  ],
+  "Sealy": [
+   {
+    "code": "PPSPRING",
+    "desc": "Queen Size Posturepedic Spring, now $699.00"
    }
   ]
  },
