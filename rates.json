@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T06:56:53.621795Z",
+ "generated_at": "2026-11-20T11:00:24.930462Z",
  "featured": [
   "eBay",
   "PetSmart",
@@ -686,6 +686,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": ""
    }
   },
   "Barnes & Noble": {
@@ -2105,6 +2109,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "FragranceNet": {
@@ -2694,6 +2702,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "JCPenney": {
@@ -3289,6 +3301,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": ""
    }
   },
   "Marriott Bonvoy": {
@@ -3501,6 +3517,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "Newegg": {
@@ -3621,7 +3641,7 @@
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
    },
    "cap1": {
-    "base": 2.0,
+    "base": 5.0,
     "note": ""
    }
   },
@@ -4007,6 +4027,10 @@
    "amex": {
     "boost": 10,
     "boostNote": "Typical Amex Offer. Check your Amex app to see if you have it."
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "Priceline": {
@@ -4465,6 +4489,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": ""
    }
   },
   "Shein": {
@@ -4772,6 +4800,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "StubHub": {
@@ -5410,7 +5442,7 @@
     "note": "Up to 2% — varies by category or new customers"
    },
    "cap1": {
-    "base": 2.0,
+    "base": 1.0,
     "note": "",
     "url": "https://capitaloneshopping.com/s/walmart.com/coupon"
    },
@@ -5529,6 +5561,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 1.5,
+    "note": ""
    }
   },
   "H&M": {
@@ -8119,7 +8155,7 @@
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
    },
    "cap1": {
-    "base": 2.0,
+    "base": 1.0,
     "note": ""
    }
   },
@@ -8483,6 +8519,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": ""
    }
   },
   "COS": {
@@ -9794,6 +9834,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": ""
    }
   },
   "Chemical Guys": {
@@ -11061,6 +11105,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": ""
    }
   },
   "AutoZone": {
@@ -16052,18 +16100,24 @@
   "Sephora": [
    {
     "code": "LIFTCREAM",
-    "desc": "Trial-size Caudalie offer $40+ purchase",
-    "exp": "Expires in 8 days"
+    "desc": "Free Caudalie trial size with $40+ merchandise (online only)",
+    "exp": "Expires in 8 days",
+    "uses": "4",
+    "last_used": "9 hours ago"
    },
    {
     "code": "MOROCCAN4X",
-    "desc": "4X Beauty Insider points on moroccanoil",
-    "exp": "Expires in 5 days"
+    "desc": "4X points on moroccanoil products",
+    "exp": "Expires in 5 days",
+    "uses": "3",
+    "last_used": "1 day ago"
    },
    {
     "code": "DGSHAMP",
-    "desc": "Dr. Groot trial-size $30+ purchase",
-    "exp": "Expires in 6 days"
+    "desc": "Free Dr. Groot trial size with $30+ merchandise",
+    "exp": "Expires in 6 days",
+    "uses": "1",
+    "last_used": "2 days ago"
    }
   ],
   "Shopbop": [
@@ -18235,6 +18289,38 @@
     "code": "FALL93A26",
     "desc": "10% off Fall Seasonal Categories",
     "exp": "Expires in 7 days"
+   }
+  ],
+  "Abercrombie & Fitch": [
+   {
+    "code": "15AF",
+    "desc": "Promo Code",
+    "exp": "Not listed",
+    "uses": "2",
+    "last_used": "16 hours ago"
+   },
+   {
+    "code": "AFAUTUMN",
+    "desc": "Coupon Code",
+    "exp": "Not listed",
+    "uses": "1",
+    "last_used": "20 hours ago"
+   },
+   {
+    "code": "BRES",
+    "desc": "25% off",
+    "exp": "Not listed",
+    "uses": "165",
+    "last_used": "2 days ago"
+   }
+  ],
+  "J.Crew": [
+   {
+    "code": "CARDLOVE",
+    "desc": "Extra 20% Off With J.Crew Credit Card",
+    "exp": "Expires in 4 days",
+    "uses": "210",
+    "last_used": "45 minutes ago"
    }
   ]
  },
