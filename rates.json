@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T18:53:17.061081Z",
+ "generated_at": "2026-11-20T06:56:53.621795Z",
  "featured": [
   "eBay",
   "PetSmart",
@@ -368,8 +368,8 @@
   },
   "AliExpress": {
    "rakuten": {
-    "base": 2.0,
-    "note": ""
+    "base": 18.0,
+    "note": "Often a new-customer or limited-time rate"
    },
    "topcash": {
     "base": 5.0,
@@ -398,18 +398,6 @@
    "extrabux": {
     "base": 10.5,
     "note": "Up to 10.5% — varies by category or new customers"
-   },
-   "delta": {
-    "base": 1.3,
-    "note": "1 mile/$1, valued ~1.3¢ each"
-   },
-   "american": {
-    "base": 2.25,
-    "note": "1.5 miles/$1, valued ~1.5¢ each"
-   },
-   "united": {
-    "base": 1.3,
-    "note": "1 mile/$1, valued ~1.3¢ each"
    },
    "fetch": {
     "base": 0,
@@ -453,22 +441,6 @@
    "extrabux": {
     "base": 6.0,
     "note": ""
-   },
-   "delta": {
-    "base": 4.55,
-    "note": "3.5 miles/$1, valued ~1.3¢ each"
-   },
-   "american": {
-    "base": 6.75,
-    "note": "4.5 miles/$1, valued ~1.5¢ each"
-   },
-   "united": {
-    "base": 3.9,
-    "note": "3 miles/$1, valued ~1.3¢ each"
-   },
-   "southwest": {
-    "base": 5.2,
-    "note": "4 points/$1, valued ~1.3¢ each"
    },
    "cap1": {
     "base": 2.0,
@@ -756,22 +728,6 @@
     "base": 0.8,
     "note": ""
    },
-   "delta": {
-    "base": 2.6,
-    "note": "2 miles/$1, valued ~1.3¢ each"
-   },
-   "american": {
-    "base": 3.0,
-    "note": "2 miles/$1, valued ~1.5¢ each"
-   },
-   "united": {
-    "base": 2.6,
-    "note": "2 miles/$1, valued ~1.3¢ each"
-   },
-   "southwest": {
-    "base": 2.6,
-    "note": "2 points/$1, valued ~1.3¢ each"
-   },
    "cap1": {
     "base": 0.5,
     "note": "",
@@ -924,22 +880,6 @@
    "extrabux": {
     "base": 0.5,
     "note": ""
-   },
-   "delta": {
-    "base": 5.2,
-    "note": "4 miles/$1, valued ~1.3¢ each"
-   },
-   "american": {
-    "base": 7.5,
-    "note": "5 miles/$1, valued ~1.5¢ each"
-   },
-   "united": {
-    "base": 5.2,
-    "note": "4 miles/$1, valued ~1.3¢ each"
-   },
-   "southwest": {
-    "base": 6.5,
-    "note": "5 points/$1, valued ~1.3¢ each"
    },
    "cap1": {
     "base": 0.5,
@@ -1137,24 +1077,8 @@
     "note": ""
    },
    "extrabux": {
-    "base": 7.2,
+    "base": 8.0,
     "note": ""
-   },
-   "delta": {
-    "base": 1.3,
-    "note": "1 mile/$1, valued ~1.3¢ each"
-   },
-   "american": {
-    "base": 2.25,
-    "note": "1.5 miles/$1, valued ~1.5¢ each"
-   },
-   "united": {
-    "base": 1.3,
-    "note": "1 mile/$1, valued ~1.3¢ each"
-   },
-   "southwest": {
-    "base": 1.3,
-    "note": "1 point/$1, valued ~1.3¢ each"
    },
    "cap1": {
     "base": 1.0,
@@ -1439,26 +1363,6 @@
     "base": 1.0,
     "note": ""
    },
-   "delta": {
-    "base": 4.55,
-    "note": "3.5 miles/$1, valued ~1.3¢ each"
-   },
-   "american": {
-    "base": 6.75,
-    "note": "4.5 miles/$1, valued ~1.5¢ each"
-   },
-   "united": {
-    "base": 3.9,
-    "note": "3 miles/$1, valued ~1.3¢ each"
-   },
-   "southwest": {
-    "base": 5.2,
-    "note": "4 points/$1, valued ~1.3¢ each"
-   },
-   "alaska": {
-    "base": 6.0,
-    "note": "4 miles/$1, valued ~1.5¢ each"
-   },
    "cap1": {
     "base": 2.0,
     "note": "",
@@ -1630,22 +1534,6 @@
    "rebatesme": {
     "base": 2.0,
     "note": ""
-   },
-   "delta": {
-    "base": 2.6,
-    "note": "2 miles/$1, valued ~1.3¢ each"
-   },
-   "american": {
-    "base": 3.75,
-    "note": "2.5 miles/$1, valued ~1.5¢ each"
-   },
-   "united": {
-    "base": 2.6,
-    "note": "2 miles/$1, valued ~1.3¢ each"
-   },
-   "southwest": {
-    "base": 2.6,
-    "note": "2 points/$1, valued ~1.3¢ each"
    },
    "fetch": {
     "base": 0,
@@ -2707,14 +2595,6 @@
     "base": 4.0,
     "note": ""
    },
-   "american": {
-    "base": 2.25,
-    "note": "1.5 miles/$1, valued ~1.5¢ each"
-   },
-   "united": {
-    "base": 1.3,
-    "note": "1 mile/$1, valued ~1.3¢ each"
-   },
    "cap1": {
     "base": 2.0,
     "note": "",
@@ -3046,26 +2926,6 @@
     "base": 5.0,
     "note": ""
    },
-   "delta": {
-    "base": 1.3,
-    "note": "1 mile/$1, valued ~1.3¢ each"
-   },
-   "american": {
-    "base": 1.5,
-    "note": "1 mile/$1, valued ~1.5¢ each"
-   },
-   "united": {
-    "base": 1.3,
-    "note": "1 mile/$1, valued ~1.3¢ each"
-   },
-   "southwest": {
-    "base": 1.3,
-    "note": "1 point/$1, valued ~1.3¢ each"
-   },
-   "alaska": {
-    "base": 1.5,
-    "note": "1 mile/$1, valued ~1.5¢ each"
-   },
    "cap1": {
     "base": 1.0,
     "note": "",
@@ -3193,22 +3053,6 @@
     "base": 2.0,
     "note": ""
    },
-   "delta": {
-    "base": 0.65,
-    "note": "0.5 miles/$1, valued ~1.3¢ each"
-   },
-   "united": {
-    "base": 0.65,
-    "note": "0.5 miles/$1, valued ~1.3¢ each"
-   },
-   "southwest": {
-    "base": 0.65,
-    "note": "0.5 points/$1, valued ~1.3¢ each"
-   },
-   "alaska": {
-    "base": 0.75,
-    "note": "0.5 miles/$1, valued ~1.5¢ each"
-   },
    "cap1": {
     "base": 0.5,
     "note": "",
@@ -3248,26 +3092,6 @@
    "pricecom": {
     "base": 1.5,
     "note": ""
-   },
-   "delta": {
-    "base": 1.95,
-    "note": "1.5 miles/$1, valued ~1.3¢ each"
-   },
-   "american": {
-    "base": 3.0,
-    "note": "2 miles/$1, valued ~1.5¢ each"
-   },
-   "united": {
-    "base": 1.3,
-    "note": "1 mile/$1, valued ~1.3¢ each"
-   },
-   "southwest": {
-    "base": 2.6,
-    "note": "2 points/$1, valued ~1.3¢ each"
-   },
-   "alaska": {
-    "base": 3.0,
-    "note": "2 miles/$1, valued ~1.5¢ each"
    },
    "cap1": {
     "base": 1.5,
@@ -3559,26 +3383,6 @@
    "rebatesme": {
     "base": 4.0,
     "note": ""
-   },
-   "delta": {
-    "base": 3.9,
-    "note": "3 miles/$1, valued ~1.3¢ each"
-   },
-   "american": {
-    "base": 5.25,
-    "note": "3.5 miles/$1, valued ~1.5¢ each"
-   },
-   "united": {
-    "base": 3.9,
-    "note": "3 miles/$1, valued ~1.3¢ each"
-   },
-   "southwest": {
-    "base": 3.9,
-    "note": "3 points/$1, valued ~1.3¢ each"
-   },
-   "alaska": {
-    "base": 6.0,
-    "note": "4 miles/$1, valued ~1.5¢ each"
    },
    "cap1": {
     "base": 2.0,
@@ -4285,26 +4089,6 @@
     "base": 5.0,
     "note": "Up to 5% — varies by category or new customers"
    },
-   "delta": {
-    "base": 1.95,
-    "note": "1.5 miles/$1, valued ~1.3¢ each"
-   },
-   "american": {
-    "base": 3.0,
-    "note": "2 miles/$1, valued ~1.5¢ each"
-   },
-   "united": {
-    "base": 1.3,
-    "note": "1 mile/$1, valued ~1.3¢ each"
-   },
-   "southwest": {
-    "base": 2.6,
-    "note": "2 points/$1, valued ~1.3¢ each"
-   },
-   "alaska": {
-    "base": 3.0,
-    "note": "2 miles/$1, valued ~1.5¢ each"
-   },
    "cap1": {
     "base": 2.0,
     "note": "Up to 2% — varies by category or new customers",
@@ -4503,7 +4287,7 @@
     "note": ""
    },
    "gocashback": {
-    "base": 3.8,
+    "base": 6.4,
     "note": ""
    },
    "goodshop": {
@@ -4517,26 +4301,6 @@
    "pricecom": {
     "base": 7.0,
     "note": ""
-   },
-   "delta": {
-    "base": 4.55,
-    "note": "3.5 miles/$1, valued ~1.3¢ each"
-   },
-   "american": {
-    "base": 6.75,
-    "note": "4.5 miles/$1, valued ~1.5¢ each"
-   },
-   "united": {
-    "base": 3.9,
-    "note": "3 miles/$1, valued ~1.3¢ each"
-   },
-   "southwest": {
-    "base": 5.2,
-    "note": "4 points/$1, valued ~1.3¢ each"
-   },
-   "alaska": {
-    "base": 6.0,
-    "note": "4 miles/$1, valued ~1.5¢ each"
    },
    "fetch": {
     "base": 0,
@@ -5306,7 +5070,7 @@
     "note": ""
    },
    "befrugal": {
-    "base": 2.0,
+    "base": 1.2,
     "note": ""
    },
    "goodshop": {
@@ -5316,26 +5080,6 @@
    "extrabux": {
     "base": 5.6,
     "note": "Up to 5.6% — varies by category or new customers"
-   },
-   "delta": {
-    "base": 1.3,
-    "note": "1 mile/$1, valued ~1.3¢ each"
-   },
-   "american": {
-    "base": 1.5,
-    "note": "1 mile/$1, valued ~1.5¢ each"
-   },
-   "united": {
-    "base": 1.3,
-    "note": "1 mile/$1, valued ~1.3¢ each"
-   },
-   "southwest": {
-    "base": 1.3,
-    "note": "1 point/$1, valued ~1.3¢ each"
-   },
-   "alaska": {
-    "base": 1.5,
-    "note": "1 mile/$1, valued ~1.5¢ each"
    },
    "cap1": {
     "base": 0.5,
@@ -5422,26 +5166,6 @@
    "rebatesme": {
     "base": 3.0,
     "note": ""
-   },
-   "delta": {
-    "base": 1.3,
-    "note": "1 mile/$1, valued ~1.3¢ each"
-   },
-   "american": {
-    "base": 2.25,
-    "note": "1.5 miles/$1, valued ~1.5¢ each"
-   },
-   "united": {
-    "base": 1.3,
-    "note": "1 mile/$1, valued ~1.3¢ each"
-   },
-   "southwest": {
-    "base": 1.3,
-    "note": "1 point/$1, valued ~1.3¢ each"
-   },
-   "alaska": {
-    "base": 1.5,
-    "note": "1 mile/$1, valued ~1.5¢ each"
    },
    "cap1": {
     "base": 2.0,
@@ -6049,26 +5773,6 @@
     "base": 1.0,
     "note": ""
    },
-   "delta": {
-    "base": 1.95,
-    "note": "1.5 miles/$1, valued ~1.3¢ each"
-   },
-   "american": {
-    "base": 3.0,
-    "note": "2 miles/$1, valued ~1.5¢ each"
-   },
-   "united": {
-    "base": 1.3,
-    "note": "1 mile/$1, valued ~1.3¢ each"
-   },
-   "southwest": {
-    "base": 2.6,
-    "note": "2 points/$1, valued ~1.3¢ each"
-   },
-   "alaska": {
-    "base": 3.0,
-    "note": "2 miles/$1, valued ~1.5¢ each"
-   },
    "fetch": {
     "base": 0,
     "flat": 0.025,
@@ -6174,22 +5878,6 @@
     "base": 1.0,
     "note": ""
    },
-   "delta": {
-    "base": 0.65,
-    "note": "0.5 miles/$1, valued ~1.3¢ each"
-   },
-   "united": {
-    "base": 0.65,
-    "note": "0.5 miles/$1, valued ~1.3¢ each"
-   },
-   "southwest": {
-    "base": 0.65,
-    "note": "0.5 points/$1, valued ~1.3¢ each"
-   },
-   "alaska": {
-    "base": 0.75,
-    "note": "0.5 miles/$1, valued ~1.5¢ each"
-   },
    "fetch": {
     "base": 0,
     "flat": 0.025,
@@ -6251,10 +5939,6 @@
    "befrugal": {
     "base": 6.0,
     "note": ""
-   },
-   "gocashback": {
-    "base": 0.5,
-    "note": "Up to 0.5% — varies by category or new customers"
    },
    "goodshop": {
     "base": 0.5,
@@ -6440,10 +6124,6 @@
     "base": 7.0,
     "note": ""
    },
-   "gocashback": {
-    "base": 1.6,
-    "note": "Up to 1.6% — varies by category or new customers"
-   },
    "goodshop": {
     "base": 2.0,
     "note": ""
@@ -6455,26 +6135,6 @@
    "pricecom": {
     "base": 2.0,
     "note": ""
-   },
-   "delta": {
-    "base": 1.3,
-    "note": "1 mile/$1, valued ~1.3¢ each"
-   },
-   "american": {
-    "base": 2.25,
-    "note": "1.5 miles/$1, valued ~1.5¢ each"
-   },
-   "united": {
-    "base": 1.3,
-    "note": "1 mile/$1, valued ~1.3¢ each"
-   },
-   "southwest": {
-    "base": 1.3,
-    "note": "1 point/$1, valued ~1.3¢ each"
-   },
-   "alaska": {
-    "base": 1.5,
-    "note": "1 mile/$1, valued ~1.5¢ each"
    },
    "cap1": {
     "base": 2.0,
@@ -7200,26 +6860,6 @@
     "base": 4.0,
     "note": ""
    },
-   "delta": {
-    "base": 1.3,
-    "note": "1 mile/$1, valued ~1.3¢ each"
-   },
-   "american": {
-    "base": 1.5,
-    "note": "1 mile/$1, valued ~1.5¢ each"
-   },
-   "united": {
-    "base": 1.3,
-    "note": "1 mile/$1, valued ~1.3¢ each"
-   },
-   "southwest": {
-    "base": 1.3,
-    "note": "1 point/$1, valued ~1.3¢ each"
-   },
-   "alaska": {
-    "base": 1.5,
-    "note": "1 mile/$1, valued ~1.5¢ each"
-   },
    "cap1": {
     "base": 4.0,
     "note": "Up to 4% — varies by category or new customers"
@@ -7337,26 +6977,6 @@
     "base": 1.0,
     "note": "Up to 1% — varies by category or new customers"
    },
-   "delta": {
-    "base": 7.8,
-    "note": "6 miles/$1, valued ~1.3¢ each"
-   },
-   "american": {
-    "base": 10.5,
-    "note": "7 miles/$1, valued ~1.5¢ each"
-   },
-   "united": {
-    "base": 6.5,
-    "note": "5 miles/$1, valued ~1.3¢ each"
-   },
-   "southwest": {
-    "base": 9.1,
-    "note": "7 points/$1, valued ~1.3¢ each"
-   },
-   "alaska": {
-    "base": 10.5,
-    "note": "7 miles/$1, valued ~1.5¢ each"
-   },
    "cap1": {
     "base": 4.0,
     "note": ""
@@ -7418,22 +7038,6 @@
    "topcash": {
     "base": 10.0,
     "note": ""
-   },
-   "american": {
-    "base": 4.5,
-    "note": "3 miles/$1, valued ~1.5¢ each"
-   },
-   "united": {
-    "base": 2.73,
-    "note": "2.1 miles/$1, valued ~1.3¢ each"
-   },
-   "southwest": {
-    "base": 3.64,
-    "note": "2.8 points/$1, valued ~1.3¢ each"
-   },
-   "alaska": {
-    "base": 4.35,
-    "note": "2.9 miles/$1, valued ~1.5¢ each"
    },
    "fetch": {
     "base": 0,
@@ -7563,26 +7167,6 @@
    "pricecom": {
     "base": 1.5,
     "note": "Up to 1.5% — varies by category or new customers"
-   },
-   "delta": {
-    "base": 1.3,
-    "note": "1 mile/$1, valued ~1.3¢ each"
-   },
-   "american": {
-    "base": 1.5,
-    "note": "1 mile/$1, valued ~1.5¢ each"
-   },
-   "united": {
-    "base": 1.3,
-    "note": "1 mile/$1, valued ~1.3¢ each"
-   },
-   "southwest": {
-    "base": 1.3,
-    "note": "1 point/$1, valued ~1.3¢ each"
-   },
-   "alaska": {
-    "base": 1.5,
-    "note": "1 mile/$1, valued ~1.5¢ each"
    },
    "cap1": {
     "base": 1.0,
@@ -8017,26 +7601,6 @@
     "base": 3.0,
     "note": ""
    },
-   "delta": {
-    "base": 1.3,
-    "note": "1 mile/$1, valued ~1.3¢ each"
-   },
-   "american": {
-    "base": 2.25,
-    "note": "1.5 miles/$1, valued ~1.5¢ each"
-   },
-   "united": {
-    "base": 1.3,
-    "note": "1 mile/$1, valued ~1.3¢ each"
-   },
-   "southwest": {
-    "base": 1.3,
-    "note": "1 point/$1, valued ~1.3¢ each"
-   },
-   "alaska": {
-    "base": 1.5,
-    "note": "1 mile/$1, valued ~1.5¢ each"
-   },
    "cap1": {
     "base": 2.0,
     "note": ""
@@ -8071,26 +7635,6 @@
    "pricecom": {
     "base": 3.0,
     "note": "Up to 3% — varies by category or new customers"
-   },
-   "delta": {
-    "base": 2.6,
-    "note": "2 miles/$1, valued ~1.3¢ each"
-   },
-   "american": {
-    "base": 3.0,
-    "note": "2 miles/$1, valued ~1.5¢ each"
-   },
-   "united": {
-    "base": 2.6,
-    "note": "2 miles/$1, valued ~1.3¢ each"
-   },
-   "southwest": {
-    "base": 2.6,
-    "note": "2 points/$1, valued ~1.3¢ each"
-   },
-   "alaska": {
-    "base": 3.0,
-    "note": "2 miles/$1, valued ~1.5¢ each"
    },
    "cap1": {
     "base": 2.0,
@@ -8495,18 +8039,6 @@
     "base": 1.0,
     "note": ""
    },
-   "delta": {
-    "base": 0.65,
-    "note": "0.5 miles/$1, valued ~1.3¢ each"
-   },
-   "united": {
-    "base": 0.65,
-    "note": "0.5 miles/$1, valued ~1.3¢ each"
-   },
-   "southwest": {
-    "base": 0.65,
-    "note": "0.5 points/$1, valued ~1.3¢ each"
-   },
    "fetch": {
     "base": 0,
     "flat": 0.025,
@@ -8537,22 +8069,6 @@
    "pricecom": {
     "base": 1.0,
     "note": ""
-   },
-   "delta": {
-    "base": 1.95,
-    "note": "1.5 miles/$1, valued ~1.3¢ each"
-   },
-   "american": {
-    "base": 3.0,
-    "note": "2 miles/$1, valued ~1.5¢ each"
-   },
-   "united": {
-    "base": 1.3,
-    "note": "1 mile/$1, valued ~1.3¢ each"
-   },
-   "southwest": {
-    "base": 2.6,
-    "note": "2 points/$1, valued ~1.3¢ each"
    },
    "fetch": {
     "base": 0,
@@ -9167,26 +8683,6 @@
     "base": 1.5,
     "note": ""
    },
-   "delta": {
-    "base": 3.9,
-    "note": "3 miles/$1, valued ~1.3¢ each"
-   },
-   "american": {
-    "base": 5.25,
-    "note": "3.5 miles/$1, valued ~1.5¢ each"
-   },
-   "united": {
-    "base": 3.9,
-    "note": "3 miles/$1, valued ~1.3¢ each"
-   },
-   "southwest": {
-    "base": 3.9,
-    "note": "3 points/$1, valued ~1.3¢ each"
-   },
-   "alaska": {
-    "base": 6.0,
-    "note": "4 miles/$1, valued ~1.5¢ each"
-   },
    "cap1": {
     "base": 2.0,
     "note": ""
@@ -9409,26 +8905,6 @@
     "base": 6.0,
     "note": ""
    },
-   "delta": {
-    "base": 2.6,
-    "note": "2 miles/$1, valued ~1.3¢ each"
-   },
-   "american": {
-    "base": 3.0,
-    "note": "2 miles/$1, valued ~1.5¢ each"
-   },
-   "united": {
-    "base": 2.6,
-    "note": "2 miles/$1, valued ~1.3¢ each"
-   },
-   "southwest": {
-    "base": 2.6,
-    "note": "2 points/$1, valued ~1.3¢ each"
-   },
-   "alaska": {
-    "base": 3.0,
-    "note": "2 miles/$1, valued ~1.5¢ each"
-   },
    "cap1": {
     "base": 1.0,
     "note": ""
@@ -9575,26 +9051,6 @@
     "base": 2.0,
     "note": ""
    },
-   "delta": {
-    "base": 1.3,
-    "note": "1 mile/$1, valued ~1.3¢ each"
-   },
-   "american": {
-    "base": 1.5,
-    "note": "1 mile/$1, valued ~1.5¢ each"
-   },
-   "united": {
-    "base": 1.3,
-    "note": "1 mile/$1, valued ~1.3¢ each"
-   },
-   "southwest": {
-    "base": 1.3,
-    "note": "1 point/$1, valued ~1.3¢ each"
-   },
-   "alaska": {
-    "base": 1.5,
-    "note": "1 mile/$1, valued ~1.5¢ each"
-   },
    "cap1": {
     "base": 2.0,
     "note": ""
@@ -9713,30 +9169,6 @@
    "goodshop": {
     "base": 1.5,
     "note": ""
-   },
-   "pricecom": {
-    "base": 2.0,
-    "note": "Up to 2% — varies by category or new customers"
-   },
-   "delta": {
-    "base": 1.95,
-    "note": "1.5 miles/$1, valued ~1.3¢ each"
-   },
-   "american": {
-    "base": 3.0,
-    "note": "2 miles/$1, valued ~1.5¢ each"
-   },
-   "united": {
-    "base": 1.3,
-    "note": "1 mile/$1, valued ~1.3¢ each"
-   },
-   "southwest": {
-    "base": 2.6,
-    "note": "2 points/$1, valued ~1.3¢ each"
-   },
-   "alaska": {
-    "base": 3.0,
-    "note": "2 miles/$1, valued ~1.5¢ each"
    },
    "cap1": {
     "base": 0.9,
@@ -10299,26 +9731,6 @@
     "base": 3.5,
     "note": ""
    },
-   "delta": {
-    "base": 7.8,
-    "note": "6 miles/$1, valued ~1.3¢ each"
-   },
-   "american": {
-    "base": 4.5,
-    "note": "3 miles/$1, valued ~1.5¢ each"
-   },
-   "united": {
-    "base": 7.8,
-    "note": "6 miles/$1, valued ~1.3¢ each"
-   },
-   "southwest": {
-    "base": 3.9,
-    "note": "3 points/$1, valued ~1.3¢ each"
-   },
-   "alaska": {
-    "base": 4.5,
-    "note": "3 miles/$1, valued ~1.5¢ each"
-   },
    "cap1": {
     "base": 2.0,
     "note": ""
@@ -10729,26 +10141,6 @@
     "base": 2.5,
     "note": ""
    },
-   "delta": {
-    "base": 1.3,
-    "note": "1 mile/$1, valued ~1.3¢ each"
-   },
-   "american": {
-    "base": 2.25,
-    "note": "1.5 miles/$1, valued ~1.5¢ each"
-   },
-   "united": {
-    "base": 1.3,
-    "note": "1 mile/$1, valued ~1.3¢ each"
-   },
-   "southwest": {
-    "base": 1.3,
-    "note": "1 point/$1, valued ~1.3¢ each"
-   },
-   "alaska": {
-    "base": 1.5,
-    "note": "1 mile/$1, valued ~1.5¢ each"
-   },
    "cap1": {
     "base": 2.0,
     "note": ""
@@ -10917,13 +10309,13 @@
    }
   },
   "The Vitamin Shoppe": {
-   "rebatesme": {
-    "base": 2.8,
+   "rakuten": {
+    "base": 2.0,
     "note": ""
    },
-   "pricecom": {
-    "base": 2.6,
-    "note": "Up to 2.6% — varies by category or new customers"
+   "rebatesme": {
+    "base": 0.7,
+    "note": ""
    },
    "cap1": {
     "base": 0.5,
@@ -11561,22 +10953,6 @@
    "topcash": {
     "base": 8.08,
     "note": ""
-   },
-   "delta": {
-    "base": 3.25,
-    "note": "2.5 miles/$1, valued ~1.3¢ each"
-   },
-   "american": {
-    "base": 4.5,
-    "note": "3 miles/$1, valued ~1.5¢ each"
-   },
-   "united": {
-    "base": 2.6,
-    "note": "2 miles/$1, valued ~1.3¢ each"
-   },
-   "southwest": {
-    "base": 3.9,
-    "note": "3 points/$1, valued ~1.3¢ each"
    },
    "fetch": {
     "base": 0,
@@ -13178,6 +12554,10 @@
    }
   },
   "Ollie's": {
+   "topcash": {
+    "base": 20.2,
+    "note": "Often a new-customer or limited-time rate"
+   },
    "cap1": {
     "base": 1.3,
     "note": "Up to 1.3% — varies by category or new customers"
@@ -15385,42 +14765,30 @@
   ],
   "AliExpress": [
    {
-    "code": "USAFF5",
-    "desc": "Sale event: $5 off $29+",
-    "exp": "Expires in 3 days",
-    "lastused": "Not shown"
+    "code": "0003NEWUSOFF",
+    "desc": "New Users Get $3 off $10+ Orders"
    },
    {
-    "code": "USAFF55",
-    "desc": "Sale event: $55 off $299+",
-    "exp": "Expires in 3 days",
-    "lastused": "Not shown"
+    "code": "12NEWUSOFF",
+    "desc": "New Users Get $12 off $80 Order"
    },
    {
-    "code": "USAFF70",
-    "desc": "Sale event: $70 off $349+",
-    "exp": "Expires in 3 days",
-    "lastused": "Not shown"
+    "code": "5NEWUSOFF",
+    "desc": "New Users Get $5 off $20 Order"
    }
   ],
   "Bass Pro Shops": [
    {
-    "code": "18CLUBFREE",
-    "desc": "Bass Pro Shops discount available",
-    "exp": "Expires in 7 days",
-    "lastused": "Not stated"
-   },
-   {
-    "code": "CAVECLEAR10",
-    "desc": "Additional 10% off Clearance items",
-    "exp": "Not stated",
-    "lastused": "Not stated"
-   },
-   {
     "code": "COLUMBIA25",
-    "desc": "Save 25% on All Columbia Styles",
-    "exp": "Not stated",
-    "lastused": "Not stated"
+    "desc": "Save 25% on All Columbia Styles"
+   },
+   {
+    "code": "STOREPICKUP",
+    "desc": "10% off Orders/Pick Up in Store"
+   },
+   {
+    "code": "18CLUBFREE",
+    "desc": "Apply at checkout"
    }
   ],
   "Belk": [
@@ -15521,18 +14889,15 @@
   "1-800-Flowers": [
    {
     "code": "SAVETWENTY",
-    "desc": "20% off sitewide flowers and gifts",
-    "exp": "Expires in 7 days"
-   },
-   {
-    "code": "FLOWERSALE",
-    "desc": "10% at $69, 15% at $99, 20% at $149",
-    "exp": "Expires in 7 days"
+    "desc": "20% off sitewide"
    },
    {
     "code": "20FORBES",
-    "desc": "20% off sitewide",
-    "exp": ""
+    "desc": "20% off sitewide"
+   },
+   {
+    "code": "JOLLYTWNTY",
+    "desc": "20% off sitewide"
    }
   ],
   "True Religion": [
@@ -15681,16 +15046,16 @@
   ],
   "Acme Markets": [
    {
+    "code": "BIZSAVE30",
+    "desc": "ACME discount"
+   },
+   {
     "code": "FREE",
-    "desc": "ACME discount available",
-    "exp": "None listed",
-    "lastused": "14 hours ago"
+    "desc": "ACME discount"
    },
    {
     "code": "FREEORFLASH",
-    "desc": "ACME discount available",
-    "exp": "None listed",
-    "lastused": "4 hours ago"
+    "desc": "ACME discount"
    }
   ],
   "The RealReal": [
@@ -17690,23 +17055,6 @@
     "last_used": null
    }
   ],
-  "Casper": [
-   {
-    "code": "EXTRA10",
-    "desc": "Up to 30% off sitewide plus extra 10%",
-    "exp": "Expires in 1 day"
-   },
-   {
-    "code": "FFPARTNER",
-    "desc": "Friends & Family: up to 25% off mattresses, 30% off other items",
-    "exp": "36 Uses"
-   },
-   {
-    "code": "COMFORT",
-    "desc": "10% off any order",
-    "exp": ""
-   }
-  ],
   "Christopher & Banks": [
    {
     "code": "COMEBACK20",
@@ -17819,33 +17167,30 @@
   "Lenovo": [
    {
     "code": "EXTRAFIVE",
-    "desc": "19% off a Legion 5i Gen 10 laptop",
-    "exp": "Expires in 10 days",
-    "usage": "5934 uses",
-    "last_used": "Last used 52 minutes ago"
+    "desc": "19% off Legion 5i Gen 10 RTX 5060 laptop",
+    "exp": "Not listed"
    },
    {
     "code": "THANKYOU15",
     "desc": "15% off for joining the email list",
-    "exp": "Expires in 13 days",
-    "usage": "",
-    "last_used": ""
+    "exp": "Not listed"
    }
   ],
   "Madewell": [
    {
-    "code": "LONGWEEKEND",
-    "desc": "Extra 30-50% off sale, up to 70% off original prices",
-    "exp": "Expires in 2 days",
-    "uses": "Not shown",
-    "last_used": "Not shown"
+    "code": "LETSGO",
+    "desc": "40% off everything with code, Black Friday event, exclusions apply",
+    "exp": "Expires in 12 days"
    },
    {
-    "code": "LONGWEEKEND",
-    "desc": "30% off Fall Selects",
-    "exp": "Not shown",
-    "uses": "Not shown",
-    "last_used": "Not shown"
+    "code": "REFRESH",
+    "desc": "20% off $175+ or 30% off $250+, exclusions apply",
+    "exp": "Likely Expired"
+   },
+   {
+    "code": "UPGRADE",
+    "desc": "$50 off jeans",
+    "exp": "Likely Expired"
    }
   ],
   "Massimo Dutti": [
@@ -17879,9 +17224,7 @@
    {
     "code": "RETINAL",
     "desc": "Get a Free Retinal Duo on Purchases of $125 or More",
-    "exp": "Expires in 1 day",
-    "usage": "",
-    "last_used": ""
+    "exp": "Expires in 1 day"
    }
   ],
   "NOBULL": [
@@ -17910,17 +17253,13 @@
   "Naturalizer": [
    {
     "code": "NAT2PAIR",
-    "desc": "Buy 2 pairs, get 20% off",
-    "exp": "Valid until 10/31",
-    "usage": "466 uses",
-    "last_used": "Last used 3 hours ago"
+    "desc": "20% off when buying 2 pairs",
+    "exp": "Valid through 6/30"
    },
    {
     "code": "SAVE10NAT",
-    "desc": "$10 off when you spend $75",
-    "exp": "Valid until 9/30",
-    "usage": "964 uses",
-    "last_used": "Last used 3 hours ago"
+    "desc": "$10 off when spending $75",
+    "exp": "Valid until 6/30"
    }
   ],
   "Net-a-Porter": [
@@ -18020,21 +17359,15 @@
   "American Girl": [
    {
     "code": "HOLIDAYPJ",
-    "desc": "American Girl discount available",
-    "exp": "Not stated",
-    "lastused": "Not stated"
+    "desc": "Apply code at checkout"
    },
    {
     "code": "HOLIDAYPJ2",
-    "desc": "American Girl discount available",
-    "exp": "Not stated",
-    "lastused": "Not stated"
+    "desc": "Apply code at checkout"
    },
    {
     "code": "HOLIDAYWISH",
-    "desc": "American Girl discount available",
-    "exp": "Not stated",
-    "lastused": "Not stated"
+    "desc": "Apply code at checkout"
    }
   ],
   "Appleseed's": [
@@ -18060,21 +17393,18 @@
   "AutoAnything": [
    {
     "code": "AASPECIAL",
-    "desc": "10% off the whole site",
-    "exp": "Not listed",
-    "lastused": "Not listed"
+    "desc": "10% off sitewide",
+    "exp": "Not listed"
    },
    {
     "code": "SADDLEMAN5",
     "desc": "5% off Saddleman custom seat covers",
-    "exp": "Not listed",
-    "lastused": "Not listed"
+    "exp": "Not listed"
    },
    {
     "code": "SHHH20",
-    "desc": "20% off orders of $99 or more",
-    "exp": "Not listed",
-    "lastused": "Not listed"
+    "desc": "20% off $99+",
+    "exp": "Not listed"
    }
   ],
   "Boscov's": [
@@ -18095,13 +17425,6 @@
     "desc": "Extra 15% off men's departments and men's shoes & sandals",
     "exp": "Not listed",
     "lastused": "8 hours ago"
-   }
-  ],
-  "Clinique": [
-   {
-    "code": "ICONS",
-    "desc": "Get Ready with Clinique Set for $69 with any purchase",
-    "exp": ""
    }
   ],
   "Giant Food": [
@@ -18165,30 +17488,30 @@
   "Hush Puppies": [
    {
     "code": "EXTRA30",
-    "desc": "Extra 30% off Sale Styles",
-    "exp": "Not stated"
+    "desc": "30% off sale styles",
+    "exp": "not stated"
    },
    {
     "code": "WELCOME20",
     "desc": "20% Off",
-    "exp": "Not stated"
+    "exp": "not stated"
    }
   ],
   "IHG Hotels & Resorts": [
    {
     "code": "BTSV",
     "desc": "Save up to 15% at IHG Hotels and Resorts",
-    "exp": "Not stated"
+    "exp": "none shown"
    },
    {
     "code": "FF50",
     "desc": "IHG Rewards| Book early and save up to 15% with Your Rate",
-    "exp": "Not stated"
+    "exp": "none shown"
    },
    {
     "code": "HAU5F609L",
     "desc": "Redeem Reward Nights at Iberostar Beachfront Resorts with IHG One Rewards",
-    "exp": "Not stated"
+    "exp": "none shown"
    }
   ],
   "JEGS": [
@@ -18211,20 +17534,23 @@
   "Journeys": [
    {
     "code": "CAREKIT15",
-    "desc": "Buy a Pair of Kids' UGG, Timberland, or Dr. Martens & Get 15% off a Care Kit",
-    "exp": "Not stated"
+    "desc": "Buy a pair of kids' UGG, Timberland, or Dr. Martens and get 15% off a care kit",
+    "exp": "Expires in 12 days"
    },
    {
     "code": "HOLIDAY20",
-    "desc": "Save An Extra 20% on Sale items",
-    "exp": "Not stated"
+    "desc": "An extra 20% off sale items",
+    "exp": "not listed"
    }
   ],
   "Kroger": [
    {
+    "code": "WELOVEKROGER",
+    "desc": "Kroger Ship to Home discount available"
+   },
+   {
     "code": "GETITNOW20",
-    "desc": "20% Off",
-    "exp": ""
+    "desc": "20% Off"
    }
   ],
   "Pottery Barn": [
@@ -18398,41 +17724,40 @@
   ],
   "The Vitamin Shoppe": [
    {
-    "code": "ROOTED26",
-    "desc": "Take 10% off $60 and 20% off $100 Orders",
-    "exp": "Expires in 1 day",
-    "usage": "205 Uses",
-    "last_used": "Last used 53 minutes ago"
+    "code": "FUELFALL",
+    "desc": "$10 off $60, $20 off $100+"
+   },
+   {
+    "code": "2047",
+    "desc": "Generic (discount available)"
+   },
+   {
+    "code": "FASTLANE",
+    "desc": "20% off $50 with 2-hour pickup"
    }
   ],
   "Ticketmaster": [
    {
     "code": "CYBERSMART16",
-    "desc": "Ticketmaster discount available (paired deal: Buy 1, Get 1 Tickets)",
-    "exp": "Not stated",
-    "usage": "Not stated",
-    "last_used": "Not stated"
+    "desc": "Ticketmaster discount available",
+    "exp": "Not listed"
    },
    {
     "code": "JESSWY",
-    "desc": "Ticketmaster discount available (paired deal: Ticketmaster Ticket Deals)",
-    "exp": "Not stated",
-    "usage": "Not stated",
-    "last_used": "Not stated"
+    "desc": "Ticketmaster discount available",
+    "exp": "Not listed"
    },
    {
     "code": "PHILLY",
-    "desc": "Ticketmaster discount available (paired deal: Find Family Tickets)",
-    "exp": "Not stated",
-    "usage": "Not stated",
-    "last_used": "Not stated"
+    "desc": "Ticketmaster discount available",
+    "exp": "Not listed"
    }
   ],
   "Ulta Beauty": [
    {
     "code": "628621",
-    "desc": "General Ulta Beauty discount",
-    "exp": ""
+    "desc": "Ulta Beauty discount available",
+    "exp": "Not listed"
    }
   ],
   "Edible Arrangements": [
@@ -18852,6 +18177,64 @@
     "exp": "Not listed",
     "uses": "Not listed",
     "last": "Not listed"
+   }
+  ],
+  "Teva": [
+   {
+    "code": "CAB8BBAB",
+    "desc": "Teva discount available"
+   }
+  ],
+  "Vionic": [
+   {
+    "code": "MENS15",
+    "desc": "Take 15% off Men's Products"
+   },
+   {
+    "code": "PEDICURE40",
+    "desc": "Vionic Shoes discount available"
+   },
+   {
+    "code": "GET5FF",
+    "desc": "Vionic Shoes discount available"
+   }
+  ],
+  "Vitamix": [
+   {
+    "code": "07-0063",
+    "desc": "Vitamix discount available",
+    "exp": "Expires in 7 days"
+   }
+  ],
+  "Vuori": [
+   {
+    "code": "TIA20NEW",
+    "desc": "20% Off"
+   },
+   {
+    "code": "NEWVUORI-V220",
+    "desc": "20% Off"
+   },
+   {
+    "code": "WANDS_7_26_14_POD",
+    "desc": "20% Off"
+   }
+  ],
+  "Zoro": [
+   {
+    "code": "AFWG1321",
+    "desc": "15% off everyday essentials when you spend $200+",
+    "exp": "Expires today"
+   },
+   {
+    "code": "GWRENCH10296",
+    "desc": "10% off ALL Gearwrench Products",
+    "exp": "Expires in 7 days"
+   },
+   {
+    "code": "FALL93A26",
+    "desc": "10% off Fall Seasonal Categories",
+    "exp": "Expires in 7 days"
    }
   ]
  },
