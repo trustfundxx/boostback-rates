@@ -10,7 +10,10 @@ for n, e in S.items():
     for k, v in e.items():
         if k not in P: problems.append(f"{n}: unknown program {k}")
         b = v.get('base', v.get('boost'))
-        if b is None or not (0 <= b <= 60): problems.append(f"{n}/{k}: odd value {b}")
+        # Airline programs store calculated monetary values (miles * cents), which can exceed 60
+        is_airline = k in ['delta', 'american', 'united', 'southwest', 'alaska']
+        max_val = 10000 if is_airline else 60
+        if b is None or not (0 <= b <= max_val): problems.append(f"{n}/{k}: odd value {b}")
     if not any(P[k]['connection'] != 'full' for k in e if k in P): problems.append(f"{n}: nothing usable")
 for f in d.get('featured', []):
     if f not in S: problems.append(f"featured store missing: {f}")
