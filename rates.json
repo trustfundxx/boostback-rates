@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T18:55:49.062903Z",
+ "generated_at": "2026-11-26T06:50:55.711805Z",
  "featured": [
   "eBay",
   "PetSmart",
@@ -439,44 +439,44 @@
     "note": ""
    },
    "gocashback": {
-    "base": 7.0,
-    "note": "Up to 7% — varies by category or new customers"
+    "base": 3.0,
+    "note": "Up to 3% — varies by category or new customers"
    },
    "goodshop": {
     "base": 3.5,
     "note": ""
    },
    "rebatesme": {
-    "base": 6.0,
+    "base": 3.0,
     "note": ""
    },
    "pricecom": {
-    "base": 4.0,
+    "base": 1.5,
     "note": ""
    },
    "extrabux": {
-    "base": 6.0,
+    "base": 4.0,
     "note": ""
    },
    "delta": {
-    "base": 4.55,
-    "note": "3.5 miles/$1, valued ~1.3¢ each"
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢ each"
    },
    "american": {
-    "base": 6.75,
-    "note": "4.5 miles/$1, valued ~1.5¢ each"
+    "base": 2.25,
+    "note": "1.5 miles/$1, valued ~1.5¢ each"
    },
    "united": {
-    "base": 3.9,
-    "note": "3 miles/$1, valued ~1.3¢ each"
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢ each"
    },
    "southwest": {
-    "base": 5.2,
-    "note": "4 points/$1, valued ~1.3¢ each"
+    "base": 1.3,
+    "note": "1 point/$1, valued ~1.3¢ each"
    },
    "alaska": {
-    "base": 6.0,
-    "note": "4 miles/$1, valued ~1.5¢ each"
+    "base": 1.5,
+    "note": "1 mile/$1, valued ~1.5¢ each"
    },
    "cap1": {
     "base": 2.0,
@@ -2437,7 +2437,7 @@
     "note": "1 mile/$1, valued ~1.5¢ each"
    },
    "cap1": {
-    "base": 2.0,
+    "base": 3.0,
     "note": "",
     "url": "https://capitaloneshopping.com/s/gap.com/coupon"
    },
@@ -2783,7 +2783,7 @@
   },
   "IHG Hotels & Resorts": {
    "rakuten": {
-    "base": 6.0,
+    "base": 9.0,
     "note": ""
    },
    "topcash": {
@@ -3086,8 +3086,8 @@
     "note": ""
    },
    "gocashback": {
-    "base": 3.0,
-    "note": "Up to 3% — varies by category or new customers"
+    "base": 2.4,
+    "note": "Up to 2.4% — varies by category or new customers"
    },
    "rebatesme": {
     "base": 5.0,
@@ -6488,12 +6488,8 @@
     "note": ""
    },
    "befrugal": {
-    "base": 7.0,
+    "base": 4.0,
     "note": ""
-   },
-   "gocashback": {
-    "base": 1.6,
-    "note": "Up to 1.6% — varies by category or new customers"
    },
    "goodshop": {
     "base": 2.0,
@@ -7465,7 +7461,7 @@
     "note": "7 miles/$1, valued ~1.5¢ each"
    },
    "cap1": {
-    "base": 5.5,
+    "base": 4.0,
     "note": ""
    },
    "fetch": {
@@ -8083,7 +8079,7 @@
   },
   "HEYDUDE": {
    "cap1": {
-    "base": 2.0,
+    "base": 3.0,
     "note": ""
    },
    "fetch": {
@@ -8399,20 +8395,24 @@
     "note": ""
    },
    "befrugal": {
-    "base": 7.0,
+    "base": 4.0,
     "note": ""
+   },
+   "gocashback": {
+    "base": 1.6,
+    "note": "Up to 1.6% — varies by category or new customers"
    },
    "goodshop": {
     "base": 1.5,
     "note": ""
    },
    "rebatesme": {
-    "base": 6.0,
-    "note": "Up to 6% — varies by category or new customers"
+    "base": 2.0,
+    "note": "Up to 2% — varies by category or new customers"
    },
    "pricecom": {
-    "base": 5.0,
-    "note": "Up to 5% — varies by category or new customers"
+    "base": 1.0,
+    "note": ""
    },
    "cap1": {
     "base": 0.5,
@@ -10449,8 +10449,8 @@
   },
   "Zoro": {
    "rakuten": {
-    "base": 4.0,
-    "note": ""
+    "base": 12.0,
+    "note": "Often a new-customer or limited-time rate"
    },
    "topcash": {
     "base": 4.0,
@@ -10477,33 +10477,37 @@
     "note": ""
    },
    "extrabux": {
-    "base": 4.0,
+    "base": 3.5,
     "note": ""
    },
    "delta": {
-    "base": 1.3,
-    "note": "1 mile/$1, valued ~1.3¢ each"
+    "base": 7.8,
+    "note": "6 miles/$1, valued ~1.3¢ each"
    },
    "american": {
-    "base": 2.25,
-    "note": "1.5 miles/$1, valued ~1.5¢ each"
+    "base": 4.5,
+    "note": "3 miles/$1, valued ~1.5¢ each"
    },
    "united": {
-    "base": 1.3,
-    "note": "1 mile/$1, valued ~1.3¢ each"
+    "base": 7.8,
+    "note": "6 miles/$1, valued ~1.3¢ each"
    },
    "southwest": {
-    "base": 1.3,
-    "note": "1 point/$1, valued ~1.3¢ each"
+    "base": 3.9,
+    "note": "3 points/$1, valued ~1.3¢ each"
    },
    "alaska": {
-    "base": 1.5,
-    "note": "1 mile/$1, valued ~1.5¢ each"
+    "base": 4.5,
+    "note": "3 miles/$1, valued ~1.5¢ each"
    },
    "fetch": {
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "Acme Tools": {
@@ -11631,7 +11635,7 @@
     "note": ""
    },
    "cap1": {
-    "base": 3.0,
+    "base": 4.0,
     "note": ""
    },
    "fetch": {
@@ -15544,18 +15548,18 @@
   "AliExpress": [
    {
     "code": "0003NEWUSOFF",
-    "desc": "New Users Get $3 off $10+ Orders",
-    "exp": ""
+    "desc": "New users: $3 off orders of $10+",
+    "exp": "Not listed"
    },
    {
     "code": "12NEWUSOFF",
-    "desc": "New Users Get $12 off $80 Order",
-    "exp": ""
+    "desc": "New users: $12 off an $80 order",
+    "exp": "Not listed"
    },
    {
     "code": "5NEWUSOFF",
-    "desc": "New Users Get $5 off $20 Order",
-    "exp": ""
+    "desc": "New users: $5 off a $20 order",
+    "exp": "Not listed"
    }
   ],
   "Bass Pro Shops": [
@@ -15653,18 +15657,15 @@
   "1-800-Flowers": [
    {
     "code": "SAVETWENTY",
-    "desc": "20% off sitewide for Labor Day",
-    "exp": "Expires 9/2"
+    "desc": "20% off sitewide on best-selling flowers and gifts"
    },
    {
-    "code": "SHOPSALE",
-    "desc": "15-25% off tiered by order total",
-    "exp": "Expires in 7 days"
+    "code": "JOLLYTWNTY",
+    "desc": "20% off sitewide"
    },
    {
     "code": "SMEDY15",
-    "desc": "15% off same-day flower delivery",
-    "exp": ""
+    "desc": "15% off same-day flower and gift delivery"
    }
   ],
   "ASOS": [
@@ -15762,18 +15763,15 @@
   "Acme Markets": [
    {
     "code": "BIZSAVE30",
-    "desc": "ACME discount available",
-    "exp": ""
+    "desc": "ACME discount available"
    },
    {
     "code": "FREE",
-    "desc": "ACME discount available",
-    "exp": ""
+    "desc": "ACME discount available"
    },
    {
     "code": "FREEORFLASH",
-    "desc": "ACME discount available",
-    "exp": ""
+    "desc": "ACME discount available"
    }
   ],
   "The RealReal": [
@@ -17530,47 +17528,45 @@
   "Giant Food": [
    {
     "code": "GFORDERWITHUS",
-    "desc": "$20 off first order of $60+, plus free delivery or pickup for 60 days",
-    "exp": "Not stated"
+    "desc": "$20 off Your First Order of $60+ and Get Free Delivery or Pickup for 60 Days",
+    "exp": "Not listed"
    },
    {
     "code": "GFPICK100",
-    "desc": "$25 off first four pickup orders of $100+",
-    "exp": "Not stated"
+    "desc": "$25 off Your First Four Pickup Orders of $100 or More",
+    "exp": "Not listed"
    },
    {
     "code": "GIANT100",
-    "desc": "$25 off first four orders of $100+ (delivery and pickup)",
-    "exp": "Not stated"
+    "desc": "Enjoy $25 off your first four orders of $100+ with code GIANT100",
+    "exp": "Not listed"
    }
   ],
   "Goldbelly": [
    {
     "code": "BELLY20",
-    "desc": "Get $20 off Your First Order of $100+",
-    "exp": "Not stated"
+    "desc": "Get $20 off Your First Order of $100+"
    },
    {
     "code": "AFF20",
-    "desc": "First Time Customers Save on Mother's Day Gifts with $20 off",
-    "exp": "Not stated"
+    "desc": "First Time Customers Save on Mother's Day Gifts with $20 off"
    }
   ],
   "Gopuff": [
    {
     "code": "G0KX86BELX",
     "desc": "60% off",
-    "exp": "Not stated"
-   },
-   {
-    "code": "GO12XEBNXX",
-    "desc": "GoPuff discount available",
-    "exp": "Not stated"
+    "exp": "Not listed"
    },
    {
     "code": "GO1JNEYMWX",
     "desc": "75% Off",
-    "exp": "Not stated"
+    "exp": "Not listed"
+   },
+   {
+    "code": "GOZMDPBYNX",
+    "desc": "95% off",
+    "exp": "Not listed"
    }
   ],
   "Hanna Andersson": [
@@ -17582,65 +17578,51 @@
    {
     "code": "FALLPLAY25",
     "desc": "New Customers Get 25% off Total order",
-    "exp": "Not stated"
+    "exp": "Not listed"
    }
   ],
   "Hush Puppies": [
    {
     "code": "EXTRA30",
-    "desc": "30% off sale styles",
-    "exp": "not stated"
+    "desc": "Extra 30% off Sale Styles"
    },
    {
     "code": "WELCOME20",
-    "desc": "20% Off",
-    "exp": "not stated"
+    "desc": "20% Off"
    }
   ],
   "IHG Hotels & Resorts": [
    {
     "code": "BTSV",
-    "desc": "Save up to 15% at IHG Hotels and Resorts",
-    "exp": "none shown"
+    "desc": "Save up to 15% at IHG Hotels and Resorts"
    },
    {
     "code": "FF50",
-    "desc": "IHG Rewards| Book early and save up to 15% with Your Rate",
-    "exp": "none shown"
+    "desc": "IHG Rewards| Book early and save up to 15% with Your Rate"
    },
    {
-    "code": "HAU5F609L",
-    "desc": "Redeem Reward Nights at Iberostar Beachfront Resorts with IHG One Rewards",
-    "exp": "none shown"
+    "code": "IDSEB",
+    "desc": "Additional Savings When You Book Direct with Your Rate"
    }
   ],
   "JEGS": [
    {
-    "code": "RACE",
-    "desc": "Race Season Kickoff - Get Up to $65 off Built Products",
-    "exp": "Likely Expired"
+    "code": "BUILT26",
+    "desc": "jegs.com discount available"
    },
    {
     "code": "SAVINGS26",
-    "desc": "Rake Up the Savings - Take Up to $120 off JEGS-Built Products",
-    "exp": "Likely Expired"
-   },
-   {
-    "code": "TREAT26",
-    "desc": "Trick or Treat Your Ride: Get Up to $65 off Jegs Brand items",
-    "exp": "Likely Expired"
+    "desc": "Rake Up the Savings - Take Up to $120 off JEGS-Built Products"
    }
   ],
   "Journeys": [
    {
     "code": "CAREKIT15",
-    "desc": "15% off Care Kit with qualifying kids' shoes (UGG, Timberland, Dr. Martens)",
-    "exp": "Not stated"
+    "desc": "Buy a Pair of Kids' UGG, Timberland, or Dr. Martens & Get 15% off a Care Kit"
    },
    {
     "code": "HOLIDAY20",
-    "desc": "Extra 20% off sale items",
-    "exp": "Not stated"
+    "desc": "Save An Extra 20% on Sale items"
    }
   ],
   "Kroger": [
@@ -17749,41 +17731,37 @@
    {
     "code": "FUELFALL",
     "desc": "Take $10 off $60, $20 off $100+ Orders",
-    "exp": ""
-   },
-   {
-    "code": "2047",
-    "desc": "The Vitamin Shoppe discount available",
-    "exp": ""
+    "exp": "Not listed"
    },
    {
     "code": "FASTLANE",
-    "desc": "Save 20% on $50 Order with Fast & Easy 2-hour",
-    "exp": ""
+    "desc": "Save 20% on $50 Order with Fast & Easy 2-hour Pick-up",
+    "exp": "Not listed"
+   },
+   {
+    "code": "FITYOU26",
+    "desc": "The Vitamin Shoppe discount available",
+    "exp": "Not listed"
    }
   ],
   "Ticketmaster": [
    {
-    "code": "CYBERSMART16",
-    "desc": "Ticketmaster discount available",
-    "exp": ""
-   },
-   {
     "code": "SOAFF3",
-    "desc": "20% off",
-    "exp": ""
+    "desc": "20% Off"
    },
    {
     "code": "TMNTX",
-    "desc": "50% off",
-    "exp": ""
+    "desc": "50% Off"
+   },
+   {
+    "code": "TREAT",
+    "desc": "25% Off"
    }
   ],
   "Ulta Beauty": [
    {
     "code": "628621",
-    "desc": "Ulta Beauty discount available",
-    "exp": ""
+    "desc": "Ulta Beauty discount available"
    }
   ],
   "Edible Arrangements": [
@@ -17938,49 +17916,45 @@
   "Teva": [
    {
     "code": "CAB8BBAB",
-    "desc": "Teva discount available",
-    "exp": ""
+    "desc": "Teva discount available"
    }
   ],
   "Vionic": [
    {
-    "code": "VIOAFFILIATE10",
-    "desc": "$10 off Your Purchase",
-    "exp": ""
-   },
-   {
-    "code": "SUMMER20",
-    "desc": "Summer Sale on Sale - Extra 20% off Sale",
-    "exp": ""
+    "code": "MENS15",
+    "desc": "Take 15% off Men's Products",
+    "exp": "Not shown"
    },
    {
     "code": "PEDICURE40",
     "desc": "Vionic Shoes discount available",
-    "exp": ""
+    "exp": "Not shown"
+   },
+   {
+    "code": "SUMMER20",
+    "desc": "Summer Sale on Sale - Extra 20% off Sale Styles",
+    "exp": "Not shown"
    }
   ],
   "Vitamix": [
    {
     "code": "07-0063",
     "desc": "Vitamix discount available",
-    "exp": "Expires in 7 days"
+    "exp": "No expiry"
    }
   ],
   "Vuori": [
    {
-    "code": "TIA20NEW",
-    "desc": "20% Off",
-    "exp": ""
-   },
-   {
     "code": "NEWVUORI-V220",
-    "desc": "20% Off",
-    "exp": ""
+    "desc": "20% Off"
    },
    {
-    "code": "SAMKORE_8_26_9_POD",
-    "desc": "20% Off",
-    "exp": ""
+    "code": "BPBSHOW_9_26_2_POD",
+    "desc": "20% Off"
+   },
+   {
+    "code": "TIA20NEW",
+    "desc": "Apply code TIA20NEW at checkout to see savings"
    }
   ],
   "Abercrombie & Fitch": [
@@ -18107,6 +18081,38 @@
     "code": "ELECTRIC3000",
     "desc": "3,000 free miles on EVs",
     "exp": "Not listed"
+   }
+  ],
+  "La Mer": [
+   {
+    "code": "LUXCON",
+    "desc": "Free 15ml Concentrate with an eligible $375 purchase"
+   },
+   {
+    "code": "11HONEY",
+    "desc": "Generic La Mer discount; apply at checkout to see savings"
+   },
+   {
+    "code": "WAVESWELCOME",
+    "desc": "$75 off a $350 purchase when joining loyalty program; mini regimen with $300+",
+    "exp": "Valid 3/3-3/8"
+   }
+  ],
+  "Zoro": [
+   {
+    "code": "AFWG1321",
+    "desc": "15% off everyday essentials when you spend $200+",
+    "exp": "Expires today"
+   },
+   {
+    "code": "GWRENCH10296",
+    "desc": "10% off ALL Gearwrench Products",
+    "exp": "Expires in 7 days"
+   },
+   {
+    "code": "FALL93A26",
+    "desc": "10% off Fall Seasonal Categories",
+    "exp": "Expires in 7 days"
    }
   ]
  },
