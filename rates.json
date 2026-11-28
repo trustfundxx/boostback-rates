@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28T06:50:00.556612Z",
+ "generated_at": "2026-11-28T10:52:13.687602Z",
  "featured": [
   "eBay",
   "PetSmart",
@@ -2591,6 +2591,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 0.75,
+    "note": "Up to 0.75% — varies by category or new customers"
    }
   },
   "Grubhub": {
@@ -2696,6 +2700,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": ""
    }
   },
   "Home Depot": {
@@ -3245,6 +3253,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "Lands' End": {
@@ -3470,14 +3482,58 @@
    }
   },
   "MAC Cosmetics": {
-   "rakuten": {
-    "base": 2.0,
+   "topcash": {
+    "base": 11.11,
     "note": ""
+   },
+   "befrugal": {
+    "base": 12.0,
+    "note": "Often a new-customer or limited-time rate"
+   },
+   "gocashback": {
+    "base": 1.6,
+    "note": ""
+   },
+   "goodshop": {
+    "base": 3.0,
+    "note": "Up to 3% — varies by category or new customers"
+   },
+   "rebatesme": {
+    "base": 4.0,
+    "note": ""
+   },
+   "pricecom": {
+    "base": 2.5,
+    "note": ""
+   },
+   "delta": {
+    "base": 4.55,
+    "note": "3.5 miles/$1, valued ~1.3¢ each"
+   },
+   "american": {
+    "base": 15.0,
+    "note": "10 miles/$1, valued ~1.5¢ each"
+   },
+   "united": {
+    "base": 3.9,
+    "note": "3 miles/$1, valued ~1.3¢ each"
+   },
+   "southwest": {
+    "base": 5.2,
+    "note": "4 points/$1, valued ~1.3¢ each"
+   },
+   "alaska": {
+    "base": 6.0,
+    "note": "4 miles/$1, valued ~1.5¢ each"
    },
    "fetch": {
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 3.0,
+    "note": ""
    }
   },
   "Macy's": {
@@ -3542,7 +3598,7 @@
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
    },
    "cap1": {
-    "base": 0.5,
+    "base": 2.0,
     "note": ""
    }
   },
@@ -3601,6 +3657,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "Michaels": {
@@ -3920,6 +3980,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": ""
    }
   },
   "Old Navy": {
@@ -5355,6 +5419,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": ""
    }
   },
   "TJ Maxx": {
@@ -5378,41 +5446,29 @@
   },
   "Torrid": {
    "rakuten": {
-    "base": 4.0,
-    "note": ""
-   },
-   "befrugal": {
     "base": 2.0,
     "note": ""
    },
-   "gocashback": {
-    "base": 3.0,
+   "topcash": {
+    "base": 3.03,
+    "note": ""
+   },
+   "befrugal": {
+    "base": 8.0,
     "note": ""
    },
    "rebatesme": {
     "base": 1.0,
     "note": ""
    },
-   "pricecom": {
-    "base": 2.5,
-    "note": ""
-   },
-   "extrabux": {
-    "base": 2.0,
-    "note": ""
-   },
-   "delta": {
-    "base": 2.6,
-    "note": "2 miles/$1, valued ~1.3¢ each"
-   },
-   "american": {
-    "base": 3.75,
-    "note": "2.5 miles/$1, valued ~1.5¢ each"
-   },
    "fetch": {
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "Tractor Supply": {
@@ -5579,36 +5635,48 @@
   },
   "Under Armour": {
    "rakuten": {
+    "base": 10.0,
+    "note": ""
+   },
+   "topcash": {
     "base": 5.0,
     "note": ""
    },
    "befrugal": {
-    "base": 1.0,
-    "note": ""
-   },
-   "gocashback": {
-    "base": 1.0,
+    "base": 10.0,
     "note": ""
    },
    "goodshop": {
-    "base": 5.0,
+    "base": 2.5,
     "note": ""
    },
    "rebatesme": {
-    "base": 1.0,
+    "base": 5.0,
     "note": ""
    },
-   "extrabux": {
-    "base": 2.0,
+   "pricecom": {
+    "base": 4.0,
     "note": ""
+   },
+   "delta": {
+    "base": 13.0,
+    "note": "10 miles/$1, valued ~1.3¢ each"
+   },
+   "american": {
+    "base": 7.5,
+    "note": "5 miles/$1, valued ~1.5¢ each"
    },
    "united": {
-    "base": 1.3,
-    "note": "1 mile/$1, valued ~1.3¢ each"
+    "base": 13.0,
+    "note": "10 miles/$1, valued ~1.3¢ each"
+   },
+   "southwest": {
+    "base": 6.5,
+    "note": "5 points/$1, valued ~1.3¢ each"
    },
    "alaska": {
-    "base": 3.0,
-    "note": "2 miles/$1, valued ~1.5¢ each"
+    "base": 15.0,
+    "note": "10 miles/$1, valued ~1.5¢ each"
    },
    "cap1": {
     "base": 4.0,
@@ -5623,20 +5691,12 @@
   },
   "Victoria's Secret": {
    "rakuten": {
-    "base": 5.0,
+    "base": 2.0,
     "note": ""
    },
-   "gocashback": {
-    "base": 3.0,
+   "rebatesme": {
+    "base": 1.0,
     "note": ""
-   },
-   "extrabux": {
-    "base": 4.0,
-    "note": ""
-   },
-   "delta": {
-    "base": 1.3,
-    "note": "1 mile/$1, valued ~1.3¢ each"
    },
    "cap1": {
     "base": 1.0,
@@ -5730,6 +5790,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "Vrbo": {
@@ -5773,20 +5837,52 @@
   },
   "Walgreens": {
    "rakuten": {
-    "base": 5.0,
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 4.04,
+    "note": ""
+   },
+   "befrugal": {
+    "base": 9.0,
+    "note": ""
+   },
+   "goodshop": {
+    "base": 2.0,
     "note": ""
    },
    "rebatesme": {
-    "base": 1.0,
+    "base": 4.0,
     "note": ""
    },
    "pricecom": {
-    "base": 1.5,
+    "base": 1.0,
     "note": ""
    },
+   "extrabux": {
+    "base": 4.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢ each"
+   },
+   "american": {
+    "base": 2.25,
+    "note": "1.5 miles/$1, valued ~1.5¢ each"
+   },
+   "united": {
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢ each"
+   },
+   "southwest": {
+    "base": 1.3,
+    "note": "1 point/$1, valued ~1.3¢ each"
+   },
    "alaska": {
-    "base": 3.0,
-    "note": "2 miles/$1, valued ~1.5¢ each"
+    "base": 1.5,
+    "note": "1 mile/$1, valued ~1.5¢ each"
    },
    "cap1": {
     "base": 2.0,
@@ -5905,24 +6001,52 @@
   },
   "Zappos": {
    "rakuten": {
-    "base": 6.0,
-    "note": ""
-   },
-   "befrugal": {
-    "base": 2.5,
-    "note": ""
-   },
-   "gocashback": {
     "base": 2.0,
     "note": ""
    },
-   "goodshop": {
-    "base": 5.0,
+   "topcash": {
+    "base": 4.0,
     "note": ""
+   },
+   "befrugal": {
+    "base": 9.0,
+    "note": ""
+   },
+   "gocashback": {
+    "base": 1.6,
+    "note": "Up to 1.6% — varies by category or new customers"
+   },
+   "rebatesme": {
+    "base": 3.0,
+    "note": ""
+   },
+   "pricecom": {
+    "base": 2.0,
+    "note": ""
+   },
+   "extrabux": {
+    "base": 2.0,
+    "note": ""
+   },
+   "delta": {
+    "base": 3.25,
+    "note": "2.5 miles/$1, valued ~1.3¢ each"
+   },
+   "american": {
+    "base": 4.5,
+    "note": "3 miles/$1, valued ~1.5¢ each"
+   },
+   "united": {
+    "base": 2.6,
+    "note": "2 miles/$1, valued ~1.3¢ each"
    },
    "southwest": {
     "base": 3.9,
     "note": "3 points/$1, valued ~1.3¢ each"
+   },
+   "alaska": {
+    "base": 4.5,
+    "note": "3 miles/$1, valued ~1.5¢ each"
    },
    "fetch": {
     "base": 0,
@@ -6153,20 +6277,8 @@
    }
   },
   "Urban Outfitters": {
-   "topcash": {
-    "base": 2.5,
-    "note": ""
-   },
-   "gocashback": {
-    "base": 2.0,
-    "note": ""
-   },
    "goodshop": {
-    "base": 4.0,
-    "note": ""
-   },
-   "rebatesme": {
-    "base": 1.5,
+    "base": 1.0,
     "note": ""
    },
    "fetch": {
@@ -6503,6 +6615,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 2.5,
+    "note": "Up to 2.5% — varies by category or new customers"
    }
   },
   "Michael Kors": {
@@ -6822,8 +6938,8 @@
   },
   "Kendra Scott": {
    "rakuten": {
-    "base": 3.0,
-    "note": ""
+    "base": 12.0,
+    "note": "Often a new-customer or limited-time rate"
    },
    "topcash": {
     "base": 1.01,
@@ -6869,6 +6985,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 3.0,
+    "note": ""
    }
   },
   "Warby Parker": {
@@ -6963,41 +7083,69 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 5.0,
+    "note": ""
    }
   },
   "Harry & David": {
+   "rakuten": {
+    "base": 12.0,
+    "note": "Often a new-customer or limited-time rate"
+   },
    "topcash": {
-    "base": 5.0,
+    "base": 6.06,
+    "note": ""
+   },
+   "befrugal": {
+    "base": 7.0,
     "note": ""
    },
    "gocashback": {
-    "base": 2.0,
-    "note": ""
+    "base": 0.5,
+    "note": "Up to 0.5% — varies by category or new customers"
    },
    "goodshop": {
-    "base": 5.0,
+    "base": 0.5,
     "note": ""
    },
    "rebatesme": {
-    "base": 1.5,
-    "note": ""
+    "base": 2.0,
+    "note": "Up to 2% — varies by category or new customers"
    },
    "pricecom": {
-    "base": 2.5,
-    "note": ""
-   },
-   "extrabux": {
     "base": 2.0,
-    "note": ""
+    "note": "Up to 2% — varies by category or new customers"
+   },
+   "delta": {
+    "base": 3.9,
+    "note": "3 miles/$1, valued ~1.3¢ each"
+   },
+   "american": {
+    "base": 5.25,
+    "note": "3.5 miles/$1, valued ~1.5¢ each"
    },
    "united": {
-    "base": 2.6,
-    "note": "2 miles/$1, valued ~1.3¢ each"
+    "base": 3.9,
+    "note": "3 miles/$1, valued ~1.3¢ each"
+   },
+   "southwest": {
+    "base": 3.9,
+    "note": "3 points/$1, valued ~1.3¢ each"
+   },
+   "alaska": {
+    "base": 6.0,
+    "note": "4 miles/$1, valued ~1.5¢ each"
    },
    "fetch": {
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 1.5,
+    "note": "Up to 1.5% — varies by category or new customers"
    }
   },
   "Finish Line": {
@@ -7212,6 +7360,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 5.0,
+    "note": ""
    }
   },
   "LEGO": {
@@ -7271,6 +7423,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": "Up to 1% — varies by category or new customers"
    }
   },
   "Spanx": {
@@ -7833,6 +7989,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 3.0,
+    "note": ""
    }
   },
   "Steve Madden": {
@@ -8456,6 +8616,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": ""
    }
   },
   "Dermalogica": {
@@ -8956,6 +9120,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": ""
    }
   },
   "Forever 21": {
@@ -9087,6 +9255,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": ""
    }
   },
   "Swarovski": {
@@ -9264,6 +9436,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": ""
    }
   },
   "CALPAK": {
@@ -9631,6 +9807,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": ""
    }
   },
   "Buckle": {
@@ -9745,26 +9925,50 @@
    }
   },
   "Todd Snyder": {
+   "rakuten": {
+    "base": 2.5,
+    "note": ""
+   },
    "topcash": {
+    "base": 2.02,
+    "note": ""
+   },
+   "goodshop": {
+    "base": 0.5,
+    "note": "Up to 0.5% — varies by category or new customers"
+   },
+   "pricecom": {
     "base": 4.0,
     "note": ""
    },
-   "rebatesme": {
-    "base": 2.0,
-    "note": ""
-   },
-   "extrabux": {
-    "base": 2.0,
-    "note": ""
+   "delta": {
+    "base": 3.25,
+    "note": "2.5 miles/$1, valued ~1.3¢ each"
    },
    "american": {
-    "base": 3.0,
-    "note": "2 miles/$1, valued ~1.5¢ each"
+    "base": 4.5,
+    "note": "3 miles/$1, valued ~1.5¢ each"
+   },
+   "united": {
+    "base": 2.6,
+    "note": "2 miles/$1, valued ~1.3¢ each"
+   },
+   "southwest": {
+    "base": 3.9,
+    "note": "3 points/$1, valued ~1.3¢ each"
+   },
+   "alaska": {
+    "base": 4.5,
+    "note": "3 miles/$1, valued ~1.5¢ each"
    },
    "fetch": {
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 1.0,
+    "note": ""
    }
   },
   "Faherty": {
@@ -9850,28 +10054,48 @@
     "note": ""
    },
    "topcash": {
-    "base": 2.0,
+    "base": 4.04,
     "note": ""
    },
-   "goodshop": {
+   "befrugal": {
+    "base": 9.0,
+    "note": ""
+   },
+   "gocashback": {
     "base": 4.0,
     "note": ""
    },
-   "rebatesme": {
+   "goodshop": {
     "base": 1.5,
     "note": ""
    },
-   "pricecom": {
-    "base": 2.5,
+   "rebatesme": {
+    "base": 4.0,
     "note": ""
    },
-   "extrabux": {
-    "base": 2.0,
+   "pricecom": {
+    "base": 1.6,
     "note": ""
    },
    "delta": {
-    "base": 1.95,
-    "note": "1.5 miles/$1, valued ~1.3¢ each"
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢ each"
+   },
+   "american": {
+    "base": 2.25,
+    "note": "1.5 miles/$1, valued ~1.5¢ each"
+   },
+   "united": {
+    "base": 1.3,
+    "note": "1 mile/$1, valued ~1.3¢ each"
+   },
+   "southwest": {
+    "base": 1.3,
+    "note": "1 point/$1, valued ~1.3¢ each"
+   },
+   "alaska": {
+    "base": 1.5,
+    "note": "1 mile/$1, valued ~1.5¢ each"
    },
    "fetch": {
     "base": 0,
@@ -10034,22 +10258,35 @@
    }
   },
   "Home Chef": {
-   "befrugal": {
-    "base": 1.5,
-    "note": ""
+   "delta": {
+    "base": 780.0,
+    "note": "600 miles/$1, valued ~1.3¢ each"
    },
-   "pricecom": {
-    "base": 2.5,
-    "note": ""
+   "american": {
+    "base": 1125.0,
+    "note": "750 miles/$1, valued ~1.5¢ each"
    },
-   "extrabux": {
-    "base": 3.0,
-    "note": ""
+   "united": {
+    "base": 650.0,
+    "note": "500 miles/$1, valued ~1.3¢ each"
+   },
+   "southwest": {
+    "base": 910.0,
+    "note": "700 points/$1, valued ~1.3¢ each"
+   },
+   "alaska": {
+    "base": 1050.0,
+    "note": "700 miles/$1, valued ~1.5¢ each"
    },
    "fetch": {
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 0,
+    "flat": 6.0,
+    "note": "$6 back on your order"
    }
   },
   "Factor": {
@@ -10279,6 +10516,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 4.0,
+    "note": ""
    }
   },
   "Edible Arrangements": {
@@ -10348,8 +10589,16 @@
    }
   },
   "Gymboree": {
+   "rakuten": {
+    "base": 2.0,
+    "note": ""
+   },
    "topcash": {
     "base": 4.04,
+    "note": ""
+   },
+   "befrugal": {
+    "base": 7.0,
     "note": ""
    },
    "gocashback": {
@@ -10358,6 +10607,10 @@
    },
    "goodshop": {
     "base": 0.5,
+    "note": ""
+   },
+   "rebatesme": {
+    "base": 5.0,
     "note": ""
    },
    "pricecom": {
@@ -10550,6 +10803,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": ""
    }
   },
   "American Girl": {
@@ -10790,6 +11047,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": ""
    }
   },
   "Woodcraft": {
@@ -10817,6 +11078,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": ""
    }
   },
   "Global Industrial": {
@@ -10985,6 +11250,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 0.5,
+    "note": ""
    }
   },
   "Jones New York": {
@@ -11085,6 +11354,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "Food Lion": {
@@ -11275,6 +11548,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 3.0,
+    "note": ""
    }
   },
   "NOBULL": {
@@ -11309,21 +11586,53 @@
   },
   "Tuft & Needle": {
    "rakuten": {
-    "base": 5.0,
+    "base": 2.0,
+    "note": ""
+   },
+   "topcash": {
+    "base": 8.08,
+    "note": ""
+   },
+   "befrugal": {
+    "base": 10.0,
+    "note": "Up to 10% — varies by category or new customers"
+   },
+   "rebatesme": {
+    "base": 2.0,
     "note": ""
    },
    "pricecom": {
-    "base": 1.5,
+    "base": 2.5,
     "note": ""
    },
-   "extrabux": {
-    "base": 4.0,
-    "note": ""
+   "delta": {
+    "base": 2.6,
+    "note": "2 miles/$1, valued ~1.3¢ each"
+   },
+   "american": {
+    "base": 3.0,
+    "note": "2 miles/$1, valued ~1.5¢ each"
+   },
+   "united": {
+    "base": 2.6,
+    "note": "2 miles/$1, valued ~1.3¢ each"
+   },
+   "southwest": {
+    "base": 2.6,
+    "note": "2 points/$1, valued ~1.3¢ each"
+   },
+   "alaska": {
+    "base": 3.0,
+    "note": "2 miles/$1, valued ~1.5¢ each"
    },
    "fetch": {
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 6.0,
+    "note": ""
    }
   },
   "Leesa": {
@@ -12183,8 +12492,12 @@
    }
   },
   "Northern Tool": {
-   "rakuten": {
-    "base": 2.0,
+   "gocashback": {
+    "base": 2.4,
+    "note": ""
+   },
+   "goodshop": {
+    "base": 1.5,
     "note": ""
    },
    "fetch": {
@@ -13888,6 +14201,10 @@
     "base": 0,
     "flat": 0.025,
     "note": "Scan any receipt for at least 25 points (about 3¢). Bigger offers show in the Fetch app."
+   },
+   "cap1": {
+    "base": 2.0,
+    "note": ""
    }
   },
   "Birch Living": {
@@ -16289,31 +16606,42 @@
   ],
   "New Balance": [
    {
-    "code": "SHIP2YOU",
-    "desc": "Free shipping on orders $25+",
-    "exp": ""
+    "code": "10SHOES",
+    "desc": "$10 off ROAV, 574, CRUZ, Nergize, and Kids' Shoes",
+    "exp": "Not stated",
+    "uses": "Not stated",
+    "last_used": "Not stated"
    },
    {
-    "code": "HOLIDAY30",
-    "desc": "30% off holiday specials",
-    "exp": ""
+    "code": "EXTRA20",
+    "desc": "Get 20% off $300 order",
+    "exp": "Not stated",
+    "uses": "Not stated",
+    "last_used": "Not stated"
    },
    {
-    "code": "CYBER25",
-    "desc": "25% off select items",
-    "exp": ""
+    "code": "15OFF150",
+    "desc": "$15 off $150 Orders and Free Shipping",
+    "exp": "Not stated",
+    "uses": "Not stated",
+    "last_used": "Not stated"
    }
   ],
   "Tillys": [
    {
-    "code": "WELCOME10",
-    "desc": "Save 10% on your first purchase",
-    "exp": ""
+    "code": "SAVE20",
+    "desc": "$20 off orders over $100",
+    "exp": "Expires in 13 days"
    },
    {
-    "code": "SAVE15",
-    "desc": "Get 15% off orders over $50",
-    "exp": ""
+    "code": "APRILSHIP",
+    "desc": "April Fools' free shipping",
+    "exp": "Not shown"
+   },
+   {
+    "code": "LUCKY",
+    "desc": "St. Patrick's Day 17% off",
+    "exp": "Not shown"
    }
   ],
   "Levi's": [
@@ -16330,77 +16658,68 @@
   ],
   "Lucky Brand": [
    {
-    "code": "SHIP2YOU",
-    "desc": "Free shipping on orders $25+",
-    "exp": ""
+    "code": "AFFLUCKY20",
+    "desc": "Get 20% off Orders $125+",
+    "exp": "Not listed",
+    "uses": "410",
+    "last_used": "Last used 48 minutes ago"
    },
    {
-    "code": "SAVE15",
-    "desc": "Get 15% off orders over $50",
-    "exp": ""
+    "code": "LUCKY15",
+    "desc": "Cyber Monday - 40% off Everything and An Extra 15% off and Free Shipping",
+    "exp": "Not listed",
+    "uses": "8",
+    "last_used": "Not listed"
    },
    {
-    "code": "SUMMER20",
-    "desc": "20% off summer collection",
-    "exp": ""
+    "code": "LUCKY25",
+    "desc": "More Gifts for You: 25% off $150",
+    "exp": "Not listed",
+    "uses": "109",
+    "last_used": "Not listed"
    }
   ],
   "Therabody": [
    {
-    "code": "CYBER25",
-    "desc": "25% off select items",
-    "exp": ""
+    "code": "DEAL2",
+    "desc": "Apply code DEAL2 at checkout to see savings",
+    "exp": "Expires today"
    },
    {
-    "code": "WELCOME10",
-    "desc": "Save 10% on your first purchase",
-    "exp": ""
+    "code": "DEAL1",
+    "desc": "Apply code DEAL1 at checkout to see savings",
+    "exp": "Not stated"
    },
    {
-    "code": "MEMBER5",
-    "desc": "Extra 5% for members",
-    "exp": ""
+    "code": "EARLYBF",
+    "desc": "Apply code EARLYBF at checkout to see savings",
+    "exp": "Not stated"
    }
   ],
   "Todd Snyder": [
    {
-    "code": "FLASH15",
-    "desc": "15% flash sale coupon",
-    "exp": ""
-   },
-   {
-    "code": "MEMBER5",
-    "desc": "Extra 5% for members",
-    "exp": ""
-   },
-   {
-    "code": "CYBER25",
-    "desc": "25% off select items",
-    "exp": ""
+    "code": "FIRST15",
+    "desc": "15% off Your First Order",
+    "exp": "Not listed"
    }
   ],
   "Vivid Seats": [
    {
-    "code": "HOLIDAY30",
-    "desc": "30% off holiday specials",
-    "exp": ""
-   },
-   {
-    "code": "FLASH15",
-    "desc": "15% flash sale coupon",
-    "exp": ""
+    "code": "VIVID10",
+    "desc": "Existing Customers Get $10 off Ticket $100+ Order",
+    "exp": "Not stated"
    }
   ],
   "Wine.com": [
    {
-    "code": "MEMBER5",
-    "desc": "Extra 5% for members",
-    "exp": ""
+    "code": "JOVIAL25",
+    "desc": "New Customers Take $25 off Your Order of $350+",
+    "exp": "None listed"
    },
    {
-    "code": "SUMMER20",
-    "desc": "20% off summer collection",
-    "exp": ""
+    "code": "LEAF15",
+    "desc": "New Customers Take $15 off Your Order of $250+",
+    "exp": "Expires in 6 days"
    }
   ],
   "Ace Hardware": [
@@ -16499,61 +16818,98 @@
   ],
   "Mattress Firm": [
    {
-    "code": "SAVE15",
-    "desc": "Get 15% off orders over $50",
-    "exp": ""
+    "code": "FLASH",
+    "desc": "extra 25% off select mattresses and bedding",
+    "exp": "Expires today",
+    "uses": "N/A",
+    "last_used": "N/A"
    },
    {
-    "code": "SUMMER20",
-    "desc": "20% off summer collection",
-    "exp": ""
+    "code": "SAVE25",
+    "desc": "extra 25% off sitewide",
+    "exp": "N/A",
+    "uses": "N/A",
+    "last_used": "N/A"
    },
    {
-    "code": "HOLIDAY30",
-    "desc": "30% off holiday specials",
-    "exp": ""
+    "code": "SAVE20",
+    "desc": "extra 20% off orders",
+    "exp": "N/A",
+    "uses": "N/A",
+    "last_used": "N/A"
    }
   ],
   "Office Depot": [
    {
-    "code": "WELCOME10",
-    "desc": "Save 10% on your first purchase",
-    "exp": ""
+    "code": "YES40",
+    "desc": "$40 off a $200 regular-price purchase",
+    "exp": "None listed",
+    "uses": "912",
+    "last_used": "Last used 1 hour ago"
    },
    {
-    "code": "SHIP2YOU",
-    "desc": "Free shipping on orders $25+",
-    "exp": ""
+    "code": "YES30",
+    "desc": "$30 off a $150 regular-price purchase",
+    "exp": "None listed",
+    "uses": "1104",
+    "last_used": "Last used 25 minutes ago"
+   },
+   {
+    "code": "FALL20",
+    "desc": "20% off a Print Services purchase",
+    "exp": "None listed",
+    "uses": "380",
+    "last_used": "Last used 2 hours ago"
    }
   ],
   "PetSmart": [
    {
-    "code": "MEMBER5",
-    "desc": "Extra 5% for members",
-    "exp": ""
+    "code": "SAVE20",
+    "desc": "Extra 20% off many pet items",
+    "exp": "None shown",
+    "uses": "3824",
+    "last_used": "1 hour ago"
+   },
+   {
+    "code": "EARLYBF",
+    "desc": "Extra 20% off many pet favorites",
+    "exp": "None shown",
+    "uses": "6",
+    "last_used": "3 hours ago"
+   },
+   {
+    "code": "CYBER20",
+    "desc": "Extra 20% off sitewide",
+    "exp": "None shown",
+    "uses": "4",
+    "last_used": "Not shown"
    }
   ],
   "Pixie Market": [
    {
-    "code": "SUMMER20",
-    "desc": "20% off summer collection",
-    "exp": ""
+    "code": "RAINIE10",
+    "desc": "Pixie Market discount available",
+    "exp": "not stated",
+    "uses": "not stated",
+    "last_used": "not stated"
    },
    {
     "code": "WELCOME10",
-    "desc": "Save 10% on your first purchase",
-    "exp": ""
+    "desc": "10% Off",
+    "exp": "not stated",
+    "uses": "not stated",
+    "last_used": "not stated"
    }
   ],
   "Under Armour": [
    {
     "code": "EXTRA10",
-    "desc": "10% off at checkout, free shipping on orders of $50+",
+    "desc": "Take 10% OFF using code EXTRA10 at checkout! Free Shipping on orders $50+",
     "exp": "Expires in 14 days"
    },
    {
     "code": "OCT40",
-    "desc": "40% off, stackable with 10% off using EXTRA10, free shipping on $50+",
+    "desc": "Get an EXTRA 40% OFF using code OCT40 + Stack 10% OFF using code EXTRA10",
     "exp": "Expires in 14 days"
    }
   ],
@@ -16808,14 +17164,11 @@
   ],
   "Marmot": [
    {
-    "code": "SUMMER20",
-    "desc": "20% off summer collection",
-    "exp": ""
-   },
-   {
-    "code": "SAVE15",
-    "desc": "Get 15% off orders over $50",
-    "exp": ""
+    "code": "HOLIDAY30",
+    "desc": "Black Friday and Cyber Monday offer of 30% off almost everything",
+    "exp": "Expires in 2 days",
+    "uses": "66",
+    "last_used": "Last used 3 hours ago"
    }
   ],
   "Meguiar's": [
@@ -16837,53 +17190,50 @@
   ],
   "Merrell": [
    {
-    "code": "SHIP2YOU",
-    "desc": "Free shipping on orders $25+",
-    "exp": ""
+    "code": "TCC10",
+    "desc": "10% off any Order",
+    "exp": "not stated",
+    "uses": "1",
+    "last_used": "Last used 4 hours ago"
    },
    {
-    "code": "FLASH15",
-    "desc": "15% flash sale coupon",
-    "exp": ""
+    "code": "GETOUTSIDE",
+    "desc": "$20 off any Order $100+",
+    "exp": "not stated",
+    "uses": "1610",
+    "last_used": "Last used 25 minutes ago"
    },
    {
-    "code": "HOLIDAY30",
-    "desc": "30% off holiday specials",
-    "exp": ""
+    "code": "HELLOFALL",
+    "desc": "20% off any Order",
+    "exp": "not stated",
+    "uses": "7",
+    "last_used": "Last used 2 days ago"
    }
   ],
   "Monica + Andy": [
    {
-    "code": "CYBER25",
-    "desc": "25% off select items",
-    "exp": ""
-   },
-   {
     "code": "WELCOME10",
-    "desc": "Save 10% on your first purchase",
-    "exp": ""
+    "desc": "Monica + Andy discount available",
+    "exp": "None stated",
+    "uses": "Not shown",
+    "last_used": "Not shown"
    },
    {
-    "code": "SHIP2YOU",
-    "desc": "Free shipping on orders $25+",
-    "exp": ""
+    "code": "WELCOME20",
+    "desc": "20% off First Order",
+    "exp": "Expires in 14 days",
+    "uses": "Not shown",
+    "last_used": "Not shown"
    }
   ],
   "Musely": [
    {
-    "code": "WELCOME10",
-    "desc": "Save 10% on your first purchase",
-    "exp": ""
-   },
-   {
-    "code": "SUMMER20",
-    "desc": "20% off summer collection",
-    "exp": ""
-   },
-   {
-    "code": "SHIP2YOU",
-    "desc": "Free shipping on orders $25+",
-    "exp": ""
+    "code": "ONE29",
+    "desc": "First Time Orders Recieve 29% off all Treatments",
+    "exp": "Not stated",
+    "uses": "Not stated",
+    "last_used": "Not stated"
    }
   ],
   "NYDJ": [
@@ -17275,25 +17625,19 @@
   ],
   "Walgreens": [
    {
-    "code": "OCT15",
-    "desc": "Extra 15% off Qualifying Orders $35+",
-    "exp": "Expires in 12 days",
-    "uses": "4332",
-    "last_used": "Last used 58 minutes ago"
+    "code": "DEAL20",
+    "desc": "20% off All Contacts",
+    "exp": "None listed"
+   },
+   {
+    "code": "SAVE20",
+    "desc": "Extra 20% off $60+ Sitewide",
+    "exp": "None listed"
    },
    {
     "code": "OCT20",
     "desc": "Extra 20% off Qualifying Orders $50+",
-    "exp": "Expires in 12 days",
-    "uses": "2735",
-    "last_used": "Last used 58 minutes ago"
-   },
-   {
-    "code": "WELCOME25",
-    "desc": "New Customer Offer - Extra 25% off $25+ Sitewide",
-    "exp": "No expiry listed",
-    "uses": "504",
-    "last_used": "Last used 5 hours ago"
+    "exp": "Expires in 12 days"
    }
   ],
   "WeatherTech": [
@@ -17890,18 +18234,24 @@
   "Pottery Barn Kids": [
    {
     "code": "EXTRA20",
-    "desc": "20% off",
-    "exp": ""
+    "desc": "20% Off",
+    "exp": "not stated",
+    "uses": "not stated",
+    "last_used": "not stated"
    },
    {
     "code": "HOORAY",
     "desc": "Pottery Barn Kids discount available",
-    "exp": ""
+    "exp": "not stated",
+    "uses": "not stated",
+    "last_used": "not stated"
    },
    {
     "code": "PBK30",
-    "desc": "30% off",
-    "exp": ""
+    "desc": "30% Off",
+    "exp": "not stated",
+    "uses": "not stated",
+    "last_used": "not stated"
    }
   ],
   "Buy Buy Baby": [
@@ -18076,7 +18426,7 @@
     "code": "CARDLOVE",
     "desc": "Extra 20% Off With J.Crew Credit Card",
     "exp": "Expires in 4 days",
-    "uses": "210",
+    "usage": "210 uses",
     "last_used": "45 minutes ago"
    }
   ],
@@ -18282,6 +18632,178 @@
     "code": "SIPWINC",
     "desc": "$20 Off First Order",
     "exp": "Not stated"
+   }
+  ],
+  "Grainger": [
+   {
+    "code": "UCM082",
+    "desc": "Apply code UCM082 at checkout to see savings",
+    "exp": "Not listed"
+   }
+  ],
+  "Groupon": [
+   {
+    "code": "BEST20",
+    "desc": "Groupon discount available",
+    "exp": "Not stated"
+   }
+  ],
+  "HOKA": [
+   {
+    "code": "MACHMYDAY10",
+    "desc": "Extra 10% off Mach 6 sneakers",
+    "exp": "Not stated"
+   },
+   {
+    "code": "A360RJM10",
+    "desc": "HOKA discount",
+    "exp": "Not stated"
+   },
+   {
+    "code": "A360RJM25",
+    "desc": "HOKA discount",
+    "exp": "Not stated"
+   }
+  ],
+  "Harry & David": [
+   {
+    "code": "FALLSAVE",
+    "desc": "Save 10% on $79+, 15% off $99+, 20% off $149+ on Select Gifts",
+    "exp": "Expires in 7 days",
+    "usage": "165 uses",
+    "last_used": "11 hours ago"
+   },
+   {
+    "code": "15HDAVID",
+    "desc": "15% off Sitewide",
+    "exp": "Expires in 13 days",
+    "usage": "1686 uses",
+    "last_used": "55 minutes ago"
+   }
+  ],
+  "Hickory Farms": [
+   {
+    "code": "AF10EVR",
+    "desc": "10% off Orders $75+",
+    "exp": "Not stated"
+   },
+   {
+    "code": "HFAF150",
+    "desc": "20% off Orders over $150 and Free Shipping Sitewide",
+    "exp": "Not stated"
+   },
+   {
+    "code": "HFDAD23",
+    "desc": "Up to 25% off Select Gifts",
+    "exp": "Not stated"
+   }
+  ],
+  "Jewel-Osco": [
+   {
+    "code": "SAVE20",
+    "desc": "$20 off + Free Delivery with $75+ Orders on 1st Order",
+    "exp": "Not stated"
+   }
+  ],
+  "Johnston & Murphy": [
+   {
+    "code": "FREESHIP26",
+    "desc": "Apply code FREESHIP26 at checkout",
+    "exp": "Not stated",
+    "last_used": "50 minutes ago"
+   },
+   {
+    "code": "PW1536FBBB",
+    "desc": "Apply code PW1536FBBB at checkout",
+    "exp": "Not stated",
+    "last_used": "11 hours ago"
+   }
+  ],
+  "Justice": [
+   {
+    "code": "720",
+    "desc": "Undies, 7 for $20, online today",
+    "exp": "Not stated"
+   },
+   {
+    "code": "25FAST",
+    "desc": "25% off the entire site",
+    "exp": "Not stated"
+   },
+   {
+    "code": "AT",
+    "desc": "Justice promo code",
+    "exp": "Not stated"
+   }
+  ],
+  "Kendra Scott": [
+   {
+    "code": "CAPITALONE20",
+    "desc": "Kendra Scott promo code",
+    "exp": "Not stated",
+    "usage": "3,147 uses",
+    "last_used": "11 hours ago"
+   }
+  ],
+  "Lancôme": [
+   {
+    "code": "SETS25",
+    "desc": "25% off select sets",
+    "exp": "While Supplies Last",
+    "usage": "13 uses",
+    "last_used": "22 hours ago"
+   },
+   {
+    "code": "FALLFLASH",
+    "desc": "Up to 60% off select duos",
+    "exp": "9/10-9/13",
+    "usage": "441 uses"
+   },
+   {
+    "code": "FALLFRIDAY",
+    "desc": "Free 3-piece gift with $250 purchase",
+    "exp": "Not stated",
+    "usage": "17 uses"
+   }
+  ],
+  "Northern Tool": [
+   {
+    "code": "268179",
+    "desc": "Free Shipping on $49+ Order",
+    "exp": "Not stated",
+    "uses": "57",
+    "last_used": "Last used 12 hours ago"
+   },
+   {
+    "code": "267280",
+    "desc": "$20 Gift Card with $100 Order",
+    "exp": "Not stated",
+    "uses": "60",
+    "last_used": "Not shown"
+   },
+   {
+    "code": "263867",
+    "desc": "Free Shipping on $49+",
+    "exp": "Not stated",
+    "uses": "Not shown",
+    "last_used": "Not shown"
+   }
+  ],
+  "Visible": [
+   {
+    "code": "APPLEWATCH",
+    "desc": "Save Up to $100 on An Apple Watch When You Activate a New Wearable Line",
+    "exp": "Expires in 7 days"
+   },
+   {
+    "code": "SAVE6",
+    "desc": "$6/mo off the $25/mo Visible Plan - Get It for $19/mo for 1 Year",
+    "exp": "Expires in 7 days"
+   },
+   {
+    "code": "SAVEHALF",
+    "desc": "50% off Best Annual Plan - Get Visible+ Pro Annual Plan for $225",
+    "exp": "Expires in 7 days"
    }
   ]
  },
